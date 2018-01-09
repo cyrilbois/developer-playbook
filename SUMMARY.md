@@ -13,4 +13,5 @@
 * Digital Agents \(Alexa\)
 * Security \(IAM\) 
 * IDENTITYaaS - Cognito
+* CONTAINERaaS
 
