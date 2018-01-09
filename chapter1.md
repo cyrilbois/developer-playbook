@@ -14,7 +14,6 @@ Create: install script that does the setup of the serverless
   * python
   * serverless
   * aws-sdk
-  * 
 
-![](/assets/photo.jpg)
+
 
