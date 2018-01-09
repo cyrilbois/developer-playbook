@@ -11,4 +11,6 @@
 * Event Driven Programming \(Event Store\)
 * Data Driven / Smart Applications
 * Digital Agents \(Alexa\)
+* Security \(IAM\) 
+* IDENTITYaaS - Cognito
 
