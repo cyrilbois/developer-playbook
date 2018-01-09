@@ -5,7 +5,7 @@
   * python + packages
   * javascript
 
-install script that does the setup of the serverless 
+Create: install script that does the setup of the serverless
 
 * Components \(also from my own setup\):
   * brew
@@ -15,8 +15,6 @@ install script that does the setup of the serverless
   * serverless
   * aws-sdk
   * 
-
-
 
 
 
