@@ -1,9 +1,26 @@
-# Serverless: The Complete Developer's Guide
+# AWS Lambda: The Python Developer's Guide
 
-**TARGET READER**
 
-* basic programming knowledge \(best Python & Javascript\)
-* wants to learn how to bootstrap/build production application fast and low cost with serverless 
+
+### What Will I Learn?
+
+If you wants to learn how to bootstrap/build production application fast and low cost with serverless this book shows you:
+
+* Get started with AWS
+* Build and deploy AWS Lambda functions in Python with Serverless Framework
+* Build REST APIs using AWS Lambda, API Gateway and DynamoDB
+* Secure APIs with AWS IAM 
+
+### Requirements
+
+* Basic programming knowledge \(best Python & Javascript\)
+* Mac / Linux / Windows machine
+* Know the basic command line
+
+
+### STRUCTURE
+
+* Serverless: The Ecosystem Overview \(Free\) 
 
 I write this in **January 2018** while I am working on the best stack to build modern applications fast. I currently working for a large insurance company and maintaining the tech stack is a pain. therefore the benefits of serverless have a huge potential to increase the speed. But there are many technology choices in the serverless ecosystem - and there is no right question to a "best tech stack" question it always depends. For me the following made sense:
 
