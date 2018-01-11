@@ -3,8 +3,7 @@
 **TARGET READER**
 
 * basic programming knowledge \(best Python & Javascript\)
-* 
-### 
+* wants to learn how to bootstrap/build application fast and low cost with serverless software 
 
 I write this in **January 2018** while I am working on the best stack to build modern applications fast. I currently working for a large insurance company and maintaining the tech stack is a pain. therefore the benefits of serverless have a huge potential to increase the speed. But there are many technology choices in the serverless ecosystem - and there is no right question to a "best tech stack" question it always depends. For me the following made sense:
 
@@ -15,7 +14,5 @@ I write this in **January 2018** while I am working on the best stack to build m
 
 * _What technology to implement the client/frontend?_ Javascript is the way to go in the browser and because of the largest community and performance aspects i decide to use **react**. It also allows to implement native mobile applications with react native.
 
-In the following section we will do 
-
-
+In the following section we will do
 
