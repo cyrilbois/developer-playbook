@@ -1,7 +1,5 @@
 # AWS Lambda: The Python Developer's Guide
 
-
-
 ### What Will I Learn?
 
 If you wants to learn how to bootstrap/build production application fast and low cost with serverless this book shows you:
