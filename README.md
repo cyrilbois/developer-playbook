@@ -3,7 +3,7 @@
 **TARGET READER**
 
 * basic programming knowledge \(best Python & Javascript\)
-* wants to learn how to bootstrap/build application fast and low cost with serverless software 
+* wants to learn how to bootstrap/build production application fast and low cost with serverless 
 
 I write this in **January 2018** while I am working on the best stack to build modern applications fast. I currently working for a large insurance company and maintaining the tech stack is a pain. therefore the benefits of serverless have a huge potential to increase the speed. But there are many technology choices in the serverless ecosystem - and there is no right question to a "best tech stack" question it always depends. For me the following made sense:
 
