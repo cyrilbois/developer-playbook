@@ -21,7 +21,10 @@ Install Python packages / Dependencies:
 pip install virtualenv
 ```
 
-
+Install Javascript packages:
+```bash
+don't use global packages but local ones so they are included in the dependencies
+```
 
 Additional tools to improve the developer experience:
 ```
