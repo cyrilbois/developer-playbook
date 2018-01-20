@@ -36,7 +36,12 @@ Source: [http://sourabhbajaj.com/mac-setup/Python/virtualenv.html](http://sourab
 # Getting Started with AWS
 
 * Signup for an [AWS](https://aws.amazon.com) account
-* Create an IAM role with \(Programmatic access and admin rights\): this is used for the AWS CLI and the serverless framework. 
+* Create an IAM role with \(Programmatic access and admin rights\): this is used for the AWS CLI and the serverless framework.
+  * Go to IAM:![](/assets/Screen Shot 2018-01-20 at 22.43.56.png)
+  * Create new user
+    ![](/assets/create-new-iam-user.png)
+
+  * 
 * Install AWS CLI 
 
 ```bash
