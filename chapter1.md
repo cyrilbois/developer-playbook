@@ -6,27 +6,27 @@
   * javascript + packages
 
 Install Prerequesits Package Manger Homebrew and CLI Tools:
+
 ```
 xcode-select --install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 Install Runtime for Javascript and Python:
+
 ```
 brew install node python3
 ```
 
-Install Python packages / Dependencies:
+Install Python and Javascript packages / Dependencies:
+
 ```
 pip install virtualenv
-```
-
-Install Javascript packages:
-```
-don't use global packages but local ones so they are included in the dependencies
+npm install -g create-react-app
 ```
 
 Additional tools to improve the developer experience:
+
 ```
 brew cask install google-chrome
 brew cask install visual-studio-code
@@ -51,8 +51,5 @@ brew install zsh-syntax-highlighting zsh-autosuggestions
 # add to .zshrc source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 ```
 
-
-Source: http://sourabhbajaj.com/mac-setup/Python/virtualenv.html
-
-
+Source: [http://sourabhbajaj.com/mac-setup/Python/virtualenv.html](http://sourabhbajaj.com/mac-setup/Python/virtualenv.html)
 
