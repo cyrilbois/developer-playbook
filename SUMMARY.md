@@ -2,7 +2,6 @@
 
 * [Introduction](README.md)
 * [Development Environment](chapter1.md)
-* [AWS](aws.md)
 * [Serverless Framework \(Python\)](serverless-framework.md)
 * [API Development \(Swagger\)](api-development-swagger.md)
 * [Persistance - DBaaS \(DynamoDB\)](persistance-dbaas-dynamodb.md)
