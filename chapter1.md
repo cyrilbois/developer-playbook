@@ -1,6 +1,4 @@
-# Initial Setup
-
-### **Serverless Development Environment for Python and Node Developers \(on OSX\):**
+# **Serverless Development Environment for Python and Node Developers \(on OSX\):**
 
 Install Prerequesits Package Manger Homebrew and CLI Tools:
 
