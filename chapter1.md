@@ -23,7 +23,7 @@ pip install virtualenv
 
 Install Javascript packages:
 ```
-_don't use global packages but local ones so they are included in the dependencies_
+don't use global packages but local ones so they are included in the dependencies
 ```
 
 Additional tools to improve the developer experience:
