@@ -72,8 +72,13 @@ Never show this key in public or check it into version control. That's why I now
 sudo pip install awscli
 # use the access key id and secret access ky as describe above
 aws configure
+# AWS Access Key ID [None]: AKIAI44QH8DHBEXAMPLE
+# AWS Secret Access Key [None]: je7MtGbClwBF/2Zp9Utk/h3yCo8nvbEXAMPLEKEY
+# Default region name [None]: eu-central-1
+# Default output format [None]:
+
 # for the man pages do
-aws configure help 
+aws configure help
 ```
 
 Source: [https://docs.aws.amazon.com/de\_de/cli/latest/userguide/cli-chap-getting-started.html](https://docs.aws.amazon.com/de_de/cli/latest/userguide/cli-chap-getting-started.html)
