@@ -1,4 +1,4 @@
-# **Serverless Development Environment for Python and Node Developers \(on OSX\):**
+# Serverless Development Environment for Python and Node Developers \(on OSX\):
 
 Install Prerequesits Package Manger Homebrew and CLI Tools:
 
@@ -20,6 +20,8 @@ pip install virtualenv
 npm install -g serverless create-react-app
 ```
 
+Source: [http://sourabhbajaj.com/mac-setup/Python/virtualenv.html](http://sourabhbajaj.com/mac-setup/Python/virtualenv.html)
+
 Additional tools to improve the developer experience:
 
 ```
@@ -31,7 +33,28 @@ brew install git
 git config --global credential.helper osxkeychain
 ```
 
-Source: [http://sourabhbajaj.com/mac-setup/Python/virtualenv.html](http://sourabhbajaj.com/mac-setup/Python/virtualenv.html)
+## Setup visual studio code
+List all my installed extensions:
+```
+code --list-extensions
+```
+
+```
+HookyQR.beautify
+PeterJausovec.vscode-docker
+dbaeumer.vscode-eslint
+dzannotti.vscode-babel-coloring
+formulahendry.auto-close-tag
+jebbs.plantuml
+magicstack.MagicPython
+ms-python.python
+msjsdiag.debugger-for-chrome
+taichi.react-beautify
+tht13.python
+tushortz.python-extended-snippets
+vscodevim.vim
+yzhang.markdown-all-in-one
+```
 
 # Getting Started with AWS
 
@@ -121,4 +144,5 @@ git push --set-upstream origin master
 ```
 
 Code: [https://github.com/denseidel/apis-api/commit/ecc27aaf1f7a714938d99f1b5d656a67376c934b](https://github.com/denseidel/apis-api/commit/85014bb55af8921c3c770fbfe9b56d5722b6c005)
+
 
