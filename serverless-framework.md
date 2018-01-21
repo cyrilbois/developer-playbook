@@ -71,6 +71,8 @@ todo unit tests: when to use what \(for small functions\) the function test shou
 sls deploy
 ```
 
+The deployment takes very long. I have to see how to optimize this.
+
 ### Test the deployed function
 
 ## More
