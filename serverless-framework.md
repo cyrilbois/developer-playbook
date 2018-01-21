@@ -46,7 +46,8 @@ pip install boto3
 pip freeze > requirements.txt
 ```
 
-### Re-install the dependencies from requirements.txt
+### Optional: Re-install the dependencies from requirements.txt
+
 ```python
 pip install -r requirements.txt
 ```
