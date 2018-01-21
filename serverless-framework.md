@@ -3,6 +3,8 @@
 * What is it and why should you use it?
 * how to create a simple API
 
+## Setup your project
+
 * Start a virtual environment
 
   ```
@@ -25,6 +27,28 @@
 * update the `serverless.yml` and install [serverless-python-requirements](https://serverless.com/blog/serverless-python-packaging/)
 
   Code: [https://github.com/denseidel/apis-api/commit/dad4026fe14c3c42fd99e3576cabaccb039db2aa](https://github.com/denseidel/apis-api/commit/dad4026fe14c3c42fd99e3576cabaccb039db2aa)
+
+
+
+## Create a REST API function
+
+* add function to `serverless.yml`
+
+
+
+
+
+
+
+## More
+
+* https://github.com/serverless/examples
+
+
+
+
+
+
 
 
 
