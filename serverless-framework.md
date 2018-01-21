@@ -4,4 +4,9 @@
 * how to create a simple API
 
 
+1. Create function
+```
+sls create --template aws-python3
+```
 
+2. update the `serverless.yml`
