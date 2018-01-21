@@ -17,7 +17,7 @@ Install Python and Javascript packages / Dependencies:
 
 ```
 pip install virtualenv
-npm install -g create-react-app
+npm install -g serverless create-react-app
 ```
 
 Additional tools to improve the developer experience:
@@ -107,3 +107,11 @@ export AWS_PROFILE=serverless-admin
 
 Source: [https://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html](https://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html)
 
+
+## Create project
+
+```
+mkdir apis-api
+cd apis-api
+npm init
+```
