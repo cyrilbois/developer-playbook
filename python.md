@@ -1,8 +1,8 @@
 debug with python:
 
-print\(variable\)
-
-
+```
+print(variable)
+```
 
 encode json?  `cls=decimalencoder.DecimalEncoder` ?
 
