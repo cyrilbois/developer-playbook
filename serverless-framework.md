@@ -26,7 +26,7 @@
 
 * update the `serverless.yml` and install [serverless-python-requirements](https://serverless.com/blog/serverless-python-packaging/)  
   [https://www.npmjs.com/package/serverless-python-requirements](https://www.npmjs.com/package/serverless-python-requirements)  
-  https://serverless.com/blog/flask-python-rest-api-serverless-lambda-dynamodb/ 
+  [https://serverless.com/blog/flask-python-rest-api-serverless-lambda-dynamodb/](https://serverless.com/blog/flask-python-rest-api-serverless-lambda-dynamodb/)
 
   Code: [https://github.com/denseidel/apis-api/commit/dad4026fe14c3c42fd99e3576cabaccb039db2aa](https://github.com/denseidel/apis-api/commit/dad4026fe14c3c42fd99e3576cabaccb039db2aa)
 
@@ -72,6 +72,8 @@ todo unit tests: when to use what \(for small functions\) the function test shou
 ```
 sls deploy
 ```
+
+![](/assets/deployment.png)
 
 The deployment takes very long. I have to see how to optimize this.
 
