@@ -28,27 +28,15 @@
 
   Code: [https://github.com/denseidel/apis-api/commit/dad4026fe14c3c42fd99e3576cabaccb039db2aa](https://github.com/denseidel/apis-api/commit/dad4026fe14c3c42fd99e3576cabaccb039db2aa)
 
-
-
 ## Create a REST API function
 
-* add function to `serverless.yml`
-
-
-
-
-
-
+* configure the function in `serverless.yml`
+* create the function in `handler.py`
+  * also install boto3 to access dynamodb
 
 ## More
 
-* https://github.com/serverless/examples
-
-
-
-
-
-
+* [https://github.com/serverless/examples](https://github.com/serverless/examples)
 
 
 
