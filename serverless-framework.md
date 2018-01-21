@@ -3,6 +3,14 @@
 * What is it and why should you use it?
 * how to create a simple API
 
+* Start a virtual environment
+```
+virtualenv venv --python=python3
+source venv/bin/activate
+```
+If you use visual studio code do this first in your terminal window and then open the folder again with `code .`.
+
+
 * Create function
 
   ```
@@ -14,7 +22,7 @@
 * update the `serverless.yml` and install [serverless-python-requirements](https://serverless.com/blog/serverless-python-packaging/)
   
   Code: https://github.com/denseidel/apis-api/commit/dad4026fe14c3c42fd99e3576cabaccb039db2aa 
-  
+
 
 
 
