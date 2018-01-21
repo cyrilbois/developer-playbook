@@ -70,9 +70,11 @@ Never show this key in public or check it into version control. That's why I now
 
 ```bash
 sudo pip install awscli
-#use the access key id and secret access ky as describe above
+# use the access key id and secret access ky as describe above
 aws configure
+# for the man pages do
+aws configure help 
 ```
 
-Source: https://docs.aws.amazon.com/de\_de/cli/latest/userguide/cli-chap-getting-started.html
+Source: [https://docs.aws.amazon.com/de\_de/cli/latest/userguide/cli-chap-getting-started.html](https://docs.aws.amazon.com/de_de/cli/latest/userguide/cli-chap-getting-started.html)
 
