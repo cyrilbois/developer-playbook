@@ -33,6 +33,7 @@
 * configure the function in `serverless.yml`
 * create the function in `handler.py`
   * also install boto3 to access dynamodb
+* test the function locally
 
 ### Install a python dependency
 
@@ -50,6 +51,17 @@ pip freeze > requirements.txt
 
 ```python
 pip install -r requirements.txt
+```
+
+### Implement the function
+
+Code:
+
+### Test the function
+
+```
+sls invoke local --function create_api --path tests/create-api.json
+sls invoke local -f hello 
 ```
 
 ## More
