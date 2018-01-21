@@ -57,12 +57,21 @@ pip install -r requirements.txt
 
 Code:
 
-### Test the function
+### Test the function locally
 
 ```
 sls invoke local --function create_api --path tests/create-api.json
-sls invoke local -f hello 
 ```
+
+todo unit tests: when to use what \(for small functions\) the function test should be ok \(how to run them best in the pipeline? bash script? python framework? node framework \(check how the serverless stack test node functions\)?
+
+### Deploy the function
+
+```
+sls deploy
+```
+
+### Test the deployed function
 
 ## More
 
