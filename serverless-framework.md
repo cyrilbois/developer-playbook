@@ -3,16 +3,15 @@
 * What is it and why should you use it?
 * how to create a simple API
 
-1. Create function
+* Create function
 
-   ```
-   sls create --template aws-python3
-   ```
+  ```
+  sls create --template aws-python3
+  ```
 
-   Code
+  Code
 
-2. update the `serverless.yml`
+* update the `serverless.yml`
 
-3. 
 
 
