@@ -83,3 +83,13 @@ aws configure help
 
 Source: [https://docs.aws.amazon.com/de\_de/cli/latest/userguide/cli-chap-getting-started.html](https://docs.aws.amazon.com/de_de/cli/latest/userguide/cli-chap-getting-started.html)
 
+
+
+### Configure multiple Profiles:
+
+Source: https://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html
+
+
+
+
+
