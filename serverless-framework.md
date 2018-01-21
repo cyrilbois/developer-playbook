@@ -34,6 +34,23 @@
 * create the function in `handler.py`
   * also install boto3 to access dynamodb
 
+### Install a python dependency
+
+```python
+pip install boto3
+```
+
+### Store a reference to my dependencies
+
+```python
+pip freeze > requirements.txt
+```
+
+### Re-install the dependencies from requirements.txt
+```python
+pip install -r requirements.txt
+```
+
 ## More
 
 * [https://github.com/serverless/examples](https://github.com/serverless/examples)
