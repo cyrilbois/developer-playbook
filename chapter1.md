@@ -37,14 +37,36 @@ Source: [http://sourabhbajaj.com/mac-setup/Python/virtualenv.html](http://sourab
 
 ## Signup for an [AWS](https://aws.amazon.com) account
 
-## Create an IAM role for a serverless-admin 
+## Create an IAM role for a serverless-admin
 
 You don't want to give the serverless-admin access to all feature of aws. Therefore you create a new IAM user that only has the rights a serverless developer needs e.g. access to AWS Lambda, Dynamodb, S3, API Gateway, CloudDeployment and Logs. You use this user for the AWS CLI and the Serverless framework.
 
-1. ### Go to IAM:![](/assets/Screen Shot 2018-01-20 at 22.43.56.png)
-2. ### Create new user ![](/assets/create-new-iam-user.png)![](/assets/create-new-iam-user-1.png)![](/assets/creare-iam-role.png)![](/assets/create-iam-role-2.png)![](/assets/serverless-admin-iam-rights.png)![](/assets/import.png)![](/assets/create-iam-role-3.png)![](/assets/create-iam-role-4.png)![](/assets/iam-role-credentials.png)![](/assets/change-iam-user-credentials.png)
+1. Go to IAM:![](/assets/Screen Shot 2018-01-20 at 22.43.56.png)
 
-* Install AWS CLI 
+2. Create new user:  
+    ![](/assets/create-new-iam-user.png)
+
+3. Give it a name and select progammatic access and then next  
+   ![](/assets/create-new-iam-user-1.png)
+
+4. Create a group with the permissions for api gateway, aws lambda and deploy  
+   ![](/assets/creare-iam-role.png)  
+   ![](/assets/create-iam-role-2.png)  
+   ![](/assets/create-group.png)  
+   ![](/assets/create-iam-role-3.png)
+
+   Overview of the permissions of the user:  
+   ![](/assets/serverless-admin-iam-rights.png)
+
+5. Create user \(with group serverless-admin\)![](/assets/create-iam-role-4.png)
+
+6. Save Access key id and secret access key:  
+   ![](/assets/iam-role-credentials.png)
+
+Never show this key in public or check it into version control. That's why I now go to user section and delete it and create a new one:  
+![](/assets/change-iam-user-credentials.png)
+
+## Install AWS CLI
 
 ```bash
 sudo pip install awscli
@@ -52,5 +74,5 @@ sudo pip install awscli
 aws configure
 ```
 
-
+Source: https://docs.aws.amazon.com/de\_de/cli/latest/userguide/cli-chap-getting-started.html
 
