@@ -79,6 +79,14 @@ The deployment takes very long. I have to see how to optimize this.
 
 ### Test the deployed function
 
+You can use the endpoint endpoint and use Postman to make a "real world" request: ![](/assets/test-with-postman.png)
+
+Or you can use the CLI and use: 
+
+```
+sls invoke -f create_api --path tests/create-api.json
+```
+
 ## More
 
 * [https://github.com/serverless/examples](https://github.com/serverless/examples)
