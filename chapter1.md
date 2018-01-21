@@ -83,13 +83,27 @@ aws configure help
 
 Source: [https://docs.aws.amazon.com/de\_de/cli/latest/userguide/cli-chap-getting-started.html](https://docs.aws.amazon.com/de_de/cli/latest/userguide/cli-chap-getting-started.html)
 
-
-
 ### Configure multiple Profiles:
 
-Source: https://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html
+```
+vi ~/.aws/credentials
+```
 
+```
+[default]
+aws_access_key_id=XXX
+aws_secret_access_key=XXX
 
+[serverless-admin]
+aws_access_key_id=AKIAI44QH8DHBEXAMPLE
+aws_secret_access_key=je7MtGbClwBF/2Zp9Utk/h3yCo8nvbEXAMPLEKEY
+```
 
+Set the profile:
 
+```
+export AWS_PROFILE=serverless-admin
+```
+
+Source: [https://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html](https://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html)
 
