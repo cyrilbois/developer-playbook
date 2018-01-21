@@ -107,13 +107,18 @@ export AWS_PROFILE=serverless-admin
 
 Source: [https://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html](https://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html)
 
-
 ## Create project
 
 ```
 mkdir apis-api
 cd apis-api
+git init
+git remote add origin https://github.com/denseidel/apis-api.git
 npm init
+git add .
+git commit -am "add package.json and ignore local python files"
+git push --set-upstream origin master
 ```
+
 
 
