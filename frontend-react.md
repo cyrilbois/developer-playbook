@@ -50,7 +50,7 @@ Now select **Use this bucket to host a website **and add our`index.html`as the *
 
 ![](/assets/configure-static-content-s3.png)
 
-This panel also shows us where our app will be accessible. AWS assigns us a URL for our static website. In this case the URL assigned to me is`notes-app-client.s3-website-us-east-1.amazonaws.com`.
+This panel also shows us where our app will be accessible. AWS assigns us a URL for our static website. In this case the URL assigned to me is `http://developerportal-client.s3-website.eu-central-1.amazonaws.com`.
 
   
 
