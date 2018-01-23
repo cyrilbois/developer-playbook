@@ -34,9 +34,9 @@ Now click on your newly created bucket from the list and navigate to its permiss
 {
   "Version":"2012-10-17",
   "Statement":[{
-	"Sid":"PublicReadForGetBucketObjects",
+    "Sid":"PublicReadForGetBucketObjects",
         "Effect":"Allow",
-	  "Principal": "*",
+      "Principal": "*",
       "Action":["s3:GetObject"],
       "Resource":["arn:aws:s3:::developerportal-client/*"]
     }
@@ -51,6 +51,32 @@ Now select **Use this bucket to host a website **and add our`index.html`as the *
 ![](/assets/configure-static-content-s3.png)
 
 This panel also shows us where our app will be accessible. AWS assigns us a URL for our static website. In this case the URL assigned to me is `http://developerportal-client.s3-website.eu-central-1.amazonaws.com`.
+
+
+
+## Build Our App
+
+Create React App comes with a convenient way to package and prepare our app for deployment. From our working directory simply run the following command.
+
+```
+npm run build
+```
+
+This packages all of our assets and places them in the`build/`directory.
+
+### Upload to S3 {#upload-to-s3}
+
+Now to deploy simply run the following command; where`YOUR_S3_DEPLOY_BUCKET_NAME`is the name of the S3 Bucket we created before.
+
+```
+aws s3 sync build/ s3://YOUR_S3_DEPLOY_BUCKET_NAME 
+// aws s3 sync build/ s3://developerportal-client
+```
+
+All this command does is that it syncs the`build/`directory with our bucket on S3. Just as a sanity check, go into the S3 section in your [AWS Console](https://console.aws.amazon.com/console/home) and check if your bucket has the files we just uploaded.
+
+  
+
 
   
 
