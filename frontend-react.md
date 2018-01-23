@@ -28,6 +28,30 @@ Select **Create Bucket**and pick a name for your application and select the **US
 
 Now click on your newly created bucket from the list and navigate to its permissions panel by clicking **Permissions**.
 
+![](/assets/s3-bucket-permissions.png)
+
+```
+{
+  "Version":"2012-10-17",
+  "Statement":[{
+	"Sid":"PublicReadForGetBucketObjects",
+        "Effect":"Allow",
+	  "Principal": "*",
+      "Action":["s3:GetObject"],
+      "Resource":["arn:aws:s3:::developerportal-client/*"]
+    }
+  ]
+}
+```
+
+![](/assets/configure-static-content-for-s3.png)![](/assets/configure-static-webhosting-s3-1.png)
+
+Now select **Use this bucket to host a website **and add our`index.html`as the **Index Document **and the **Error Document**. Since we are letting React handle 404s, we can simply redirect our errors to our`index.html`as well. Hit **Save **once you are done.
+
+![](/assets/configure-static-content-s3.png)
+
+This panel also shows us where our app will be accessible. AWS assigns us a URL for our static website. In this case the URL assigned to me is`notes-app-client.s3-website-us-east-1.amazonaws.com`.
+
   
 
 
