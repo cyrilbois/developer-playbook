@@ -50,11 +50,17 @@ Tutorials:
 * [https://auth0.com/blog/reactjs-authentication-tutorial/?utm\_source=medium&utm\_medium=sc&utm\_campaign=reactjs\_authentication](https://auth0.com/blog/reactjs-authentication-tutorial/?utm_source=medium&utm_medium=sc&utm_campaign=reactjs_authentication)
 * [https://www.udemy.com/complete-react-js-course/](https://www.udemy.com/complete-react-js-course/)
 
+Test With Postmen - Bearer Token: [https://stackoverflow.com/questions/24709944/jwt-token-in-postman-header](https://stackoverflow.com/questions/24709944/jwt-token-in-postman-header)
 
 
 
 
-Test With Postmen - Bearer Token: https://stackoverflow.com/questions/24709944/jwt-token-in-postman-header
+
+
+
+Developer Portal: 
+
+* Management API: https://auth0.com/docs/api/management/v2/tokens
 
 
 
