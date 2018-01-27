@@ -44,13 +44,11 @@ Instead of building your own login page - we will redirect to a Auth0 Login Page
 
 Tutorials:
 
-* [https://github.com/auth0-blog/reactjs-authentication-tutorial](https://github.com/auth0-blog/reactjs-authentication-tutorial)
 * [https://github.com/auth0-samples/auth0-react-samples](https://github.com/auth0-samples/auth0-react-samples)
-* [https://auth0.com/blog/reactjs-authentication-tutorial/?utm\_source=medium&utm\_medium=sc&utm\_campaign=reactjs\_authentication](https://auth0.com/blog/reactjs-authentication-tutorial/?utm_source=medium&utm_medium=sc&utm_campaign=reactjs_authentication)
 * [https://auth0.com/blog/build-a-chat-app-with-react/](https://auth0.com/blog/build-a-chat-app-with-react/)
-* https://www.udemy.com/complete-react-js-course/
-
-
+* [https://github.com/auth0-blog/reactjs-authentication-tutorial](https://github.com/auth0-blog/reactjs-authentication-tutorial)
+* [https://auth0.com/blog/reactjs-authentication-tutorial/?utm\_source=medium&utm\_medium=sc&utm\_campaign=reactjs\_authentication](https://auth0.com/blog/reactjs-authentication-tutorial/?utm_source=medium&utm_medium=sc&utm_campaign=reactjs_authentication)
+* [https://www.udemy.com/complete-react-js-course/](https://www.udemy.com/complete-react-js-course/)
 
 
 
