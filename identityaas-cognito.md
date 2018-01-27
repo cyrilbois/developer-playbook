@@ -56,7 +56,11 @@ Developer Portal:
 
 * Management API: 
   * [https://auth0.com/docs/api/management/v2/tokens](https://auth0.com/docs/api/management/v2/tokens)
-  * https://auth0.com/docs/api/management/v2\#!/Client\_Grants/post\_client\_grants
+  * [https://auth0.com/docs/api/management/v2\#!/Client\_Grants/post\_client\_grants](https://auth0.com/docs/api/management/v2#!/Client_Grants/post_client_grants)
+
+Integrate Auth0 with AWS: https://aws.amazon.com/blogs/apn/how-to-integrate-rest-apis-with-single-page-apps-and-secure-them-using-auth0-part-1/ 
+
+
 
 
 
