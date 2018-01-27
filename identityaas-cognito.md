@@ -52,15 +52,11 @@ Tutorials:
 
 Test With Postmen - Bearer Token: [https://stackoverflow.com/questions/24709944/jwt-token-in-postman-header](https://stackoverflow.com/questions/24709944/jwt-token-in-postman-header)
 
+Developer Portal:
 
-
-
-
-
-
-Developer Portal: 
-
-* Management API: https://auth0.com/docs/api/management/v2/tokens
+* Management API: 
+  * [https://auth0.com/docs/api/management/v2/tokens](https://auth0.com/docs/api/management/v2/tokens)
+  * https://auth0.com/docs/api/management/v2\#!/Client\_Grants/post\_client\_grants
 
 
 
