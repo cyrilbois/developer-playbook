@@ -10,10 +10,10 @@
 * [Event Driven Programming \(Event Store\)](event-driven-programming-event-store.md)
 * [Data Driven / Smart Applications](data-driven-smart-applications.md)
 * [Digital Agents \(Alexa\)](digital-agents-alexa.md)
-* [Security \(IAM\) ](security-iam.md)
-* [IDENTITYaaS - Cognito](identityaas-cognito.md)
-* CONTAINERaaS
+* [IAM - IAMaaS ](identityaas-cognito.md)
+* [CONTAINERaaS](containeraas.md)
 * [Test](test.md)
 * [Git](git.md)
 * [Python](python.md)
+* [IaaS - setup your web infrastructure](get-a-domain.md)
 
