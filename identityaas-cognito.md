@@ -14,8 +14,16 @@ To secure your app and mange user identities you can either build your own secui
 
 Tasks to build a MVP that shows you the different Aspects of building an Identity Plattform:
 
+* Register with IAMaaS
 * Build Sample App that authenticated via SSO with your IaaS
+
 * Configure the provider so it integrates with your domain - so that it looks like your own webpage
+
+* Create Backend API and protect it with IAM
+
+* Integrate API Gateway with IAM
+* Expose API on API Gateway
+* Build Developer Portal and Integrate it with IAM for Signup, Management of Clients and Signup of APIs
 
 
 
