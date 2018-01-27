@@ -52,3 +52,9 @@ Tutorials:
 
 
 
+
+
+Test With Postmen - Bearer Token: https://stackoverflow.com/questions/24709944/jwt-token-in-postman-header
+
+
+
