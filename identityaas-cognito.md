@@ -24,11 +24,12 @@ Tasks to build a MVP that shows you the different Aspects of building an Identit
 * Integrate API Gateway with IAM
 
 * Expose API on API Gateway
+
 * Build Developer Portal and Integrate it with IAM for Signup, Management of Clients and Signup of APIs
 
-
-
 Eigene APIs ? In CISL?
+
+As Auth0 is currently most established in the community and AWS Cognito is AWS specific: Auth0 is currently the best option - Bitium is currently integrated into the Google Platform and it will be interesting to see i which direction Google will go. 
 
 
 
