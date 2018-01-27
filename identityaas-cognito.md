@@ -40,9 +40,15 @@ As Auth0 is currently most established in the community and AWS Cognito is AWS s
 
 ### Build Sample App that authenticated via SSO with your IaaS
 
-Instead of building your own login page - we will redirect to a Auth0 Login Page, then readirect back to our app with an id token attached that included the identity of the user. This token is stored on the local storage of the device and our application will use this token to sign the user in otherwise redirect him to the login page. 
+Instead of building your own login page - we will redirect to a Auth0 Login Page, then readirect back to our app with an id token attached that included the identity of the user. This token is stored on the local storage of the device and our application will use this token to sign the user in otherwise redirect him to the login page.
 
+Tutorials:
 
+* [https://github.com/auth0-blog/reactjs-authentication-tutorial](https://github.com/auth0-blog/reactjs-authentication-tutorial)
+* [https://github.com/auth0-samples/auth0-react-samples](https://github.com/auth0-samples/auth0-react-samples)
+* [https://auth0.com/blog/reactjs-authentication-tutorial/?utm\_source=medium&utm\_medium=sc&utm\_campaign=reactjs\_authentication](https://auth0.com/blog/reactjs-authentication-tutorial/?utm_source=medium&utm_medium=sc&utm_campaign=reactjs_authentication)
+* [https://auth0.com/blog/build-a-chat-app-with-react/](https://auth0.com/blog/build-a-chat-app-with-react/)
+* https://www.udemy.com/complete-react-js-course/
 
 
 
