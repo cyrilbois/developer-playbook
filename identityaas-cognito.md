@@ -58,9 +58,20 @@ Developer Portal:
   * [https://auth0.com/docs/api/management/v2/tokens](https://auth0.com/docs/api/management/v2/tokens)
   * [https://auth0.com/docs/api/management/v2\#!/Client\_Grants/post\_client\_grants](https://auth0.com/docs/api/management/v2#!/Client_Grants/post_client_grants)
 
-Integrate Auth0 with AWS: https://aws.amazon.com/blogs/apn/how-to-integrate-rest-apis-with-single-page-apps-and-secure-them-using-auth0-part-1/ 
+Integrate Auth0 with AWS: [https://aws.amazon.com/blogs/apn/how-to-integrate-rest-apis-with-single-page-apps-and-secure-them-using-auth0-part-1/](https://aws.amazon.com/blogs/apn/how-to-integrate-rest-apis-with-single-page-apps-and-secure-them-using-auth0-part-1/)
 
 
 
+Secure the API: 
+
+* https://auth0.com/docs/architecture-scenarios/application/spa-api
+
+Integrate API Gateway with Auth0: 
+
+* https://github.com/swilliams11/apigee-auth0-external-authorization
+* https://community.apigee.com/articles/43082/auth0-with-apigee-external-authorization.html
+* https://community.apigee.com/articles/42269/auth0-with-apigee.html
+* https://community.apigee.com/questions/32498/how-to-register-a-third-party-access-token-obtaine.html
+* 
 
 
