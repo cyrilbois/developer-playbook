@@ -2,10 +2,15 @@
 
 I stick with React up to the point that the others are at least on the same functional level: Native and Frontend.
 
-Link: 
+Link:
 
 * [https://github.com/enaqx/awesome-react](https://github.com/enaqx/awesome-react)
-* https://www.udemy.com/react-the-complete-guide-incl-redux/
+* [https://www.udemy.com/react-the-complete-guide-incl-redux/](https://www.udemy.com/react-the-complete-guide-incl-redux/)
+
+* ES6, Webpack
+* Create-React-App
+* React Basics - JSX, State, Life Cycle Methods
+* State Management - Redux
 
 # Develop the Frontend:
 
