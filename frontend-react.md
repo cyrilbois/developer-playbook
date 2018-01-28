@@ -2,7 +2,10 @@
 
 I stick with React up to the point that the others are at least on the same functional level: Native and Frontend.
 
-Link: [https://github.com/enaqx/awesome-react](https://github.com/enaqx/awesome-react)
+Link: 
+
+* [https://github.com/enaqx/awesome-react](https://github.com/enaqx/awesome-react)
+* https://www.udemy.com/react-the-complete-guide-incl-redux/
 
 # Develop the Frontend:
 
@@ -93,9 +96,10 @@ All this command does is that it syncs the`build/`directory with our bucket on S
 Tools:
 
 * [https://github.com/storybooks/storybook](https://github.com/storybooks/storybook) / [https://storybook.js.org/examples/](https://storybook.js.org/examples/) 
-* [https://github.com/insin/nwb](https://github.com/insin/nwb) 
+* [https://github.com/insin/nwb](https://github.com/insin/nwb)
 
 * [https://github.com/storybooks/storybook/issues/25](https://github.com/storybooks/storybook/issues/25)
+
 * [http://andreafalzetti.github.io/blog/2017/05/30/bundling-react-15-bootstrap-4-storybook-3-with-webpack-2.html](http://andreafalzetti.github.io/blog/2017/05/30/bundling-react-15-bootstrap-4-storybook-3-with-webpack-2.html)
 
 ###### Create sampleapp-client
@@ -107,7 +111,7 @@ cd sampleapp-client
 
 ###### Install storybook.js and configure it
 
-Basic Setup: https://storybook.js.org/basics/guide-react/
+Basic Setup: [https://storybook.js.org/basics/guide-react/](https://storybook.js.org/basics/guide-react/)
 
 ```
 npm i --save-dev @storybook/react
@@ -115,5 +119,5 @@ npm i --save-dev @storybook/react
 
 Configure Storybook \[Link to github\]
 
-Further Setup: http://ouicar.github.io/2017/01/05/storybook-2.html
+Further Setup: [http://ouicar.github.io/2017/01/05/storybook-2.html](http://ouicar.github.io/2017/01/05/storybook-2.html)
 
