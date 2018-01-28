@@ -81,9 +81,24 @@ All this command does is that it syncs the`build/`directory with our bucket on S
 
 # Build a component galery
 
-* https://medium.com/@efreyreg/create-react-component-libraries-with-storybook-and-styled-jsx-8999f423f06b
-* https://codeburst.io/build-your-own-react-component-library-with-lerna-and-storybook-53298b186760
-* https://hackernoon.com/building-a-react-component-library-part-1-d8a1e248fe6c
+* [https://medium.com/@efreyreg/create-react-component-libraries-with-storybook-and-styled-jsx-8999f423f06b](https://medium.com/@efreyreg/create-react-component-libraries-with-storybook-and-styled-jsx-8999f423f06b)
+* [https://codeburst.io/build-your-own-react-component-library-with-lerna-and-storybook-53298b186760](https://codeburst.io/build-your-own-react-component-library-with-lerna-and-storybook-53298b186760)
+* [https://hackernoon.com/building-a-react-component-library-part-1-d8a1e248fe6c](https://hackernoon.com/building-a-react-component-library-part-1-d8a1e248fe6c)
+* https://voice.kadira.io/introducing-react-storybook-ec27f28de1e2
+* https://hackernoon.com/javascript-nodejs-es6-react-storybook-example-tutorial-config-develop-ui-native-demo-bb58039c929
+* https://blog.hichroma.com/introduction-to-storybook-5aca8cc643f7
+* http://ouicar.github.io/2017/01/05/storybook-2.html
+* 
+
+
+Tools:
+
+* https://github.com/storybooks/storybook / https://storybook.js.org/examples/ 
+* https://github.com/insin/nwb 
+
+
+
+
 
 
 
