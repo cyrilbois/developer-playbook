@@ -1,3 +1,11 @@
+## Frontend Framework React 
+
+I stick with React up to the point that the others are at least on the same functional level: Native and Frontend. 
+
+Link: https://github.com/enaqx/awesome-react  
+
+
+
 Develop the Frontend:
 
 Serverside Rendering: [https://github.com/phodal/serverless-react-server-side-render/blob/master/src/index.js](https://github.com/phodal/serverless-react-server-side-render/blob/master/src/index.js)
@@ -52,8 +60,6 @@ Now select **Use this bucket to host a website **and add our`index.html`as the *
 
 This panel also shows us where our app will be accessible. AWS assigns us a URL for our static website. In this case the URL assigned to me is `http://developerportal-client.s3-website.eu-central-1.amazonaws.com`.
 
-
-
 ## Build Our App
 
 Create React App comes with a convenient way to package and prepare our app for deployment. From our working directory simply run the following command.
@@ -75,9 +81,7 @@ aws s3 sync build/ s3://YOUR_S3_DEPLOY_BUCKET_NAME
 
 All this command does is that it syncs the`build/`directory with our bucket on S3. Just as a sanity check, go into the S3 section in your [AWS Console](https://console.aws.amazon.com/console/home) and check if your bucket has the files we just uploaded.
 
-  
+# Build a component galery
 
-
-  
 
 
