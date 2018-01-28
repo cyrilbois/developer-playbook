@@ -1,12 +1,12 @@
-## Frontend Framework React 
+# Frontend Framework React
 
-I stick with React up to the point that the others are at least on the same functional level: Native and Frontend. 
+I stick with React up to the point that the others are at least on the same functional level: Native and Frontend.
 
-Link: https://github.com/enaqx/awesome-react  
+Link: [https://github.com/enaqx/awesome-react](https://github.com/enaqx/awesome-react)
 
+# Develop the Frontend:
 
-
-Develop the Frontend:
+# 
 
 Serverside Rendering: [https://github.com/phodal/serverless-react-server-side-render/blob/master/src/index.js](https://github.com/phodal/serverless-react-server-side-render/blob/master/src/index.js)
 
