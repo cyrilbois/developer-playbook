@@ -60,18 +60,46 @@ Developer Portal:
 
 Integrate Auth0 with AWS: [https://aws.amazon.com/blogs/apn/how-to-integrate-rest-apis-with-single-page-apps-and-secure-them-using-auth0-part-1/](https://aws.amazon.com/blogs/apn/how-to-integrate-rest-apis-with-single-page-apps-and-secure-them-using-auth0-part-1/)
 
+Secure the API:
+
+* [https://auth0.com/docs/architecture-scenarios/application/spa-api](https://auth0.com/docs/architecture-scenarios/application/spa-api)
+
+Integrate API Gateway with Auth0:
+
+* [https://github.com/swilliams11/apigee-auth0-external-authorization](https://github.com/swilliams11/apigee-auth0-external-authorization)
+* [https://community.apigee.com/articles/43082/auth0-with-apigee-external-authorization.html](https://community.apigee.com/articles/43082/auth0-with-apigee-external-authorization.html)
+* [https://community.apigee.com/articles/42269/auth0-with-apigee.html](https://community.apigee.com/articles/42269/auth0-with-apigee.html)
+* [https://community.apigee.com/questions/32498/how-to-register-a-third-party-access-token-obtaine.html](https://community.apigee.com/questions/32498/how-to-register-a-third-party-access-token-obtaine.html)
 
 
-Secure the API: 
 
-* https://auth0.com/docs/architecture-scenarios/application/spa-api
+Delegated Access Control and Multiple APIs "Audiances":
 
-Integrate API Gateway with Auth0: 
+* https://community.auth0.com/questions/4420/webauth-audience-multiple-apis-and-scopes
+* https://community.auth0.com/questions/7539/how-to-handle-multiple-apis-using-audience-token
+* https://auth0.com/docs/api-auth/tutorials/represent-multiple-apis
+* https://community.auth0.com/questions/4907/token-exchange-multiple-audiences
+* Google Sample
+  * Playground: https://developers.google.com/oauthplayground/?error=access\_denied\#
+  * https://stackoverflow.com/questions/359472/how-can-i-verify-a-google-authentication-api-access-token
 
-* https://github.com/swilliams11/apigee-auth0-external-authorization
-* https://community.apigee.com/articles/43082/auth0-with-apigee-external-authorization.html
-* https://community.apigee.com/articles/42269/auth0-with-apigee.html
-* https://community.apigee.com/questions/32498/how-to-register-a-third-party-access-token-obtaine.html
-* 
+
+
+https://www.googleapis.com/oauth2/v1/tokeninfo?access\_token=ya29.GltQBaDL5XGrEinAjYr\_E7WPPvzrHqahgyr5SaglbA6opHQ\_dgy-2WYKcr3sGFePre0zsBN91FjCdQqiko4dl6yvlIep2IVnhyIANT6NA7d7hGp8ETjhax-FEr-w
+
+
+
+```
+{
+ "issued_to": "407408718192.apps.googleusercontent.com",
+ "audience": "407408718192.apps.googleusercontent.com",
+ "scope": "https://www.googleapis.com/auth/calendar https://www.googleapis.com/auth/drive https://www.googleapis.com/auth/gmail.readonly https://www.googleapis.com/auth/tasks",
+ "expires_in": 3441,
+ "access_type": "offline"
+}
+```
+
+access control sollte fühest möglich in der kette statt finden daher neuer token für jeden call 
+
 
 
