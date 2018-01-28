@@ -6,8 +6,6 @@ Link: [https://github.com/enaqx/awesome-react](https://github.com/enaqx/awesome-
 
 # Develop the Frontend:
 
-# 
-
 Serverside Rendering: [https://github.com/phodal/serverless-react-server-side-render/blob/master/src/index.js](https://github.com/phodal/serverless-react-server-side-render/blob/master/src/index.js)
 
 AWS Amplify: [https://github.com/d0ruk/serverless-notes-app/tree/master/client](https://github.com/d0ruk/serverless-notes-app/tree/master/client)
@@ -82,6 +80,10 @@ aws s3 sync build/ s3://YOUR_S3_DEPLOY_BUCKET_NAME
 All this command does is that it syncs the`build/`directory with our bucket on S3. Just as a sanity check, go into the S3 section in your [AWS Console](https://console.aws.amazon.com/console/home) and check if your bucket has the files we just uploaded.
 
 # Build a component galery
+
+* https://medium.com/@efreyreg/create-react-component-libraries-with-storybook-and-styled-jsx-8999f423f06b
+* https://codeburst.io/build-your-own-react-component-library-with-lerna-and-storybook-53298b186760
+* https://hackernoon.com/building-a-react-component-library-part-1-d8a1e248fe6c
 
 
 
