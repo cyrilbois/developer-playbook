@@ -7,7 +7,7 @@ Link:
 * [https://github.com/enaqx/awesome-react](https://github.com/enaqx/awesome-react)
 * [https://www.udemy.com/react-the-complete-guide-incl-redux/](https://www.udemy.com/react-the-complete-guide-incl-redux/)
 
-* ES6, Webpack, babel
+* ES6, webpack, babel, npm
 * Create-React-App
 * React Basics - JSX, State, Life Cycle Methods
 * State Management - Redux
