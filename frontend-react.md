@@ -126,3 +126,9 @@ Configure Storybook [[Code](https://github.com/denseidel/sampleapp-client/commit
 
 Further Setup: [http://ouicar.github.io/2017/01/05/storybook-2.html](http://ouicar.github.io/2017/01/05/storybook-2.html)
 
+Create Container LoginPage (might be a container in the future): 
+
+`/src/container/LoginPage`
+
+
+
