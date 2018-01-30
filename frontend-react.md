@@ -122,7 +122,7 @@ Basic Setup: [https://storybook.js.org/basics/guide-react/](https://storybook.js
 npm i --save-dev @storybook/react
 ```
 
-Configure Storybook \[Link to github\]
+Configure Storybook [[Code](https://github.com/denseidel/sampleapp-client/commit/62cf7e1f02a887f71e9833d5cf071ca11d880c53)]
 
 Further Setup: [http://ouicar.github.io/2017/01/05/storybook-2.html](http://ouicar.github.io/2017/01/05/storybook-2.html)
 
