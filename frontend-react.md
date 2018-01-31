@@ -162,13 +162,15 @@ Install: `npm i react-router-dom`
 
 Setup Routers: [https://github.com/denseidel/sampleapp-client/commit/10b7952eaaa8a5977a8636612845bcae86da937f](https://github.com/denseidel/sampleapp-client/commit/10b7952eaaa8a5977a8636612845bcae86da937f)
 
-Create Placeholder Components/Containers:
+#### Create Placeholder Components/Containers:
 
-#### 
+https://github.com/denseidel/sampleapp-client/commit/c3b7246f4ab22dee7e11f6aa27fe3f792fa7fb43
 
 #### Setup CSS Framework for Styling
 
-###### 
+I currently use [Bulma](https://bulma.io/documentation/overview/start/) and [FontAwesome](http://fontawesome.io/get-started/): 
+
+Include link to css in index.html
 
 #### Install storybook.js and configure it
 
