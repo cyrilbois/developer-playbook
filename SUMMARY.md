@@ -17,4 +17,5 @@
 * [Python](python.md)
 * [IaaS - setup your web infrastructure](get-a-domain.md)
 * [AI - AIaaS](ai-aiaas.md)
+* [DevSecOps](devsecops.md)
 
