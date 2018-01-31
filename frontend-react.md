@@ -121,6 +121,10 @@ Example how IBM is doing it:
 
 #### Developer Components in Stylebook:
 
+
+
+---
+
 ## Deploy the Frontend
 
 1. Upload the assets of our app
@@ -189,6 +193,4 @@ aws s3 sync build/ s3://YOUR_S3_DEPLOY_BUCKET_NAME
 ```
 
 All this command does is that it syncs the`build/`directory with our bucket on S3. Just as a sanity check, go into the S3 section in your [AWS Console](https://console.aws.amazon.com/console/home) and check if your bucket has the files we just uploaded.
-
-
 
