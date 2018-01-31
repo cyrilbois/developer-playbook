@@ -71,23 +71,17 @@ Integrate API Gateway with Auth0:
 * [https://community.apigee.com/articles/42269/auth0-with-apigee.html](https://community.apigee.com/articles/42269/auth0-with-apigee.html)
 * [https://community.apigee.com/questions/32498/how-to-register-a-third-party-access-token-obtaine.html](https://community.apigee.com/questions/32498/how-to-register-a-third-party-access-token-obtaine.html)
 
-
-
 Delegated Access Control and Multiple APIs "Audiances":
 
-* https://community.auth0.com/questions/4420/webauth-audience-multiple-apis-and-scopes
-* https://community.auth0.com/questions/7539/how-to-handle-multiple-apis-using-audience-token
-* https://auth0.com/docs/api-auth/tutorials/represent-multiple-apis
-* https://community.auth0.com/questions/4907/token-exchange-multiple-audiences
+* [https://community.auth0.com/questions/4420/webauth-audience-multiple-apis-and-scopes](https://community.auth0.com/questions/4420/webauth-audience-multiple-apis-and-scopes)
+* [https://community.auth0.com/questions/7539/how-to-handle-multiple-apis-using-audience-token](https://community.auth0.com/questions/7539/how-to-handle-multiple-apis-using-audience-token)
+* [https://auth0.com/docs/api-auth/tutorials/represent-multiple-apis](https://auth0.com/docs/api-auth/tutorials/represent-multiple-apis)
+* [https://community.auth0.com/questions/4907/token-exchange-multiple-audiences](https://community.auth0.com/questions/4907/token-exchange-multiple-audiences)
 * Google Sample
-  * Playground: https://developers.google.com/oauthplayground/?error=access\_denied\#
-  * https://stackoverflow.com/questions/359472/how-can-i-verify-a-google-authentication-api-access-token
+  * Playground: [https://developers.google.com/oauthplayground/?error=access\_denied\#](https://developers.google.com/oauthplayground/?error=access_denied#)
+  * [https://stackoverflow.com/questions/359472/how-can-i-verify-a-google-authentication-api-access-token](https://stackoverflow.com/questions/359472/how-can-i-verify-a-google-authentication-api-access-token)
 
-
-
-https://www.googleapis.com/oauth2/v1/tokeninfo?access\_token=ya29.GltQBaDL5XGrEinAjYr\_E7WPPvzrHqahgyr5SaglbA6opHQ\_dgy-2WYKcr3sGFePre0zsBN91FjCdQqiko4dl6yvlIep2IVnhyIANT6NA7d7hGp8ETjhax-FEr-w
-
-
+[https://www.googleapis.com/oauth2/v1/tokeninfo?access\_token=ya29.GltQBaDL5XGrEinAjYr\_E7WPPvzrHqahgyr5SaglbA6opHQ\_dgy-2WYKcr3sGFePre0zsBN91FjCdQqiko4dl6yvlIep2IVnhyIANT6NA7d7hGp8ETjhax-FEr-w](https://www.googleapis.com/oauth2/v1/tokeninfo?access_token=ya29.GltQBaDL5XGrEinAjYr_E7WPPvzrHqahgyr5SaglbA6opHQ_dgy-2WYKcr3sGFePre0zsBN91FjCdQqiko4dl6yvlIep2IVnhyIANT6NA7d7hGp8ETjhax-FEr-w)
 
 ```
 {
@@ -99,7 +93,11 @@ https://www.googleapis.com/oauth2/v1/tokeninfo?access\_token=ya29.GltQBaDL5XGrEi
 }
 ```
 
-access control sollte fühest möglich in der kette statt finden daher neuer token für jeden call 
+access control sollte fühest möglich in der kette statt finden daher neuer token für jeden call
+
+
+
+
 
 
 
