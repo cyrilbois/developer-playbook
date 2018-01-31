@@ -156,12 +156,13 @@ Code: [https://github.com/denseidel/sampleapp-client/commit/25a4f36d7997e78dc323
 
 #### Create Router and setup basic Application structure
 
-Link: [https://github.com/ReactTraining/react-router](https://github.com/ReactTraining/react-router) / https://reacttraining.com/react-router/web/guides/quick-start
+Link: [https://github.com/ReactTraining/react-router](https://github.com/ReactTraining/react-router) / [https://reacttraining.com/react-router/web/guides/quick-start](https://reacttraining.com/react-router/web/guides/quick-start)
 
 Install: `npm i react-router-dom`
 
-  
+Setup Routers: https://github.com/denseidel/sampleapp-client/commit/10b7952eaaa8a5977a8636612845bcae86da937f
 
+#### 
 
 #### Setup CSS Framework for Styling
 
