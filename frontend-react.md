@@ -160,7 +160,9 @@ Link: [https://github.com/ReactTraining/react-router](https://github.com/ReactTr
 
 Install: `npm i react-router-dom`
 
-Setup Routers: https://github.com/denseidel/sampleapp-client/commit/10b7952eaaa8a5977a8636612845bcae86da937f
+Setup Routers: [https://github.com/denseidel/sampleapp-client/commit/10b7952eaaa8a5977a8636612845bcae86da937f](https://github.com/denseidel/sampleapp-client/commit/10b7952eaaa8a5977a8636612845bcae86da937f)
+
+Create Placeholder Components/Containers:
 
 #### 
 
