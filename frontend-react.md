@@ -10,6 +10,7 @@ Link:
 * ES6, webpack, babel, npm
 
 * Create-React-App
+
 * React Basics - JSX, State, Life Cycle Methods
 * State Management - Redux
 
@@ -133,16 +134,13 @@ Create Container/Componente LoginPage \(might be a container in the future\):
 
 in its own folder in this folder you then find the `LoginPage.js`  file, `.css` , pictures \(`.svg`\) and the story `LoginPage-story.js`
 
-Example how IBM is doing it: 
+Example how IBM is doing it:
 
-* Component https://github.com/carbon-design-system/carbon-components-react/tree/master/src/components/Accordion
-* Config: https://github.com/carbon-design-system/carbon-components-react/blob/master/.storybook/config.js
-* Webpack config \(to use\): https://github.com/carbon-design-system/carbon-components-react/blob/master/.storybook/webpack.config.js
-* How to use in project: https://github.com/carbon-design-system/carbon-components-react\#usage
-
-
-
-
+* Component [https://github.com/carbon-design-system/carbon-components-react/tree/master/src/components/Accordion](https://github.com/carbon-design-system/carbon-components-react/tree/master/src/components/Accordion)
+* Config: [https://github.com/carbon-design-system/carbon-components-react/blob/master/.storybook/config.js](https://github.com/carbon-design-system/carbon-components-react/blob/master/.storybook/config.js)
+* Storybook: http://react.carbondesignsystem.com/?selectedKind=Accordion&selectedStory=Default&full=0&addons=1&stories=1&panelRight=0&addonPanel=storybook%2Factions%2Factions-panel
+* Webpack config \(to use\): [https://github.com/carbon-design-system/carbon-components-react/blob/master/.storybook/webpack.config.js](https://github.com/carbon-design-system/carbon-components-react/blob/master/.storybook/webpack.config.js)
+* How to use in project: [https://github.com/carbon-design-system/carbon-components-react\#usage](https://github.com/carbon-design-system/carbon-components-react#usage)
 
 
 
