@@ -121,8 +121,11 @@ Example how IBM is doing it:
 
 #### Developer Components in Stylebook:
 
-Sample: https://github.com/kadira-samples/react-storybook-demo/blob/master/components/stories/MainSection.js  
+Sample: [https://github.com/kadira-samples/react-storybook-demo/blob/master/components/stories/MainSection.js](https://github.com/kadira-samples/react-storybook-demo/blob/master/components/stories/MainSection.js)
 
+Code: https://github.com/denseidel/sampleapp-client/commit/9e7d246cf92820b834e4c0e55b7f461401c1c813
+
+Run Storybook: `npm run storybook`
 
 
 
