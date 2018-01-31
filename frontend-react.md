@@ -114,8 +114,6 @@ Tools:
 
 #### Define Application Structure \(Paper? + Photo or Balsamiq + screenshot from rolemodels\):
 
-
-
 1. LandingPage \(login or not\)![](/assets/landing-page-analysis.png)2. Personal Service Page \(only logged in\)
    ![](/assets/personal-service-page-1.png)
 
@@ -158,7 +156,12 @@ Code: [https://github.com/denseidel/sampleapp-client/commit/25a4f36d7997e78dc323
 
 #### Create Router and setup basic Application structure
 
-Link: [https://github.com/ReactTraining/react-router](https://github.com/ReactTraining/react-router)
+Link: [https://github.com/ReactTraining/react-router](https://github.com/ReactTraining/react-router) / https://reacttraining.com/react-router/web/guides/quick-start
+
+Install: `npm i react-router-dom`
+
+  
+
 
 #### Setup CSS Framework for Styling
 
