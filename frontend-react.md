@@ -92,24 +92,12 @@ aws s3 sync build/ s3://YOUR_S3_DEPLOY_BUCKET_NAME
 
 All this command does is that it syncs the`build/`directory with our bucket on S3. Just as a sanity check, go into the S3 section in your [AWS Console](https://console.aws.amazon.com/console/home) and check if your bucket has the files we just uploaded.
 
-# Build a component galery
+# Build an app with component based development
 
-* [https://medium.com/@efreyreg/create-react-component-libraries-with-storybook-and-styled-jsx-8999f423f06b](https://medium.com/@efreyreg/create-react-component-libraries-with-storybook-and-styled-jsx-8999f423f06b)
-* [https://codeburst.io/build-your-own-react-component-library-with-lerna-and-storybook-53298b186760](https://codeburst.io/build-your-own-react-component-library-with-lerna-and-storybook-53298b186760)
-* [https://hackernoon.com/building-a-react-component-library-part-1-d8a1e248fe6c](https://hackernoon.com/building-a-react-component-library-part-1-d8a1e248fe6c)
 * [https://voice.kadira.io/introducing-react-storybook-ec27f28de1e2](https://voice.kadira.io/introducing-react-storybook-ec27f28de1e2)
 * [https://hackernoon.com/javascript-nodejs-es6-react-storybook-example-tutorial-config-develop-ui-native-demo-bb58039c929](https://hackernoon.com/javascript-nodejs-es6-react-storybook-example-tutorial-config-develop-ui-native-demo-bb58039c929)
 * [https://blog.hichroma.com/introduction-to-storybook-5aca8cc643f7](https://blog.hichroma.com/introduction-to-storybook-5aca8cc643f7)
 * [http://ouicar.github.io/2017/01/05/storybook-2.html](http://ouicar.github.io/2017/01/05/storybook-2.html)
-* [http://andreafalzetti.github.io/blog/2017/05/30/bundling-react-15-bootstrap-4-storybook-3-with-webpack-2.html](http://andreafalzetti.github.io/blog/2017/05/30/bundling-react-15-bootstrap-4-storybook-3-with-webpack-2.html)
-
-Tools:
-
-* [https://github.com/storybooks/storybook](https://github.com/storybooks/storybook) / [https://storybook.js.org/examples/](https://storybook.js.org/examples/) 
-* [https://github.com/insin/nwb](https://github.com/insin/nwb)
-
-* [https://github.com/storybooks/storybook/issues/25](https://github.com/storybooks/storybook/issues/25)
-
 * [http://andreafalzetti.github.io/blog/2017/05/30/bundling-react-15-bootstrap-4-storybook-3-with-webpack-2.html](http://andreafalzetti.github.io/blog/2017/05/30/bundling-react-15-bootstrap-4-storybook-3-with-webpack-2.html)
 
 #### Define Application Structure \(Paper? + Photo or Balsamiq + screenshot from rolemodels\):
@@ -200,9 +188,7 @@ Example how IBM is doing it:
 * Webpack config \(to use\): [https://github.com/carbon-design-system/carbon-components-react/blob/master/.storybook/webpack.config.js](https://github.com/carbon-design-system/carbon-components-react/blob/master/.storybook/webpack.config.js)
 * How to use in project: [https://github.com/carbon-design-system/carbon-components-react\#usage](https://github.com/carbon-design-system/carbon-components-react#usage)
 
-#### Developer Components in Stylebook: 
-
-
+#### Developer Components in Stylebook:
 
 
 
