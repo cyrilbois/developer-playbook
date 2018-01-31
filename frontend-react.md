@@ -112,6 +112,11 @@ Tools:
 
 * [http://andreafalzetti.github.io/blog/2017/05/30/bundling-react-15-bootstrap-4-storybook-3-with-webpack-2.html](http://andreafalzetti.github.io/blog/2017/05/30/bundling-react-15-bootstrap-4-storybook-3-with-webpack-2.html)
 
+###### Define Application Structure \(Paper? + Photo or Balsamiq + screenshot from rolemodels\):
+
+1. LandingPage \(login or not\)![](/assets/landing-page-analysis.png)2. Personal Service Page \(only logged in\)
+   ![](/assets/personal-service-page-1.png)
+
 ###### Create sampleapp-client
 
 ```
@@ -119,18 +124,41 @@ create-react-app sampleapp-client
 cd sampleapp-client
 ```
 
-###### Define Application Structure \(Paper? + Photo or Balsamiq + screenshot from rolemodels\):
+###### Setup Project Structure
 
-1. LandingPage \(login or not\)![](/assets/landing-page-analysis.png)2. Personal Service Page \(only logged in\)
-   ![](/assets/personal-service-page-1.png)
+Theory: https://hackernoon.com/my-journey-toward-a-maintainable-project-structure-for-react-redux-b05dfd999b5
 
-###### 
+```
+src
+ ├── components
+ │
+ ├── containers
+ │  ├── auth.js
+ │  ├── productList.js
+ │  └── productDetail.js
+ │
+ ├── reducers (aka ducks)
+ │  ├── index.js (combineReducers + complex selectors)
+ │  ├── auth.js (reducers, action types, actions creators, selectors)
+ │  └── product.js (reducers, action types, actions creators, selectors)
+ │
+ ├── sagas
+ │  ├── index.js (root saga/table of content of all the sagas)
+ │  ├── auth.js
+ │  └── product.js
+ │
+ └── services
+    ├── authenticationService.js
+    └── productsApi.js
+```
+
+Code: https://github.com/denseidel/sampleapp-client/commit/25a4f36d7997e78dc3233f917561c6ed49badbc3
+
+
 
 ###### Create Router and setup basic Application structure
 
 Link: [https://github.com/ReactTraining/react-router](https://github.com/ReactTraining/react-router)
-
-
 
 ###### Setup CSS Framework for Styling
 
