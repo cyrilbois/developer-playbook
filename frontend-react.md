@@ -172,7 +172,7 @@ I currently use [Bulma](https://bulma.io/documentation/overview/start/) and [Fon
 
 Include link to css in index.html or[ use npm](https://bulma.io/documentation/overview/start/) \(recomended\)
 
-Code: https://github.com/denseidel/sampleapp-client/commit/7c87cd95d7965571cfd38c5716f47c2e60f455f2
+Code: [https://github.com/denseidel/sampleapp-client/commit/7c87cd95d7965571cfd38c5716f47c2e60f455f2](https://github.com/denseidel/sampleapp-client/commit/7c87cd95d7965571cfd38c5716f47c2e60f455f2)
 
 #### Install storybook.js and configure it
 
@@ -199,6 +199,10 @@ Example how IBM is doing it:
 * Storybook: [http://react.carbondesignsystem.com/?selectedKind=Accordion&selectedStory=Default&full=0&addons=1&stories=1&panelRight=0&addonPanel=storybook%2Factions%2Factions-panel](http://react.carbondesignsystem.com/?selectedKind=Accordion&selectedStory=Default&full=0&addons=1&stories=1&panelRight=0&addonPanel=storybook%2Factions%2Factions-panel)
 * Webpack config \(to use\): [https://github.com/carbon-design-system/carbon-components-react/blob/master/.storybook/webpack.config.js](https://github.com/carbon-design-system/carbon-components-react/blob/master/.storybook/webpack.config.js)
 * How to use in project: [https://github.com/carbon-design-system/carbon-components-react\#usage](https://github.com/carbon-design-system/carbon-components-react#usage)
+
+#### Developer Components in Stylebook: 
+
+
 
 
 
