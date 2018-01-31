@@ -119,13 +119,15 @@ create-react-app sampleapp-client
 cd sampleapp-client
 ```
 
-###### Create Router and setup basic Applicatoin structure
-
-Link: https://github.com/ReactTraining/react-router
+###### Define Application Structure \(Paper? + Photo or Balsamiq + screenshot from rolemodels\): 
 
 
 
-###### 
+###### Create Router and setup basic Application structure
+
+Link: [https://github.com/ReactTraining/react-router](https://github.com/ReactTraining/react-router)
+
+
 
 ###### Setup CSS Framework for Styling
 
