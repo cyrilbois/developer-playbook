@@ -8,6 +8,7 @@ Link:
 * [https://www.udemy.com/react-the-complete-guide-incl-redux/](https://www.udemy.com/react-the-complete-guide-incl-redux/)
 
 * ES6, webpack, babel, npm
+
 * Create-React-App
 * React Basics - JSX, State, Life Cycle Methods
 * State Management - Redux
@@ -122,13 +123,26 @@ Basic Setup: [https://storybook.js.org/basics/guide-react/](https://storybook.js
 npm i --save-dev @storybook/react
 ```
 
-Configure Storybook [[Code](https://github.com/denseidel/sampleapp-client/commit/62cf7e1f02a887f71e9833d5cf071ca11d880c53)]
+Configure Storybook \[[Code](https://github.com/denseidel/sampleapp-client/commit/62cf7e1f02a887f71e9833d5cf071ca11d880c53)\]
 
 Further Setup: [http://ouicar.github.io/2017/01/05/storybook-2.html](http://ouicar.github.io/2017/01/05/storybook-2.html)
 
-Create Container LoginPage (might be a container in the future): 
+Create Container/Componente LoginPage \(might be a container in the future\):
 
 `/src/container/LoginPage`
+
+in its own folder in this folder you then find the `LoginPage.js`  file, `.css` , pictures \(`.svg`\) and the story `LoginPage-story.js`
+
+Example how IBM is doing it: 
+
+* Component https://github.com/carbon-design-system/carbon-components-react/tree/master/src/components/Accordion
+* Config: https://github.com/carbon-design-system/carbon-components-react/blob/master/.storybook/config.js
+* Webpack config \(to use\): https://github.com/carbon-design-system/carbon-components-react/blob/master/.storybook/webpack.config.js
+* How to use in project: https://github.com/carbon-design-system/carbon-components-react\#usage
+
+
+
+
 
 
 
