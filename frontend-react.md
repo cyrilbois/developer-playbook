@@ -14,6 +14,7 @@ Link:
 * React Basics - JSX, State, Life Cycle Methods
 
 * State Management - Redux
+
 * CSS Framework - Bulma
 
 # Develop the Frontend:
@@ -118,6 +119,16 @@ create-react-app sampleapp-client
 cd sampleapp-client
 ```
 
+###### Create Router and setup basic Applicatoin structure
+
+
+
+
+
+###### Setup CSS Framework for Styling
+
+###### 
+
 ###### Install storybook.js and configure it
 
 Basic Setup: [https://storybook.js.org/basics/guide-react/](https://storybook.js.org/basics/guide-react/)
@@ -143,6 +154,8 @@ Example how IBM is doing it:
 * Storybook: [http://react.carbondesignsystem.com/?selectedKind=Accordion&selectedStory=Default&full=0&addons=1&stories=1&panelRight=0&addonPanel=storybook%2Factions%2Factions-panel](http://react.carbondesignsystem.com/?selectedKind=Accordion&selectedStory=Default&full=0&addons=1&stories=1&panelRight=0&addonPanel=storybook%2Factions%2Factions-panel)
 * Webpack config \(to use\): [https://github.com/carbon-design-system/carbon-components-react/blob/master/.storybook/webpack.config.js](https://github.com/carbon-design-system/carbon-components-react/blob/master/.storybook/webpack.config.js)
 * How to use in project: [https://github.com/carbon-design-system/carbon-components-react\#usage](https://github.com/carbon-design-system/carbon-components-react#usage)
+
+
 
 
 
