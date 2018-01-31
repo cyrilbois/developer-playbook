@@ -164,13 +164,15 @@ Setup Routers: [https://github.com/denseidel/sampleapp-client/commit/10b7952eaaa
 
 #### Create Placeholder Components/Containers:
 
-https://github.com/denseidel/sampleapp-client/commit/c3b7246f4ab22dee7e11f6aa27fe3f792fa7fb43
+[https://github.com/denseidel/sampleapp-client/commit/c3b7246f4ab22dee7e11f6aa27fe3f792fa7fb43](https://github.com/denseidel/sampleapp-client/commit/c3b7246f4ab22dee7e11f6aa27fe3f792fa7fb43)
 
 #### Setup CSS Framework for Styling
 
-I currently use [Bulma](https://bulma.io/documentation/overview/start/) and [FontAwesome](http://fontawesome.io/get-started/): 
+I currently use [Bulma](https://bulma.io/documentation/overview/start/) and [FontAwesome](http://fontawesome.io/get-started/):
 
-Include link to css in index.html
+Include link to css in index.html or[ use npm](https://bulma.io/documentation/overview/start/) \(recomended\)
+
+Code: https://github.com/denseidel/sampleapp-client/commit/7c87cd95d7965571cfd38c5716f47c2e60f455f2
 
 #### Install storybook.js and configure it
 
