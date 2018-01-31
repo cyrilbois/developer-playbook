@@ -121,6 +121,9 @@ Example how IBM is doing it:
 
 #### Developer Components in Stylebook:
 
+Sample: https://github.com/kadira-samples/react-storybook-demo/blob/master/components/stories/MainSection.js  
+
+
 
 
 ---
