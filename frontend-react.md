@@ -119,15 +119,15 @@ create-react-app sampleapp-client
 cd sampleapp-client
 ```
 
-###### Define Application Structure \(Paper? + Photo or Balsamiq + screenshot from rolemodels\): 
+###### Define Application Structure \(Paper? + Photo or Balsamiq + screenshot from rolemodels\):
 
+1. LandingPage \(login or not\)![](/assets/landing-page-analysis.png)2. Personal Service Page \(only logged in\)
 
+###### 
 
 ###### Create Router and setup basic Application structure
 
 Link: [https://github.com/ReactTraining/react-router](https://github.com/ReactTraining/react-router)
-
-
 
 ###### Setup CSS Framework for Styling
 
