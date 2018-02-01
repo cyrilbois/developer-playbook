@@ -16,15 +16,15 @@ git rebase -i HEAD~2
 
 Or if they are the last two:
 
-https://stackoverflow.com/a/24690646/1929968
+[https://stackoverflow.com/a/24690646/1929968](https://stackoverflow.com/a/24690646/1929968)
 
 ```
 git reset --soft "HEAD^"
 git commit --amend
 git push -f
-
 ```
 
-  
 
+
+https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
 

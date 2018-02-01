@@ -93,6 +93,10 @@ Include link to css in index.html or[ use npm](https://bulma.io/documentation/ov
 
 Code: [https://github.com/denseidel/sampleapp-client/commit/7c87cd95d7965571cfd38c5716f47c2e60f455f2](https://github.com/denseidel/sampleapp-client/commit/7c87cd95d7965571cfd38c5716f47c2e60f455f2)
 
+Alternatively use Material-UI: https://material-ui-next.com/getting-started/installation/
+
+\`\`\`
+
 #### Install storybook.js and configure it
 
 Basic Setup: [https://storybook.js.org/basics/guide-react/](https://storybook.js.org/basics/guide-react/)
@@ -123,11 +127,9 @@ Example how IBM is doing it:
 
 Sample: [https://github.com/kadira-samples/react-storybook-demo/blob/master/components/stories/MainSection.js](https://github.com/kadira-samples/react-storybook-demo/blob/master/components/stories/MainSection.js)
 
-Code: https://github.com/denseidel/sampleapp-client/commit/9e7d246cf92820b834e4c0e55b7f461401c1c813
+Code: [https://github.com/denseidel/sampleapp-client/commit/9e7d246cf92820b834e4c0e55b7f461401c1c813](https://github.com/denseidel/sampleapp-client/commit/9e7d246cf92820b834e4c0e55b7f461401c1c813)
 
 Run Storybook: `npm run storybook`
-
-
 
 ---
 
