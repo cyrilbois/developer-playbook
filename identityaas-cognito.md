@@ -97,7 +97,13 @@ access control sollte fühest möglich in der kette statt finden daher neuer tok
 
 
 
+React Tutorial: https://auth0.com/docs/quickstart/spa/react/01-login
 
+```
+npm install --save auth0-js
+```
+
+Configure a hosted page with auth0: https://auth0.com/docs/quickstart/spa/react/01-login\#add-authentication-with-auth0
 
 
 

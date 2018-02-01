@@ -93,7 +93,7 @@ Include link to css in index.html or[ use npm](https://bulma.io/documentation/ov
 
 Code: [https://github.com/denseidel/sampleapp-client/commit/7c87cd95d7965571cfd38c5716f47c2e60f455f2](https://github.com/denseidel/sampleapp-client/commit/7c87cd95d7965571cfd38c5716f47c2e60f455f2)
 
-Alternatively use Material-UI: https://material-ui-next.com/getting-started/installation/
+Alternatively use Material-UI: [https://material-ui-next.com/getting-started/installation/](https://material-ui-next.com/getting-started/installation/)
 
 \`\`\`
 
@@ -130,6 +130,10 @@ Sample: [https://github.com/kadira-samples/react-storybook-demo/blob/master/comp
 Code: [https://github.com/denseidel/sampleapp-client/commit/9e7d246cf92820b834e4c0e55b7f461401c1c813](https://github.com/denseidel/sampleapp-client/commit/9e7d246cf92820b834e4c0e55b7f461401c1c813)
 
 Run Storybook: `npm run storybook`
+
+
+
+* Using ReactRouter with history: https://stackoverflow.com/questions/42701129/how-to-push-to-history-in-react-router-v4
 
 ---
 
