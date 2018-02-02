@@ -137,8 +137,9 @@ Run Storybook: `npm run storybook`
   * [https://github.com/ReactTraining/react-router/blob/master/FAQ.md\#how-do-i-access-the-history-object-outside-of-components](https://github.com/ReactTraining/react-router/blob/master/FAQ.md#how-do-i-access-the-history-object-outside-of-components)
   * [https://stackoverflow.com/questions/43279135/reactjs-router-v4-history-push-not-working/43280171](https://stackoverflow.com/questions/43279135/reactjs-router-v4-history-push-not-working/43280171)
   * use **withRouter on at least App and otherwise use a manual history object**
-  * https://github.com/ReactTraining/react-router/issues/4924
-* 
+  * [https://github.com/ReactTraining/react-router/issues/4924](https://github.com/ReactTraining/react-router/issues/4924)
+  * https://reacttraining.com/react-router/web/example/auth-workflow
+
 ---
 
 ## Deploy the Frontend
