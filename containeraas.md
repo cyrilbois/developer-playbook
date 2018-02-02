@@ -9,8 +9,8 @@ Lambda vs Kubernetes
 
 Containers vs Serverless:
 
-* http://rancher.com/containers-vs-serverless-computing/
 * https://serverless.com/blog/serverless-faas-vs-containers/
+* [http://rancher.com/containers-vs-serverless-computing/](http://rancher.com/containers-vs-serverless-computing/)
 
 
 
