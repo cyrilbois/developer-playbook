@@ -95,15 +95,13 @@ Delegated Access Control and Multiple APIs "Audiances":
 
 access control sollte fühest möglich in der kette statt finden daher neuer token für jeden call
 
-
-
-React Tutorial: https://auth0.com/docs/quickstart/spa/react/01-login
+React Tutorial: [https://auth0.com/docs/quickstart/spa/react/01-login](https://auth0.com/docs/quickstart/spa/react/01-login)
 
 ```
 npm install --save auth0-js
 ```
 
-Configure a hosted page with auth0: https://auth0.com/docs/quickstart/spa/react/01-login\#add-authentication-with-auth0
+Configure a hosted page with auth0: [https://auth0.com/docs/quickstart/spa/react/01-login\#add-authentication-with-auth0](https://auth0.com/docs/quickstart/spa/react/01-login#add-authentication-with-auth0)
 
 
 

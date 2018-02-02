@@ -131,10 +131,13 @@ Code: [https://github.com/denseidel/sampleapp-client/commit/9e7d246cf92820b834e4
 
 Run Storybook: `npm run storybook`
 
-
-
-* Using ReactRouter with history: https://stackoverflow.com/questions/42701129/how-to-push-to-history-in-react-router-v4
-
+* Using ReactRouter with history: 
+  * [https://stackoverflow.com/questions/42701129/how-to-push-to-history-in-react-router-v4](https://stackoverflow.com/questions/42701129/how-to-push-to-history-in-react-router-v4)
+  * https://reacttraining.com/react-router/web/guides/redux-integration
+  * https://github.com/ReactTraining/react-router/blob/master/FAQ.md\#how-do-i-access-the-history-object-outside-of-components
+  * https://stackoverflow.com/questions/43279135/reactjs-router-v4-history-push-not-working/43280171
+  * use **withRouter**
+* 
 ---
 
 ## Deploy the Frontend
