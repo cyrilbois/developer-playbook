@@ -1,6 +1,9 @@
 Pipeline:
 
 * What is the current state of the art in cloud setups? Jenkins?
+* Comparision: https://blog.takipi.com/jenkins-vs-travis-ci-vs-circle-ci-vs-teamcity-vs-codeship-vs-gitlab-ci-vs-bamboo/
+  * Jenkins for On Premise
+  * Cloud CircleCI , then TravisCI
 
 Penetration Testing by the Dev themself and in the Pipeline:
 
@@ -54,7 +57,7 @@ after_failure:
   - cat /home/travis/.npm/_logs/*-debug.log
 ```
 
-Add your `AWS_ACCESS_KEY` and `AWS_SECRET_KEY` to your travis-ci environment variables \([https://travis-ci.org/denseidel/sampleapp-client/settings\](https://travis-ci.org/denseidel/sampleapp-client/settings\)\).
+Add your `AWS_ACCESS_KEY` and `AWS_SECRET_KEY` to your travis-ci environment variables \([https://travis-ci.org/denseidel/sampleapp-client/settings\](https://travis-ci.org/denseidel/sampleapp-client/settings%29\).
 
 ! Important if there is any return except a success e.g. like non used components the build will fail.
 
