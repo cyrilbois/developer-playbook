@@ -1,7 +1,7 @@
 Pipeline:
 
 * What is the current state of the art in cloud setups? Jenkins?
-* Comparision: https://blog.takipi.com/jenkins-vs-travis-ci-vs-circle-ci-vs-teamcity-vs-codeship-vs-gitlab-ci-vs-bamboo/
+* Comparision: [https://blog.takipi.com/jenkins-vs-travis-ci-vs-circle-ci-vs-teamcity-vs-codeship-vs-gitlab-ci-vs-bamboo/](https://blog.takipi.com/jenkins-vs-travis-ci-vs-circle-ci-vs-teamcity-vs-codeship-vs-gitlab-ci-vs-bamboo/)
   * Jenkins for On Premise
   * Cloud CircleCI , then TravisCI
 
@@ -11,6 +11,8 @@ Penetration Testing by the Dev themself and in the Pipeline:
 * [https://www.owasp.org/index.php/OWASP\_Zed\_Attack\_Proxy\_Project](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project)
 * [http://www.toolswatch.org/2017/02/2016-top-security-tools-as-voted-by-toolswatch-org-readers/](http://www.toolswatch.org/2017/02/2016-top-security-tools-as-voted-by-toolswatch-org-readers/)
 * [https://github.com/enaqx/awesome-pentest](https://github.com/enaqx/awesome-pentest) 
+
+## TravisCI
 
 Build a cloud first pipeline independent of a cloud platform: [https://travis-ci.org/getting\_started](https://travis-ci.org/getting_started)
 
@@ -60,4 +62,36 @@ after_failure:
 Add your `AWS_ACCESS_KEY` and `AWS_SECRET_KEY` to your travis-ci environment variables \([https://travis-ci.org/denseidel/sampleapp-client/settings\](https://travis-ci.org/denseidel/sampleapp-client/settings%29\).
 
 ! Important if there is any return except a success e.g. like non used components the build will fail.
+
+
+
+## CircleCI
+
+Signup: https://circleci.com/
+
+Select the repository to build, create folder `.circleci` with a file `config.yml`
+
+```
+version: 2
+jobs:
+  build:
+    docker:
+      - image: debian:stretch
+    steps:
+      - checkout
+      - run:
+          name: Greeting
+          command: echo Hello, world.
+      - run:
+          name: Print the Current Time
+          command: date
+```
+
+
+
+https://circleci.com/docs/2.0/deployment\_integrations/\#google-cloud
+
+
+
+
 
