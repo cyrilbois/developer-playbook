@@ -9,11 +9,12 @@ Penetration Testing by the Dev themself and in the Pipeline:
 * [http://www.toolswatch.org/2017/02/2016-top-security-tools-as-voted-by-toolswatch-org-readers/](http://www.toolswatch.org/2017/02/2016-top-security-tools-as-voted-by-toolswatch-org-readers/)
 * [https://github.com/enaqx/awesome-pentest](https://github.com/enaqx/awesome-pentest) 
 
+Build a cloud first pipeline independent of a cloud platform: [https://travis-ci.org/getting\_started](https://travis-ci.org/getting_started)
 
-
-
-
-Build a cloud first pipeline independent of a cloud platform: https://travis-ci.org/getting\_started
+* https://docs.travis-ci.com/user/deployment/codedeploy/
+* https://docs.travis-ci.com/user/for-beginners/
+* https://medium.com/a-man-with-no-server/setting-up-a-ci-cd-pipeline-with-travis-ci-for-a-serverless-app-e98b0e57d30c
+* https://medium.com/@itsdavidthai/comprehensive-aws-ec2-deployment-with-travisci-guide-7cafa9c754fc
 
 
 
