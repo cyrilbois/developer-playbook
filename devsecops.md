@@ -63,11 +63,9 @@ Add your `AWS_ACCESS_KEY` and `AWS_SECRET_KEY` to your travis-ci environment var
 
 ! Important if there is any return except a success e.g. like non used components the build will fail.
 
-
-
 ## CircleCI
 
-Signup: https://circleci.com/
+Signup: [https://circleci.com/](https://circleci.com/)
 
 Select the repository to build, create folder `.circleci` with a file `config.yml`
 
@@ -87,11 +85,5 @@ jobs:
           command: date
 ```
 
-
-
-https://circleci.com/docs/2.0/deployment\_integrations/\#google-cloud
-
-
-
-
+Setup the Google Cloud SDK: [https://circleci.com/docs/2.0/deployment\_integrations/\#google-cloud](https://circleci.com/docs/2.0/deployment_integrations/#google-cloud)
 
