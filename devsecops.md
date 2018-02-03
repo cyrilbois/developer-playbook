@@ -22,11 +22,10 @@ Create a [Travis CI](https://travis-ci.org/getting_started) account and link to 
 
 Create a AWS Account and a IAM role and user that can deploy \(look at [IAM section](/identityaas-cognito.md)\) look to[ Frontend section](/frontend-react.md) how to build and deploy.
 
-
+1. Create and configure s3 bucket to host appliction
+2. Create role to access it.
 
 ### Setup Pipeline
 
 Add a \`.travis.yml'
-
-
 
