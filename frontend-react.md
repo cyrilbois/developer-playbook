@@ -138,7 +138,9 @@ Run Storybook: `npm run storybook`
   * [https://stackoverflow.com/questions/43279135/reactjs-router-v4-history-push-not-working/43280171](https://stackoverflow.com/questions/43279135/reactjs-router-v4-history-push-not-working/43280171)
   * use **withRouter on at least App and otherwise use a manual history object**
   * [https://github.com/ReactTraining/react-router/issues/4924](https://github.com/ReactTraining/react-router/issues/4924)
-  * https://reacttraining.com/react-router/web/example/auth-workflow
+  * [https://reacttraining.com/react-router/web/example/auth-workflow](https://reacttraining.com/react-router/web/example/auth-workflow)
+* Frontend Tracking with Google Analytics: 
+  * https://github.com/react-ga/react-ga
 
 ---
 
