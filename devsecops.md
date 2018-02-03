@@ -11,10 +11,22 @@ Penetration Testing by the Dev themself and in the Pipeline:
 
 Build a cloud first pipeline independent of a cloud platform: [https://travis-ci.org/getting\_started](https://travis-ci.org/getting_started)
 
-* https://docs.travis-ci.com/user/deployment/codedeploy/
-* https://docs.travis-ci.com/user/for-beginners/
-* https://medium.com/a-man-with-no-server/setting-up-a-ci-cd-pipeline-with-travis-ci-for-a-serverless-app-e98b0e57d30c
-* https://medium.com/@itsdavidthai/comprehensive-aws-ec2-deployment-with-travisci-guide-7cafa9c754fc
+* [https://docs.travis-ci.com/user/deployment/codedeploy/](https://docs.travis-ci.com/user/deployment/codedeploy/)
+* [https://docs.travis-ci.com/user/for-beginners/](https://docs.travis-ci.com/user/for-beginners/)
+* [https://medium.com/a-man-with-no-server/setting-up-a-ci-cd-pipeline-with-travis-ci-for-a-serverless-app-e98b0e57d30c](https://medium.com/a-man-with-no-server/setting-up-a-ci-cd-pipeline-with-travis-ci-for-a-serverless-app-e98b0e57d30c)
+* [https://medium.com/@itsdavidthai/comprehensive-aws-ec2-deployment-with-travisci-guide-7cafa9c754fc](https://medium.com/@itsdavidthai/comprehensive-aws-ec2-deployment-with-travisci-guide-7cafa9c754fc)
+
+
+
+### Pre - Setup
+
+Create a [Travis CI](https://travis-ci.org/getting_started) account and link to your github
+
+Create a AWS Account and a IAM role that can deploy \(look at IAM section\)
+
+
+
+
 
 
 
