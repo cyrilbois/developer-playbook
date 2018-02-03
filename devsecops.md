@@ -20,5 +20,13 @@ Build a cloud first pipeline independent of a cloud platform: [https://travis-ci
 
 Create a [Travis CI](https://travis-ci.org/getting_started) account and link to your github
 
-Create a AWS Account and a IAM role and user that can deploy \(look at [IAM section](/identityaas-cognito.md)\) look to[ Frontend section](/frontend-react.md) how to build and deploy. 
+Create a AWS Account and a IAM role and user that can deploy \(look at [IAM section](/identityaas-cognito.md)\) look to[ Frontend section](/frontend-react.md) how to build and deploy.
+
+
+
+### Setup Pipeline
+
+Add a \`.travis.yml'
+
+
 
