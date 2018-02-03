@@ -54,9 +54,7 @@ after_failure:
   - cat /home/travis/.npm/_logs/*-debug.log
 ```
 
-Add your `AWS_ACCESS_KEY` and `AWS_SECRET_KEY ` to your travis-ci environment variables \(https://travis-ci.org/denseidel/sampleapp-client/settings\). 
+Add your `AWS_ACCESS_KEY` and `AWS_SECRET_KEY` to your travis-ci environment variables \([https://travis-ci.org/denseidel/sampleapp-client/settings\](https://travis-ci.org/denseidel/sampleapp-client/settings\)\).
 
-
-
-
+! Important if there is any return except a success e.g. like non used components the build will fail.
 
