@@ -140,7 +140,8 @@ Run Storybook: `npm run storybook`
   * [https://github.com/ReactTraining/react-router/issues/4924](https://github.com/ReactTraining/react-router/issues/4924)
   * [https://reacttraining.com/react-router/web/example/auth-workflow](https://reacttraining.com/react-router/web/example/auth-workflow)
 * Frontend Tracking with Google Analytics: 
-  * https://github.com/react-ga/react-ga
+  * [https://github.com/react-ga/react-ga](https://github.com/react-ga/react-ga)
+  * https://web-design-weekly.com/2016/07/08/adding-google-analytics-react-application/
 
 ---
 
