@@ -105,3 +105,24 @@ Configure a hosted page with auth0: [https://auth0.com/docs/quickstart/spa/react
 
 
 
+
+
+
+
+
+
+Design the system: 
+
+* What type of access:
+  * functional \(bring your own data\) - is normally only restricted by utilization \(in some case also by a role\) 
+  * self access - is normally done with a 3 legged oauth at login time and later in the background with the refresh token?
+  * delegated access  
+* what information does a service need to make a decision in what kind of cenario it is?
+  * functional access can be decide at build time: 
+  * identity: this needs to be compared if it is the same - then self access 
+    * in the token 
+    * in the payload 
+  * role, group, permission, delegation: 
+
+
+
