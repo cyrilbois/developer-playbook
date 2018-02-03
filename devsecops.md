@@ -27,17 +27,21 @@ Create a AWS Account and a IAM role and user that can deploy \(look at [IAM sect
 
 ### Setup Pipeline
 
-Deploy to S3: https://docs.travis-ci.com/user/deployment/s3/
+Deploy to S3: [https://docs.travis-ci.com/user/deployment/s3/](https://docs.travis-ci.com/user/deployment/s3/)
 
 Add a \`.travis.yml':
 
 ```
+---
+dist: trusty
 language: node_js
 node_js:
-- '8'
+- '9'
 cache:
   directories:
-    - node_modules
+  - node_modules
+script: 
+    - npm run build
 deploy:
 - provider: s3
   access_key_id: $AWS_ACCESS_KEY
@@ -46,13 +50,11 @@ deploy:
   skip_cleanup: true
   bucket: marketplace-client
   region: eu-central-1
-script: 
-    - npm run build
+after_failure:
+  - cat /home/travis/.npm/_logs/*-debug.log
 ```
 
-
-
-
+Add your `AWS_ACCESS_KEY` and `AWS_SECRET_KEY ` to your travis-ci environment variables \(https://travis-ci.org/denseidel/sampleapp-client/settings\). 
 
 
 
