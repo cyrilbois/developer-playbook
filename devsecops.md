@@ -27,5 +27,34 @@ Create a AWS Account and a IAM role and user that can deploy \(look at [IAM sect
 
 ### Setup Pipeline
 
-Add a \`.travis.yml'
+Deploy to S3: https://docs.travis-ci.com/user/deployment/s3/
+
+Add a \`.travis.yml':
+
+```
+language: node_js
+node_js:
+- '8'
+cache:
+  directories:
+    - node_modules
+deploy:
+- provider: s3
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
+  local_dir: build
+  skip_cleanup: true
+  bucket: marketplace-client
+  region: eu-central-1
+script: 
+    - npm run build
+```
+
+
+
+
+
+
+
+
 
