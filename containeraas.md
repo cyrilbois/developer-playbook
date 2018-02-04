@@ -23,7 +23,8 @@ What is Kubernetes and why is it important?
 
 * reliable and reporducable
 
-* production read \( scalable ...\) 
+* production read \( scalable ...\)
+
 * "simple" \(routes, services, ...\)
 * vendor independent \(compared to serverless\) and multi cloud ready
 
@@ -59,5 +60,13 @@ Set it up \(you should do this with [DevSecOps ](/devsecops.md)in Mind \(Automat
 
 [https://www.joyent.com/blog/kubernetes-the-easy-way](https://www.joyent.com/blog/kubernetes-the-easy-way)
 
-https://www.terraform.io/docs/providers/kubernetes/guides/getting-started.html ?
+[https://www.terraform.io/docs/providers/kubernetes/guides/getting-started.html](https://www.terraform.io/docs/providers/kubernetes/guides/getting-started.html) ?
+
+
+
+Register with [Google Cloud Platform](https://cloud.google.com/?hl=de)
+
+Setup SDK locally and in Pipeline
+
+
 
