@@ -18,23 +18,30 @@ What is Kubernetes and why is it important?
 * [https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
 
 * [https://de.slideshare.net/InfoQ/building-a-microservices-platform-with-kubernetes](https://de.slideshare.net/InfoQ/building-a-microservices-platform-with-kubernetes)
+
 * lighweight \(compared to VMs\)
 * reliable and reporducable
 * production read \( scalable ...\) 
 * "simple" \(routes, services, ...\)
 * vendor independent \(compared to serverless\) and multi cloud ready
 
-But \(my experience is\) maintaining and setting up a kuebrnetes cluster is hard \(believe me!\) - there are now many great fully manged offerings: 
+But \(my experience is\) maintaining and setting up a kuebrnetes cluster is hard \(believe me!\) - there are now many great fully manged offerings:
 
 * Openshift
 * AWS EKS
 * IBM ?
-* 
-Service Mesh and Istio
+* Service Mesh and Istio
+* In late October, Microsoft released the public preview of [Managed Kubernetes for Azure Container Service \(AKS\)](https://azure.microsoft.com/en-us/blog/introducing-azure-container-service-aks-managed-kubernetes-and-azure-container-registry-geo-replication/)
+
+* In November [Google officially renamed](https://cloudplatform.googleblog.com/2017/11/introducing-Certified-Kubernetes-and-Google-Kubernetes-Engine.html) its Google Container Engine to Google Kubernetes Engine. 
+
+* Most recently, at AWS re:Invent 2017, Amazon announced its own manged version of Kubernetes [Amazon Elastic Container Service for Kubernetes \(Amazon EKS\)](https://aws.amazon.com/eks/)
+
+* Joyent Kubernetes
 
 [https://istio.io/docs/concepts/what-is-istio/overview.html](https://istio.io/docs/concepts/what-is-istio/overview.html)
 
-https://github.com/istio/istio
+[https://github.com/istio/istio](https://github.com/istio/istio)
 
 What is it?
 
@@ -45,6 +52,12 @@ Why to use it?
 * Improve development time \(library vs sidecar\)
 * improve plattform \(tracing, a/b testing, dashboarding, service graph\) 
 * ... without changing the code! 
+
+
+
+Set it up \(you should do this with [DevSecOps ](/devsecops.md)in Mind: 
+
+https://www.joyent.com/blog/kubernetes-the-easy-way
 
 
 
