@@ -67,14 +67,25 @@ Register with [Google Cloud Platform](https://cloud.google.com/?hl=de)
 
 Setup SDK locally and in Pipeline
 
-
-
 Install Google Cloud SDK \(MacOS\)
 
-https://cloud.google.com/sdk/docs/quickstart-macos
+[https://cloud.google.com/sdk/docs/quickstart-macos](https://cloud.google.com/sdk/docs/quickstart-macos)
 
 ```
 brew cask install google-cloud-sdk
+```
+
+
+
+Install Istio: https://istio.io/docs/setup/kubernetes/quick-start.html
+
+```
+#Retrieve your credentials for kubectl (replace <cluster-name> with the name of the cluster you want to use, and <zone> with the zone where that cluster is located):
+gcloud container clusters get-credentials <cluster-name> --zone <zone> --project <project-name>
+Grant cluster admin permissions to the current user (admin permissions are required to create the necessary RBAC rules for Istio):
+kubectl create clusterrolebinding cluster-admin-binding --clusterrole=cluster-admin --user=$(gcloud config get-value core/account)
+
+
 ```
 
 
