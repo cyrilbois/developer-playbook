@@ -87,3 +87,7 @@ jobs:
 
 Setup the Google Cloud SDK: [https://circleci.com/docs/2.0/deployment\_integrations/\#google-cloud](https://circleci.com/docs/2.0/deployment_integrations/#google-cloud)
 
+1. Setup Google Auth: https://circleci.com/docs/2.0/google-auth/
+2. 
+
+
