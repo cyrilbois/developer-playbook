@@ -13,40 +13,34 @@ Containers vs Serverless:
 * [https://serverless.com/blog/serverless-faas-vs-containers/](https://serverless.com/blog/serverless-faas-vs-containers/)
 * [http://rancher.com/containers-vs-serverless-computing/](http://rancher.com/containers-vs-serverless-computing/)
 
-
-
 What is Kubernetes and why is it important?
 
-* https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
+* [https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
 
-
-
-* https://de.slideshare.net/InfoQ/building-a-microservices-platform-with-kubernetes
+* [https://de.slideshare.net/InfoQ/building-a-microservices-platform-with-kubernetes](https://de.slideshare.net/InfoQ/building-a-microservices-platform-with-kubernetes)
 * lighweight \(compared to VMs\)
 * reliable and reporducable
 * production read \( scalable ...\) 
 * "simple" \(routes, services, ...\)
 * vendor independent \(compared to serverless\) and multi cloud ready
 
+But \(my experience is\) maintaining and setting up a kuebrnetes cluster is hard \(believe me!\) - there are now many great fully manged offerings: 
 
-
-But \(my experience is\) maintaining and setting up a kuebrnetes cluster is hard \(believe me!\) - there are now many great  
-
-
-
-
-
-
-
+* Openshift
+* AWS EKS
+* IBM ?
+* 
 Service Mesh and Istio
 
-https://istio.io/docs/concepts/what-is-istio/overview.html
+[https://istio.io/docs/concepts/what-is-istio/overview.html](https://istio.io/docs/concepts/what-is-istio/overview.html)
+
+https://github.com/istio/istio
 
 What is it?
 
-Why to use it? 
+Why to use it?
 
-https://istio.io/docs/concepts/what-is-istio/overview.html
+[https://istio.io/docs/concepts/what-is-istio/overview.html](https://istio.io/docs/concepts/what-is-istio/overview.html)
 
 * Improve development time \(library vs sidecar\)
 * improve plattform \(tracing, a/b testing, dashboarding, service graph\) 
