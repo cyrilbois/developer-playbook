@@ -75,15 +75,31 @@ Install Google Cloud SDK \(MacOS\)
 brew cask install google-cloud-sdk
 ```
 
-
-
-Install Istio: https://istio.io/docs/setup/kubernetes/quick-start.html
+Install Istio: [https://istio.io/docs/setup/kubernetes/quick-start.html](https://istio.io/docs/setup/kubernetes/quick-start.html)
 
 ```
 #Retrieve your credentials for kubectl (replace <cluster-name> with the name of the cluster you want to use, and <zone> with the zone where that cluster is located):
 gcloud container clusters get-credentials <cluster-name> --zone <zone> --project <project-name>
 Grant cluster admin permissions to the current user (admin permissions are required to create the necessary RBAC rules for Istio):
 kubectl create clusterrolebinding cluster-admin-binding --clusterrole=cluster-admin --user=$(gcloud config get-value core/account)
+#download istio
+curl -L https://git.io/getLatestIstio | sh -
+# go to folder
+cd istio-0.5.0
+# add istiocrl
+export PATH=$PWD/bin:$PATH
+#Install Istio and enable mutual TLS authentication between sidecars.:
+kubectl apply -f install/kubernetes/istio-auth.yaml
+# Optional: If your cluster has Kubernetes version 1.9 or greater, and you wish to enable automatic proxy injection, install the sidecar injector webhook using the instructions at (/docs/setup/kubernetes/sidecar-injection.html#automatic-sidecar-injection).
+
+#Verify
+kubectl get svc -n istio-system
+kubectl get pods -n istio-system
+
+#create/update the namespace for my application with istio enabled
+kubectl label namespace <namespace> istio-injection=enabled
+# isnstall BookInfo Sample https://istio.io/docs/guides/bookinfo.html
+kubectl create -n <namspace> -f <your-app-spec>.yaml
 
 
 ```
