@@ -26,6 +26,7 @@ What is Kubernetes and why is it important?
 * production read \( scalable ...\)
 
 * "simple" \(routes, services, ...\)
+
 * vendor independent \(compared to serverless\) and multi cloud ready
 
 But \(my experience is\) maintaining and setting up a kuebrnetes cluster is hard \(believe me!\) - there are now many great fully manged offerings:
@@ -62,11 +63,19 @@ Set it up \(you should do this with [DevSecOps ](/devsecops.md)in Mind \(Automat
 
 [https://www.terraform.io/docs/providers/kubernetes/guides/getting-started.html](https://www.terraform.io/docs/providers/kubernetes/guides/getting-started.html) ?
 
-
-
 Register with [Google Cloud Platform](https://cloud.google.com/?hl=de)
 
 Setup SDK locally and in Pipeline
+
+
+
+Install Google Cloud SDK \(MacOS\)
+
+https://cloud.google.com/sdk/docs/quickstart-macos
+
+```
+brew cask install google-cloud-sdk
+```
 
 
 

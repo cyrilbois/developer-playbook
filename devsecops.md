@@ -105,36 +105,30 @@ Setup the Google Cloud SDK: [https://circleci.com/docs/2.0/deployment\_integrati
    To authenticate the`gcloud`tool, you will first need to decode the environment variable you created above. You could do that by adding the following command to`config.yml`:
 
    ```
-   echo
-   $GCLOUD_SERVICE_KEY
-    | base64 --decode --ignore-garbage 
-   >
-   ${HOME}
-   /gcloud-service-key.json
+   echo $GCLOUD_SERVICE_KEY | base64 --decode --ignore-garbage > ${HOME}/gcloud-service-key.json
    ```
 
    This will decode the secret into a file named`gcloud-service-key.json`.
 
-   ### Authenticate the`gcloud`Tool {#authenticate-the-gcloud-tool}
+   ### Setup the Pipeline Machine and set Google Application Credentials
 
-   Update`gcloud`, authenticate, and set the project’s active configuration.
+```
+#!/bin/bash
 
-   ```
-   sudo /opt/google-cloud-sdk/bin/gcloud 
-   --quiet components update
+#check where gcloud is installed 
+which gcloud
 
-   sudo /opt/google-cloud-sdk/bin/gcloud auth activate-service-account 
-   --key-file=${HOME}/gcloud-service-key.json
+# Set Google Application Credentials
+echo $GCLOUD_SERVICE_KEY | base64 --decode --ignore-garbage > ${HOME}/gcloud-service-key.json && export GOOGLE_APPLICATION_CREDENTIALS="${HOME}/gcloud-service-key.json"
 
-   sudo /opt/google-cloud-sdk/bin/gcloud config 
-   set
-   project
-    $GCLOUD_PROJECT
-   ```
+# Authenticate the gcloud tool
+gcloud auth activate-service-account --key-file=${HOME}/gcloud-service-key.json
+gcloud config set project $GCLOUD_PROJECT
+```
 
-   ### Set Google Application Credentials {#set-google-application-credentials}
 
-   To use certain services \(like Google Cloud Datastore\), you will also need to set the CircleCI`$GOOGLE_APPLICATION_CREDENTIALS`environment variable to`${HOME}/gcloud-service-key.json`. See above for instructions on adding environment variables to CircleCI projects.
+
+
 
 
 
