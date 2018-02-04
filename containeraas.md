@@ -22,6 +22,7 @@ What is Kubernetes and why is it important?
 * lighweight \(compared to VMs\)
 
 * reliable and reporducable
+
 * production read \( scalable ...\) 
 * "simple" \(routes, services, ...\)
 * vendor independent \(compared to serverless\) and multi cloud ready
@@ -57,4 +58,6 @@ Why to use it?
 Set it up \(you should do this with [DevSecOps ](/devsecops.md)in Mind \(Automation is everything!\):
 
 [https://www.joyent.com/blog/kubernetes-the-easy-way](https://www.joyent.com/blog/kubernetes-the-easy-way)
+
+https://www.terraform.io/docs/providers/kubernetes/guides/getting-started.html ?
 
