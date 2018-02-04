@@ -91,7 +91,7 @@ Setup the Google Cloud SDK: [https://circleci.com/docs/2.0/deployment\_integrati
 
    1. Create a Service Account and Download: Go to Google’s [Getting Started with Authentication](https://cloud.google.com/docs/authentication/getting-started) article and follow the instructions in the **Creating a service account **section.
 
-      ### Add Service Account to CircleCI Environment {#add-service-account-to-circleci-environment}
+   2. Add Service Account to CircleCI Environment
 
       1. Encode the JSON file you downloaded in base64 format and copy the result to the clipboard.
       2. In the CircleCI application, go to your project’s settings by clicking the gear icon in the top right.
