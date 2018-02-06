@@ -124,7 +124,7 @@ kubectl -n istio-system port-forward \
 kubectl proxy (8080/ui -> management ui)
 ```
 
-To enable TLS create certficate and deploy it as a secret and add the following to the ingress config \(https://istio.io/docs/tasks/traffic-management/ingress.html\)
+To enable TLS create certficate and deploy it as a secret and add the following to the ingress config \([https://istio.io/docs/tasks/traffic-management/ingress.html\](https://istio.io/docs/tasks/traffic-management/ingress.html\)\)
 
 ```
 ---
@@ -145,4 +145,14 @@ spec:
 ```
 
 Add your own domain to the static ip address of the cluster: [https://cloud.google.com/kubernetes-engine/docs/tutorials/configuring-domain-name-static-ip](https://cloud.google.com/kubernetes-engine/docs/tutorials/configuring-domain-name-static-ip)
+
+Find your static IP address: 
+
+```
+kubectl get ingress -o wide
+```
+
+Setup your DNS \(with Route53\) https://serverless-stack.com/chapters/setup-your-domain-with-cloudfront.html
+
+
 

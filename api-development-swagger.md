@@ -13,22 +13,25 @@ Principle of Good API Development vs Bad API Development
 
 * Bad API Developers start by write code and tackle the technical challanges. Good API designer enable fast feedback by designing the interfaces showing it to the \(API\) customer and itterate on that. 
 * Bad API Developer design for days and weeks until "perfection". Good API Developers find the the point of minimal agreement with the customer and then write the code, find new challanges based on the technology and itterated again with the customer over the best solution. 
+* Bad API Developer on initial implementation speed, Good API Developer focus on reduced cycle times \(with api customers and technology\).
+  * https://www.youtube.com/watch?v=SEQeovx5z\_A
+  * Use API First Frameworks: https://github.com/swagger-api/swagger-codegen/wiki/server-stub-generator-howto
 
+Benefits API First: 
 
+![](/assets/advantages-of-api-first.png)
 
+[https://github.com/swagger-api/swagger-codegen/wiki/server-stub-generator-howto\#python-flask-connexion](https://github.com/swagger-api/swagger-codegen/wiki/server-stub-generator-howto#python-flask-connexion)
 
+[http://connexion.readthedocs.io/en/latest/cli.html](http://connexion.readthedocs.io/en/latest/cli.html)
 
-https://github.com/swagger-api/swagger-codegen/wiki/server-stub-generator-howto\#python-flask-connexion
+[https://blog.runscope.com/posts/openapi-swagger-resource-list-for-api-developers](https://blog.runscope.com/posts/openapi-swagger-resource-list-for-api-developers)
 
-http://connexion.readthedocs.io/en/latest/cli.html
+[https://medium.com/ibm-data-science-experience/deploy-your-python-functions-as-a-rest-api-811981ec7ec5](https://medium.com/ibm-data-science-experience/deploy-your-python-functions-as-a-rest-api-811981ec7ec5)
 
-https://blog.runscope.com/posts/openapi-swagger-resource-list-for-api-developers
+[https://github.com/zalando/connexion](https://github.com/zalando/connexion)
 
-https://medium.com/ibm-data-science-experience/deploy-your-python-functions-as-a-rest-api-811981ec7ec5
+[http://michal.karzynski.pl/blog/2016/06/19/building-beautiful-restful-apis-using-flask-swagger-ui-flask-restplus/](http://michal.karzynski.pl/blog/2016/06/19/building-beautiful-restful-apis-using-flask-swagger-ui-flask-restplus/)
 
-https://github.com/zalando/connexion
-
-http://michal.karzynski.pl/blog/2016/06/19/building-beautiful-restful-apis-using-flask-swagger-ui-flask-restplus/
-
-https://cidrblock.github.io/zero-to-api-in-4-minutes.html
+[https://cidrblock.github.io/zero-to-api-in-4-minutes.html](https://cidrblock.github.io/zero-to-api-in-4-minutes.html)
 
