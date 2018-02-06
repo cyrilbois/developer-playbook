@@ -124,8 +124,6 @@ kubectl -n istio-system port-forward \
 kubectl proxy (8080/ui -> management ui)
 ```
 
-
-
 To enable TLS create certficate and deploy it as a secret and add the following to the ingress config
 
 ```
@@ -142,10 +140,11 @@ spec:
     - secretName: istio-ingress-certs # currently ignored
   rules:
   - ...
-     
----
 
+---
 ```
+
+Add your own domain to the static ip address of the cluster: https://cloud.google.com/kubernetes-engine/docs/tutorials/configuring-domain-name-static-ip
 
 
 
