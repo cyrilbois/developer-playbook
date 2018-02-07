@@ -35,7 +35,13 @@ Benefits API First:
 
 [https://cidrblock.github.io/zero-to-api-in-4-minutes.html](https://cidrblock.github.io/zero-to-api-in-4-minutes.html)
 
+Beispiel: [https://github.com/hjacobs/connexion-example](https://github.com/hjacobs/connexion-example)
+
+## Develop API First in Python
 
 
-Beispiel: https://github.com/hjacobs/connexion-example
+
+Check how to get started with Python: [Serverless Framework \(Python\)](/serverless-framework.md)
+
+Get started with Connextion: [http://connexion.readthedocs.io/en/latest/quickstart.html](http://connexion.readthedocs.io/en/latest/quickstart.html)
 
