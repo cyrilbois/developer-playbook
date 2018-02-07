@@ -39,9 +39,29 @@ Beispiel: [https://github.com/hjacobs/connexion-example](https://github.com/hjac
 
 ## Develop API First in Python
 
-
-
 Check how to get started with Python: [Serverless Framework \(Python\)](/serverless-framework.md)
 
 Get started with Connextion: [http://connexion.readthedocs.io/en/latest/quickstart.html](http://connexion.readthedocs.io/en/latest/quickstart.html)
+
+
+
+
+
+https://github.com/zalando/connexion
+
+https://github.com/hjacobs/connexion-example
+
+https://cidrblock.github.io/zero-to-api-in-4-minutes.html
+
+https://github.com/ssola/python-flask-microservice/blob/master/api/room.py
+
+https://medium.com/@ssola/building-microservices-with-python-part-i-5240a8dcc2fb
+
+http://coderobot.downley.net/swagger-driven-testing-in-python.html
+
+https://uwsgi-docs.readthedocs.io/en/latest/
+
+http://connexion.readthedocs.io/en/latest/routing.html
+
+
 
