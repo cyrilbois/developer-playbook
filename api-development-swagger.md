@@ -14,10 +14,10 @@ Principle of Good API Development vs Bad API Development
 * Bad API Developers start by write code and tackle the technical challanges. Good API designer enable fast feedback by designing the interfaces showing it to the \(API\) customer and itterate on that. 
 * Bad API Developer design for days and weeks until "perfection". Good API Developers find the the point of minimal agreement with the customer and then write the code, find new challanges based on the technology and itterated again with the customer over the best solution. 
 * Bad API Developer on initial implementation speed, Good API Developer focus on reduced cycle times \(with api customers and technology\).
-  * https://www.youtube.com/watch?v=SEQeovx5z\_A
-  * Use API First Frameworks: https://github.com/swagger-api/swagger-codegen/wiki/server-stub-generator-howto
+  * [https://www.youtube.com/watch?v=SEQeovx5z\_A](https://www.youtube.com/watch?v=SEQeovx5z_A)
+  * Use API First Frameworks: [https://github.com/swagger-api/swagger-codegen/wiki/server-stub-generator-howto](https://github.com/swagger-api/swagger-codegen/wiki/server-stub-generator-howto)
 
-Benefits API First: 
+Benefits API First:
 
 ![](/assets/advantages-of-api-first.png)
 
@@ -34,4 +34,8 @@ Benefits API First:
 [http://michal.karzynski.pl/blog/2016/06/19/building-beautiful-restful-apis-using-flask-swagger-ui-flask-restplus/](http://michal.karzynski.pl/blog/2016/06/19/building-beautiful-restful-apis-using-flask-swagger-ui-flask-restplus/)
 
 [https://cidrblock.github.io/zero-to-api-in-4-minutes.html](https://cidrblock.github.io/zero-to-api-in-4-minutes.html)
+
+
+
+Beispiel: https://github.com/hjacobs/connexion-example
 
