@@ -12,6 +12,8 @@ Initialize:
 gitbook init
 ```
 
+Generate output to custom folder
+
 ```
 gitbook build . docs
 ```
