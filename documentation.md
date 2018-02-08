@@ -12,8 +12,6 @@ Initialize:
 gitbook init
 ```
 
-
-
 ```
 gitbook build . docs
 ```
