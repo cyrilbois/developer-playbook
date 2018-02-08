@@ -1,6 +1,6 @@
 Use Gitbooks:
 
-Install gitbook CLI: 
+Install gitbook CLI:
 
 ```
 npm install -g gitbook-cli
@@ -14,7 +14,9 @@ gitbook init
 
 
 
-
+```
+gitbook build . docs
+```
 
 
 
