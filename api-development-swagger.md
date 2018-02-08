@@ -2,6 +2,10 @@
 
 ![](/assets/principles-of-evolutionary-architecture.png)
 
+how much pivoting is possible at every checkpoint?
+
+
+
 Principles In general \(evolutionary architecture\):
 
 * Fast Feedback
@@ -43,25 +47,19 @@ Check how to get started with Python: [Serverless Framework \(Python\)](/serverl
 
 Get started with Connextion: [http://connexion.readthedocs.io/en/latest/quickstart.html](http://connexion.readthedocs.io/en/latest/quickstart.html)
 
+[https://github.com/zalando/connexion](https://github.com/zalando/connexion)
 
+[https://github.com/hjacobs/connexion-example](https://github.com/hjacobs/connexion-example)
 
+[https://cidrblock.github.io/zero-to-api-in-4-minutes.html](https://cidrblock.github.io/zero-to-api-in-4-minutes.html)
 
+[https://github.com/ssola/python-flask-microservice/blob/master/api/room.py](https://github.com/ssola/python-flask-microservice/blob/master/api/room.py)
 
-https://github.com/zalando/connexion
+[https://medium.com/@ssola/building-microservices-with-python-part-i-5240a8dcc2fb](https://medium.com/@ssola/building-microservices-with-python-part-i-5240a8dcc2fb)
 
-https://github.com/hjacobs/connexion-example
+[http://coderobot.downley.net/swagger-driven-testing-in-python.html](http://coderobot.downley.net/swagger-driven-testing-in-python.html)
 
-https://cidrblock.github.io/zero-to-api-in-4-minutes.html
+[https://uwsgi-docs.readthedocs.io/en/latest/](https://uwsgi-docs.readthedocs.io/en/latest/)
 
-https://github.com/ssola/python-flask-microservice/blob/master/api/room.py
-
-https://medium.com/@ssola/building-microservices-with-python-part-i-5240a8dcc2fb
-
-http://coderobot.downley.net/swagger-driven-testing-in-python.html
-
-https://uwsgi-docs.readthedocs.io/en/latest/
-
-http://connexion.readthedocs.io/en/latest/routing.html
-
-
+[http://connexion.readthedocs.io/en/latest/routing.html](http://connexion.readthedocs.io/en/latest/routing.html)
 
