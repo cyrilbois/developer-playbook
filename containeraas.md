@@ -124,6 +124,21 @@ kubectl apply -f <(istioctl kube-inject -f samples/bookinfo/kube/bookinfo.yaml)
 kubectl get services
 ```
 
+Use minikube's built-in docker daemon:
+```
+eval $(minikube docker-env)
+docker ps
+```
+
+Create Dockerfile
+
+Build the dockerfile ([tagging](http://container-solutions.com/tagging-docker-images-the-right-way/)).
+```
+docker build -t products:1.0.0 .
+```
+
+
+
 Set it up \(you should do this with [DevSecOps ](/devsecops.md)in Mind \(Automation is everything!\):
 
 [https://www.joyent.com/blog/kubernetes-the-easy-way](https://www.joyent.com/blog/kubernetes-the-easy-way)
