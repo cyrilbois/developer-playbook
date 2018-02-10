@@ -1,49 +1,41 @@
 # Container-aaS
 
-Serverless increases the efficiency of your implementation. But at the same time you bind yourself very tightly to a special vendor like Amazon with AWS Lambda. Another Option is to use a multi cloud apporach and use Containers as your abstraction layer - Lambdas also use containers themselves. Downside you don't have the you pay only what you use and you miss the non functional features the platform provides like monitoring, routing ... This is where service meshs like Istio come into play. 
+Serverless increases the efficiency of your implementation. But at the same time you bind yourself very tightly to a special vendor like Amazon with AWS Lambda. Another Option is to use a multi cloud apporach and use Containers as your abstraction layer - Lambdas also use containers themselves. Downside you don't have the you pay only what you use and you miss the non functional features the platform provides like monitoring, routing ... This is where service meshs like Istio come into play.
 
 ## When to use serverless and when to use containers service meshs?
 
 * [https://serverless.com/blog/serverless-faas-vs-containers/](https://serverless.com/blog/serverless-faas-vs-containers/)
 * [http://rancher.com/containers-vs-serverless-computing/](http://rancher.com/containers-vs-serverless-computing/)
 
-## Can you integrate serverless with a service mesh and when to do it? 
+## Can you integrate serverless with a service mesh and when to do it?
 
 * [https://medium.com/@jeffzzq/how-to-integrate-an-aws-lambda-function-into-your-kubernetes-service-mesh-5d665f351675](https://medium.com/@jeffzzq/how-to-integrate-an-aws-lambda-function-into-your-kubernetes-service-mesh-5d665f351675)
 
 
 
+## Basics - Containers, Kubernetes and Service Meshs
 
+### What is Kubernetes and why is it important?
 
+* Sources:
 
+  * [https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
 
+  * [https://de.slideshare.net/InfoQ/building-a-microservices-platform-with-kubernetes](https://de.slideshare.net/InfoQ/building-a-microservices-platform-with-kubernetes)
 
+* Advantages:
 
-* Istio: [https://programmaticponderings.com/2017/12/22/deploying-and-configuring-istio-on-google-kubernetes-engine-gke/](https://programmaticponderings.com/2017/12/22/deploying-and-configuring-istio-on-google-kubernetes-engine-gke/) \(Udemy Course Istio\)
-* Istio Introduction: [https://www.youtube.com/watch?v=muoCgHkkPxo](https://www.youtube.com/watch?v=muoCgHkkPxo)
-* Kafka on GPC: [https://console.cloud.google.com/launcher/details/bitnami-launchpad/kafka?project=chatbot-157819](https://console.cloud.google.com/launcher/details/bitnami-launchpad/kafka?project=chatbot-157819)
+  * lighweight \(compared to VMs\)
 
-* [https://www.confluent.io/blog/running-kafka-streams-applications-aws/](https://www.confluent.io/blog/running-kafka-streams-applications-aws/)
+  * reliable and reporducable
 
+  * production read \( scalable ...\)
 
+  * "simple" \(routes, services, ...\)
 
-What is Kubernetes and why is it important?
+  * vendor independent \(compared to serverless\) and multi cloud ready
 
-* [https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
-
-* [https://de.slideshare.net/InfoQ/building-a-microservices-platform-with-kubernetes](https://de.slideshare.net/InfoQ/building-a-microservices-platform-with-kubernetes)
-
-* lighweight \(compared to VMs\)
-
-* reliable and reporducable
-
-* production read \( scalable ...\)
-
-* "simple" \(routes, services, ...\)
-
-* vendor independent \(compared to serverless\) and multi cloud ready
-
-But \(my experience is\) maintaining and setting up a kuebrnetes cluster is hard \(believe me!\) - there are now many great fully manged offerings:
+Should you run your own cluster? But \(my experience is\) maintaining and setting up a kuebrnetes cluster is hard \(believe me!\) - there are now many great fully manged offerings:
 
 * Openshift
 * AWS EKS
@@ -57,9 +49,21 @@ But \(my experience is\) maintaining and setting up a kuebrnetes cluster is hard
 
 * Joyent Kubernetes
 
-[https://istio.io/docs/concepts/what-is-istio/overview.html](https://istio.io/docs/concepts/what-is-istio/overview.html)
+### What is Istio?
 
-[https://github.com/istio/istio](https://github.com/istio/istio)
+* Source:
+  * [https://programmaticponderings.com/2017/12/22/deploying-and-configuring-istio-on-google-kubernetes-engine-gke/](https://programmaticponderings.com/2017/12/22/deploying-and-configuring-istio-on-google-kubernetes-engine-gke/) \(Udemy Course Istio\)
+  * Istio Introduction: [https://www.youtube.com/watch?v=muoCgHkkPxo](https://www.youtube.com/watch?v=muoCgHkkPxo)
+
+
+
+* Kafka on GPC: [https://console.cloud.google.com/launcher/details/bitnami-launchpad/kafka?project=chatbot-157819](https://console.cloud.google.com/launcher/details/bitnami-launchpad/kafka?project=chatbot-157819)
+
+* [https://www.confluent.io/blog/running-kafka-streams-applications-aws/](https://www.confluent.io/blog/running-kafka-streams-applications-aws/)
+
+
+
+
 
 What is it?
 
@@ -167,8 +171,4 @@ kubectl get ingress -o wide
 ```
 
 Setup your DNS \(with Route53\) [https://serverless-stack.com/chapters/setup-your-domain-with-cloudfront.html](https://serverless-stack.com/chapters/setup-your-domain-with-cloudfront.html)
-
-
-
-
 
