@@ -150,10 +150,8 @@ kubectl create secret generic gcloud-cred --from-file=/Users/den/.config/keys/ma
 Deploy
 
 ```
-
+kubectl apply -f <(istioctl kube-inject -f ./deployment.yaml)
 ```
-
-
 
 Set it up \(you should do this with [DevSecOps ](/devsecops.md)in Mind \(Automation is everything!\):
 
@@ -252,17 +250,27 @@ kubectl get ingress -o wide
 
 Setup your DNS \(with Route53\) [https://serverless-stack.com/chapters/setup-your-domain-with-cloudfront.html](https://serverless-stack.com/chapters/setup-your-domain-with-cloudfront.html)
 
-
-
-
-
-
-
-Remove untagged images and stopped containers http://jimhoskins.com/2013/07/27/remove-untagged-docker-images.html
+Remove untagged images and stopped containers [http://jimhoskins.com/2013/07/27/remove-untagged-docker-images.html](http://jimhoskins.com/2013/07/27/remove-untagged-docker-images.html)
 
 ```
 docker rmi $(docker images | grep "^<none>" | awk "{print $3}")
 ```
 
-Small images https://nickjanetakis.com/blog/alpine-based-docker-images-make-a-difference-in-real-world-apps
+Small images [https://nickjanetakis.com/blog/alpine-based-docker-images-make-a-difference-in-real-world-apps](https://nickjanetakis.com/blog/alpine-based-docker-images-make-a-difference-in-real-world-apps)
+
+
+
+testing with postman and different environments: https://www.getpostman.com/docs/postman/environments\_and\_globals/variables
+
+
+
+Egress Rules currently don't work well with HTTPS https://istio.io/blog/2018/egress-https.html so better enable direct connection: https://istio.io/docs/tasks/traffic-management/egress.html
+
+```
+# minikube
+kubectl apply -f <(istioctl kube-inject -f ./deployment.yaml --includeIPRanges=10.0.0.1/24)
+#fore gke check https://istio.io/docs/tasks/traffic-management/egress.html
+```
+
+
 
