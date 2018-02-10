@@ -1,17 +1,31 @@
-Lambda vs Kubernetes
+# Container-aaS
+
+Serverless increases the efficiency of your implementation. But at the same time you bind yourself very tightly to a special vendor like Amazon with AWS Lambda. Another Option is to use a multi cloud apporach and use Containers as your abstraction layer - Lambdas also use containers themselves. Downside you don't have the you pay only what you use and you miss the non functional features the platform provides like monitoring, routing ... This is where service meshs like Istio come into play. 
+
+## When to use serverless and when to use containers service meshs?
+
+* [https://serverless.com/blog/serverless-faas-vs-containers/](https://serverless.com/blog/serverless-faas-vs-containers/)
+* [http://rancher.com/containers-vs-serverless-computing/](http://rancher.com/containers-vs-serverless-computing/)
+
+## Can you integrate serverless with a service mesh and when to do it? 
 
 * [https://medium.com/@jeffzzq/how-to-integrate-an-aws-lambda-function-into-your-kubernetes-service-mesh-5d665f351675](https://medium.com/@jeffzzq/how-to-integrate-an-aws-lambda-function-into-your-kubernetes-service-mesh-5d665f351675)
-* Ziele Istio + Kubernetes über multi cloud
+
+
+
+
+
+
+
+
+
 * Istio: [https://programmaticponderings.com/2017/12/22/deploying-and-configuring-istio-on-google-kubernetes-engine-gke/](https://programmaticponderings.com/2017/12/22/deploying-and-configuring-istio-on-google-kubernetes-engine-gke/) \(Udemy Course Istio\)
 * Istio Introduction: [https://www.youtube.com/watch?v=muoCgHkkPxo](https://www.youtube.com/watch?v=muoCgHkkPxo)
 * Kafka on GPC: [https://console.cloud.google.com/launcher/details/bitnami-launchpad/kafka?project=chatbot-157819](https://console.cloud.google.com/launcher/details/bitnami-launchpad/kafka?project=chatbot-157819)
 
 * [https://www.confluent.io/blog/running-kafka-streams-applications-aws/](https://www.confluent.io/blog/running-kafka-streams-applications-aws/)
 
-Containers vs Serverless:
 
-* [https://serverless.com/blog/serverless-faas-vs-containers/](https://serverless.com/blog/serverless-faas-vs-containers/)
-* [http://rancher.com/containers-vs-serverless-computing/](http://rancher.com/containers-vs-serverless-computing/)
 
 What is Kubernetes and why is it important?
 
@@ -124,7 +138,7 @@ kubectl -n istio-system port-forward \
 kubectl proxy (8080/ui -> management ui)
 ```
 
-To enable TLS create certficate and deploy it as a secret and add the following to the ingress config \([https://istio.io/docs/tasks/traffic-management/ingress.html\](https://istio.io/docs/tasks/traffic-management/ingress.html\)\)
+To enable TLS create certficate and deploy it as a secret and add the following to the ingress config \([https://istio.io/docs/tasks/traffic-management/ingress.html\](https://istio.io/docs/tasks/traffic-management/ingress.html%29\)
 
 ```
 ---
@@ -146,13 +160,15 @@ spec:
 
 Add your own domain to the static ip address of the cluster: [https://cloud.google.com/kubernetes-engine/docs/tutorials/configuring-domain-name-static-ip](https://cloud.google.com/kubernetes-engine/docs/tutorials/configuring-domain-name-static-ip)
 
-Find your static IP address: 
+Find your static IP address:
 
 ```
 kubectl get ingress -o wide
 ```
 
-Setup your DNS \(with Route53\) https://serverless-stack.com/chapters/setup-your-domain-with-cloudfront.html
+Setup your DNS \(with Route53\) [https://serverless-stack.com/chapters/setup-your-domain-with-cloudfront.html](https://serverless-stack.com/chapters/setup-your-domain-with-cloudfront.html)
+
+
 
 
 
