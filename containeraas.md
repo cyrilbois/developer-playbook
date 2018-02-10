@@ -125,6 +125,7 @@ kubectl get services
 ```
 
 Use minikube's built-in docker daemon:
+
 ```
 eval $(minikube docker-env)
 docker ps
@@ -132,10 +133,21 @@ docker ps
 
 Create Dockerfile
 
-Build the dockerfile ([tagging](http://container-solutions.com/tagging-docker-images-the-right-way/)).
+Build the dockerfile \([tagging](http://container-solutions.com/tagging-docker-images-the-right-way/)\).
+
 ```
 docker build -t products:1.0.0 .
 ```
+
+Create Env variables: https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/
+
+Create secrets: https://kubernetes.io/docs/concepts/configuration/secret/
+
+```
+kubectl create secret generic gcloud-cred --from-file=/Users/den/.config/keys/marketplaceapp.json
+```
+
+
 
 
 
