@@ -50,16 +50,16 @@ Should you run your own cluster? But \(my experience is\) maintaining and settin
 ### What is Istio?
 
 * Source:
+
   * [https://programmaticponderings.com/2017/12/22/deploying-and-configuring-istio-on-google-kubernetes-engine-gke/](https://programmaticponderings.com/2017/12/22/deploying-and-configuring-istio-on-google-kubernetes-engine-gke/) \(Udemy Course Istio\)
   * Istio Introduction: 
     * [https://www.youtube.com/watch?v=muoCgHkkPx](https://www.youtube.com/watch?v=muoCgHkkPxo)
     * [https://istio.io/docs/concepts/what-is-istio/overview.html](https://istio.io/docs/concepts/what-is-istio/overview.html)
 
 * Improve development time \(library vs sidecar\)
+
 * improve plattform \(tracing, a/b testing, dashboarding, service graph\) 
 * ... without changing the code! 
-
-
 
 ## Tutorial
 
@@ -71,17 +71,35 @@ Start minikube \[[Source](https://kubernetes.io/docs/getting-started-guides/mini
 minikube start
 ```
 
+Setup [Helm](https://docs.helm.sh/) and tiller \[[Source](https://docs.helm.sh/using_helm/#quickstart)\]
+
+```
+#find the locally configure cluster where tiller will be installed by helm
+kubectl config current-context
+
+#install helm on client / ci/cd pipeline
+brew install kubernetes-helm
+
+#https://github.com/istio/istio/tree/master/install/kubernetes/helm/istio
+git clone https://github.com/istio/istio.git
+cd istio
+kubectl create -f install/kubernetes/helm/helm-service-account.yaml
+
+# for production secure helm https://docs.helm.sh/using_helm/#securing-your-helm-installation
+helm init \ 
+--tiller-tls \ 
+--tiller-tls-verify \ 
+--tiller-tls-ca-cert=ca.pem \ 
+--tiller-tls-cert=cert.pem \ 
+--tiller-tls-key=key.pem \ 
+--service-account=tiller  
+```
+
 Install Istio \[[Source](https://istio.io/docs/setup/kubernetes/quick-start.html)\]
 
 ```
 
 ```
-
-
-
-
-
-
 
 Set it up \(you should do this with [DevSecOps ](/devsecops.md)in Mind \(Automation is everything!\):
 
