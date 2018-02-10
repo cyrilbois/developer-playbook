@@ -139,15 +139,19 @@ Build the dockerfile \([tagging](http://container-solutions.com/tagging-docker-i
 docker build -t products:1.0.0 .
 ```
 
-Create Env variables: https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/
+Create Env variables: [https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/](https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/)
 
-Create secrets: https://kubernetes.io/docs/concepts/configuration/secret/
+Create secrets: [https://kubernetes.io/docs/concepts/configuration/secret/](https://kubernetes.io/docs/concepts/configuration/secret/)
 
 ```
 kubectl create secret generic gcloud-cred --from-file=/Users/den/.config/keys/marketplaceapp.json
 ```
 
+Deploy
 
+```
+
+```
 
 
 
@@ -247,4 +251,18 @@ kubectl get ingress -o wide
 ```
 
 Setup your DNS \(with Route53\) [https://serverless-stack.com/chapters/setup-your-domain-with-cloudfront.html](https://serverless-stack.com/chapters/setup-your-domain-with-cloudfront.html)
+
+
+
+
+
+
+
+Remove untagged images and stopped containers http://jimhoskins.com/2013/07/27/remove-untagged-docker-images.html
+
+```
+docker rmi $(docker images | grep "^<none>" | awk "{print $3}")
+```
+
+Small images https://nickjanetakis.com/blog/alpine-based-docker-images-make-a-difference-in-real-world-apps
 
