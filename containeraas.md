@@ -11,8 +11,6 @@ Serverless increases the efficiency of your implementation. But at the same time
 
 * [https://medium.com/@jeffzzq/how-to-integrate-an-aws-lambda-function-into-your-kubernetes-service-mesh-5d665f351675](https://medium.com/@jeffzzq/how-to-integrate-an-aws-lambda-function-into-your-kubernetes-service-mesh-5d665f351675)
 
-
-
 ## Basics - Containers, Kubernetes and Service Meshs
 
 ### What is Kubernetes and why is it important?
@@ -53,15 +51,7 @@ Should you run your own cluster? But \(my experience is\) maintaining and settin
 
 * Source:
   * [https://programmaticponderings.com/2017/12/22/deploying-and-configuring-istio-on-google-kubernetes-engine-gke/](https://programmaticponderings.com/2017/12/22/deploying-and-configuring-istio-on-google-kubernetes-engine-gke/) \(Udemy Course Istio\)
-  * Istio Introduction: [https://www.youtube.com/watch?v=muoCgHkkPxo](https://www.youtube.com/watch?v=muoCgHkkPxo)
-
-
-
-* Kafka on GPC: [https://console.cloud.google.com/launcher/details/bitnami-launchpad/kafka?project=chatbot-157819](https://console.cloud.google.com/launcher/details/bitnami-launchpad/kafka?project=chatbot-157819)
-
-* [https://www.confluent.io/blog/running-kafka-streams-applications-aws/](https://www.confluent.io/blog/running-kafka-streams-applications-aws/)
-
-
+  * Istio Introduction: [https://www.youtube.com/watch?v=muoCgHkkPx](https://www.youtube.com/watch?v=muoCgHkkPxo)
 
 
 
