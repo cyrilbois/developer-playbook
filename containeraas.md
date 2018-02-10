@@ -58,7 +58,8 @@ Should you run your own cluster? But \(my experience is\) maintaining and settin
 
 * Improve development time \(library vs sidecar\)
 
-* improve plattform \(tracing, a/b testing, dashboarding, service graph\) 
+* improve plattform \(tracing, a/b testing, dashboarding, service graph\)
+
 * ... without changing the code! 
 
 ## Tutorial
@@ -68,10 +69,10 @@ Should you run your own cluster? But \(my experience is\) maintaining and settin
 Start minikube \[[Source](https://kubernetes.io/docs/getting-started-guides/minikube/)\]
 
 ```
-minikube start
+minikube start --memory 4096
 ```
 
-Setup [Helm](https://docs.helm.sh/) and tiller \[[Source](https://docs.helm.sh/using_helm/#quickstart)\]
+Setup [Helm](https://docs.helm.sh/) and tiller \[[Source](https://docs.helm.sh/using_helm/#quickstart)\] and Istio \[[Source](https://istio.io/docs/setup/kubernetes/quick-start.html)\] /** helm install currently not working check back in a few weeks.**
 
 ```
 #find the locally configure cluster where tiller will be installed by helm
@@ -92,13 +93,36 @@ helm init \
 --tiller-tls-ca-cert=ca.pem \ 
 --tiller-tls-cert=cert.pem \ 
 --tiller-tls-key=key.pem \ 
---service-account=tiller  
+--service-account=tiller
+
+helm install install/kubernetes/helm/istio --name istio
 ```
 
-Install Istio \[[Source](https://istio.io/docs/setup/kubernetes/quick-start.html)\]
+Install 
 
 ```
+curl -L https://git.io/getLatestIstio | sh -
+export PATH="$PATH:/Users/den/repo/istio-0.5.0/bin"
+cd istio-0.5.0
+kubectl apply -f install/kubernetes/istio.yaml
+kubectl apply -f install/kubernetes/istio-auth.yaml
+kubectl apply \
+  -f install/kubernetes/addons/prometheus.yaml \
+  -f install/kubernetes/addons/grafana.yaml \
+  -f install/kubernetes/addons/servicegraph.yaml \
+  -f install/kubernetes/addons/zipkin.yaml \
+  -f install/kubernetes/addons/zipkin-to-stackdriver.yaml
 
+openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /tmp/tls.key -out /tmp/tls.crt -subj "/CN=d10l.de"
+kubectl create -n istio-system secret tls istio-ingress-certs --key /tmp/tls.key --cert /tmp/tls.crt
+
+#get external ip
+kubectl get svc -n istio-system
+minikube ip
+export GATEWAY_URL=$(kubectl get po -l istio=ingress -n istio-system -o 'jsonpath={.items[0].status.hostIP}'):$(kubectl get svc istio-ingress -n istio-system -o 'jsonpath={.spec.ports[0].nodePort}')
+Deploy app
+kubectl apply -f <(istioctl kube-inject -f samples/bookinfo/kube/bookinfo.yaml)
+kubectl get services
 ```
 
 Set it up \(you should do this with [DevSecOps ](/devsecops.md)in Mind \(Automation is everything!\):
