@@ -51,19 +51,37 @@ Should you run your own cluster? But \(my experience is\) maintaining and settin
 
 * Source:
   * [https://programmaticponderings.com/2017/12/22/deploying-and-configuring-istio-on-google-kubernetes-engine-gke/](https://programmaticponderings.com/2017/12/22/deploying-and-configuring-istio-on-google-kubernetes-engine-gke/) \(Udemy Course Istio\)
-  * Istio Introduction: [https://www.youtube.com/watch?v=muoCgHkkPx](https://www.youtube.com/watch?v=muoCgHkkPxo)
-
-
-
-What is it?
-
-Why to use it?
-
-[https://istio.io/docs/concepts/what-is-istio/overview.html](https://istio.io/docs/concepts/what-is-istio/overview.html)
+  * Istio Introduction: 
+    * [https://www.youtube.com/watch?v=muoCgHkkPx](https://www.youtube.com/watch?v=muoCgHkkPxo)
+    * [https://istio.io/docs/concepts/what-is-istio/overview.html](https://istio.io/docs/concepts/what-is-istio/overview.html)
 
 * Improve development time \(library vs sidecar\)
 * improve plattform \(tracing, a/b testing, dashboarding, service graph\) 
 * ... without changing the code! 
+
+
+
+## Tutorial
+
+### Setup Local Development environment Minishift
+
+Start minikube \[[Source](https://kubernetes.io/docs/getting-started-guides/minikube/)\]
+
+```
+minikube start
+```
+
+Install Istio \[[Source](https://istio.io/docs/setup/kubernetes/quick-start.html)\]
+
+```
+
+```
+
+
+
+
+
+
 
 Set it up \(you should do this with [DevSecOps ](/devsecops.md)in Mind \(Automation is everything!\):
 
