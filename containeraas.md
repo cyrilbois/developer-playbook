@@ -60,7 +60,7 @@ Should you run your own cluster? But \(my experience is\) maintaining and settin
 
 * improve plattform \(tracing, a/b testing, dashboarding, service graph\)
 
-* ... without changing the code! 
+* ... without changing the code!
 
 ## Tutorial
 
@@ -98,7 +98,7 @@ helm init \
 helm install install/kubernetes/helm/istio --name istio
 ```
 
-Install 
+Install
 
 ```
 curl -L https://git.io/getLatestIstio | sh -
@@ -110,8 +110,7 @@ kubectl apply \
   -f install/kubernetes/addons/prometheus.yaml \
   -f install/kubernetes/addons/grafana.yaml \
   -f install/kubernetes/addons/servicegraph.yaml \
-  -f install/kubernetes/addons/zipkin.yaml \
-  -f install/kubernetes/addons/zipkin-to-stackdriver.yaml
+  -f install/kubernetes/addons/zipkin.yaml
 
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /tmp/tls.key -out /tmp/tls.crt -subj "/CN=d10l.de"
 kubectl create -n istio-system secret tls istio-ingress-certs --key /tmp/tls.key --cert /tmp/tls.crt
