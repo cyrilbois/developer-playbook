@@ -258,13 +258,9 @@ docker rmi $(docker images | grep "^<none>" | awk "{print $3}")
 
 Small images [https://nickjanetakis.com/blog/alpine-based-docker-images-make-a-difference-in-real-world-apps](https://nickjanetakis.com/blog/alpine-based-docker-images-make-a-difference-in-real-world-apps)
 
+testing with postman and different environments: [https://www.getpostman.com/docs/postman/environments\_and\_globals/variables](https://www.getpostman.com/docs/postman/environments_and_globals/variables)
 
-
-testing with postman and different environments: https://www.getpostman.com/docs/postman/environments\_and\_globals/variables
-
-
-
-Egress Rules currently don't work well with HTTPS https://istio.io/blog/2018/egress-https.html so better enable direct connection: https://istio.io/docs/tasks/traffic-management/egress.html
+Egress Rules currently don't work well with HTTPS [https://istio.io/blog/2018/egress-https.html](https://istio.io/blog/2018/egress-https.html) so better enable direct connection: [https://istio.io/docs/tasks/traffic-management/egress.html](https://istio.io/docs/tasks/traffic-management/egress.html)
 
 ```
 # minikube
