@@ -265,7 +265,31 @@ Egress Rules currently don't work well with HTTPS [https://istio.io/blog/2018/eg
 ```
 # minikube
 kubectl apply -f <(istioctl kube-inject -f ./deployment.yaml --includeIPRanges=10.0.0.1/24)
-#fore gke check https://istio.io/docs/tasks/traffic-management/egress.html
+#for gke check https://istio.io/docs/tasks/traffic-management/egress.html
+gcloud container clusters describe marketplace-istio --zone=us-east1-b | grep -e clusterIpv4Cidr -e servicesIpv4Cidr
+kubectl apply -f <(istioctl kube-inject -f ./deployment.yaml --includeIPRanges=10.12.0.0/14,10.15.240.0/20)
+```
+
+Mount Containers locally: [https://docs.docker.com/storage/bind-mounts/\#start-a-container-with-a-bind-mount](https://docs.docker.com/storage/bind-mounts/#start-a-container-with-a-bind-mount)
+
+
+
+Save docker image in docker hub to use it in kubernetes cluster
+
+```
+docker login
+docker tag products:1.2.0 dennisseidel/products:1.2.0
+docker push dennisseidel/products:1.2.0
+```
+
+and add it to the deloyment config
+
+
+
+create the secret with 
+
+```
+kubectl create secret generic gcloud-cred --from-file=/Users/den/.config/keys/marketplaceapp.json
 ```
 
 

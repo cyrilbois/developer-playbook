@@ -4,8 +4,6 @@
 
 how much pivoting is possible at every checkpoint?
 
-
-
 Principles In general \(evolutionary architecture\):
 
 * Fast Feedback
@@ -62,4 +60,18 @@ Get started with Connextion: [http://connexion.readthedocs.io/en/latest/quicksta
 [https://uwsgi-docs.readthedocs.io/en/latest/](https://uwsgi-docs.readthedocs.io/en/latest/)
 
 [http://connexion.readthedocs.io/en/latest/routing.html](http://connexion.readthedocs.io/en/latest/routing.html)
+
+* [https://medium.com/@ssola/building-microservices-with-python-part-i-5240a8dcc2fb](https://medium.com/@ssola/building-microservices-with-python-part-i-5240a8dcc2fb)
+* [https://github.com/hjacobs/connexion-example/blob/master/app.py](https://github.com/hjacobs/connexion-example/blob/master/app.py)
+* [http://connexion.readthedocs.io/en/latest/request.html](http://connexion.readthedocs.io/en/latest/request.html)
+* 
+
+
+
+
+
+
+Check a token: https://auth0.com/docs/api-auth/tutorials/verify-access-token
+
+
 
