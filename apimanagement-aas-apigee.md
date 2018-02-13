@@ -4,7 +4,7 @@
 Setup the Identity Provider:
 
 1. Signup and create a client for the developer portal
-2. Create the resource server / api you want to protect \(apigee url: [https://denseidel-trial-test.apigee.net/products\](https://denseidel-trial-test.apigee.net/products\)\)
+2. Create the resource server / api you want to protect \(apigee url: [https://denseidel-trial-test.apigee.net/products\](https://denseidel-trial-test.apigee.net/products%29\)
 3. Integrate the auth0 apis \(in the end should be proxied through Apigee\) with the the developer portal \( create a client + allowed scopes ...\)   
 
 Setup the OAuthClient API
@@ -37,10 +37,8 @@ Runtime - API Gateway Config:
 * The API proxy needs to know how to validate/verify the access\_token that is attached to the Authorization header. The Java Callout Policy in the attached proxy has configuration to allow for this. \(Thanks Dino Chiesa\). The 3 things you will need to change for the Java Callout are:
 
   * 1. public-key - For RS256 tokens it is the public key of the authorization server
-
-  * 2. iss - Issuer of the token
-
-  * 3. aud - Audience
+  * 1. iss - Issuer of the token
+  * 1. aud - Audience
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -48,10 +46,10 @@ Runtime - API Gateway Config:
    <Properties>
       <Property name="algorithm">RS256</Property>
       <Property name="jwt">{clientrequest.oauthtoken}</Property>
-      
+
 
 <!--
-	public-key used only for algorithm = RS256. This is Auth0 tenant’s public key that you can download from https://tenant.auth0.com/pem or https://tenant.auth0.com/cer and and convert the format if required.
+    public-key used only for algorithm = RS256. This is Auth0 tenant’s public key that you can download from https://tenant.auth0.com/pem or https://tenant.auth0.com/cer and and convert the format if required.
 
 Example: openssl x509  -in cert.cer -pubkey -noout > cert_publickey.pem
 
@@ -61,8 +59,8 @@ You can also configure Apigee Edge to dynamically download RSA public keys from 
 
 -->
       <Property name="public-key">-----BEGIN PUBLIC KEY-----
-	  …
-	  -----END PUBLIC KEY-----</Property>
+      …
+      -----END PUBLIC KEY-----</Property>
       <Property name="iss">https://tenant.auth0.com</Property>
       <Property name="aud">audience_of_api_defined_in_auth0</Property>
    </Properties>
@@ -74,6 +72,54 @@ You can also configure Apigee Edge to dynamically download RSA public keys from 
 [https://github.com/pushpabrol/auth0-tokens-for-apigee](https://github.com/pushpabrol/auth0-tokens-for-apigee)
 
 [https://github.com/apigee/iloveapis2015-jwt-jwe-jws/tree/master/jwt\_signed](https://github.com/apigee/iloveapis2015-jwt-jwe-jws/tree/master/jwt_signed)
+
+apigee - jwt policy: https://docs.apigee.com/api-services/content/jwt-policies-overview
+
+https://community.apigee.com/articles/49280/jwt-policies-in-apigee-edge.html
+
+https://community.apigee.com/questions/49900/apigee-jwt-policy-custom-claim-query.html
+
+https://community.apigee.com/articles/49280/jwt-policies-in-apigee-edge.html
+
+
+
+https://github.com/DinoChiesa/ApigeeEdge-JWT-Demonstration
+
+https://www.youtube.com/watch?v=YTxiBpOKST0
+
+
+
+https://www.oauth.com/oauth2-servers/token-introspection-endpoint/
+
+ya29.GlthBe914Av33OmKgb\_Q8OfV4a5hq8yad3xm7T3DWX3OHBm3GMSv55bL04AFzrzOIYUfkdWKBkir3WDksvJcg-6yqJbZ-fLD17QZ0J3lqf0kRnTW\_7M6mL0tSLCE
+
+only vsion api
+
+https://www.googleapis.com/oauth2/v1/tokeninfo?access\_token=ya29.GlthBe914Av33OmKgb\_Q8OfV4a5hq8yad3xm7T3DWX3OHBm3GMSv55bL04AFzrzOIYUfkdWKBkir3WDksvJcg-6yqJbZ-fLD17QZ0J3lqf0kRnTW\_7M6mL0tSLCE
+
+```
+{
+ "issued_to": "407408718192.apps.googleusercontent.com",
+ "audience": "407408718192.apps.googleusercontent.com",
+ "scope": "https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloud-vision",
+ "expires_in": 3295,
+ "access_type": "offline"
+}
+```
+
+vision and calender
+
+ya29.GlthBWO9OC7g-OfIxVvGMx2cLRAEA74IXQuhsI0LGNt0\_ZeHWdZJ0jpvass2Ri-Ux3Nl6u6mKtkTR5oQC\_gkL4TeMJo2UmRmdtVV2BROPYQCJsp9Qth13Ti-cOE-
+
+```
+{
+ "issued_to": "407408718192.apps.googleusercontent.com",
+ "audience": "407408718192.apps.googleusercontent.com",
+ "scope": "https://www.googleapis.com/auth/calendar https://www.googleapis.com/auth/calendar.readonly https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloud-vision",
+ "expires_in": 3576,
+ "access_type": "offline"
+}
+```
 
 
 
