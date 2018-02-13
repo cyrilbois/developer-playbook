@@ -73,29 +73,25 @@ You can also configure Apigee Edge to dynamically download RSA public keys from 
 
 [https://github.com/apigee/iloveapis2015-jwt-jwe-jws/tree/master/jwt\_signed](https://github.com/apigee/iloveapis2015-jwt-jwe-jws/tree/master/jwt_signed)
 
-apigee - jwt policy: https://docs.apigee.com/api-services/content/jwt-policies-overview
+apigee - jwt policy: [https://docs.apigee.com/api-services/content/jwt-policies-overview](https://docs.apigee.com/api-services/content/jwt-policies-overview)
 
-https://community.apigee.com/articles/49280/jwt-policies-in-apigee-edge.html
+[https://community.apigee.com/articles/49280/jwt-policies-in-apigee-edge.html](https://community.apigee.com/articles/49280/jwt-policies-in-apigee-edge.html)
 
-https://community.apigee.com/questions/49900/apigee-jwt-policy-custom-claim-query.html
+[https://community.apigee.com/questions/49900/apigee-jwt-policy-custom-claim-query.html](https://community.apigee.com/questions/49900/apigee-jwt-policy-custom-claim-query.html)
 
-https://community.apigee.com/articles/49280/jwt-policies-in-apigee-edge.html
+[https://community.apigee.com/articles/49280/jwt-policies-in-apigee-edge.html](https://community.apigee.com/articles/49280/jwt-policies-in-apigee-edge.html)
 
+[https://github.com/DinoChiesa/ApigeeEdge-JWT-Demonstration](https://github.com/DinoChiesa/ApigeeEdge-JWT-Demonstration)
 
+[https://www.youtube.com/watch?v=YTxiBpOKST0](https://www.youtube.com/watch?v=YTxiBpOKST0)
 
-https://github.com/DinoChiesa/ApigeeEdge-JWT-Demonstration
-
-https://www.youtube.com/watch?v=YTxiBpOKST0
-
-
-
-https://www.oauth.com/oauth2-servers/token-introspection-endpoint/
+[https://www.oauth.com/oauth2-servers/token-introspection-endpoint/](https://www.oauth.com/oauth2-servers/token-introspection-endpoint/)
 
 ya29.GlthBe914Av33OmKgb\_Q8OfV4a5hq8yad3xm7T3DWX3OHBm3GMSv55bL04AFzrzOIYUfkdWKBkir3WDksvJcg-6yqJbZ-fLD17QZ0J3lqf0kRnTW\_7M6mL0tSLCE
 
 only vsion api
 
-https://www.googleapis.com/oauth2/v1/tokeninfo?access\_token=ya29.GlthBe914Av33OmKgb\_Q8OfV4a5hq8yad3xm7T3DWX3OHBm3GMSv55bL04AFzrzOIYUfkdWKBkir3WDksvJcg-6yqJbZ-fLD17QZ0J3lqf0kRnTW\_7M6mL0tSLCE
+[https://www.googleapis.com/oauth2/v1/tokeninfo?access\_token=ya29.GlthBe914Av33OmKgb\_Q8OfV4a5hq8yad3xm7T3DWX3OHBm3GMSv55bL04AFzrzOIYUfkdWKBkir3WDksvJcg-6yqJbZ-fLD17QZ0J3lqf0kRnTW\_7M6mL0tSLCE](https://www.googleapis.com/oauth2/v1/tokeninfo?access_token=ya29.GlthBe914Av33OmKgb_Q8OfV4a5hq8yad3xm7T3DWX3OHBm3GMSv55bL04AFzrzOIYUfkdWKBkir3WDksvJcg-6yqJbZ-fLD17QZ0J3lqf0kRnTW_7M6mL0tSLCE)
 
 ```
 {
@@ -121,5 +117,5 @@ ya29.GlthBWO9OC7g-OfIxVvGMx2cLRAEA74IXQuhsI0LGNt0\_ZeHWdZJ0jpvass2Ri-Ux3Nl6u6mKt
 }
 ```
 
-
+https://github.com/DinoChiesa/ApigeeEdge-JWT-Demonstration/blob/master/proxy-bundles/verify-goog/apiproxy.zip
 
