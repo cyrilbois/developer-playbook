@@ -21,4 +21,5 @@
 * [Architecture](architecture.md)
 * [Documentation](documentation.md)
 * [APIManagement aaS \(Apigee\)](apimanagement-aas-apigee.md)
+* [Bootstraping](bootstraping.md)
 
