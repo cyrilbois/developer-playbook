@@ -13,5 +13,4 @@
 * [Event Driven Programming \(Event Store\)](event-driven-programming-event-store.md)
 * [Data Driven / Smart Applications](data-driven-smart-applications.md)
 * [AI - AIaaS](ai-aiaas.md)
-* [Python](python.md)
 
