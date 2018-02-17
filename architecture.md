@@ -21,7 +21,9 @@ Principles In general \(evolutionary architecture\):
 * Reasonable Security
 * Limited Blast Radius
 
-
-
 Don't make comproises that impact architecture goals negativly - agree to disagree .
+
+
+
+Zalando Tech Radar
 
