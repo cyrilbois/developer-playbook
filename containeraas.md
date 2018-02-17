@@ -9,9 +9,8 @@ The platform provides the tools to increase productivity it should abstract away
   * [Event Driven / Streaming aaS](/event-driven-programming-event-store.md)
   * [AI - AIaaS](/ai-aiaas.md)
   * Reliability aaS - Logging
-  *  ... but don't forget ports and adapters
-* 
-# Container-aaS
+  * ... but don't forget ports and adapters
+* # Container-aaS
 
 Serverless increases the efficiency of your implementation. But at the same time you bind yourself very tightly to a special vendor like Amazon with AWS Lambda. Another Option is to use a multi cloud apporach and use Containers as your abstraction layer - Lambdas also use containers themselves. Downside you don't have the you pay only what you use and you miss the non functional features the platform provides like monitoring, routing ... This is where service meshs like Istio come into play.
 
@@ -301,7 +300,15 @@ create the secret with
 kubectl create secret generic gcloud-cred --from-file=/Users/den/.config/keys/marketplaceapp.json
 ```
 
-## Register your domain
+## Register your DOMAIN
 
 [https://console.aws.amazon.com/route53](https://console.aws.amazon.com/route53)
+
+
+
+# Encryption - how to use the public cloud securly? N26?
+
+
+
+
 
