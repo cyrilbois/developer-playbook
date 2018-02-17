@@ -1,3 +1,27 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 
+
+Add the following to every "topic":
+
 # AWS Lambda: The Python Developer's Guide
 
 ### What Will I Learn?
