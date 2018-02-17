@@ -1,6 +1,6 @@
-# \#JuniorDev4Life - Developer Notes
+# Developer Playbook
 
-This notebook includes all notes on all skills you need to build modern applications. Currently the stack looks like this:![](/assets/overview.png)Source: https://coggle.it/diagram/Wog4AgWJuAAB-ba-/t/-
+This notebook includes all notes on all skills you need to build modern applications. Currently the stack looks like this:![](/assets/overview.png)Source: [https://coggle.it/diagram/Wog4AgWJuAAB-ba-/t/-](https://coggle.it/diagram/Wog4AgWJuAAB-ba-/t/-)
 
 The flow is as follow:
 
