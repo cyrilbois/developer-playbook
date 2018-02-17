@@ -1,8 +1,11 @@
-# The platform provides the tools to increase productivity 
+# Platform & Infrastructure
+
+The platform provides the tools to increase productivity it should abstract away the operations tasks to get fast feedback loops but it also should design for change as we should be prepared that we have to change in the future: 
+
+* Serverless \(great speed and plattform\) vs Istio \(great portability\)
+* SaaS Components for DBs, IAM, Logging ... but don't forget ports and adapters
 
 
-
-# 
 
 # Container-aaS
 
