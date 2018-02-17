@@ -2,7 +2,7 @@
 
 The platform provides the tools to increase productivity it should abstract away the operations tasks to get fast feedback loops but it also should design for change as we should be prepared that we have to change in the future:
 
-* Serverless \(great speed and plattform\) vs Istio \(great portability\)
+* Serverless \(great speed and plattform\) vs Istio \(great portability\) or Flask on Serverless for speed and platform but migratable? 
 * SaaS Components for 
   * [Persistance - DBaaS \(DynamoDB\)](/persistance-dbaas-dynamodb.md) 
   * [IAM - IAMaaS ](/identityaas-cognito.md)
@@ -304,11 +304,7 @@ kubectl create secret generic gcloud-cred --from-file=/Users/den/.config/keys/ma
 
 [https://console.aws.amazon.com/route53](https://console.aws.amazon.com/route53)
 
-
-
 # Encryption - how to use the public cloud securly? N26?
-
-
 
 
 
