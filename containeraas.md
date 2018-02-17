@@ -1,11 +1,9 @@
 # Platform & Infrastructure
 
-The platform provides the tools to increase productivity it should abstract away the operations tasks to get fast feedback loops but it also should design for change as we should be prepared that we have to change in the future: 
+The platform provides the tools to increase productivity it should abstract away the operations tasks to get fast feedback loops but it also should design for change as we should be prepared that we have to change in the future:
 
 * Serverless \(great speed and plattform\) vs Istio \(great portability\)
 * SaaS Components for DBs, IAM, Logging ... but don't forget ports and adapters
-
-
 
 # Container-aaS
 
@@ -296,6 +294,10 @@ create the secret with
 ```
 kubectl create secret generic gcloud-cred --from-file=/Users/den/.config/keys/marketplaceapp.json
 ```
+
+## Register your domain
+
+[https://console.aws.amazon.com/route53](https://console.aws.amazon.com/route53)
 
 
 

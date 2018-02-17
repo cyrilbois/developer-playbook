@@ -158,10 +158,6 @@ API Sources / public api collection: [https://any-api.com](https://any-api.com)
 
 [https://apis.guru/browse-apis/](https://apis.guru/browse-apis/)
 
-
-
-
-
 # Testing - Serverless Stack Example
 
 I implemented the [serverless-stack.com](https://serverless-stack.com) app for training purposes.
@@ -296,6 +292,34 @@ custom:
 * [https://github.com/serverless/examples/tree/master/aws-python-pynamodb-s3-sigurl](https://github.com/serverless/examples/tree/master/aws-python-pynamodb-s3-sigurl) 
 * [https://github.com/AnomalyInnovations/serverless-python-starter](https://github.com/AnomalyInnovations/serverless-python-starter)
 * [https://serverlesscode.com/post/python-3-on-serverless-framework/](https://serverlesscode.com/post/python-3-on-serverless-framework/)
+
+
+
+
+
+
+
+# Language Python Questions:
+
+debug with python:
+
+```
+print(variable)
+```
+
+* encode json?  `cls=decimalencoder.DecimalEncoder` ?
+
+Overview:
+
+[https://www.fullstackpython.com/table-of-contents.html](https://www.fullstackpython.com/table-of-contents.html)
+
+[https://github.com/mattmakai/fullstackpython.com/pulls](https://github.com/mattmakai/fullstackpython.com/pulls)
+
+Modules: [https://www.tutorialspoint.com/python/python\_modules.htm](https://www.tutorialspoint.com/python/python_modules.htm)
+
+Google Datastore: [https://cloud.google.com/datastore/docs/reference/libraries?hl=de](https://cloud.google.com/datastore/docs/reference/libraries?hl=de)
+
+[https://googlecloudplatform.github.io/google-cloud-python/latest/datastore/client.html](https://googlecloudplatform.github.io/google-cloud-python/latest/datastore/client.html)
 
 
 
