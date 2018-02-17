@@ -1,4 +1,4 @@
-# Serverless Development Environment for Python and Node Developers \(on OSX\):
+# Serverless Development Environment for Python, Javascript/React and Node Developers \(on OSX\):
 
 Install Prerequesits Package Manger Homebrew and CLI Tools:
 
@@ -34,7 +34,9 @@ git config --global credential.helper osxkeychain
 ```
 
 ## Setup visual studio code
+
 List all my installed extensions:
+
 ```
 code --list-extensions
 ```
@@ -144,5 +146,4 @@ git push --set-upstream origin master
 ```
 
 Code: [https://github.com/denseidel/apis-api/commit/ecc27aaf1f7a714938d99f1b5d656a67376c934b](https://github.com/denseidel/apis-api/commit/85014bb55af8921c3c770fbfe9b56d5722b6c005)
-
 

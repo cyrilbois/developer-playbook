@@ -65,13 +65,17 @@ Get started with Connextion: [http://connexion.readthedocs.io/en/latest/quicksta
 * [https://github.com/hjacobs/connexion-example/blob/master/app.py](https://github.com/hjacobs/connexion-example/blob/master/app.py)
 * [http://connexion.readthedocs.io/en/latest/request.html](http://connexion.readthedocs.io/en/latest/request.html)
 * 
+Check a token: [https://auth0.com/docs/api-auth/tutorials/verify-access-token](https://auth0.com/docs/api-auth/tutorials/verify-access-token)
 
 
 
+API Sources / public api collection: https://any-api.com
+
+https://www.programmableweb.com/apis/directory
+
+https://apis.guru/browse-apis/
 
 
-
-Check a token: https://auth0.com/docs/api-auth/tutorials/verify-access-token
 
 
 
