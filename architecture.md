@@ -25,3 +25,9 @@ Principles In general \(evolutionary architecture\):
 
 
 
+
+
+Don't make comproises that impact architecture goals negativly - agree to disagree - 
+
+
+
