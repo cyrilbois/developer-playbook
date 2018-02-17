@@ -147,3 +147,27 @@ git push --set-upstream origin master
 
 Code: [https://github.com/denseidel/apis-api/commit/ecc27aaf1f7a714938d99f1b5d656a67376c934b](https://github.com/denseidel/apis-api/commit/85014bb55af8921c3c770fbfe9b56d5722b6c005)
 
+## Documentation
+
+Use Gitbooks:
+
+Install gitbook CLI:
+
+```
+npm install -g gitbook-cli
+```
+
+Initialize:
+
+```
+gitbook init
+```
+
+Generate output to custom folder
+
+```
+gitbook build . docs
+```
+
+
+
