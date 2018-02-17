@@ -3,8 +3,14 @@
 The platform provides the tools to increase productivity it should abstract away the operations tasks to get fast feedback loops but it also should design for change as we should be prepared that we have to change in the future:
 
 * Serverless \(great speed and plattform\) vs Istio \(great portability\)
-* SaaS Components for DBs, IAM, Logging ... but don't forget ports and adapters
-
+* SaaS Components for 
+  * [Persistance - DBaaS \(DynamoDB\)](/persistance-dbaas-dynamodb.md) 
+  * [IAM - IAMaaS ](/identityaas-cognito.md)
+  * [Event Driven / Streaming aaS](/event-driven-programming-event-store.md)
+  * [AI - AIaaS](/ai-aiaas.md)
+  * Reliability aaS - Logging
+  *  ... but don't forget ports and adapters
+* 
 # Container-aaS
 
 Serverless increases the efficiency of your implementation. But at the same time you bind yourself very tightly to a special vendor like Amazon with AWS Lambda. Another Option is to use a multi cloud apporach and use Containers as your abstraction layer - Lambdas also use containers themselves. Downside you don't have the you pay only what you use and you miss the non functional features the platform provides like monitoring, routing ... This is where service meshs like Istio come into play.
@@ -298,6 +304,4 @@ kubectl create secret generic gcloud-cred --from-file=/Users/den/.config/keys/ma
 ## Register your domain
 
 [https://console.aws.amazon.com/route53](https://console.aws.amazon.com/route53)
-
-
 
