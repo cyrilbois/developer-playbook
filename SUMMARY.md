@@ -1,8 +1,9 @@
 # Summary
 
 * [Introduction](README.md)
+* [Architecture](architecture.md)
+* [Bootstraping](bootstraping.md)
 * [Development Environment](chapter1.md)
-* [Serverless Framework \(Python\)](serverless-framework.md)
 * [API Development \(Swagger\)](api-development-swagger.md)
 * [Persistance - DBaaS \(DynamoDB\)](persistance-dbaas-dynamodb.md)
 * [Frontend - React](frontend-react.md)
@@ -17,9 +18,7 @@
 * [Python](python.md)
 * [IaaS - setup your web infrastructure](get-a-domain.md)
 * [AI - AIaaS](ai-aiaas.md)
-* [DevSecOps](devsecops.md)
 * [Architecture](architecture.md)
 * [Documentation](documentation.md)
-* [APIManagement aaS \(Apigee\)](apimanagement-aas-apigee.md)
 * [Bootstraping](bootstraping.md)
 

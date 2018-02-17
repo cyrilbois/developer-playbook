@@ -1,26 +1,18 @@
+# \#JuniorDev4Life - Developer Notes
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# 
+This notebook includes all notes on all skills you need to build modern applications. Currently the stack looks like this:
 
 Add the following to every "topic":
+
+
+
+
+
+
+
+The flow is as follow: 
+
+* The architecture principles are the guiding factors for decisions about the \(architecture\) decision infrastructure & tools 
 
 # AWS Lambda: The Python Developer's Guide
 
