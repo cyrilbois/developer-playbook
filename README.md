@@ -1,10 +1,11 @@
 # \#JuniorDev4Life - Developer Notes
 
-This notebook includes all notes on all skills you need to build modern applications. Currently the stack looks like this:
+This notebook includes all notes on all skills you need to build modern applications. Currently the stack looks like this:![](/assets/overview.png)Source: https://coggle.it/diagram/Wog4AgWJuAAB-ba-/t/-
 
 The flow is as follow:
 
-* The architecture principles are the guiding factors for decisions about the \(architecture\) decision infrastructure & tools 
+* The architecture principles are the guiding factors for decisions about the \(architecture\) decision infrastructure & tools
+* This leads to best practices in this area
 
 # 
 
