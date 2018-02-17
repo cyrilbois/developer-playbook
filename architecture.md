@@ -1,11 +1,8 @@
 # Evolutionary Architecture
 
-# 
-
 [https://www.youtube.com/watch?v=8bEsNT7jdC4&t=112s&index=57&list=WL](https://www.youtube.com/watch?v=8bEsNT7jdC4&t=112s&index=57&list=WL)  
 ![](blob:file:///0fcfc712-c49f-4994-ae50-ad852dbcf960)
 
-  
 ![](/assets/evolutionary-architecture.png)
 
 * incremental: short cycle times and still a stable system \( DevOps \)
