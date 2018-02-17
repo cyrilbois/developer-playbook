@@ -199,9 +199,7 @@ Create new branches:
 
 [https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
 
-
-
-# Serverless Stack Example
+# Testing - Serverless Stack Example
 
 I implemented the [serverless-stack.com](https://serverless-stack.com) app for training purposes.
 
