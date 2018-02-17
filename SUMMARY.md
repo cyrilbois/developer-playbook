@@ -10,6 +10,6 @@
 * [Persistance - DBaaS \(DynamoDB\)](persistance-dbaas-dynamodb.md)
 * [IAM - IAMaaS ](identityaas-cognito.md)
 * [Event Driven / Streaming aaS](event-driven-programming-event-store.md)
-* [Production / Reliability Engineering](serverless-in-production.md)
 * [AI - AIaaS](ai-aiaas.md)
+* [Production / Reliability Engineering](serverless-in-production.md)
 
