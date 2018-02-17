@@ -23,7 +23,10 @@ Principles In general \(evolutionary architecture\):
 
 Don't make comproises that impact architecture goals negativly - agree to disagree .
 
+Zalando Tech Radar: 
+
+* https://zalando.github.io/tech-radar/
+* https://www.thoughtworks.com/de/radar
 
 
-Zalando Tech Radar
 
