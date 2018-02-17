@@ -17,17 +17,11 @@ how much pivoting is possible at every checkpoint?
 Principles In general \(evolutionary architecture\):
 
 * Fast Feedback
-* Automation \( -
-  &gt;
-   AI\)
+* Automation \( -&gt; AI\)
 * Reasonable Security
 * Limited Blast Radius
 
 
 
-
-
-Don't make comproises that impact architecture goals negativly - agree to disagree - 
-
-
+Don't make comproises that impact architecture goals negativly - agree to disagree .
 
