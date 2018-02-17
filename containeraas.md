@@ -1,3 +1,9 @@
+# The platform provides the tools to increase productivity 
+
+
+
+# 
+
 # Container-aaS
 
 Serverless increases the efficiency of your implementation. But at the same time you bind yourself very tightly to a special vendor like Amazon with AWS Lambda. Another Option is to use a multi cloud apporach and use Containers as your abstraction layer - Lambdas also use containers themselves. Downside you don't have the you pay only what you use and you miss the non functional features the platform provides like monitoring, routing ... This is where service meshs like Istio come into play.
@@ -272,8 +278,6 @@ kubectl apply -f <(istioctl kube-inject -f ./deployment.yaml --includeIPRanges=1
 
 Mount Containers locally: [https://docs.docker.com/storage/bind-mounts/\#start-a-container-with-a-bind-mount](https://docs.docker.com/storage/bind-mounts/#start-a-container-with-a-bind-mount)
 
-
-
 Save docker image in docker hub to use it in kubernetes cluster
 
 ```
@@ -284,9 +288,7 @@ docker push dennisseidel/products:1.2.0
 
 and add it to the deloyment config
 
-
-
-create the secret with 
+create the secret with
 
 ```
 kubectl create secret generic gcloud-cred --from-file=/Users/den/.config/keys/marketplaceapp.json
