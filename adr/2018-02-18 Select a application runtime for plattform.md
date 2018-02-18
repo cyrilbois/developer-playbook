@@ -1,34 +1,35 @@
-# *Select Serverless as the application runtime*
+# S_elect a application runtime_
 
-*[context and problem statement]*
+To run the applications I need to decide which platform to chose. 
 
 ## Considered Alternatives
 
-* *[alternative 1]*
-* *[alternative 2]*
-* *[alternative 3]*
+* AWS Lambda
+* AWS EKS \(Kubernetes + Helm + Istio\)
+
 ## Decision Outcome
 
-* Chosen Alternative: *[alternative 1]*
-* *[justification. e.g., only alternative, which meets k.o. criterion decision driver | which resolves force force | ... | comes out best (see below)]*
-* *[consequences. e.g., negative impact on quality attribute, follow-up decisions required, ...]*
+* Chosen Alternative: AWS
+
+* _\[justification. e.g., only alternative, which meets k.o. criterion decision driver \| which resolves force force \| ... \| comes out best \(see below\)\]_
+
+* _\[consequences. e.g., negative impact on quality attribute, follow-up decisions required, ...\]_
 
 ## Pros and Cons of the Alternatives
 
-### *[alternative 1]*
+### AWS Lambda
 
-* `+` *[argument 1 pro]*
-* `+` *[argument 2 pro]*
-* `-` *[argument 1 con]*
+* `+` I can use the Allianz AWS account
+* `+` _\[argument 2 pro\]_
+* `-` Is not the Allianz Strategy
 
-### *[alternative 2]*
+### AWS EKS -
 
-* `+` *[argument 1 pro]*
-* `+` *[argument 2 pro]*
-* `-` *[argument 1 con]*
+* `+` _\[argument 1 pro\]_
+* `+` _\[argument 2 pro\]_
+* `-` _\[argument 1 con\]_
 
-### *[alternative 3]*
 
-* `+` *[argument 1 pro]*
-* `+` *[argument 2 pro]*
-* `-` *[argument 1 con]*
+
+
+
