@@ -28,12 +28,14 @@ Source: [Patrick Kua - Goto Conference](https://www.youtube.com/watch?v=8bEsNT7j
 * Reasonable Security
 * Limited Blast Radius
 
-### 4d view:
+### Dimentions of architectural diagramms:
 
 * solution \(process & component\)
 * implementation / technology \(frameworks\)
 * production
 * evolution
+
+Tool: [plantuml](http://plantuml.com)
 
 ## Documentation of Architecutral Decisions
 
