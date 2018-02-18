@@ -201,3 +201,15 @@ Create new branches:
 
 
 
+
+
+# Development Pipeline: 
+
+* gocd: 
+  * https://www.gocd.org/why-gocd/
+  * https://hub.docker.com/r/gocd/gocd-server/
+  * https://hub.docker.com/r/gocd/gocd-agent-alpine-3.5/
+  * https://github.com/kubernetes/charts/tree/master/incubator/gocd
+
+
+

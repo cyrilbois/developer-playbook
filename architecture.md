@@ -45,6 +45,13 @@ Fitness Functions:
 
 
 
+4d view: 
+
+* solution \(process & component\)
+* implementation / technology \(frameworks\)
+* production
+* evolution
+
 
 
 ### An Architecture for Innovation
@@ -53,14 +60,7 @@ We’re constantly pushing nonstop innovation, creativity, and hard work. To ena
 
 We’re creating APIs first before we code them, using the REST architectural style to ensure we’re able to scale as our department and business grows in scope, evolving our systems in parallel. Building for SaaS makes our applications ready to live on the Internet, where embracing the cloud ensures that as a modern architecture, we’re fostering innovation. Finally, our adoption of Microservices ties all these principles together in a powerful architectural style that lets us move fast while we keep our complexity low.
 
-
-
-
-
 ## Community
 
-https://jobs.zalando.com/tech/  
-
-
-
+[https://jobs.zalando.com/tech/](https://jobs.zalando.com/tech/)
 

@@ -308,3 +308,11 @@ kubectl create secret generic gcloud-cred --from-file=/Users/den/.config/keys/ma
 
 
 
+
+
+Other Serverless Assets:
+
+* File based Maleware detection : https://medium.com/airbnb-engineering/binaryalert-real-time-serverless-malware-detection-ca44370c1b90
+
+
+
