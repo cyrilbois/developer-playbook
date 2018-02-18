@@ -43,8 +43,6 @@ Architectural decision should be documented in a [light weight architecture deci
 * [https://zalando.github.io/tech-radar/](https://zalando.github.io/tech-radar/)
 * [https://www.thoughtworks.com/de/radar](https://www.thoughtworks.com/de/radar)
 
-
-
 ### An Architecture for Innovation
 
 We’re constantly pushing nonstop innovation, creativity, and hard work. To enable the above three pillars to work concisely, we’ve made a pledge regarding how we build the systems of our future based on five key principles: API First, REST, SaaS, Cloud, and Microservices.
@@ -55,5 +53,7 @@ Source: [Zalando Blog](https://jobs.zalando.com/tech/blog/radical-agility-study-
 
 ## Community
 
-[https://jobs.zalando.com/tech/](https://jobs.zalando.com/tech/)
+* [https://jobs.zalando.com/tech/](https://jobs.zalando.com/tech/)
+
+
 
