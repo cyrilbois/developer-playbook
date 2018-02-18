@@ -1,12 +1,13 @@
 # Evolutionary Architecture
 
-[https://www.youtube.com/watch?v=8bEsNT7jdC4&t=112s&index=57&list=WL](https://www.youtube.com/watch?v=8bEsNT7jdC4&t=112s&index=57&list=WL)  
-![](/assets/principles-of-evolutionary-architecture.png)
+Architecture should be designed for change:
 
-![](/assets/evolutionary-architecture.png)
+> An evolutionary architecture supports **incremental**, **guided change** as a first principle along **multiple dimensions **
 
-* incremental: short cycle times and still a stable system \( DevOps \)
-* guided: fitness function \(metrics, tests, process for measuring how close to the goal\) 
+By applying the following practices:  
+![](/assets/principles-of-evolutionary-architecture.png)Source: [https://www.youtube.com/watch?v=8bEsNT7jdC4&t=112s&index=57&list=WL](#)
+
+
 
 ![](/assets/architecture-cycle-1.png)
 
@@ -43,16 +44,12 @@ Fitness Functions:
 
 [https://jobs.zalando.com/tech/blog/radical-agility-study-notes/?gh\_src=4n3gxh1](https://jobs.zalando.com/tech/blog/radical-agility-study-notes/?gh_src=4n3gxh1)
 
-
-
-4d view: 
+4d view:
 
 * solution \(process & component\)
 * implementation / technology \(frameworks\)
 * production
 * evolution
-
-
 
 ### An Architecture for Innovation
 
