@@ -4,10 +4,14 @@ Architecture should be designed for change, and you must never make comproises t
 
 > An evolutionary architecture supports **incremental**, **guided change** as a first principle along **multiple dimensions **
 
-### Architectural practices for evolution
+## Architectural practices for evolution
 
 ![](/assets/principles-of-evolutionary-architecture.png)  
 Source: [Patrick Kua - Goto Conference](https://www.youtube.com/watch?v=8bEsNT7jdC4&t=112s&index=57&list=WL)
+
+### Principles:
+
+**API First**, **REST/Event Driven,** **SaaS**, **Cloud**, and **Microservices**. We’re creating APIs first before we code them, using the REST/Event Driven architectural style to ensure we’re able to scale as our department and business grows in scope, evolving our systems in parallel. Building for SaaS makes our applications ready to live on the Internet, where embracing the cloud ensures that as a modern architecture, we’re fostering innovation. Finally, our adoption of Microservices ties all these principles together in a powerful architectural style that lets us move fast while we keep our complexity low. Source: [Zalando Blog](https://jobs.zalando.com/tech/blog/radical-agility-study-notes/?gh_src=4n3gxh1)
 
 ### Fitness Function are the goal and quantitative measure to evaluate the guide change
 
@@ -28,7 +32,7 @@ Source: [Patrick Kua - Goto Conference](https://www.youtube.com/watch?v=8bEsNT7j
 * Reasonable Security
 * Limited Blast Radius
 
-### Dimentions of architectural diagramms:
+## Dimentions of architectural diagramms:
 
 * solution \(process & component\)
 * implementation / technology \(frameworks\)
@@ -41,18 +45,10 @@ Tool: [plantuml](http://plantuml.com)
 
 Architectural decision should be documented in a [light weight architecture decision record](https://github.com/CloudNativeTraining/architecture_decision_record). My private decision are located here in [github](https://github.com/denseidel/developer-playbook/tree/master/adr) based on this [template](https://github.com/CloudNativeTraining/architecture_decision_record/edit/master/adr_template_madr.md).
 
-### Keep a technology overview with the Tech Radars:
+## Keep a technology overview with the Tech Radars:
 
 * [https://zalando.github.io/tech-radar/](https://zalando.github.io/tech-radar/)
 * [https://www.thoughtworks.com/de/radar](https://www.thoughtworks.com/de/radar)
-
-### An Architecture for Innovation
-
-We’re constantly pushing nonstop innovation, creativity, and hard work. To enable the above three pillars to work concisely, we’ve made a pledge regarding how we build the systems of our future based on five key principles: API First, REST, SaaS, Cloud, and Microservices.
-
-We’re creating APIs first before we code them, using the REST architectural style to ensure we’re able to scale as our department and business grows in scope, evolving our systems in parallel. Building for SaaS makes our applications ready to live on the Internet, where embracing the cloud ensures that as a modern architecture, we’re fostering innovation. Finally, our adoption of Microservices ties all these principles together in a powerful architectural style that lets us move fast while we keep our complexity low.
-
-Source: [Zalando Blog](https://jobs.zalando.com/tech/blog/radical-agility-study-notes/?gh_src=4n3gxh1)
 
 ## Community
 
