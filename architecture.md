@@ -1,6 +1,6 @@
 # Evolutionary Architecture
 
-Architecture should be designed for change:
+Architecture should be designed for change, and you must never make comproises that impact architecture goals negatively as architecture is by definition hard to change - agree to disagree.
 
 > An evolutionary architecture supports **incremental**, **guided change** as a first principle along **multiple dimensions **
 
@@ -9,6 +9,11 @@ Architecture should be designed for change:
 ![](/assets/principles-of-evolutionary-architecture.png)  
 Source: [Patrick Kua - Goto Conference](https://www.youtube.com/watch?v=8bEsNT7jdC4&t=112s&index=57&list=WL)
 
+* Fitness functions / SLAs: 
+  * Automation \( -&gt; AI\)
+  * Reasonable Security
+  * Limited Blast Radius
+
 ## Documentation of Architecutral Decisions
 
 Architectural decision should be documented in a [light weight architecture decision record](https://github.com/CloudNativeTraining/architecture_decision_record). My private decision are located here in [github](https://github.com/denseidel/developer-playbook/tree/master/adr).
@@ -16,15 +21,6 @@ Architectural decision should be documented in a [light weight architecture deci
 ---
 
 
-
-Principles In general \(evolutionary architecture\):
-
-* Fast Feedback
-* Automation \( -&gt; AI\)
-* Reasonable Security
-* Limited Blast Radius
-
-Don't make comproises that impact architecture goals negativly - agree to disagree .
 
 Tech Radars \(why?\):
 
