@@ -1,4 +1,4 @@
-# _Select a application runtime_
+# _Select an application runtime_
 
 To run the applications I need to decide which platform to chose.
 
