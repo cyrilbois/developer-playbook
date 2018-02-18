@@ -9,7 +9,7 @@ By applying the following practices:
 
 ## Documentation of Architecutral Decisions
 
-Architectural decision should be documented in a [light weight architecture decision record](https://github.com/CloudNativeTraining/architecture\_decision\_record). My private decision are located here in [github](https://github.com/denseidel/developer-playbook/tree/master/adr)
+Architectural decision should be documented in a [light weight architecture decision record](https://github.com/CloudNativeTraining/architecture\_decision\_record). My private decision are located here in [github](https://github.com/denseidel/developer-playbook/tree/master/adr).
 
 
 
