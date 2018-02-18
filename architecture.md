@@ -4,11 +4,10 @@ Architecture should be designed for change:
 
 > An evolutionary architecture supports **incremental**, **guided change** as a first principle along **multiple dimensions **
 
+### Architectural practices for evolution
 
-
-### Architectural practices for evolution 
-![](/assets/principles-of-evolutionary-architecture.png)
-Source: [Patrick Kua - Goto Conference](https://www.youtube.com/watch?v=8bEsNT7jdC4&t=112s&index=57&list=WL) 
+![](/assets/principles-of-evolutionary-architecture.png)  
+Source: [Patrick Kua - Goto Conference](https://www.youtube.com/watch?v=8bEsNT7jdC4&t=112s&index=57&list=WL)
 
 ## Documentation of Architecutral Decisions
 
@@ -16,7 +15,7 @@ Architectural decision should be documented in a [light weight architecture deci
 
 ---
 
-how much pivoting is possible at every checkpoint?
+
 
 Principles In general \(evolutionary architecture\):
 
