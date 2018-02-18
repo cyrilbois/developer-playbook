@@ -15,11 +15,15 @@ Event Infrastructure:
 
 * [https://www.confluent.io/blog/running-kafka-streams-applications-aws/](https://www.confluent.io/blog/running-kafka-streams-applications-aws/)
 
+[https://cloud.google.com/solutions/architecture/complex-event-processing](https://cloud.google.com/solutions/architecture/complex-event-processing)
 
 
-https://cloud.google.com/solutions/architecture/complex-event-processing
 
 
+
+https://jobs.zalando.com/tech/blog/backing-up-kafka-zookeeper/
+
+https://jobs.zalando.com/tech/blog/rock-solid-kafka/
 
 
 
