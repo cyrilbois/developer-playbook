@@ -9,7 +9,7 @@ Architecture should be designed for change, and you must never make comproises t
 ![](/assets/principles-of-evolutionary-architecture.png)  
 Source: [Patrick Kua - Goto Conference](https://www.youtube.com/watch?v=8bEsNT7jdC4&t=112s&index=57&list=WL)
 
-### Principles:
+### Technical Practices:
 
 **API First**, **REST/Event Driven,** **SaaS**, **Cloud**, and **Microservices**. We’re creating APIs first before we code them, using the REST/Event Driven architectural style to ensure we’re able to scale as our department and business grows in scope, evolving our systems in parallel. Building for SaaS makes our applications ready to live on the Internet, where embracing the cloud ensures that as a modern architecture, we’re fostering innovation. Finally, our adoption of Microservices ties all these principles together in a powerful architectural style that lets us move fast while we keep our complexity low. Source: [Zalando Blog](https://jobs.zalando.com/tech/blog/radical-agility-study-notes/?gh_src=4n3gxh1)
 
