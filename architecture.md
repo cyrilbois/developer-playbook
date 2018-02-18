@@ -30,3 +30,7 @@ Tech Radars \(why?\):
 
 
 
+fitness function -&gt; SLA https://medium.com/developers-writing/my-take-on-evolutionary-architecture-f761d45e75b9
+
+
+
