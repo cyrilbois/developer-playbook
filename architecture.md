@@ -28,9 +28,19 @@ Tech Radars \(why?\):
 * [https://zalando.github.io/tech-radar/](https://zalando.github.io/tech-radar/)
 * [https://www.thoughtworks.com/de/radar](https://www.thoughtworks.com/de/radar)
 
+fitness function -&gt; SLA [https://medium.com/developers-writing/my-take-on-evolutionary-architecture-f761d45e75b9](https://medium.com/developers-writing/my-take-on-evolutionary-architecture-f761d45e75b9)
 
 
-fitness function -&gt; SLA https://medium.com/developers-writing/my-take-on-evolutionary-architecture-f761d45e75b9
+
+Fitness Functions: 
+
+* Testing for "First Principles" \(basis that will be hard to correct in the long term and the negative impacts in production can only be monitored later when they stack up\):
+  * Code Quality
+  * Complexity 
+* Testing "Quality" \(how good is the current solution: 
+  * Real time monitoring for 
+    * perfomormance
+    * security
 
 
 
