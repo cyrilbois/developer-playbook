@@ -7,7 +7,11 @@ Architecture should be designed for change:
 By applying the following practices:  
 ![](/assets/principles-of-evolutionary-architecture.png)Source: [https://www.youtube.com/watch?v=8bEsNT7jdC4&t=112s&index=57&list=WL](#)
 
-![](/assets/fitness-function.png)
+## Documentation of Architecutral Decisions
+
+https://github.com/CloudNativeTraining/architecture\_decision\_record
+
+
 
 how much pivoting is possible at every checkpoint?
 
