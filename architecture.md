@@ -9,14 +9,9 @@ Architecture should be designed for change, and you must never make comproises t
 ![](/assets/principles-of-evolutionary-architecture.png)  
 Source: [Patrick Kua - Goto Conference](https://www.youtube.com/watch?v=8bEsNT7jdC4&t=112s&index=57&list=WL)
 
-* Fitness functions / SLAs: 
-  * Automation \( -&gt; AI\)
-  * Reasonable Security
-  * Limited Blast Radius
+### Fitness Function are the goal and quantitative measure to evaluate the guide change
 
 [https://medium.com/developers-writing/my-take-on-evolutionary-architecture-f761d45e75b9](https://medium.com/developers-writing/my-take-on-evolutionary-architecture-f761d45e75b9)
-
-Fitness Functions:
 
 * Testing for "First Principles" \(basis that will be hard to correct in the long term and the negative impacts in production can only be monitored later when they stack up\) -&gt; can be de priortized for first mvp?:
   * Code Quality
@@ -27,7 +22,13 @@ Fitness Functions:
     * perfomormance
     * security
 
-4d view:
+#### Fitness functions / SLAs Types:
+
+* Automation \( -&gt; AI\)
+* Reasonable Security
+* Limited Blast Radius
+
+### 4d view:
 
 * solution \(process & component\)
 * implementation / technology \(frameworks\)
