@@ -41,12 +41,25 @@ Fitness Functions:
     * perfomormance
     * security
 
+[https://jobs.zalando.com/tech/blog/radical-agility-study-notes/?gh\_src=4n3gxh1](https://jobs.zalando.com/tech/blog/radical-agility-study-notes/?gh_src=4n3gxh1)
 
 
 
 
-https://jobs.zalando.com/tech/blog/radical-agility-study-notes/?gh\_src=4n3gxh1
 
+### An Architecture for Innovation
+
+We’re constantly pushing nonstop innovation, creativity, and hard work. To enable the above three pillars to work concisely, we’ve made a pledge regarding how we build the systems of our future based on five key principles: API First, REST, SaaS, Cloud, and Microservices.
+
+We’re creating APIs first before we code them, using the REST architectural style to ensure we’re able to scale as our department and business grows in scope, evolving our systems in parallel. Building for SaaS makes our applications ready to live on the Internet, where embracing the cloud ensures that as a modern architecture, we’re fostering innovation. Finally, our adoption of Microservices ties all these principles together in a powerful architectural style that lets us move fast while we keep our complexity low.
+
+
+
+
+
+## Community
+
+https://jobs.zalando.com/tech/  
 
 
 
