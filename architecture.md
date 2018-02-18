@@ -35,7 +35,7 @@ Fitness Functions:
 * Testing for "First Principles" \(basis that will be hard to correct in the long term and the negative impacts in production can only be monitored later when they stack up\):
   * Code Quality
   * Complexity 
-  * Functionality \(easier to test on unit level but in the end only relevant on the quality level of the solution\)
+  * Functionality \(easier to test and interpret where the error is on unit level but in the end only relevant on the quality level of the solution\)
 * Testing "Quality" \(how good is the current solution: 
   * Real time monitoring for  \([http://benjiweber.co.uk/blog/2015/03/02/monitoring-check-smells/\](http://benjiweber.co.uk/blog/2015/03/02/monitoring-check-smells/%29\)
     * perfomormance
