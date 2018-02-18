@@ -6,7 +6,8 @@ Architecture should be designed for change:
 
 
 
-### Architectural practices for evolution ![](/assets/principles-of-evolutionary-architecture.png)
+### Architectural practices for evolution 
+![](/assets/principles-of-evolutionary-architecture.png)
 Source: [Patrick Kua - Goto Conference](https://www.youtube.com/watch?v=8bEsNT7jdC4&t=112s&index=57&list=WL) 
 
 ## Documentation of Architecutral Decisions
