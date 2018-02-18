@@ -58,3 +58,9 @@ Source: [Zalando Blog](https://jobs.zalando.com/tech/blog/radical-agility-study-
 
 
 
+## Architectural Decisions
+
+[adr/2018-02-18 Select a application runtime for plattform.md](/adr/2018-02-18 Select a application runtime for plattform.md)
+
+
+
