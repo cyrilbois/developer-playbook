@@ -37,7 +37,7 @@ Source: [Patrick Kua - Goto Conference](https://www.youtube.com/watch?v=8bEsNT7j
 
 ## Documentation of Architecutral Decisions
 
-Architectural decision should be documented in a [light weight architecture decision record](https://github.com/CloudNativeTraining/architecture_decision_record). My private decision are located here in [github](https://github.com/denseidel/developer-playbook/tree/master/adr).
+Architectural decision should be documented in a [light weight architecture decision record](https://github.com/CloudNativeTraining/architecture_decision_record). My private decision are located here in [github](https://github.com/denseidel/developer-playbook/tree/master/adr) based on this [template](https://github.com/CloudNativeTraining/architecture_decision_record/edit/master/adr_template_madr.md).
 
 ### Keep a technology overview with the Tech Radars:
 
