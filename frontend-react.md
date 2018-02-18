@@ -141,7 +141,7 @@ Run Storybook: `npm run storybook`
   * [https://reacttraining.com/react-router/web/example/auth-workflow](https://reacttraining.com/react-router/web/example/auth-workflow)
 * Frontend Tracking with Google Analytics: 
   * [https://github.com/react-ga/react-ga](https://github.com/react-ga/react-ga)
-  * https://web-design-weekly.com/2016/07/08/adding-google-analytics-react-application/
+  * [https://web-design-weekly.com/2016/07/08/adding-google-analytics-react-application/](https://web-design-weekly.com/2016/07/08/adding-google-analytics-react-application/)
 
 ---
 
@@ -213,4 +213,20 @@ aws s3 sync build/ s3://YOUR_S3_DEPLOY_BUCKET_NAME
 ```
 
 All this command does is that it syncs the`build/`directory with our bucket on S3. Just as a sanity check, go into the S3 section in your [AWS Console](https://console.aws.amazon.com/console/home) and check if your bucket has the files we just uploaded.
+
+
+
+
+
+
+
+# Code Quality & Testing
+
+* https://medium.com/@eliotjunior/prettier-eslint-facebook-code-quality-the-auto-magical-react-styling-tutorial-19481acb10dd
+* unit testing framework
+* component based testing frameworks
+
+how to build this into the build pipeline?
+
+
 
