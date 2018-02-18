@@ -1,7 +1,5 @@
 # AI - Data Driven / Smart Applications
 
-
-
 Business Rules vs Trained Models
 
 Learn about AI:
@@ -17,4 +15,10 @@ NodeRED Docker: [https://hub.docker.com/r/nodered/node-red-docker/](https://hub.
 [https://developer.ibm.com/sso/postlogin?lang=en\_US&d=https%3A%2F%2Fwww.ibm.com%2Fdeveloperworks%2Fanalytics%2Flibrary%2Fiot-deep-learning-anomaly-detection-2%2Findex.html%3Fca%3Ddrs-](https://developer.ibm.com/sso/postlogin?lang=en_US&d=https%3A%2F%2Fwww.ibm.com%2Fdeveloperworks%2Fanalytics%2Flibrary%2Fiot-deep-learning-anomaly-detection-2%2Findex.html%3Fca%3Ddrs-)
 
 Model Sources: [https://modeldepot.io](https://modeldepot.io)
+
+
+
+* Five Minutes from Machine Learning to RESTful API https://jobs.zalando.com/tech/blog/connexion-zalando-open-source/
+
+
 
