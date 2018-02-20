@@ -1,6 +1,5 @@
 # AI - Data Driven / Smart Applications
-
-
+AI is at the center of modern application development as it allows for easy ways to automated traditional human tasks like classifications (question -> answer).
 
 #### Architectural Decisions
 
