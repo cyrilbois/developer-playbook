@@ -11,7 +11,7 @@ To run the applications I need to decide which platform to chose.
 
 * Chosen Alternative: AWS Lamda
 
-* _Currently Istio as well as EKS is still in beta and for private projects AWS Lambda is the more cost efficient version. And for different workloads different solutions might be best e.g. _[_BinaryAlert_](https://github.com/airbnb/binaryalert)_ \(Serverless\) and both can be _[_integrated_](https://medium.com/@jeffzzq/how-to-integrate-an-aws-lambda-function-into-your-kubernetes-service-mesh-5d665f351675).
+* _Currently Istio as well as EKS is still in beta and for private projects AWS Lambda is the more cost efficient version. And for different workloads different solutions might be best e.g. _[_BinaryAlert_](https://github.com/airbnb/binaryalert)_ \(Serverless\) and both can be [_integrated_](https://medium.com/@jeffzzq/how-to-integrate-an-aws-lambda-function-into-your-kubernetes-service-mesh-5d665f351675)._
 
 * _I have to monitor Istio & AWS EKS closely and reevaluate in few month when the right point in time is to switch to Istio. When I can run us it on AZD account for cost reasons and critical feature are available. Until then I will use AWS Lambda with Connexion and keep the lockin to AWS at a minimum._
 
