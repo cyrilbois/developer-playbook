@@ -1,43 +1,35 @@
-# _Select a general technology or vendor specific stack_
+# _Focus on theory or application for machine learning_
 
-To add smart features to automate my job I need a data pipeline this could be a vendor neutral which is harder to maintain and takes longer to setup but can be ported to other platforms or a AWS specific setup.
+To generate good machine learning application I need to understand the theory like linear algebra, statistics .... On the other side I want to show people some samples and I have more fun apply it. 
 
 ## Considered Alternatives
 
-* AWS Sagemaker
-* Kubernetes with Tensorflow
+* Code-along with AWS Sagemaker
+* Do Machine Learning Courses
 
 ## Decision Outcome
 
-* Chosen Alternative: AWS Sagemaker
+* Chosen Alternative: Code-along with AWS Sagemaker
 
-* _Currently I need something fast to show results therefor it is easier to use the managed solution from AWS. And I want to learn the business value not the infrastructure setup (In the future I see myself as the user not the maintainer)._
+* _I will start with a code along with AWS Sagemaker and my own application. As I want to check if I can use it without deep knowledge and can go back to theory if required._
 
-* _I have to monitor AWS EKS and Tensorflow closely and reevaluate in few month if the EKS Tensorflow achieves better results then Sagemaker, currently I do not know if all features are available and what solution will be available inside AZD._
+* _I will have to check if good results can be achieved without knowing the basics. If not I will have to check which course might give me the shortest way to become productive._
 
 ## Pros and Cons of the Alternatives
 
-### AWS Sagemaker
+### Code-along with AWS Sagemaker
 
-* `+` I can use the Allianz AWS account
-* `+` It has lower cost for bootstrapping private projects
-* `+` It is tightly integrated with AWS e.g. lex
-* `+` It is fast to develop
-* `-` Is not the Allianz Strategy, so I cannot use it for work projects
-* `-` It is AWS specific \(Lockin\)
-* `-` It is not very "evolutionary"
-* `-` Only available online
-* `-` Google seems to be in the lead with regards to machine learning. 
+* `+` I have something to show. 
+* `+` I have fun.
+* `-` I might not understand what I do. 
+* `-` I might miss some basics for the discussions at work. 
 
-### Kubernetes + Tensorflow
+### Do Machine Learning Courses
 
-* `+` It is more portable as I can integrate it wit the complete kubernetes ecosystem (more evolutionary)
-* `+` I could use something similar for work projects
-* `+` I can develop locally.  
-* `-` It is more expensive for private projects
-* `-` AWS EKS is not available yet.
-* `-` Harder to setup and longer ramp up time
-* `-` I have to manage the infrastructure.
+* `+` I learn the basics.
+* `-` I don't have something to show. 
+* `-` I have less fun - and get bord and to other things. 
+
 
 
 
