@@ -1,41 +1,43 @@
-# _Select an application runtime_
+# _Select a general technology or vendor specific stack_
 
-To run the applications I need to decide which platform to chose.
+To add smart features to automate my job I need a data pipeline this could be a vendor neutral which is harder to maintain and takes longer to setup but can be ported to other platforms or a AWS specific setup.
 
 ## Considered Alternatives
 
-* AWS Lambda
-* AWS EKS \(Kubernetes + Helm + Istio\)
+* AWS Sagemaker
+* Kubernetes with Tensorflow
 
 ## Decision Outcome
 
-* Chosen Alternative: AWS Lamda
+* Chosen Alternative: AWS Sagemaker
 
-* _Currently Istio as well as EKS is still in beta and for private projects AWS Lambda is the more cost efficient version. And for different workloads different solutions might be best e.g. _[_BinaryAlert_](https://github.com/airbnb/binaryalert)_ \(Serverless\) and both can be [_integrated_](https://medium.com/@jeffzzq/how-to-integrate-an-aws-lambda-function-into-your-kubernetes-service-mesh-5d665f351675)._
+* _Currently I need something fast to show results therefor it is easier to use the managed solution from AWS. And I want to learn the business value not the infrastructure setup (In the future I see myself as the user not the maintainer)._
 
-* _I have to monitor Istio & AWS EKS closely and reevaluate in few month when the right point in time is to switch to Istio. When I can run us it on AZD account for cost reasons and critical feature are available. Until then I will use AWS Lambda with Connexion and keep the lockin to AWS at a minimum._
+* _I have to monitor AWS EKS and Tensorflow closely and reevaluate in few month if the EKS Tensorflow achieves better results then Sagemaker, currently I do not know if all features are available and what solution will be available inside AZD._
 
 ## Pros and Cons of the Alternatives
 
-### AWS Lambda
+### AWS Sagemaker
 
 * `+` I can use the Allianz AWS account
 * `+` It has lower cost for bootstrapping private projects
-* `+` It is tightly integrated with AWS
+* `+` It is tightly integrated with AWS e.g. lex
 * `+` It is fast to develop
 * `-` Is not the Allianz Strategy, so I cannot use it for work projects
 * `-` It is AWS specific \(Lockin\)
 * `-` It is not very "evolutionary"
-* `-` It misses some logging and routing feature like Istio
+* `-` Only available online
+* `-` Google seems to be in the lead with regards to machine learning. 
 
-### AWS EKS
+### Kubernetes + Tensorflow
 
-* `+` It is more portable as I can integrate it with Istio and the complete kubernetes ecosystem
+* `+` It is more portable as I can integrate it wit the complete kubernetes ecosystem (more evolutionary)
 * `+` I could use something similar for work projects
-* `+` I can use plain docker and have a faster local development time. 
-* `-` I is more expensive for private projects
-* `-` Istio is currently still in development and important features like token validation, helm charts, egress policy is still in beta.
+* `+` I can develop locally.  
+* `-` It is more expensive for private projects
 * `-` AWS EKS is not available yet.
+* `-` Harder to setup and longer ramp up time
+* `-` I have to manage the infrastructure.
 
 
 
