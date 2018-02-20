@@ -28,7 +28,7 @@ To generate good machine learning application I need to understand the theory li
 
 * `+` I learn the basics.
 * `-` I don't have something to show. 
-* `-` I have less fun - and get bord and to other things. 
+* `-` I have less fun - and get bord and to other things.
 
 
 
