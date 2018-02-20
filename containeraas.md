@@ -10,7 +10,12 @@ The platform provides the tools to increase productivity it should abstract away
   * [AI - AIaaS](/ai-aiaas.md)
   * Reliability aaS - Logging
   * ... but don't forget ports and adapters
-* # Container-aaS
+
+## Architecture Decisions
+
+1. [Select Application Runtime: Serverless vs Istio](https://github.com/denseidel/developer-playbook/blob/master/adr/2018-02-18%20Select%20a%20application%20runtime%20for%20plattform.md)
+
+# Container-aaS
 
 Serverless increases the efficiency of your implementation. But at the same time you bind yourself very tightly to a special vendor like Amazon with AWS Lambda. Another Option is to use a multi cloud apporach and use Containers as your abstraction layer - Lambdas also use containers themselves. Downside you don't have the you pay only what you use and you miss the non functional features the platform provides like monitoring, routing ... This is where service meshs like Istio come into play.
 
@@ -306,13 +311,9 @@ kubectl create secret generic gcloud-cred --from-file=/Users/den/.config/keys/ma
 
 # Encryption - how to use the public cloud securly? N26?
 
-
-
-
-
 Other Serverless Assets:
 
-* File based Maleware detection : https://medium.com/airbnb-engineering/binaryalert-real-time-serverless-malware-detection-ca44370c1b90
+* File based Maleware detection : [https://medium.com/airbnb-engineering/binaryalert-real-time-serverless-malware-detection-ca44370c1b90](https://medium.com/airbnb-engineering/binaryalert-real-time-serverless-malware-detection-ca44370c1b90)
 
 
 
