@@ -11,7 +11,7 @@ The platform provides the tools to increase productivity it should abstract away
   * Reliability aaS - Logging
   * ... but don't forget ports and adapters
 
-## Architecture Decisions
+#### Architecture Decisions
 
 1. [Select Application Runtime: Serverless over Istio for now](https://github.com/denseidel/developer-playbook/blob/master/adr/2018-02-18%20Select%20a%20application%20runtime%20for%20plattform.md)
 
