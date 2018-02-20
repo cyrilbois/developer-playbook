@@ -11,7 +11,7 @@ To add smart features to automate my job I need a data pipeline this could be a 
 
 * Chosen Alternative: AWS Sagemaker
 
-* _Currently I need something fast to show results therefor it is easier to use the managed solution from AWS._
+* _Currently I need something fast to show results therefor it is easier to use the managed solution from AWS. And I want to learn the business value not the infrastructure setup (In the future I see myself as the user not the maintainer)._
 
 * _I have to monitor AWS EKS and Tensorflow closely and reevaluate in few month if the EKS Tensorflow achieves better results then Sagemaker, currently I do not know if all features are available and what solution will be available inside AZD._
 
@@ -36,6 +36,8 @@ To add smart features to automate my job I need a data pipeline this could be a 
 * `+` I can develop locally.  
 * `-` It is more expensive for private projects
 * `-` AWS EKS is not available yet.
+* `-` Harder to setup and longer ramp up time
+* `-` I have to manage the infrastructure.
 
 
 
