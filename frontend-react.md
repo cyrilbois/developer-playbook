@@ -229,4 +229,10 @@ All this command does is that it syncs the`build/`directory with our bucket on S
 how to build this into the build pipeline?
 
 
+## Micro-Frontends How to integrate multiple Frontends into one (token in local storage?)?
+
+https://medium.com/@tomsoderlund/micro-frontends-a-microservice-approach-to-front-end-web-development-f325ebdadc16
+
+
+
 
