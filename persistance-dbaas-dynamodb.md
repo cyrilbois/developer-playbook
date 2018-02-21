@@ -1,6 +1,12 @@
-Perstistance 
+#Perstistance 
 
 Every microservice should use it's own persitance layer. Optimally this will be a SasS solution. The current list of database can be discovered [hear](https://db-engines.com/de/ranking) and the [zalando technology radar](#).
+
+####Architectural Decisions
+
+
+
+## When to use NoSQL and when RDBS?
 
 
 
