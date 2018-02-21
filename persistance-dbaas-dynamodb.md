@@ -1,3 +1,11 @@
+Perstistance 
+
+Every microservice should use it's own persitance layer. Optimally this will be a SasS solution. The current list of database can be discovered [hear](https://db-engines.com/de/ranking) and the [zalando technology radar](#).
+
+
+
+
+
 Why DynamoDB?
 
 pynamodb \(ORM\) - my experience \(ask in stack overflow with a link to my describe esperience and the code\) why cann't I serialize it back?
