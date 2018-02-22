@@ -2,6 +2,8 @@
 
 To get started fast and produce results in accordance with my architectural principles I have assets for most areas:
 
+Todo: Add sample app e.g. including out to all Backend starters
+
 Backend / APIs:
 * When I have a small *on demand* (I don't expect at least 1 user per hour on average) function I use serverless 
 * When I have *always on* (e.g. polling function or expect more then 1 user per hour) then I use docker 
