@@ -233,6 +233,9 @@ how to build this into the build pipeline?
 
 https://medium.com/@tomsoderlund/micro-frontends-a-microservice-approach-to-front-end-web-development-f325ebdadc16
 
+Authenticated Session with the SSO / Login page and inquiry without user interaction: https://community.auth0.com/questions/7605/sharing-authentication-between-2-sites
+
+
 
 
 
