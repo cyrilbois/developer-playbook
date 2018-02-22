@@ -105,7 +105,11 @@ Configure a hosted page with auth0: [https://auth0.com/docs/quickstart/spa/react
 
 
 
+### JWT vs opaque tokens
 
+
+* JWT: https://jobs.zalando.com/tech/blog/the-purpose-of-jwt-stateless-authentication/
+* Google uses a central system 
 
 
 
