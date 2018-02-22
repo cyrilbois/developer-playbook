@@ -15,7 +15,7 @@ Frontend:
 * Setup a Frontend \(including auth and my component library\): [SPA Starter](#)
 
 Analytics Pipeline:
-* Setup a Data Architecture \(Object Store + Training Pipeline + Models as a Service\): 
+* Setup a Data Architecture \(Object Store + Training Pipeline + Models as a Service\): [Analytics Starter](#)
 
 
 
