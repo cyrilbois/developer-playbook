@@ -12,7 +12,7 @@ Backend / APIs:
 * When I expect to have applications that require more then 2 nodes (e.g. 6+ applications) then I use the kubernetes/istio with [Service Mesh Starter](https://github.com/denseidel/cloud-setup)
 
 Frontend: 
-* Setup a Frontend \(including auth and my component library\): ...
+* Setup a Frontend \(including auth and my component library\): [SPA Starter](#)
 
 Analytics Pipeline:
 * Setup a Data Architecture \(Object Store + Training Pipeline + Models as a Service\): 
