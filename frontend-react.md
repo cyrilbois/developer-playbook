@@ -215,11 +215,6 @@ aws s3 sync build/ s3://YOUR_S3_DEPLOY_BUCKET_NAME
 All this command does is that it syncs the`build/`directory with our bucket on S3. Just as a sanity check, go into the S3 section in your [AWS Console](https://console.aws.amazon.com/console/home) and check if your bucket has the files we just uploaded.
 
 
-
-
-
-
-
 # Code Quality & Testing
 
 * https://medium.com/@eliotjunior/prettier-eslint-facebook-code-quality-the-auto-magical-react-styling-tutorial-19481acb10dd
@@ -238,6 +233,11 @@ https://medium.com/@tomsoderlund/micro-frontends-a-microservice-approach-to-fron
   * https://blog.logrocket.com/quick-guide-to-webpack-bundle-and-code-splitting-with-react-43d1045f1064
   * https://stackoverflow.com/questions/39314251/reactjs-how-to-have-multiple-spas-on-the-same-website
 
+
+* single-spa: 
+  * https://medium.com/canopy-tax/a-step-by-step-guide-to-single-spa-abbbcb1bedc6
+  * https://www.thoughtworks.com/de/radar/languages-and-frameworks/single-spa
+  * https://github.com/CanopyTax/single-spa
 
 
 
