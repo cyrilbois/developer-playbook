@@ -12,13 +12,14 @@ After you developed your **API First Mock **\(your APIs most clearly express you
 * ES6, webpack, babel, npm
 
 * React \([ecosystem overview](https://github.com/enaqx/awesome-react)\) - JSX, State, Life Cycle Methods
-
+* State Management - Redux + Redux Saga
 * Web/Desktop:
   * React  with Create-React-App
   * CSS Framework - Bulma / [blueprintjs](http://blueprintjs.com/)
-* Mobile
+* Web/Mobile:
   * CSS Framework - Bulma
-* State Management - Redux + Redux Saga
+* Native: 
+  * React Native
 
 
 
