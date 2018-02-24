@@ -138,8 +138,7 @@ Microsoft, Google GKE, Joyent Kubernetes
 * ... without changing the code!
 
 ## Tutorial
-
-Install
+Setup a kubernetes cluster (see chapter above) then install Istio:
 
 ```
 curl -L https://git.io/getLatestIstio | sh -
