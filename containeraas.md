@@ -63,15 +63,8 @@ Microsoft, Google GKE, Joyent Kubernetes
 
 **TODO**
 
+
 ## Setup Service Mesh
-
-## Basics - Containers, Kubernetes and Service Meshs
-
-### What is Kubernetes and why is it important?
-
-
-
-
 
 ### What is Istio?
 
