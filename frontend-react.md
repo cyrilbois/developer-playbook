@@ -1,9 +1,29 @@
-# Frontend Framework React
+# Frontend
+
+After you developed your **API First Mock **\(your APIs most clearly express your business function - and as a plattform you care more about them then the UI as the UI could be delivered by someone else using your API\) you start building the UI. 
 
 #### Architectural Decisions
 
 1. [I use a basic css framework Bulma, because more powerful frameworks cost to much time understanding without understanding the basics.](https://github.com/denseidel/developer-playbook/blob/master/adr/2018-02-24 Fontend Ui Framework.md)
 2. \*TODO: Create ADR\* I stick with React up to the point that the others are at least on the same functional level: Native and Frontend.
+
+## Stack
+
+* ES6, webpack, babel, npm
+
+* React \([ecosystem overview](https://github.com/enaqx/awesome-react)\) - JSX, State, Life Cycle Methods
+
+* Web/Desktop:
+  * React  with Create-React-App
+  * CSS Framework - Bulma / [blueprintjs](http://blueprintjs.com/)
+* Mobile
+  * CSS Framework - Bulma
+* State Management - Redux + Redux Saga \(
+
+
+
+
+
 
 Link:
 
@@ -230,11 +250,13 @@ how to build this into the build pipeline?
 [https://medium.com/@tomsoderlund/micro-frontends-a-microservice-approach-to-front-end-web-development-f325ebdadc16](https://medium.com/@tomsoderlund/micro-frontends-a-microservice-approach-to-front-end-web-development-f325ebdadc16)
 
 * Authenticated Session with the SSO / Login page and inquiry without user interaction: [https://community.auth0.com/questions/7605/sharing-authentication-between-2-sites](https://community.auth0.com/questions/7605/sharing-authentication-between-2-sites)
-* Code splitting to multiple pages in react: 
+* Code splitting to multiple pages in react:
+
   * [https://blog.logrocket.com/quick-guide-to-webpack-bundle-and-code-splitting-with-react-43d1045f1064](https://blog.logrocket.com/quick-guide-to-webpack-bundle-and-code-splitting-with-react-43d1045f1064)
   * [https://stackoverflow.com/questions/39314251/reactjs-how-to-have-multiple-spas-on-the-same-website](https://stackoverflow.com/questions/39314251/reactjs-how-to-have-multiple-spas-on-the-same-website)
 
-* single-spa: 
+* single-spa:
+
   * [https://medium.com/canopy-tax/a-step-by-step-guide-to-single-spa-abbbcb1bedc6](https://medium.com/canopy-tax/a-step-by-step-guide-to-single-spa-abbbcb1bedc6)
   * [https://www.thoughtworks.com/de/radar/languages-and-frameworks/single-spa](https://www.thoughtworks.com/de/radar/languages-and-frameworks/single-spa)
   * [https://github.com/CanopyTax/single-spa](https://github.com/CanopyTax/single-spa)
