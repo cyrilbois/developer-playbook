@@ -6,7 +6,8 @@ To increase the speed of development I want to us a standard frontend UI Framewo
 ## Considered Alternatives
 
 * [Material-Ui](https://github.com/mui-org/material-ui)
-* Kubernetes with Tensorflow
+* [Bulma](https://bulma.io/)
+* [react-bootstrap](https://react-bootstrap.github.io/)
 
 ## Decision Outcome
 
@@ -27,15 +28,20 @@ To increase the speed of development I want to us a standard frontend UI Framewo
 * `-` I don't learn the basics
 * `-` Hard to fix the last 10 percent
 
-### Kubernetes + Tensorflow
+### Bulma
 
-* `+` It is more portable as I can integrate it wit the complete kubernetes ecosystem (more evolutionary)
-* `+` I could use something similar for work projects
-* `+` I can develop locally.  
-* `-` It is more expensive for private projects
-* `-` AWS EKS is not available yet.
-* `-` Harder to setup and longer ramp up time
-* `-` I have to manage the infrastructure.
+* `+` No external dependencies only css
+* `+` I learn the native way of doing things, what I need for customizations anyway
+* `-` Slower development time (for 90%) as there are no premade components. 
+
+
+### react-bootstrap
+
+* `+` Largest community (for bootstrap in general)
+* `+` Has premade components
+* `+` Has a more tradtional approach then materila-ui
+* `-` Not Bootstrap 4 yet, Progress is very slow
+* `-` Not fully native and for some components uses jQuery
 
 
 
