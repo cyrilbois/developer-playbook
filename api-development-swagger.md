@@ -1,3 +1,9 @@
+# Microservices Development
+
+# 
+
+# 
+
 # Getting Started with the Serverless Framework
 
 * What is it and why should you use it?
@@ -293,12 +299,6 @@ custom:
 * [https://github.com/AnomalyInnovations/serverless-python-starter](https://github.com/AnomalyInnovations/serverless-python-starter)
 * [https://serverlesscode.com/post/python-3-on-serverless-framework/](https://serverlesscode.com/post/python-3-on-serverless-framework/)
 
-
-
-
-
-
-
 # Language Python Questions:
 
 debug with python:
@@ -320,6 +320,4 @@ Modules: [https://www.tutorialspoint.com/python/python\_modules.htm](https://www
 Google Datastore: [https://cloud.google.com/datastore/docs/reference/libraries?hl=de](https://cloud.google.com/datastore/docs/reference/libraries?hl=de)
 
 [https://googlecloudplatform.github.io/google-cloud-python/latest/datastore/client.html](https://googlecloudplatform.github.io/google-cloud-python/latest/datastore/client.html)
-
-
 
