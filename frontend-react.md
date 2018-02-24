@@ -1,5 +1,21 @@
 # Frontend Framework React
 
+
+#### Architectural Decisions
+
+1. [I use a basic css framework Bulma, because more powerful frameworks cost to much time understanding without understanding the basics.](https://github.com/denseidel/developer-playbook/blob/master/adr/2018-02-24%20Fontend%20Ui%20Framework.md)
+
+
+
+
+
+
+
+
+
+
+
+
 I stick with React up to the point that the others are at least on the same functional level: Native and Frontend.
 
 Link:
