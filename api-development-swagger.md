@@ -2,7 +2,7 @@
 
 The core business functions are develop in services either using microservices or event driven actors.Theu can be implemented on the [platform ](/containeraas.md)either as serverless or containers.
 
- 
+
 
 # Getting Started with the Serverless Framework
 
