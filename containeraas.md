@@ -18,7 +18,10 @@ The platform provides the tools to increase productivity it should abstract away
 ## Stack:
 
 1. Decide between _Container_ vs _Serverless_
-2. Setup Docker Environment
+2. Containers
+   1. Setup Docker Environment
+   2. Setup Kubernetes 
+   3. Setup Service Mesh
 
 ---
 
@@ -29,23 +32,37 @@ Serverless increases the efficiency of your implementation. But at the same time
 * [https://serverless.com/blog/serverless-faas-vs-containers/](https://serverless.com/blog/serverless-faas-vs-containers/)
 * [http://rancher.com/containers-vs-serverless-computing/](http://rancher.com/containers-vs-serverless-computing/)
 
-## Can you integrate serverless with a service mesh and when to do it?
+#### Can you integrate serverless with a service mesh and when to do it?
 
 * [https://medium.com/@jeffzzq/how-to-integrate-an-aws-lambda-function-into-your-kubernetes-service-mesh-5d665f351675](https://medium.com/@jeffzzq/how-to-integrate-an-aws-lambda-function-into-your-kubernetes-service-mesh-5d665f351675)
 
-# Setup Docker Environment
+# Containers
+
+## Setup Docker Environment
 
 [Python Connexion Docker Tutorial](https://medium.com/@ssola/building-microservices-with-python-part-2-9f951199094a)
 
 1. [Install Docker](https://docs.docker.com/docker-for-mac/install/)
 
-## 
 
-## 
 
-## 
+## Setup Kubernetes
 
-## 
+What is Kubernetes and why is it important? 
+
+[https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
+
+[https://de.slideshare.net/InfoQ/building-a-microservices-platform-with-kubernete](https://de.slideshare.net/InfoQ/building-a-microservices-platform-with-kubernetes)
+
+
+
+
+
+### Local Development Environment
+
+
+
+## Setup Service Mesh
 
 ## Basics - Containers, Kubernetes and Service Meshs
 
