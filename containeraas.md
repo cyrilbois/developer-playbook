@@ -46,46 +46,23 @@ Serverless increases the efficiency of your implementation. But at the same time
 
 1. [Install Docker](https://docs.docker.com/docker-for-mac/install/)
 
+Create Dockerfile
+
+Build the dockerfile \([tagging](http://container-solutions.com/tagging-docker-images-the-right-way/)\).
+
+```
+docker build -t products:1.0.0 .
+```
+
+
+
 ## Setup Kubernetes
 
 When you want to bring your docker containers into production - you need to orchestrate those containers. This is where [Kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/) helps getting a reliable and reporducable, production read ( scalable ...), "simple" (routes, services, ...), vendor independent (compared to serverless) and multi cloud ready solution. 
 
 [https://de.slideshare.net/InfoQ/building-a-microservices-platform-with-kubernetes](https://de.slideshare.net/InfoQ/building-a-microservices-platform-with-kubernetes)
 
-
-
 ### Local Development Environment
-
-
-
-### Production Environment
-
-In my experience maintaining and setting up a kuebrnetes cluster is hard - there are now many great fully manged offerings: Openshift, AWS EKS, IBM, 
-Microsoft, Google GKE, Joyent Kubernetes
-
-**TODO**
-
-
-## Setup Service Mesh
-
-### What is Istio?
-
-* Source:
-
-  * [https://programmaticponderings.com/2017/12/22/deploying-and-configuring-istio-on-google-kubernetes-engine-gke/](https://programmaticponderings.com/2017/12/22/deploying-and-configuring-istio-on-google-kubernetes-engine-gke/) \(Udemy Course Istio\)
-  * Istio Introduction: 
-    * [https://www.youtube.com/watch?v=muoCgHkkPx](https://www.youtube.com/watch?v=muoCgHkkPxo)
-    * [https://istio.io/docs/concepts/what-is-istio/overview.html](https://istio.io/docs/concepts/what-is-istio/overview.html)
-
-* Improve development time \(library vs sidecar\)
-
-* improve plattform \(tracing, a/b testing, dashboarding, service graph\)
-
-* ... without changing the code!
-
-## Tutorial
-
-### Setup Local Development environment Minishift
 
 Start minikube \[[Source](https://kubernetes.io/docs/getting-started-guides/minikube/)\]
 
@@ -119,6 +96,49 @@ helm init \
 helm install install/kubernetes/helm/istio --name istio
 ```
 
+To build images directly in minishift use minikube's built-in docker daemon:
+
+```
+eval $(minikube docker-env)
+docker ps
+```
+
+Create Env variables: [https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/](https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/)
+
+Create secrets: [https://kubernetes.io/docs/concepts/configuration/secret/](https://kubernetes.io/docs/concepts/configuration/secret/)
+
+```
+kubectl create secret generic gcloud-cred --from-file=/Users/den/.config/keys/marketplaceapp.json
+```
+
+
+### Production Environment
+
+In my experience maintaining and setting up a kuebrnetes cluster is hard - there are now many great fully manged offerings: Openshift, AWS EKS, IBM, 
+Microsoft, Google GKE, Joyent Kubernetes
+
+**TODO**
+
+
+## Setup Service Mesh
+
+### What is Istio?
+
+* Source:
+
+  * [https://programmaticponderings.com/2017/12/22/deploying-and-configuring-istio-on-google-kubernetes-engine-gke/](https://programmaticponderings.com/2017/12/22/deploying-and-configuring-istio-on-google-kubernetes-engine-gke/) \(Udemy Course Istio\)
+  * Istio Introduction: 
+    * [https://www.youtube.com/watch?v=muoCgHkkPx](https://www.youtube.com/watch?v=muoCgHkkPxo)
+    * [https://istio.io/docs/concepts/what-is-istio/overview.html](https://istio.io/docs/concepts/what-is-istio/overview.html)
+
+* Improve development time \(library vs sidecar\)
+
+* improve plattform \(tracing, a/b testing, dashboarding, service graph\)
+
+* ... without changing the code!
+
+## Tutorial
+
 Install
 
 ```
@@ -143,29 +163,6 @@ export GATEWAY_URL=$(kubectl get po -l istio=ingress -n istio-system -o 'jsonpat
 Deploy app
 kubectl apply -f <(istioctl kube-inject -f samples/bookinfo/kube/bookinfo.yaml)
 kubectl get services
-```
-
-Use minikube's built-in docker daemon:
-
-```
-eval $(minikube docker-env)
-docker ps
-```
-
-Create Dockerfile
-
-Build the dockerfile \([tagging](http://container-solutions.com/tagging-docker-images-the-right-way/)\).
-
-```
-docker build -t products:1.0.0 .
-```
-
-Create Env variables: [https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/](https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/)
-
-Create secrets: [https://kubernetes.io/docs/concepts/configuration/secret/](https://kubernetes.io/docs/concepts/configuration/secret/)
-
-```
-kubectl create secret generic gcloud-cred --from-file=/Users/den/.config/keys/marketplaceapp.json
 ```
 
 Deploy
