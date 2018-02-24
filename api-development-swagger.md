@@ -1,6 +1,6 @@
 # Service/API
 
-# 
+The core business functions are develop in services either using microservices or event driven actors. 
 
 # Getting Started with the Serverless Framework
 
