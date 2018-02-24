@@ -317,3 +317,8 @@ Other Serverless Assets:
 
 
 
+Containers on AWS: 
+
+* https://docs.aws.amazon.com/de_de/AmazonECS/latest/developerguide/ECS_CLI_tutorial.html
+* https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cmd-ecs-cli-compose.html
+* https://blog.valiantys.com/en/expert-tips/deploying-docker-containers-aws
