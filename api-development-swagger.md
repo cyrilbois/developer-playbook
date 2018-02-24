@@ -39,6 +39,12 @@ The core business functions are develop in services either using microservices o
 
   If you use visual studio code do this first in your terminal window and then open the folder again with `code .`.
 
+
+
+
+
+
+
 # Getting Started with the Serverless Framework
 
 * Create function

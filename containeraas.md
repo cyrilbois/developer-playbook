@@ -13,13 +13,24 @@ The platform provides the tools to increase productivity it should abstract away
 
 #### Architecture Decisions
 
-1. [Select Application Runtime: Serverless over Istio for now](https://github.com/denseidel/developer-playbook/blob/master/adr/2018-02-18%20Select%20a%20application%20runtime%20for%20plattform.md)
+1. [Select Application Runtime: Serverless over Istio for now](https://github.com/denseidel/developer-playbook/blob/master/adr/2018-02-18 Select a application runtime for plattform.md)
+
+
+
+## Stack: 
+
+1. Decide between _Container_ vs _Serverless_
+2. Setup 
+
+
+
+---
 
 # Container-aaS
 
 Serverless increases the efficiency of your implementation. But at the same time you bind yourself very tightly to a special vendor like Amazon with AWS Lambda. Another Option is to use a multi cloud apporach and use Containers as your abstraction layer - Lambdas also use containers themselves. Downside you don't have the you pay only what you use and you miss the non functional features the platform provides like monitoring, routing ... This is where service meshs like Istio come into play.
 
-## When to use serverless and when to use containers service meshs?
+## Decide between _containers_ vs _serverless_?
 
 * [https://serverless.com/blog/serverless-faas-vs-containers/](https://serverless.com/blog/serverless-faas-vs-containers/)
 * [http://rancher.com/containers-vs-serverless-computing/](http://rancher.com/containers-vs-serverless-computing/)
@@ -315,10 +326,11 @@ Other Serverless Assets:
 
 * File based Maleware detection : [https://medium.com/airbnb-engineering/binaryalert-real-time-serverless-malware-detection-ca44370c1b90](https://medium.com/airbnb-engineering/binaryalert-real-time-serverless-malware-detection-ca44370c1b90)
 
+Containers on AWS:
+
+* [https://docs.aws.amazon.com/de\_de/AmazonECS/latest/developerguide/ECS\_CLI\_tutorial.html](https://docs.aws.amazon.com/de_de/AmazonECS/latest/developerguide/ECS_CLI_tutorial.html)
+* [https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cmd-ecs-cli-compose.html](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cmd-ecs-cli-compose.html)
+* [https://blog.valiantys.com/en/expert-tips/deploying-docker-containers-aws](https://blog.valiantys.com/en/expert-tips/deploying-docker-containers-aws)
 
 
-Containers on AWS: 
 
-* https://docs.aws.amazon.com/de_de/AmazonECS/latest/developerguide/ECS_CLI_tutorial.html
-* https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cmd-ecs-cli-compose.html
-* https://blog.valiantys.com/en/expert-tips/deploying-docker-containers-aws
