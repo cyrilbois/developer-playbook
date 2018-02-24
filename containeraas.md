@@ -22,6 +22,8 @@ The platform provides the tools to increase productivity it should abstract away
    1. Setup Docker Environment
    2. Setup Kubernetes 
    3. Setup Service Mesh
+3. Serverless   
+
 
 ---
 
