@@ -46,6 +46,9 @@ The core business functions are develop in services either using microservices o
 1. Create Dockerfile ([Code](https://github.com/denseidel/consumer-marketplace-service/commit/405511051d1f603a92c024b4a23bf80d279480e7)). **TODO create it for the mock** 
 1. Create docker-compose file
   * [Environment Variables to connect to AWS](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
+1. Implement Frontend against mocks
+1. Update Dockerfile to production config
+1. Implement API (including DB, ...)
 
 
 
