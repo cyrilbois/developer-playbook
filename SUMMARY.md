@@ -5,7 +5,7 @@
 * [Bootstraping](bootstraping.md)
 * [Development Environment](chapter1.md)
 * [Frontend](frontend-react.md)
-* [API - Python / Swagger](api-development-swagger.md)
+* [API](api-development-swagger.md)
 * [Plattform](containeraas.md)
 * [IAM - IAMaaS ](identityaas-cognito.md)
 * [Persistance - DBaaS \(DynamoDB\)](persistance-dbaas-dynamodb.md)
