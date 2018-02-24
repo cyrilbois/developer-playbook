@@ -19,10 +19,11 @@ The core business functions are develop in services either using microservices o
 
 # Setup the project
 
-* Create [new github repo](https://github.com/new).
+* Create [new github repo](https://github.com/new):  
   ![](/assets/create-github-repo-for-project.png)
 
 * Clone repo:
+
   ```
   git clone https://github.com/denseidel/consumer-marketplace-service.git
   ```
