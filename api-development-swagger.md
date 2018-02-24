@@ -8,20 +8,13 @@ The core business functions are develop in services either using microservices o
 
 ## Stack
 
-1. Decide if it is [serverless or container use case.](/containeraas.md)
+1. Setup the project
+2. Decide if it is [serverless or container use case.](/containeraas.md)
+3. Design the API / Event in Swagger.
+4. Implement the first mock. 
+5. Implement the API or Event Actor. 
 
-
-
-
-
-
-
-
-
-1. # Getting Started with the Serverless Framework
-2. What is it and why should you use it?
-
-3. how to create a simple API
+# Getting Started with the Serverless Framework
 
 ## Setup your project
 
