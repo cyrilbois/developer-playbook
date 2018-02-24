@@ -15,22 +15,16 @@ The platform provides the tools to increase productivity it should abstract away
 
 1. [Select Application Runtime: Serverless over Istio for now](https://github.com/denseidel/developer-playbook/blob/master/adr/2018-02-18 Select a application runtime for plattform.md)
 
-
-
-## Stack: 
+## Stack:
 
 1. Decide between _Container_ vs _Serverless_
-2. Setup 
-
-
+2. Setup Docker Environment
 
 ---
 
-# Container-aaS
+# Decide between _containers_ vs _serverless_?
 
 Serverless increases the efficiency of your implementation. But at the same time you bind yourself very tightly to a special vendor like Amazon with AWS Lambda. Another Option is to use a multi cloud apporach and use Containers as your abstraction layer - Lambdas also use containers themselves. Downside you don't have the you pay only what you use and you miss the non functional features the platform provides like monitoring, routing ... This is where service meshs like Istio come into play.
-
-## Decide between _containers_ vs _serverless_?
 
 * [https://serverless.com/blog/serverless-faas-vs-containers/](https://serverless.com/blog/serverless-faas-vs-containers/)
 * [http://rancher.com/containers-vs-serverless-computing/](http://rancher.com/containers-vs-serverless-computing/)
