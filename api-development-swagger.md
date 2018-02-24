@@ -21,8 +21,9 @@ The core business functions are develop in services either using microservices o
 
 * Create a new folder
   ```
-  mkdir projectfolder
-  cd projectfolder
+  mkdir consumer-marketplace-service
+  cd consumer-marketplace-service
+  git init 
   ```
 * Start a virtual environment
 
