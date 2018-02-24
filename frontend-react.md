@@ -19,12 +19,16 @@ After you developed your **API First Mock **\(your APIs most clearly express you
   * CSS Framework - Bulma
 * Native: 
   * React Native
+  
+  
+## Development Process
+
+1. 
+
 
 # Develop the Frontend:
 
-Serverside Rendering: [https://github.com/phodal/serverless-react-server-side-render/blob/master/src/index.js](https://github.com/phodal/serverless-react-server-side-render/blob/master/src/index.js)
 
-AWS Amplify: [https://github.com/d0ruk/serverless-notes-app/tree/master/client](https://github.com/d0ruk/serverless-notes-app/tree/master/client)
 
 ## Build an app with component based development
 
@@ -240,6 +244,10 @@ how to build this into the build pipeline?
   * [https://medium.com/canopy-tax/a-step-by-step-guide-to-single-spa-abbbcb1bedc6](https://medium.com/canopy-tax/a-step-by-step-guide-to-single-spa-abbbcb1bedc6)
   * [https://www.thoughtworks.com/de/radar/languages-and-frameworks/single-spa](https://www.thoughtworks.com/de/radar/languages-and-frameworks/single-spa)
   * [https://github.com/CanopyTax/single-spa](https://github.com/CanopyTax/single-spa)
+
+* Serverside Rendering: [https://github.com/phodal/serverless-react-server-side-render/blob/master/src/index.js](https://github.com/phodal/serverless-react-server-side-render/blob/master/src/index.js)
+* AWS Amplify: [https://github.com/d0ruk/serverless-notes-app/tree/master/client](https://github.com/d0ruk/serverless-notes-app/tree/master/client)
+
 
 
 
