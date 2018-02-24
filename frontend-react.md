@@ -1,11 +1,9 @@
 # Frontend Framework React
 
-
 #### Architectural Decisions
 
-1. [I use a basic css framework Bulma, because more powerful frameworks cost to much time understanding without understanding the basics.](https://github.com/denseidel/developer-playbook/blob/master/adr/2018-02-24%20Fontend%20Ui%20Framework.md)
-
-I stick with React up to the point that the others are at least on the same functional level: Native and Frontend.
+1. [I use a basic css framework Bulma, because more powerful frameworks cost to much time understanding without understanding the basics.](https://github.com/denseidel/developer-playbook/blob/master/adr/2018-02-24 Fontend Ui Framework.md)
+2. \*TODO: Create ADR\* I stick with React up to the point that the others are at least on the same functional level: Native and Frontend.
 
 Link:
 
@@ -219,34 +217,27 @@ aws s3 sync build/ s3://YOUR_S3_DEPLOY_BUCKET_NAME
 
 All this command does is that it syncs the`build/`directory with our bucket on S3. Just as a sanity check, go into the S3 section in your [AWS Console](https://console.aws.amazon.com/console/home) and check if your bucket has the files we just uploaded.
 
-
 # Code Quality & Testing
 
-* https://medium.com/@eliotjunior/prettier-eslint-facebook-code-quality-the-auto-magical-react-styling-tutorial-19481acb10dd
+* [https://medium.com/@eliotjunior/prettier-eslint-facebook-code-quality-the-auto-magical-react-styling-tutorial-19481acb10dd](https://medium.com/@eliotjunior/prettier-eslint-facebook-code-quality-the-auto-magical-react-styling-tutorial-19481acb10dd)
 * unit testing framework
 * component based testing frameworks
 
 how to build this into the build pipeline?
 
+## Micro-Frontends How to integrate multiple Frontends into one \(token in local storage?\)?
 
-## Micro-Frontends How to integrate multiple Frontends into one (token in local storage?)?
+[https://medium.com/@tomsoderlund/micro-frontends-a-microservice-approach-to-front-end-web-development-f325ebdadc16](https://medium.com/@tomsoderlund/micro-frontends-a-microservice-approach-to-front-end-web-development-f325ebdadc16)
 
-https://medium.com/@tomsoderlund/micro-frontends-a-microservice-approach-to-front-end-web-development-f325ebdadc16
-
-* Authenticated Session with the SSO / Login page and inquiry without user interaction: https://community.auth0.com/questions/7605/sharing-authentication-between-2-sites
+* Authenticated Session with the SSO / Login page and inquiry without user interaction: [https://community.auth0.com/questions/7605/sharing-authentication-between-2-sites](https://community.auth0.com/questions/7605/sharing-authentication-between-2-sites)
 * Code splitting to multiple pages in react: 
-  * https://blog.logrocket.com/quick-guide-to-webpack-bundle-and-code-splitting-with-react-43d1045f1064
-  * https://stackoverflow.com/questions/39314251/reactjs-how-to-have-multiple-spas-on-the-same-website
-
+  * [https://blog.logrocket.com/quick-guide-to-webpack-bundle-and-code-splitting-with-react-43d1045f1064](https://blog.logrocket.com/quick-guide-to-webpack-bundle-and-code-splitting-with-react-43d1045f1064)
+  * [https://stackoverflow.com/questions/39314251/reactjs-how-to-have-multiple-spas-on-the-same-website](https://stackoverflow.com/questions/39314251/reactjs-how-to-have-multiple-spas-on-the-same-website)
 
 * single-spa: 
-  * https://medium.com/canopy-tax/a-step-by-step-guide-to-single-spa-abbbcb1bedc6
-  * https://www.thoughtworks.com/de/radar/languages-and-frameworks/single-spa
-  * https://github.com/CanopyTax/single-spa
-
-
-
-
+  * [https://medium.com/canopy-tax/a-step-by-step-guide-to-single-spa-abbbcb1bedc6](https://medium.com/canopy-tax/a-step-by-step-guide-to-single-spa-abbbcb1bedc6)
+  * [https://www.thoughtworks.com/de/radar/languages-and-frameworks/single-spa](https://www.thoughtworks.com/de/radar/languages-and-frameworks/single-spa)
+  * [https://github.com/CanopyTax/single-spa](https://github.com/CanopyTax/single-spa)
 
 
 
