@@ -25,6 +25,7 @@ To increase the speed of development I want to us a standard frontend UI Framewo
 * `+` Use modern JSS for styling
 * `-` Complex to use
 * `-` I don't learn the basics
+* `-` Hard to fix the last 10 percent
 
 ### Kubernetes + Tensorflow
 
