@@ -20,16 +20,6 @@ After you developed your **API First Mock **\(your APIs most clearly express you
 * Native: 
   * React Native
 
-
-
-
-
-
-Link:
-
-* [https://www.udemy.com/react-the-complete-guide-incl-redux/]()
-
-
 # Develop the Frontend:
 
 Serverside Rendering: [https://github.com/phodal/serverless-react-server-side-render/blob/master/src/index.js](https://github.com/phodal/serverless-react-server-side-render/blob/master/src/index.js)
