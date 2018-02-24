@@ -8,23 +8,25 @@ The core business functions are develop in services either using microservices o
 
 ## Stack
 
-1. Understand the domain - [create a lean diagram](/architecture.md) with a domain diagram (events, commands, actors, aggregates), interaction diagram and a first deployment diagram, (squnce diagram? not at this stage right?).
-1. Setup the project
-1. Decide if it is [serverless or container use case.](/containeraas.md)
-1. Design the API / Event in Swagger.
-1. Implement the first mock. 
-1. Implement the API or Event Actor. 
+1. Understand the domain - [create a lean diagram](/architecture.md) with a domain diagram \(events, commands, actors, aggregates\), interaction diagram and a first deployment diagram, \(squnce diagram? not at this stage right?\).
+2. Setup the project
+3. Decide if it is [serverless or container use case.](/containeraas.md)
+4. Design the API / Event in Swagger.
+5. Implement the first mock. 
+6. Implement the API or Event Actor. 
 
 ---
 
 # Setup the project
 
-* Create a new folder
+* Create [new github repo](https://github.com/new).
+  ![](/assets/create-github-repo-for-project.png)
+
+* Clone repo:
   ```
-  mkdir consumer-marketplace-service
-  cd consumer-marketplace-service
-  git init 
+  git clone https://github.com/denseidel/consumer-marketplace-service.git
   ```
+
 * Start a virtual environment
 
   ```
