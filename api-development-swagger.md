@@ -4,12 +4,8 @@ The core business functions are develop in services either using microservices o
 
 #### Architectural Decisions
 
-1. Python/NodeJS
+1. Languages: Python/NodeJS
 2. 
-
-
-
-
 # Getting Started with the Serverless Framework
 
 * What is it and why should you use it?
