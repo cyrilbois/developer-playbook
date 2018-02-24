@@ -4,7 +4,7 @@
 * [Architecture](architecture.md)
 * [Bootstraping](bootstraping.md)
 * [Development Environment](chapter1.md)
-* [Frontend - React](frontend-react.md)
+* [Frontend](frontend-react.md)
 * [API - Python / Swagger](api-development-swagger.md)
 * [Plattform](containeraas.md)
 * [IAM - IAMaaS ](identityaas-cognito.md)
