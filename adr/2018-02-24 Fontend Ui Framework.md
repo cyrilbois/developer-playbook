@@ -11,11 +11,11 @@ To increase the speed of development I want to us a standard frontend UI Framewo
 
 ## Decision Outcome
 
-* Chosen Alternative: AWS Sagemaker
+* Chosen Alternative: Bulma
 
-* _Currently I need something fast to show results therefor it is easier to use the managed solution from AWS. And I want to learn the business value not the infrastructure setup (In the future I see myself as the user not the maintainer)._
+* _Currently I need something new and independent to learn also the basics. Later I can check if react-bootstrap or material ui are easier to use after I understand the basics - currently understanding the frameworks talks longer then implementing it natively._
 
-* _I have to monitor AWS EKS and Tensorflow closely and reevaluate in few month if the EKS Tensorflow achieves better results then Sagemaker, currently I do not know if all features are available and what solution will be available inside AZD._
+* _I have to check back later if a full framework like material-ui helps me._
 
 ## Pros and Cons of the Alternatives
 
