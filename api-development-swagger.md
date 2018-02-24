@@ -40,7 +40,11 @@ The core business functions are develop in services either using microservices o
   If you use visual studio code do this first in your terminal window and then open the folder again with `code .`.
 
 
+# Developer a docker microservice
 
+1. Check that you have have a local docker environment in [Plattform](/containeraas.md) -> Setup Docker Environment.
+
+  
 
 
 
