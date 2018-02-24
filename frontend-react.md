@@ -10,8 +10,7 @@ After you developed your **API First Mock **\(your APIs most clearly express you
 ## Stack
 
 * ES6, webpack, babel, npm
-
-* React \([ecosystem overview](https://github.com/enaqx/awesome-react)\) - JSX, State, Life Cycle Methods
+* React \([ecosystem overview](https://github.com/enaqx/awesome-react) / [course](https://www.udemy.com/react-the-complete-guide-incl-redux/)) - JSX, State, Life Cycle Methods
 * State Management - Redux + Redux Saga
 * Web/Desktop:
   * React  with Create-React-App
@@ -28,18 +27,8 @@ After you developed your **API First Mock **\(your APIs most clearly express you
 
 Link:
 
-* [https://github.com/enaqx/awesome-react](https://github.com/enaqx/awesome-react)
-* [https://www.udemy.com/react-the-complete-guide-incl-redux/](https://www.udemy.com/react-the-complete-guide-incl-redux/)
+* [https://www.udemy.com/react-the-complete-guide-incl-redux/]()
 
-* ES6, webpack, babel, npm
-
-* Create-React-App
-
-* React Basics - JSX, State, Life Cycle Methods
-
-* State Management - Redux
-
-* CSS Framework - Bulma
 
 # Develop the Frontend:
 
