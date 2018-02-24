@@ -21,6 +21,7 @@ The core business functions are develop in services either using microservices o
 * Create a new folder
   ```
   mkdir projectfolder
+  cd projectfolder
   ```
 * Start a virtual environment
 
