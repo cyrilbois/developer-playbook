@@ -1,10 +1,11 @@
-# _Select a general technology or vendor specific stack_
+# _Frontend Framework vs Ui Framework_
 
-To add smart features to automate my job I need a data pipeline this could be a vendor neutral which is harder to maintain and takes longer to setup but can be ported to other platforms or a AWS specific setup.
+To increase the speed of development I want to us a standard frontend UI Framework. The problem is the ones that have more premade components are harder to debug and customize for the last 10 percent. While the others offer less speed from the beginning and might not even reach the quality level in the end. 
+
 
 ## Considered Alternatives
 
-* AWS Sagemaker
+* [Material-Ui](https://github.com/mui-org/material-ui)
 * Kubernetes with Tensorflow
 
 ## Decision Outcome
@@ -17,17 +18,13 @@ To add smart features to automate my job I need a data pipeline this could be a 
 
 ## Pros and Cons of the Alternatives
 
-### AWS Sagemaker
+### Material-Ui
 
-* `+` I can use the Allianz AWS account
-* `+` It has lower cost for bootstrapping private projects
-* `+` It is tightly integrated with AWS e.g. lex
-* `+` It is fast to develop
-* `-` Is not the Allianz Strategy, so I cannot use it for work projects
-* `-` It is AWS specific \(Lockin\)
-* `-` It is not very "evolutionary"
-* `-` Only available online
-* `-` Google seems to be in the lead with regards to machine learning. 
+* `+` It has most stars on github
+* `+` Has lots of feature rich component
+* `+` Use modern JSS for styling
+* `-` Complex to use
+* `-` I don't learn the basics
 
 ### Kubernetes + Tensorflow
 
