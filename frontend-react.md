@@ -18,7 +18,7 @@ After you developed your **API First Mock **\(your APIs most clearly express you
   * CSS Framework - Bulma / [blueprintjs](http://blueprintjs.com/)
 * Mobile
   * CSS Framework - Bulma
-* State Management - Redux + Redux Saga \(
+* State Management - Redux + Redux Saga
 
 
 
