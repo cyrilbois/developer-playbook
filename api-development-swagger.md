@@ -43,6 +43,13 @@ The core business functions are develop in services either using microservices o
 # Developer a docker microservice
 
 1. Check that you have have a local docker environment in [Plattform](/containeraas.md) -> Setup Docker Environment.
+1. Create Dockerfile ([Code](https://github.com/denseidel/consumer-marketplace-service/commit/405511051d1f603a92c024b4a23bf80d279480e7)).
+1. Create docker-compose file
+  * [Environment Variables to connect to AWS](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
+
+
+
+
 
   
 
