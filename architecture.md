@@ -41,6 +41,11 @@ Source: [Patrick Kua - Goto Conference](https://www.youtube.com/watch?v=8bEsNT7j
 
 Tool: [plantuml](http://plantuml.com)
 
+
+### Domain Diagrams
+* https://www.heise.de/developer/artikel/Domain-driven-Design-erklaert-3130720.html?seite=all
+* https://docs.google.com/drawings/d/1kwtMhXe-3YLrqlLa-MoE84U-lDr-k5Z6qtlWgCuvHkk/edit
+
 ## Documentation of Architecutral Decisions
 
 Architectural decision should be documented in a [light weight architecture decision record](https://github.com/CloudNativeTraining/architecture_decision_record). My private decision are located here in [github](https://github.com/denseidel/developer-playbook/tree/master/adr) based on this [template](https://github.com/CloudNativeTraining/architecture_decision_record/edit/master/adr_template_madr.md).
