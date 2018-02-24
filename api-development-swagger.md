@@ -5,11 +5,23 @@ The core business functions are develop in services either using microservices o
 #### Architectural Decisions
 
 1. Languages: Python/NodeJS
-2. 
-# Getting Started with the Serverless Framework
 
-* What is it and why should you use it?
-* how to create a simple API
+## Stack
+
+1. Decide if it is [serverless or container use case.](/containeraas.md)
+
+
+
+
+
+
+
+
+
+1. # Getting Started with the Serverless Framework
+2. What is it and why should you use it?
+
+3. how to create a simple API
 
 ## Setup your project
 
