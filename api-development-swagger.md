@@ -14,15 +14,7 @@ The core business functions are develop in services either using microservices o
 4. Implement the first mock. 
 5. Implement the API or Event Actor. 
 
-
-
 # Setup your project
-
-
-
-# Getting Started with the Serverless Framework
-
-## Setup your project
 
 * Start a virtual environment
 
@@ -34,6 +26,8 @@ The core business functions are develop in services either using microservices o
   ```
 
   If you use visual studio code do this first in your terminal window and then open the folder again with `code .`.
+
+# Getting Started with the Serverless Framework
 
 * Create function
 
