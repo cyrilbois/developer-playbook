@@ -44,17 +44,11 @@ Serverless increases the efficiency of your implementation. But at the same time
 
 1. [Install Docker](https://docs.docker.com/docker-for-mac/install/)
 
-
-
 ## Setup Kubernetes
 
-What is Kubernetes and why is it important? 
+When you want to bring your docker containers into production - you need to orchestrate those containers. This is where [Kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/) helps getting a reliable and reporducable, production read ( scalable ...), "simple" (routes, services, ...), vendor independent (compared to serverless) and multi cloud ready solution. 
 
-[https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
-
-[https://de.slideshare.net/InfoQ/building-a-microservices-platform-with-kubernete](https://de.slideshare.net/InfoQ/building-a-microservices-platform-with-kubernetes)
-
-
+[https://de.slideshare.net/InfoQ/building-a-microservices-platform-with-kubernetes](https://de.slideshare.net/InfoQ/building-a-microservices-platform-with-kubernetes)
 
 
 
@@ -62,43 +56,22 @@ What is Kubernetes and why is it important?
 
 
 
+### Production Environment
+
+In my experience maintaining and setting up a kuebrnetes cluster is hard - there are now many great fully manged offerings: Openshift, AWS EKS, IBM, 
+Microsoft, Google GKE, Joyent Kubernetes
+
+**TODO**
+
 ## Setup Service Mesh
 
 ## Basics - Containers, Kubernetes and Service Meshs
 
 ### What is Kubernetes and why is it important?
 
-* Sources:
 
-  * [https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
 
-  * [https://de.slideshare.net/InfoQ/building-a-microservices-platform-with-kubernetes](https://de.slideshare.net/InfoQ/building-a-microservices-platform-with-kubernetes)
 
-* Advantages:
-
-  * lighweight \(compared to VMs\)
-
-  * reliable and reporducable
-
-  * production read \( scalable ...\)
-
-  * "simple" \(routes, services, ...\)
-
-  * vendor independent \(compared to serverless\) and multi cloud ready
-
-Should you run your own cluster? But \(my experience is\) maintaining and setting up a kuebrnetes cluster is hard \(believe me!\) - there are now many great fully manged offerings:
-
-* Openshift
-* AWS EKS
-* IBM ?
-* Service Mesh and Istio
-* In late October, Microsoft released the public preview of [Managed Kubernetes for Azure Container Service \(AKS\)](https://azure.microsoft.com/en-us/blog/introducing-azure-container-service-aks-managed-kubernetes-and-azure-container-registry-geo-replication/)
-
-* In November [Google officially renamed](https://cloudplatform.googleblog.com/2017/11/introducing-Certified-Kubernetes-and-Google-Kubernetes-Engine.html) its Google Container Engine to Google Kubernetes Engine.
-
-* Most recently, at AWS re:Invent 2017, Amazon announced its own manged version of Kubernetes [Amazon Elastic Container Service for Kubernetes \(Amazon EKS\)](https://aws.amazon.com/eks/)
-
-* Joyent Kubernetes
 
 ### What is Istio?
 
