@@ -1,6 +1,6 @@
 # Frontend
 
-After you developed your **API First Mock **\(your APIs most clearly express your business function - and as a plattform you care more about them then the UI as the UI could be delivered by someone else using your API\) you start building the UI. 
+After you developed your **API First Mock **\(your APIs most clearly express your business function - and as a plattform you care more about them then the UI as the UI could be delivered by someone else using your API\) you start building the UI.
 
 #### Architectural Decisions
 
@@ -10,7 +10,7 @@ After you developed your **API First Mock **\(your APIs most clearly express you
 ## Stack
 
 * ES6, webpack, babel, npm
-* React \([ecosystem overview](https://github.com/enaqx/awesome-react) / [course](https://www.udemy.com/react-the-complete-guide-incl-redux/)) - JSX, State, Life Cycle Methods
+* React \([ecosystem overview](https://github.com/enaqx/awesome-react) / [course](https://www.udemy.com/react-the-complete-guide-incl-redux/)\) - JSX, State, Life Cycle Methods
 * State Management - Redux + Redux Saga
 * Web/Desktop:
   * React  with Create-React-App
@@ -19,18 +19,11 @@ After you developed your **API First Mock **\(your APIs most clearly express you
   * CSS Framework - Bulma
 * Native: 
   * React Native
-  
-  
+
 ## Development Process
 
 1. [Design and Develop API Mock](/api-development-swagger.md)
-1. Build an app with component based development
-
-
-
-
-
-
+2. Build an app with component based development
 
 ## Build an app with component based development
 
@@ -248,8 +241,8 @@ how to build this into the build pipeline?
   * [https://github.com/CanopyTax/single-spa](https://github.com/CanopyTax/single-spa)
 
 * Serverside Rendering: [https://github.com/phodal/serverless-react-server-side-render/blob/master/src/index.js](https://github.com/phodal/serverless-react-server-side-render/blob/master/src/index.js)
-* AWS Amplify: [https://github.com/d0ruk/serverless-notes-app/tree/master/client](https://github.com/d0ruk/serverless-notes-app/tree/master/client)
 
+* AWS Amplify: [https://github.com/d0ruk/serverless-notes-app/tree/master/client](https://github.com/d0ruk/serverless-notes-app/tree/master/client)
 
 
 
