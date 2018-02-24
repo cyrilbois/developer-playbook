@@ -8,6 +8,7 @@ To increase the speed of development I want to us a standard frontend UI Framewo
 * [Material-Ui](https://github.com/mui-org/material-ui)
 * [Bulma](https://bulma.io/)
 * [react-bootstrap](https://react-bootstrap.github.io/)
+* [blueprintjs - focus desktop](http://blueprintjs.com/docs/v2/#core/components/editable-text)
 
 ## Decision Outcome
 
