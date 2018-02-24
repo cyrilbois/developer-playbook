@@ -24,6 +24,9 @@ After you developed your **API First Mock **\(your APIs most clearly express you
 ## Development Process
 
 1. [Design and Develop API Mock](/api-development-swagger.md)
+2. Build an app with component based development
+3. 
+
 
 
 
