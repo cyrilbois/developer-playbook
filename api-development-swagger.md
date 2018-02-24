@@ -14,7 +14,9 @@ The core business functions are develop in services either using microservices o
 4. Implement the first mock. 
 5. Implement the API or Event Actor. 
 
-# Setup your project
+---
+
+# Setup the project
 
 * Start a virtual environment
 
