@@ -31,6 +31,7 @@ brew cask install iterm2
 brew cask install postman
 brew install git
 git config --global credential.helper osxkeychain
+brew install git-secrets
 ```
 
 ## Setup visual studio code

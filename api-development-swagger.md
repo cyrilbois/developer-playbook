@@ -19,6 +19,9 @@ The core business functions are develop in services either using microservices o
 ---
 
 # Design the API
+First we start designing the API with Swagger. The best tool to do this is the [swagger editor](https://github.com/swagger-api/swagger-editor). As a best practice I create my own API defintions repository
+
+
 
 # Setup the project
 
