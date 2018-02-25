@@ -171,6 +171,8 @@ gitbook build . docs
 
 # Git Knowledge
 
+Use branches and if needed: https://github.com/todotxt/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit
+
 Merge multiple commits:
 
 [https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
