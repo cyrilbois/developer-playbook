@@ -29,6 +29,8 @@ services:
       - "80:8080"
 ```
 
+Create your swagger file: https://swagger.io/docs/specification/2-0/basic-structure/
+
 
 
 # Setup the project
