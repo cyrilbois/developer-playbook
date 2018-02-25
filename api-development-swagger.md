@@ -32,6 +32,9 @@ First we start designing the API with Swagger. The best tool to do this is the [
 
   ```
   git clone https://github.com/denseidel/consumer-marketplace-service.git
+  cd consumer-marketplace-service
+  git secrets --install
+  git secrets --register-aws
   ```
 
 * Start a virtual environment
