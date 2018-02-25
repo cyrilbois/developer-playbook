@@ -43,7 +43,7 @@ The core business functions are develop in services either using microservices o
 # Developer a docker microservice
 
 1. Check that you have have a local docker environment in [Plattform](/containeraas.md) -> Setup Docker Environment.
-1. Create Mock Dockerfile ([Code](https://github.com/denseidel/consumer-marketplace-service/commit/405511051d1f603a92c024b4a23bf80d279480e7)) and make sure the swagger  file does not include custom functions like `x-tokenInfoFunc`. **TODO create it for the mock** 
+1. Create Dockerfile and docker-compose that starts the Mock Server([Code](https://github.com/denseidel/consumer-marketplace-service/commit/35847a1b405531be9a1ad712c38e28d60ee8b64b)) - make sure the Swagger  file does not include custom functions like `x-tokenInfoFunc`. **TODO create it for the mock** 
 1. Create docker-compose file
   * [Environment Variables to connect to AWS](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
 1. Implement Frontend against mocks
