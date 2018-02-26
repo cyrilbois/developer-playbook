@@ -9,17 +9,17 @@ The core business functions are develop in services either using microservices o
 ## Stack
 
 1. Understand the domain - [create a lean diagram](/architecture.md) with a domain diagram \(events, commands, actors, aggregates\), interaction diagram and a first deployment diagram, \(squnce diagram? not at this stage right?\).
-1. Design the API
-2. Setup the project
-3. Decide if it is [serverless or container use case.](/containeraas.md)
-4. Design the API / Event in Swagger.
+2. Design the API / Event in Swagger.
+3. Setup the project
+4. Decide if it is [serverless or container use case.](/containeraas.md)
 5. Implement the first mock. 
 6. Implement the API or Event Actor. 
 
 ---
 
 # Design the API
-First we start designing the API with Swagger. The best tool to do this is the [swagger editor](https://github.com/swagger-api/swagger-editor). I suggest adding the swagger editor to the docker-compose file in your project: 
+
+First we start designing the API with Swagger. The best tool to do this is the [swagger editor](https://github.com/swagger-api/swagger-editor). I suggest adding the swagger editor to the docker-compose file in your project:
 
 ```
 services:
@@ -29,9 +29,7 @@ services:
       - "80:8080"
 ```
 
-Create your swagger file: https://swagger.io/docs/specification/2-0/basic-structure/
-
-
+Create your swagger file: [https://swagger.io/docs/specification/2-0/basic-structure/](https://swagger.io/docs/specification/2-0/basic-structure/)
 
 # Setup the project
 
@@ -58,24 +56,14 @@ Create your swagger file: https://swagger.io/docs/specification/2-0/basic-struct
 
   If you use visual studio code do this first in your terminal window and then open the folder again with `code .`.
 
-
 # Developer a docker microservice
 
-1. Check that you have have a local docker environment in [Plattform](/containeraas.md) -> Setup Docker Environment.
-1. Create Dockerfile and docker-compose that starts the Mock Server([Code](https://github.com/denseidel/products-marketplace-service/commit/6303f0ba152be610dc4fabcf85d624a4e32faa31)) - make sure the Swagger  file does not include custom functions like `x-tokenInfoFunc`. **TODO create it for the mock** 
-  * [Environment Variables to connect to AWS](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
-1. Implement Frontend against mocks
-1. Update Dockerfile to production config
-1. Implement API (including DB, ...)
-
-
-
-
-
-  
-
-
-
+1. Check that you have have a local docker environment in [Plattform](/containeraas.md) -&gt; Setup Docker Environment.
+2. Create Dockerfile and docker-compose that starts the Mock Server\([Code](https://github.com/denseidel/products-marketplace-service/commit/6303f0ba152be610dc4fabcf85d624a4e32faa31)\) - make sure the Swagger  file does not include custom functions like `x-tokenInfoFunc`. **TODO create it for the mock** 
+   * [Environment Variables to connect to AWS](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
+3. Implement Frontend against mocks
+4. Update Dockerfile to production config
+5. Implement API \(including DB, ...\)
 
 # Getting Started with the Serverless Framework
 
