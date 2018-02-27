@@ -47,7 +47,7 @@ git secrets --install ~/.git-template
 ```
 1. Tell git to use it: 
 ```
-git config --global init.templateDir ’~/.git-template’
+git config --global init.templateDir '~/.git-template'
 ```
 
 1. Install AWS patterns globally to be prevented to be checked in to git: 
