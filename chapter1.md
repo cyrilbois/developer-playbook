@@ -44,7 +44,6 @@ mkdir ~/.git-template
 1. Install the hooks in the template directory: 
 ```
 git secrets --install ~/.git-template
-git secrets --register-aws ~/.git-template
 ```
 1. Tell git to use it: 
 ```
@@ -53,8 +52,23 @@ git config --global init.templateDir ’~/.git-template’
 
 1. Install AWS patterns globally to be prevented to be checked in to git: 
 ```
-git secrets --install
+git secrets --register-aws --global
 ```
+1. Check the list of secrets `git secrets` will scan for: 
+```
+git secrets --list
+```
+
+It should return something like: 
+```
+ecrets.providers git secrets --aws-provider
+secrets.patterns [A-Z0-9]{20}
+secrets.patterns ("|')?(AWS|aws|Aws)?_?(SECRET|secret|Secret)?_?(ACCESS|access|Access)?_?(KEY|key|Key)("|')?\s*(:|=>|=)\s*("|')?[A-Za-z0-9/\+=]{40}("|')?
+secrets.patterns ("|')?(AWS|aws|Aws)?_?(ACCOUNT|account|Account)_?(ID|id|Id)?("|')?\s*(:|=>|=)\s*("|')?[0-9]{4}\-?[0-9]{4}\-?[0-9]{4}("|')?
+secrets.allowed AKIAIOSFODNN7EXAMPLE
+secrets.allowed wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+```
+
 
 Now every time you run `git init` or `git clone`, your hooks will be copied into the `.git` directory of your freshly created repo. If you don’t want to set the template globally, you can use it as needed with `git init --template ’~/.git-template’`.
 
