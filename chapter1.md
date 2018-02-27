@@ -51,6 +51,11 @@ git secrets --register-aws ~/.git-template
 git config --global init.templateDir ’~/.git-template’
 ```
 
+1. Install AWS patterns globally to be prevented to be checked in to git: 
+```
+git secrets --install
+```
+
 Now every time you run `git init` or `git clone`, your hooks will be copied into the `.git` directory of your freshly created repo. If you don’t want to set the template globally, you can use it as needed with `git init --template ’~/.git-template’`.
 
 That covers new repo creation, and cloning, but we haven’t addressed the problem of *existing repos that weren’t created with the template*. Here we have a couple options:
