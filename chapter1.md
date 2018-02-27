@@ -34,6 +34,17 @@ git config --global credential.helper osxkeychain
 brew install git-secrets
 ```
 
+## Setup a template for git to prevent checking in credentials
+[Source](https://seesparkbox.com/foundry/git_secrets)
+
+1. Make a directory for the template: 
+```
+mkdir ~/.git-template
+```
+1. 
+
+
+
 ## Setup visual studio code
 
 List all my installed extensions:
