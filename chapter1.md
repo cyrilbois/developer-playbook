@@ -41,7 +41,22 @@ brew install git-secrets
 ```
 mkdir ~/.git-template
 ```
-1. 
+1. Install the hooks in the template directory: 
+```
+git secrets --install ~/.git-template
+git secrets --register-aws ~/.git-template
+```
+1. Tell git to use it: 
+```
+git config --global init.templateDir ’~/.git-template’
+```
+
+Now every time you run `git init` or `git clone`, your hooks will be copied into the `.git` directory of your freshly created repo. If you don’t want to set the template globally, you can use it as needed with `git init --template ’~/.git-template’`.
+
+That covers new repo creation, and cloning, but we haven’t addressed the problem of *existing repos that weren’t created with the template*. Here we have a couple options:
+
+1. `git init` is a non-destructive operation, so feel free to run it in existing repos. It’s safe, and will retroactively apply the template you specify. OR
+2. If you want to go “all in” and ensure that every repo has the proper hooks, here’s a [script](https://gist.github.com/iAmNathanJ/0ae03dcb08ba222d36346b138e83bfdf) that will recursively walk a directory, such as `~/Projects` and run `git secrets --install` in all repos.
 
 
 
