@@ -172,7 +172,7 @@ gitbook build . docs
 
 # Git Knowledge
 
-Use branches and if needed: https://github.com/todotxt/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit
+Use branches and if needed: [https://github.com/todotxt/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit](https://github.com/todotxt/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit)
 
 Merge multiple commits:
 
@@ -202,17 +202,13 @@ Create new branches:
 
 [https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
 
-
-
-
-
-# Development Pipeline: 
+# Development Pipeline:
 
 * gocd: 
-  * https://www.gocd.org/why-gocd/
-  * https://hub.docker.com/r/gocd/gocd-server/
-  * https://hub.docker.com/r/gocd/gocd-agent-alpine-3.5/
-  * https://github.com/kubernetes/charts/tree/master/incubator/gocd
+  * [https://www.gocd.org/why-gocd/](https://www.gocd.org/why-gocd/)
+  * [https://hub.docker.com/r/gocd/gocd-server/](https://hub.docker.com/r/gocd/gocd-server/)
+  * [https://hub.docker.com/r/gocd/gocd-agent-alpine-3.5/](https://hub.docker.com/r/gocd/gocd-agent-alpine-3.5/)
+  * [https://github.com/kubernetes/charts/tree/master/incubator/gocd](https://github.com/kubernetes/charts/tree/master/incubator/gocd)
 
 
 
