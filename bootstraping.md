@@ -20,7 +20,7 @@ Todo:
 
 ###### Frontend:
 
-* Setup a Frontend \(including auth and my component library\): [SPA Starter](#)
+* Setup a Frontend \(including auth and my component library\): [spa-starter](https://github.com/denseidel/spa-starter)
 
 Analytics Pipeline:
 
