@@ -15,7 +15,7 @@ Todo:
 ###### Backend / APIs:
 
 * When I have a small _on demand_ \(I don't expect at least 1 user per hour on average\) function I use serverless: [Serverless Starter](#) 
-* When I have _always on_ \(e.g. polling function or expect more then 1 user per hour\) then I use docker: [Docker Compose Starter](#) 
+* When I have _always on_ \(e.g. polling function or expect more then 1 user per hour\) then I use docker: [docker-starter](#) 
 * When I expect to have applications that require more then 2 nodes \(e.g. 6+ applications\) then I use the kubernetes/istio with [Service Mesh Starter](https://github.com/denseidel/cloud-setup)
 
 ###### Frontend:
