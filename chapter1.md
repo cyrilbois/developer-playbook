@@ -35,31 +35,36 @@ brew install git-secrets
 ```
 
 ## Setup a template for git to prevent checking in credentials
+
 [Source](https://seesparkbox.com/foundry/git_secrets)
 
 1. Make a directory for the template: 
-```
-mkdir ~/.git-template
-```
-1. Install the hooks in the template directory: 
-```
-git secrets --install ~/.git-template
-```
-1. Tell git to use it: 
-```
-git config --global init.templateDir '~/.git-template'
-```
+   ```
+   mkdir ~/.git-template
+   ```
+2. Install the hooks in the template directory: 
+   ```
+   git secrets --install ~/.git-template
+   ```
+3. Tell git to use it:
 
-1. Install AWS patterns globally to be prevented to be checked in to git: 
-```
-git secrets --register-aws --global
-```
-1. Check the list of secrets `git secrets` will scan for: 
-```
-git secrets --list
-```
+   ```
+   git config --global init.templateDir '~/.git-template'
+   ```
 
-It should return something like: 
+4. Install AWS patterns globally to be prevented to be checked in to git:
+
+   ```
+   git secrets --register-aws --global
+   ```
+
+5. Check the list of secrets `git secrets` will scan for: 
+   ```
+   git secrets --list
+   ```
+
+It should return something like:
+
 ```
 ecrets.providers git secrets --aws-provider
 secrets.patterns [A-Z0-9]{20}
@@ -69,15 +74,12 @@ secrets.allowed AKIAIOSFODNN7EXAMPLE
 secrets.allowed wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 ```
 
-
 Now every time you run `git init` or `git clone`, your hooks will be copied into the `.git` directory of your freshly created repo. If you don’t want to set the template globally, you can use it as needed with `git init --template ’~/.git-template’`.
 
-That covers new repo creation, and cloning, but we haven’t addressed the problem of *existing repos that weren’t created with the template*. Here we have a couple options:
+That covers new repo creation, and cloning, but we haven’t addressed the problem of _existing repos that weren’t created with the template_. Here we have a couple options:
 
 1. `git init` is a non-destructive operation, so feel free to run it in existing repos. It’s safe, and will retroactively apply the template you specify. OR
 2. If you want to go “all in” and ensure that every repo has the proper hooks, here’s a [script](https://gist.github.com/iAmNathanJ/0ae03dcb08ba222d36346b138e83bfdf) that will recursively walk a directory, such as `~/Projects` and run `git secrets --install` in all repos.
-
-
 
 ## Setup visual studio code
 
