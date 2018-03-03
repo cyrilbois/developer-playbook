@@ -89,7 +89,7 @@ Setup Routers: [https://github.com/denseidel/sampleapp-client/commit/10b7952eaaa
 
 #### Setup CSS Framework for Styling
 
-I currently use [Bulma](https://bulma.io/documentation/overview/start/) and [FontAwesome](http://fontawesome.io/get-started/):
+I currently use [Bulma](https://bulma.io/documentation/overview/start/) / [BulmaThemes](https://jenil.github.io/bulmaswatch/) and [FontAwesome](http://fontawesome.io/get-started/):
 
 Include link to css in index.html or[ use npm](https://bulma.io/documentation/overview/start/) \(recomended\)
 
@@ -97,7 +97,7 @@ Code: [https://github.com/denseidel/sampleapp-client/commit/7c87cd95d7965571cfd3
 
 Alternatively use Material-UI: [https://material-ui-next.com/getting-started/installation/](https://material-ui-next.com/getting-started/installation/)
 
-\`\`\`
+
 
 #### Install storybook.js and configure it
 
@@ -244,17 +244,13 @@ how to build this into the build pipeline?
 
 * AWS Amplify: [https://github.com/d0ruk/serverless-notes-app/tree/master/client](https://github.com/d0ruk/serverless-notes-app/tree/master/client)
 
-1. Create new Component Mock and Create new StoryBook \(e.g. copying the one of the old component\): [https://github.com/denseidel/spa-starter/commit/94d64cbfa949108977a159ccf4ad409fd0c317ea](https://github.com/denseidel/spa-starter/commit/94d64cbfa949108977a159ccf4ad409fd0c317ea)
+* Create new Component Mock and Create new StoryBook \(e.g. copying the one of the old component\): [https://github.com/denseidel/spa-starter/commit/94d64cbfa949108977a159ccf4ad409fd0c317ea](https://github.com/denseidel/spa-starter/commit/94d64cbfa949108977a159ccf4ad409fd0c317ea)
 
-2. Implement new component logic [https://github.com/denseidel/spa-starter/commit/726cd1e16be73186ea535e5ac1129e3aee16206c](https://github.com/denseidel/spa-starter/commit/726cd1e16be73186ea535e5ac1129e3aee16206c)
+* Implement new component logic [https://github.com/denseidel/spa-starter/commit/726cd1e16be73186ea535e5ac1129e3aee16206c](https://github.com/denseidel/spa-starter/commit/726cd1e16be73186ea535e5ac1129e3aee16206c)
 
+Design:
 
-
-
-
-Design: 
-
-* https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886
+* [https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
 
 
 
