@@ -246,3 +246,9 @@ how to build this into the build pipeline?
 
 
 
+
+
+1. Create new Component and Create new StoryBook \(e.g. copying the one of the old component\): https://github.com/denseidel/spa-starter/commit/94d64cbfa949108977a159ccf4ad409fd0c317ea
+2. 
+
+
