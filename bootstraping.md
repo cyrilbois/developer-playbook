@@ -7,16 +7,11 @@ Todo:
 * Add sample app e.g. including out to all Backend starters
 * Check if the docker starter and the service mesh starter can be integrated \(can we just deploy the local docker compose \(or do I always require minqube?\)  to aws?\)
 
-###### DevSecOps:
-
-* Use the [ci-cd-starter](#) to setup your development pipeline:
-  * Or do all the ci cd pipelines directly in the starter repository? 
-
 ###### Backend / APIs:
 
 * When I have a small _on demand_ \(I don't expect at least 1 user per hour on average\) function I use serverless: [Serverless Starter](#) 
 * When I have _always on_ \(e.g. polling function or expect more then 1 user per hour\) then I use docker: [docker-starter](https://github.com/denseidel/docker-starter) 
-* When I expect to have applications that require more then 2 nodes \(e.g. 6+ applications\) then I use the kubernetes/istio with [Service Mesh Starter](https://github.com/denseidel/cloud-setup)
+* When I expect to have applications that require more then 2 nodes \(e.g. 6+ applications\) then I use the kubernetes/istio with [service-mesh-starter](https://github.com/denseidel/cloud-setup)
 
 ###### Frontend:
 
