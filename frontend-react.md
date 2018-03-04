@@ -7,7 +7,13 @@ After you defined the business functionality - expressed most clearly by the API
 1. [I use a basic css framework Bulma, because more powerful frameworks cost to much time understanding without understanding the basics.](https://github.com/denseidel/developer-playbook/blob/master/adr/2018-02-24 Fontend Ui Framework.md)
 2. \*TODO: Create ADR\* I stick with React up to the point that the others are at least on the same functional level: Native and Frontend.
 
-My current technology stack is:
+## Development Process
+
+1. [Design and Develop API Mock](/api-development-swagger.md)
+2. Understand the tech stack
+3. [Build an app with component based development](#build-an-app)
+
+## Technology Stack
 
 * ES6, webpack, babel, npm
 * React \([ecosystem overview](https://github.com/enaqx/awesome-react) / [course](https://www.udemy.com/react-the-complete-guide-incl-redux/)\) - JSX, State, Life Cycle Methods
@@ -21,13 +27,9 @@ My current technology stack is:
 
   * CSS Framework - Bulma
 
-* Native: 
+* Native:
+
   * React Native
-
-## Development Process
-
-1. [Design and Develop API Mock](/api-development-swagger.md)
-2. [Build an app with component based development](#build-an-app)
 
 ## Build an app with component based development {#build-an-app}
 
