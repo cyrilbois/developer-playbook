@@ -10,10 +10,10 @@ After you defined the business functionality - expressed most clearly by the API
 ## Development Process
 
 1. [Design and Develop API Mock](/api-development-swagger.md)
-2. Understand the tech stack
+2. [Understand the tech stack](#technology-stack)
 3. [Build an app with component based development](#build-an-app)
 
-## Technology Stack
+## Technology Stack {#technology-stack}
 
 * ES6, webpack, babel, npm
 * React \([ecosystem overview](https://github.com/enaqx/awesome-react) / [course](https://www.udemy.com/react-the-complete-guide-incl-redux/)\) - JSX, State, Life Cycle Methods
