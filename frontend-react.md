@@ -15,20 +15,15 @@ After you defined the business functionality - expressed most clearly by the API
 
 ## Technology Stack {#technology-stack}
 
-* ES6, webpack, babel, npm
-* React \([ecosystem overview](https://github.com/enaqx/awesome-react) / [course](https://www.udemy.com/react-the-complete-guide-incl-redux/)\) - JSX, State, Life Cycle Methods
-* State Management - Redux + Redux Saga
+* Build Setup: _ES6, webpack, babel, npm_
+* Frontend Framework: _React \(_[_ecosystem overview_](https://github.com/enaqx/awesome-react)_ / _[_course_](https://www.udemy.com/react-the-complete-guide-incl-redux/)_\) - JSX, State, Life Cycle Methods_
+* State Management: _Redux + Redux Saga_
 * Web/Desktop:
-
   * React  with Create-React-App
   * CSS Framework - Bulma / [blueprintjs](http://blueprintjs.com/)
-
 * Web/Mobile:
-
   * CSS Framework - Bulma
-
 * Native:
-
   * React Native
 
 ## Build an app with component based development {#build-an-app}
