@@ -1,8 +1,6 @@
 # Frontend
 
-Frontends are 
-
-After you developed your **API First Mock **\(your APIs most clearly express your business function - and as a plattform you care more about them then the UI as the UI could be delivered by someone else using your API\) you start building the UI.
+After you defined the business functionality - expressed most clearly by the APIs of a domain - as a mock, you start building your UI. 
 
 #### Architectural Decisions
 

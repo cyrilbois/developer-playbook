@@ -13,6 +13,8 @@ Source: [Patrick Kua - Goto Conference](https://www.youtube.com/watch?v=8bEsNT7j
 
 **API First**, **REST/Event Driven,** **SaaS**, **Cloud**, and **Microservices**. We’re creating APIs first before we code them, using the REST/Event Driven architectural style to ensure we’re able to scale as our department and business grows in scope, evolving our systems in parallel. Building for SaaS makes our applications ready to live on the Internet, where embracing the cloud ensures that as a modern architecture, we’re fostering innovation. Finally, our adoption of Microservices ties all these principles together in a powerful architectural style that lets us move fast while we keep our complexity low. Source: [Zalando Blog](https://jobs.zalando.com/tech/blog/radical-agility-study-notes/?gh_src=4n3gxh1)
 
+* API First - as a plattform you care more about APIs/ business functions then the UI as the UI could be delivered by someone else using your API.
+
 ### Fitness Function are the goal and quantitative measure to evaluate the guide change
 
 [https://medium.com/developers-writing/my-take-on-evolutionary-architecture-f761d45e75b9](https://medium.com/developers-writing/my-take-on-evolutionary-architecture-f761d45e75b9)
@@ -41,10 +43,10 @@ Source: [Patrick Kua - Goto Conference](https://www.youtube.com/watch?v=8bEsNT7j
 
 Tool: [plantuml](http://plantuml.com)
 
-
 ### Domain Diagrams
-* https://www.heise.de/developer/artikel/Domain-driven-Design-erklaert-3130720.html?seite=all
-* https://docs.google.com/drawings/d/1kwtMhXe-3YLrqlLa-MoE84U-lDr-k5Z6qtlWgCuvHkk/edit
+
+* [https://www.heise.de/developer/artikel/Domain-driven-Design-erklaert-3130720.html?seite=all](https://www.heise.de/developer/artikel/Domain-driven-Design-erklaert-3130720.html?seite=all)
+* [https://docs.google.com/drawings/d/1kwtMhXe-3YLrqlLa-MoE84U-lDr-k5Z6qtlWgCuvHkk/edit](https://docs.google.com/drawings/d/1kwtMhXe-3YLrqlLa-MoE84U-lDr-k5Z6qtlWgCuvHkk/edit)
 
 ## Documentation of Architecutral Decisions
 
