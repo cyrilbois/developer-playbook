@@ -31,8 +31,6 @@ After you defined the business functionality - expressed most clearly by the API
 
 To get feedback fast create a first prototype:
 
-Learn about the Basics: [https://de.udacity.com/course/rapid-prototyping--ud723](https://de.udacity.com/course/rapid-prototyping--ud723)
-
 #### Define Application Structure \(Paper? + Photo or Balsamiq + screenshot from rolemodels\):
 
 1. LandingPage \(login or not\)![](/assets/landing-page-analysis.png)2. Personal Service Page \(only logged in\)
@@ -109,7 +107,7 @@ npm i --save-dev @storybook/react
 
 Configure Storybook \[[Code](https://github.com/denseidel/sampleapp-client/commit/62cf7e1f02a887f71e9833d5cf071ca11d880c53)\]
 
-Further Setup: 
+Further Setup:
 
 * [what are action, decorators ...](https://blog.hichroma.com/introduction-to-storybook-5aca8cc643f7)
 * [with bulma.io](http://ouicar.github.io/2017/01/05/storybook-2.html) 
