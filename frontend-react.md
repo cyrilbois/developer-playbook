@@ -7,28 +7,29 @@ After you defined the business functionality - expressed most clearly by the API
 1. [I use a basic css framework Bulma, because more powerful frameworks cost to much time understanding without understanding the basics.](https://github.com/denseidel/developer-playbook/blob/master/adr/2018-02-24 Fontend Ui Framework.md)
 2. \*TODO: Create ADR\* I stick with React up to the point that the others are at least on the same functional level: Native and Frontend.
 
-
-
-My current technology stack is: 
+My current technology stack is:
 
 * ES6, webpack, babel, npm
 * React \([ecosystem overview](https://github.com/enaqx/awesome-react) / [course](https://www.udemy.com/react-the-complete-guide-incl-redux/)\) - JSX, State, Life Cycle Methods
 * State Management - Redux + Redux Saga
 * Web/Desktop:
+
   * React  with Create-React-App
   * CSS Framework - Bulma / [blueprintjs](http://blueprintjs.com/)
 
 * Web/Mobile:
+
   * CSS Framework - Bulma
+
 * Native: 
   * React Native
 
 ## Development Process
 
 1. [Design and Develop API Mock](/api-development-swagger.md)
-2. Build an app with component based development
+2. [Build an app with component based development](#build-an-app)
 
-## Build an app with component based development
+## Build an app with component based development {#build-an-app}
 
 * [https://voice.kadira.io/introducing-react-storybook-ec27f28de1e2](https://voice.kadira.io/introducing-react-storybook-ec27f28de1e2)
 * [https://hackernoon.com/javascript-nodejs-es6-react-storybook-example-tutorial-config-develop-ui-native-demo-bb58039c929](https://hackernoon.com/javascript-nodejs-es6-react-storybook-example-tutorial-config-develop-ui-native-demo-bb58039c929)
