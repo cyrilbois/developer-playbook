@@ -11,7 +11,8 @@ After you defined the business functionality - expressed most clearly by the API
 
 1. [Design and Develop API Mock](/api-development-swagger.md)
 2. [Understand the tech stack](#technology-stack)
-3. [Build an app with component based development](#build-an-app)
+3. Rapid Prototyping
+4. [Build an app with component based development](#build-an-app)
 
 ## Technology Stack {#technology-stack}
 
@@ -26,6 +27,19 @@ After you defined the business functionality - expressed most clearly by the API
 * Native:
   * _React Native_
 
+## Rapid Prototyping {#build-an-app}
+
+To get feedback fast create a first prototype: 
+
+Learn about the Basics: https://de.udacity.com/course/rapid-prototyping--ud723
+
+#### Define Application Structure \(Paper? + Photo or Balsamiq + screenshot from rolemodels\):
+
+1. LandingPage \(login or not\)![](/assets/landing-page-analysis.png)2. Personal Service Page \(only logged in\)
+   ![](/assets/personal-service-page-1.png)
+
+##  {#build-an-app}
+
 ## Build an app with component based development {#build-an-app}
 
 * [https://voice.kadira.io/introducing-react-storybook-ec27f28de1e2](https://voice.kadira.io/introducing-react-storybook-ec27f28de1e2)
@@ -34,10 +48,7 @@ After you defined the business functionality - expressed most clearly by the API
 * [http://ouicar.github.io/2017/01/05/storybook-2.html](http://ouicar.github.io/2017/01/05/storybook-2.html)
 * [http://andreafalzetti.github.io/blog/2017/05/30/bundling-react-15-bootstrap-4-storybook-3-with-webpack-2.html](http://andreafalzetti.github.io/blog/2017/05/30/bundling-react-15-bootstrap-4-storybook-3-with-webpack-2.html)
 
-#### Define Application Structure \(Paper? + Photo or Balsamiq + screenshot from rolemodels\):
-
-1. LandingPage \(login or not\)![](/assets/landing-page-analysis.png)2. Personal Service Page \(only logged in\)
-   ![](/assets/personal-service-page-1.png)
+#### 
 
 #### Create sampleapp-client
 
