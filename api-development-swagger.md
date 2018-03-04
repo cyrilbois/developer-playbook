@@ -4,9 +4,9 @@ The core business functions are develop in services either using microservices o
 
 ###### Architectural Decisions
 
-1. ###### Languages: Python/NodeJS
+1. Languages: Python/NodeJS
 
-## Stack
+Stack
 
 1. Understand the domain - [create a lean diagram](/architecture.md) with a domain diagram \(events, commands, actors, aggregates\), interaction diagram and a first deployment diagram, \(squnce diagram? not at this stage right?\).
 2. Design the API / Event in Swagger.
