@@ -40,13 +40,6 @@ Learn about the Basics: [https://de.udacity.com/course/rapid-prototyping--ud723]
 
 ## Build an app with component based development {#build-an-app}
 
-* Setup storybook: 
-  * [what are action, decorators ...](https://blog.hichroma.com/introduction-to-storybook-5aca8cc643f7)
-  * [with bulma.io](http://ouicar.github.io/2017/01/05/storybook-2.html) 
-  * [customize SASS](http://andreafalzetti.github.io/blog/2017/05/30/bundling-react-15-bootstrap-4-storybook-3-with-webpack-2.html) 
-
-#### 
-
 #### Create sampleapp-client
 
 ```
@@ -83,6 +76,12 @@ src
 ```
 
 Code: [https://github.com/denseidel/sampleapp-client/commit/25a4f36d7997e78dc3233f917561c6ed49badbc3](https://github.com/denseidel/sampleapp-client/commit/25a4f36d7997e78dc3233f917561c6ed49badbc3)
+
+#### Setup storybook
+
+* [what are action, decorators ...](https://blog.hichroma.com/introduction-to-storybook-5aca8cc643f7)
+* [with bulma.io](http://ouicar.github.io/2017/01/05/storybook-2.html) 
+* [customize SASS](http://andreafalzetti.github.io/blog/2017/05/30/bundling-react-15-bootstrap-4-storybook-3-with-webpack-2.html)
 
 #### Create Router and setup basic Application structure
 
