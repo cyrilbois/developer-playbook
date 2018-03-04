@@ -1,5 +1,7 @@
 # Frontend
 
+Frontends are 
+
 After you developed your **API First Mock **\(your APIs most clearly express your business function - and as a plattform you care more about them then the UI as the UI could be delivered by someone else using your API\) you start building the UI.
 
 #### Architectural Decisions
@@ -96,8 +98,6 @@ Include link to css in index.html or[ use npm](https://bulma.io/documentation/ov
 Code: [https://github.com/denseidel/sampleapp-client/commit/7c87cd95d7965571cfd38c5716f47c2e60f455f2](https://github.com/denseidel/sampleapp-client/commit/7c87cd95d7965571cfd38c5716f47c2e60f455f2)
 
 Alternatively use Material-UI: [https://material-ui-next.com/getting-started/installation/](https://material-ui-next.com/getting-started/installation/)
-
-
 
 #### Install storybook.js and configure it
 
