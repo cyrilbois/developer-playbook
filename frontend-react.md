@@ -11,7 +11,7 @@ After you defined the business functionality - expressed most clearly by the API
 
 1. [Design and Develop API Mock](/api-development-swagger.md)
 2. [Understand the tech stack](#technology-stack)
-3. Rapid Prototyping
+3. [Rapid Prototyping](#rapid-prototyping)
 4. [Build an app with component based development](#build-an-app)
 
 ## Technology Stack {#technology-stack}
@@ -27,18 +27,16 @@ After you defined the business functionality - expressed most clearly by the API
 * Native:
   * _React Native_
 
-## Rapid Prototyping {#build-an-app}
+## Rapid Prototyping {#rapid-prototyping}
 
-To get feedback fast create a first prototype: 
+To get feedback fast create a first prototype:
 
-Learn about the Basics: https://de.udacity.com/course/rapid-prototyping--ud723
+Learn about the Basics: [https://de.udacity.com/course/rapid-prototyping--ud723](https://de.udacity.com/course/rapid-prototyping--ud723)
 
 #### Define Application Structure \(Paper? + Photo or Balsamiq + screenshot from rolemodels\):
 
 1. LandingPage \(login or not\)![](/assets/landing-page-analysis.png)2. Personal Service Page \(only logged in\)
    ![](/assets/personal-service-page-1.png)
-
-##  {#build-an-app}
 
 ## Build an app with component based development {#build-an-app}
 
