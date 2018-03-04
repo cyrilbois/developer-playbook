@@ -58,7 +58,8 @@ brew install git-secrets
    git secrets --register-aws --global
    ```
 
-5. Check the list of secrets `git secrets` will scan for: 
+5. Check the list of secrets `git secrets` will scan for:
+
    ```
    git secrets --list
    ```
@@ -248,6 +249,10 @@ git push -f
 Create new branches:
 
 [https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
+
+Git Styleguide: https://udacity.github.io/frontend-nanodegree-styleguide/
+
+
 
 # Development Pipeline:
 
