@@ -77,12 +77,6 @@ src
 
 Code: [https://github.com/denseidel/sampleapp-client/commit/25a4f36d7997e78dc3233f917561c6ed49badbc3](https://github.com/denseidel/sampleapp-client/commit/25a4f36d7997e78dc3233f917561c6ed49badbc3)
 
-#### Setup storybook
-
-* [what are action, decorators ...](https://blog.hichroma.com/introduction-to-storybook-5aca8cc643f7)
-* [with bulma.io](http://ouicar.github.io/2017/01/05/storybook-2.html) 
-* [customize SASS](http://andreafalzetti.github.io/blog/2017/05/30/bundling-react-15-bootstrap-4-storybook-3-with-webpack-2.html)
-
 #### Create Router and setup basic Application structure
 
 Link: [https://github.com/ReactTraining/react-router](https://github.com/ReactTraining/react-router) / [https://reacttraining.com/react-router/web/guides/quick-start](https://reacttraining.com/react-router/web/guides/quick-start)
@@ -115,7 +109,11 @@ npm i --save-dev @storybook/react
 
 Configure Storybook \[[Code](https://github.com/denseidel/sampleapp-client/commit/62cf7e1f02a887f71e9833d5cf071ca11d880c53)\]
 
-Further Setup: [http://ouicar.github.io/2017/01/05/storybook-2.html](http://ouicar.github.io/2017/01/05/storybook-2.html)
+Further Setup: 
+
+* [what are action, decorators ...](https://blog.hichroma.com/introduction-to-storybook-5aca8cc643f7)
+* [with bulma.io](http://ouicar.github.io/2017/01/05/storybook-2.html) 
+* [customize SASS](http://andreafalzetti.github.io/blog/2017/05/30/bundling-react-15-bootstrap-4-storybook-3-with-webpack-2.html)
 
 Create Container/Componente LoginPage \(might be a container in the future\):
 
