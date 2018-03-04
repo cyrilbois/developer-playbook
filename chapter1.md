@@ -250,7 +250,7 @@ Create new branches:
 
 [https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
 
-Git Styleguide: [https://udacity.github.io/frontend-nanodegree-styleguide/](https://udacity.github.io/frontend-nanodegree-styleguide/)
+Git Styleguide: [https://udacity.github.io/frontend-nanodegree-styleguide/](https://udacity.github.io/frontend-nanodegree-styleguide/) / https://udacity.github.io/git-styleguide/
 
 # Development Pipeline:
 
@@ -259,7 +259,7 @@ Git Styleguide: [https://udacity.github.io/frontend-nanodegree-styleguide/](http
   * [https://hub.docker.com/r/gocd/gocd-server/](https://hub.docker.com/r/gocd/gocd-server/)
   * [https://hub.docker.com/r/gocd/gocd-agent-alpine-3.5/](https://hub.docker.com/r/gocd/gocd-agent-alpine-3.5/)
   * [https://github.com/kubernetes/charts/tree/master/incubator/gocd](https://github.com/kubernetes/charts/tree/master/incubator/gocd)
-  * https://www.gocd.org/2017/06/26/serverless-architecture-continuous-delivery/
+  * [https://www.gocd.org/2017/06/26/serverless-architecture-continuous-delivery/](https://www.gocd.org/2017/06/26/serverless-architecture-continuous-delivery/)
 
 
 
