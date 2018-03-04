@@ -19,12 +19,12 @@ After you defined the business functionality - expressed most clearly by the API
 * Frontend Framework: _React \(_[_ecosystem overview_](https://github.com/enaqx/awesome-react)_ / _[_course_](https://www.udemy.com/react-the-complete-guide-incl-redux/)_\) - JSX, State, Life Cycle Methods_
 * State Management: _Redux + Redux Saga_
 * Web/Desktop:
-  * React  with Create-React-App
-  * CSS Framework - Bulma / [blueprintjs](http://blueprintjs.com/)
+  * _React  with Create-React-App_
+  * _CSS Framework - Bulma / _[_blueprintjs_](http://blueprintjs.com/)
 * Web/Mobile:
-  * CSS Framework - Bulma
+  * _CSS Framework - Bulma_
 * Native:
-  * React Native
+  * _React Native_
 
 ## Build an app with component based development {#build-an-app}
 
