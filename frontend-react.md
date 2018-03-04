@@ -40,11 +40,10 @@ Learn about the Basics: [https://de.udacity.com/course/rapid-prototyping--ud723]
 
 ## Build an app with component based development {#build-an-app}
 
-* [https://voice.kadira.io/introducing-react-storybook-ec27f28de1e2](https://voice.kadira.io/introducing-react-storybook-ec27f28de1e2)
-* [https://hackernoon.com/javascript-nodejs-es6-react-storybook-example-tutorial-config-develop-ui-native-demo-bb58039c929](https://hackernoon.com/javascript-nodejs-es6-react-storybook-example-tutorial-config-develop-ui-native-demo-bb58039c929)
-* [https://blog.hichroma.com/introduction-to-storybook-5aca8cc643f7](https://blog.hichroma.com/introduction-to-storybook-5aca8cc643f7)
-* [http://ouicar.github.io/2017/01/05/storybook-2.html](http://ouicar.github.io/2017/01/05/storybook-2.html)
-* [http://andreafalzetti.github.io/blog/2017/05/30/bundling-react-15-bootstrap-4-storybook-3-with-webpack-2.html](http://andreafalzetti.github.io/blog/2017/05/30/bundling-react-15-bootstrap-4-storybook-3-with-webpack-2.html)
+* Setup storybook: 
+  * [what are action, decorators ...](https://blog.hichroma.com/introduction-to-storybook-5aca8cc643f7)
+  * [with bulma.io](http://ouicar.github.io/2017/01/05/storybook-2.html) 
+  * [customize SASS](http://andreafalzetti.github.io/blog/2017/05/30/bundling-react-15-bootstrap-4-storybook-3-with-webpack-2.html) 
 
 #### 
 
