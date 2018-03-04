@@ -11,7 +11,7 @@ The platform provides the tools to increase productivity it should abstract away
   * Reliability aaS - Logging
   * ... but don't forget ports and adapters
 
-#### Architecture Decisions
+###### Architecture Decisions
 
 1. [Select Application Runtime: Serverless over Istio for now](https://github.com/denseidel/developer-playbook/blob/master/adr/2018-02-18 Select a application runtime for plattform.md)
 
@@ -23,7 +23,6 @@ The platform provides the tools to increase productivity it should abstract away
    2. Setup Kubernetes 
    3. Setup Service Mesh
 3. Serverless   
-
 
 ---
 
@@ -54,11 +53,9 @@ Build the dockerfile \([tagging](http://container-solutions.com/tagging-docker-i
 docker build -t products:1.0.0 .
 ```
 
-
-
 ## Setup Kubernetes
 
-When you want to bring your docker containers into production - you need to orchestrate those containers. This is where [Kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/) helps getting a reliable and reporducable, production read ( scalable ...), "simple" (routes, services, ...), vendor independent (compared to serverless) and multi cloud ready solution. 
+When you want to bring your docker containers into production - you need to orchestrate those containers. This is where [Kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/) helps getting a reliable and reporducable, production read \( scalable ...\), "simple" \(routes, services, ...\), vendor independent \(compared to serverless\) and multi cloud ready solution.
 
 [https://de.slideshare.net/InfoQ/building-a-microservices-platform-with-kubernetes](https://de.slideshare.net/InfoQ/building-a-microservices-platform-with-kubernetes)
 
@@ -111,14 +108,12 @@ Create secrets: [https://kubernetes.io/docs/concepts/configuration/secret/](http
 kubectl create secret generic gcloud-cred --from-file=/Users/den/.config/keys/marketplaceapp.json
 ```
 
-
 ### Production Environment
 
-In my experience maintaining and setting up a kuebrnetes cluster is hard - there are now many great fully manged offerings: Openshift, AWS EKS, IBM, 
+In my experience maintaining and setting up a kuebrnetes cluster is hard - there are now many great fully manged offerings: Openshift, AWS EKS, IBM,   
 Microsoft, Google GKE, Joyent Kubernetes
 
 **TODO**
-
 
 ## Setup Service Mesh
 
@@ -138,7 +133,8 @@ Microsoft, Google GKE, Joyent Kubernetes
 * ... without changing the code!
 
 ## Tutorial
-Setup a kubernetes cluster (see chapter above) then install Istio:
+
+Setup a kubernetes cluster \(see chapter above\) then install Istio:
 
 ```
 curl -L https://git.io/getLatestIstio | sh -
