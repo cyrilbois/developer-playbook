@@ -1,13 +1,15 @@
 # Frontend
 
-After you defined the business functionality - expressed most clearly by the APIs of a domain - as a mock, you start building your UI. 
+After you defined the business functionality - expressed most clearly by the APIs of a domain - as a mock, you start building your UI.
 
 #### Architectural Decisions
 
 1. [I use a basic css framework Bulma, because more powerful frameworks cost to much time understanding without understanding the basics.](https://github.com/denseidel/developer-playbook/blob/master/adr/2018-02-24 Fontend Ui Framework.md)
 2. \*TODO: Create ADR\* I stick with React up to the point that the others are at least on the same functional level: Native and Frontend.
 
-## Stack
+
+
+My current technology stack is: 
 
 * ES6, webpack, babel, npm
 * React \([ecosystem overview](https://github.com/enaqx/awesome-react) / [course](https://www.udemy.com/react-the-complete-guide-incl-redux/)\) - JSX, State, Life Cycle Methods
@@ -15,6 +17,7 @@ After you defined the business functionality - expressed most clearly by the API
 * Web/Desktop:
   * React  with Create-React-App
   * CSS Framework - Bulma / [blueprintjs](http://blueprintjs.com/)
+
 * Web/Mobile:
   * CSS Framework - Bulma
 * Native: 
