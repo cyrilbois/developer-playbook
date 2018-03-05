@@ -73,7 +73,7 @@ src
     └── productsApi.js
 ```
 
-Code: [https://github.com/denseidel/sampleapp-client/commit/25a4f36d7997e78dc3233f917561c6ed49badbc3](https://github.com/denseidel/sampleapp-client/commit/25a4f36d7997e78dc3233f917561c6ed49badbc3)
+[Code on github](https://github.com/denseidel/spa-starter/commit/25a4f36d7997e78dc3233f917561c6ed49badbc3)
 
 #### Create Router and setup basic Application structure
 
@@ -81,11 +81,11 @@ Link: [https://github.com/ReactTraining/react-router](https://github.com/ReactTr
 
 Install: `npm i react-router-dom`
 
-Setup Routers: [https://github.com/denseidel/sampleapp-client/commit/10b7952eaaa8a5977a8636612845bcae86da937f](https://github.com/denseidel/sampleapp-client/commit/10b7952eaaa8a5977a8636612845bcae86da937f)
+Setup Routers: [Code on github](https://github.com/denseidel/spa-starter/commit/10b7952eaaa8a5977a8636612845bcae86da937f)
 
 #### Create Placeholder Components/Containers:
 
-[https://github.com/denseidel/sampleapp-client/commit/c3b7246f4ab22dee7e11f6aa27fe3f792fa7fb43](https://github.com/denseidel/sampleapp-client/commit/c3b7246f4ab22dee7e11f6aa27fe3f792fa7fb43)
+[Code on github](https://github.com/denseidel/spa-starter/commit/c3b7246f4ab22dee7e11f6aa27fe3f792fa7fb43)
 
 #### Setup CSS Framework for Styling
 
@@ -93,7 +93,7 @@ I currently use [Bulma](https://bulma.io/documentation/overview/start/) / [Bulma
 
 Include link to css in index.html or[ use npm](https://bulma.io/documentation/overview/start/) \(recomended\)
 
-Code: [here](https://github.com/denseidel/spa-starter/commit/7c87cd95d7965571cfd38c5716f47c2e60f455f2)
+[Code on github](https://github.com/denseidel/spa-starter/commit/7c87cd95d7965571cfd38c5716f47c2e60f455f2)
 
 * [Tutorial on using Bulma](https://scotch.io/bar-talk/get-to-know-bulma-my-current-favorite-css-framework)
 * [Example how to use Bulma](https://medium.freecodecamp.org/colorful-fundamentals-the-reward-of-building-with-bulma-7b14883317bd)
@@ -132,7 +132,7 @@ Example how IBM is doing it:
 
 Sample: [https://github.com/kadira-samples/react-storybook-demo/blob/master/components/stories/MainSection.js](https://github.com/kadira-samples/react-storybook-demo/blob/master/components/stories/MainSection.js)
 
-Code: [https://github.com/denseidel/sampleapp-client/commit/9e7d246cf92820b834e4c0e55b7f461401c1c813](https://github.com/denseidel/sampleapp-client/commit/9e7d246cf92820b834e4c0e55b7f461401c1c813)
+[Code on github](https://github.com/denseidel/spa-starter/commit/9e7d246cf92820b834e4c0e55b7f461401c1c813)
 
 Run Storybook: `npm run storybook`
 
