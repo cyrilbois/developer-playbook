@@ -93,7 +93,7 @@ I currently use [Bulma](https://bulma.io/documentation/overview/start/) / [Bulma
 
 Include link to css in index.html or[ use npm](https://bulma.io/documentation/overview/start/) \(recomended\)
 
-Code: [https://github.com/denseidel/sampleapp-client/commit/7c87cd95d7965571cfd38c5716f47c2e60f455f2](https://github.com/denseidel/sampleapp-client/commit/7c87cd95d7965571cfd38c5716f47c2e60f455f2)
+Code: [here](https://github.com/denseidel/spa-starter/commit/7c87cd95d7965571cfd38c5716f47c2e60f455f2)
 
 * [Tutorial on using Bulma](https://scotch.io/bar-talk/get-to-know-bulma-my-current-favorite-css-framework)
 * [Example how to use Bulma](https://medium.freecodecamp.org/colorful-fundamentals-the-reward-of-building-with-bulma-7b14883317bd)
