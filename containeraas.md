@@ -24,6 +24,10 @@ The platform provides the tools to increase productivity it should abstract away
    3. Setup Service Mesh
 3. Serverless   
 
+
+
+TODO: Service Discovery https://fabric8.io/guide/develop/serviceDiscovery.html 
+
 ---
 
 # Decide between _containers_ vs _serverless_?
@@ -110,7 +114,7 @@ kubectl create secret generic gcloud-cred --from-file=/Users/den/.config/keys/ma
 
 ### Production Environment
 
-In my experience maintaining and setting up a kuebrnetes cluster is hard - there are now many great fully manged offerings: Openshift, AWS EKS, IBM,   
+In my experience maintaining and setting up a kuebrnetes cluster is hard - there are now many great fully manged offerings: Openshift, AWS EKS, IBM,  
 Microsoft, Google GKE, Joyent Kubernetes
 
 **TODO**
