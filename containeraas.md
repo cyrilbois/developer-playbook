@@ -26,7 +26,9 @@ The platform provides the tools to increase productivity it should abstract away
 
 TODO: Service Discovery [https://fabric8.io/guide/develop/serviceDiscovery.html](https://fabric8.io/guide/develop/serviceDiscovery.html)
 
-https://de.slideshare.net/SreenivasMakam/service-discovery-using-etcd-consul-and-kubernetes
+[https://de.slideshare.net/SreenivasMakam/service-discovery-using-etcd-consul-and-kubernetes](https://de.slideshare.net/SreenivasMakam/service-discovery-using-etcd-consul-and-kubernetes)
+
+https://www.innoq.com/de/articles/2016/12/devops-service-discovery-with-consul/
 
 
 
