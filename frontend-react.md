@@ -13,6 +13,8 @@ After you defined the business functionality - expressed most clearly by the API
 2. [Understand the tech stack](#technology-stack)
 3. [Rapid Prototyping](#rapid-prototyping)
 4. [Build an app with component based development](#build-an-app)
+5. Decide if you deploy the application serverless or use docker containers \(vendor independent\)
+   1. Dockerize a react application
 
 ## Technology Stack {#technology-stack}
 
@@ -147,6 +149,15 @@ Run Storybook: `npm run storybook`
 * Frontend Tracking with Google Analytics: 
   * [https://github.com/react-ga/react-ga](https://github.com/react-ga/react-ga)
   * [https://web-design-weekly.com/2016/07/08/adding-google-analytics-react-application/](https://web-design-weekly.com/2016/07/08/adding-google-analytics-react-application/)
+
+---
+
+## Dockerize a React App
+
+1. http://mherman.org/blog/2017/12/07/dockerizing-a-react-app/
+2. https://www.peterbe.com/plog/how-to-create-react-app-with-docker
+
+
 
 ---
 

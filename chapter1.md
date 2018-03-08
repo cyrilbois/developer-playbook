@@ -250,7 +250,7 @@ Create new branches:
 
 [https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
 
-Git Styleguide: [https://udacity.github.io/frontend-nanodegree-styleguide/](https://udacity.github.io/frontend-nanodegree-styleguide/) / https://udacity.github.io/git-styleguide/
+Git Styleguide: [https://udacity.github.io/frontend-nanodegree-styleguide/](https://udacity.github.io/frontend-nanodegree-styleguide/) / [https://udacity.github.io/git-styleguide/](https://udacity.github.io/git-styleguide/)
 
 # Development Pipeline:
 
