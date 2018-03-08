@@ -24,9 +24,11 @@ The platform provides the tools to increase productivity it should abstract away
    3. Setup Service Mesh
 3. Serverless   
 
+TODO: Service Discovery [https://fabric8.io/guide/develop/serviceDiscovery.html](https://fabric8.io/guide/develop/serviceDiscovery.html)
+
+https://de.slideshare.net/SreenivasMakam/service-discovery-using-etcd-consul-and-kubernetes
 
 
-TODO: Service Discovery https://fabric8.io/guide/develop/serviceDiscovery.html 
 
 ---
 
