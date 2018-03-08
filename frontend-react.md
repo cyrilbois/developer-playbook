@@ -14,7 +14,7 @@ After you defined the business functionality - expressed most clearly by the API
 3. [Rapid Prototyping](#rapid-prototyping)
 4. [Build an app with component based development](#build-an-app)
 5. Decide if you deploy the application serverless or use docker containers \(vendor independent\)
-   1. Dockerize a react application
+   1. [Dockerize a react application](#dockerize-a-react-app)
 
 ## Technology Stack {#technology-stack}
 
@@ -152,12 +152,10 @@ Run Storybook: `npm run storybook`
 
 ---
 
-## Dockerize a React App
+## Dockerize a React App {#dockerize-a-react-app}
 
-1. http://mherman.org/blog/2017/12/07/dockerizing-a-react-app/
-2. https://www.peterbe.com/plog/how-to-create-react-app-with-docker
-
-
+1. [http://mherman.org/blog/2017/12/07/dockerizing-a-react-app/](http://mherman.org/blog/2017/12/07/dockerizing-a-react-app/)
+2. [https://www.peterbe.com/plog/how-to-create-react-app-with-docker](https://www.peterbe.com/plog/how-to-create-react-app-with-docker)
 
 ---
 
