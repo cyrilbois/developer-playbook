@@ -56,7 +56,7 @@ Create your swagger file: [basic swagger file structure](https://swagger.io/docs
 
   If you use visual studio code do this first in your terminal window and then open the folder again with `code .`.
 
-# Developer a docker microservice
+# Developer a docker microservice in Python
 
 1. Check that you have have a local docker environment in [Plattform](/containeraas.md) -&gt; Setup Docker Environment.
 2. Create Dockerfile and docker-compose that starts the Mock Server\([Code](https://github.com/denseidel/products-marketplace-service/commit/6303f0ba152be610dc4fabcf85d624a4e32faa31)\) - make sure the Swagger  file does not include custom functions like `x-tokenInfoFunc`. **TODO create it for the mock** 
@@ -64,6 +64,16 @@ Create your swagger file: [basic swagger file structure](https://swagger.io/docs
 3. Implement Frontend against mocks
 4. Update Dockerfile to production config
 5. Implement API \(including DB, ...\)
+
+
+
+Connexion Examples: 
+
+* https://github.com/hjacobs/connexion-example
+* https://github.com/ssola/python-flask-microservice
+* http://blog.bejanalex.com/2017/03/mongodb-rest-api-interface-in-docker/
+
+
 
 # Getting Started with the Serverless Framework
 
