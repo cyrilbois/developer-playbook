@@ -260,6 +260,10 @@ Git Styleguide: [https://udacity.github.io/frontend-nanodegree-styleguide/](http
   * [https://hub.docker.com/r/gocd/gocd-agent-alpine-3.5/](https://hub.docker.com/r/gocd/gocd-agent-alpine-3.5/)
   * [https://github.com/kubernetes/charts/tree/master/incubator/gocd](https://github.com/kubernetes/charts/tree/master/incubator/gocd)
   * [https://www.gocd.org/2017/06/26/serverless-architecture-continuous-delivery/](https://www.gocd.org/2017/06/26/serverless-architecture-continuous-delivery/)
+* CircleCI with ECS: 
+  * https://www.reddit.com/r/aws/comments/6vcg18/deploying\_a\_docker\_container\_to\_aws\_ecs\_using\_ecr/
+  * https://docs.aws.amazon.com/AWSGettingStartedContinuousDeliveryPipeline/latest/GettingStarted/CICD\_Jenkins\_Pipeline.html
+  * 
 
 
 
