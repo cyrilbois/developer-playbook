@@ -71,11 +71,13 @@ Connexion Examples:
 * [https://github.com/ssola/python-flask-microservice](https://github.com/ssola/python-flask-microservice)
 * [http://blog.bejanalex.com/2017/03/mongodb-rest-api-interface-in-docker/](http://blog.bejanalex.com/2017/03/mongodb-rest-api-interface-in-docker/)
 
+Create a client library for the API:
 
+* [https://realpython.com/blog/python/api-integration-in-python/](https://realpython.com/blog/python/api-integration-in-python/)
 
-Create a client library for the API: 
+Use Feature flags: 
 
-* https://realpython.com/blog/python/api-integration-in-python/
+* https://featureflags.io/python-feature-flags/
 
 # Getting Started with the Serverless Framework
 
