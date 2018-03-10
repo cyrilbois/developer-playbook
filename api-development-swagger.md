@@ -65,15 +65,17 @@ Create your swagger file: [basic swagger file structure](https://swagger.io/docs
 4. Update Dockerfile to production config
 5. Implement API \(including DB, ...\)
 
+Connexion Examples:
+
+* [https://github.com/hjacobs/connexion-example](https://github.com/hjacobs/connexion-example)
+* [https://github.com/ssola/python-flask-microservice](https://github.com/ssola/python-flask-microservice)
+* [http://blog.bejanalex.com/2017/03/mongodb-rest-api-interface-in-docker/](http://blog.bejanalex.com/2017/03/mongodb-rest-api-interface-in-docker/)
 
 
-Connexion Examples: 
 
-* https://github.com/hjacobs/connexion-example
-* https://github.com/ssola/python-flask-microservice
-* http://blog.bejanalex.com/2017/03/mongodb-rest-api-interface-in-docker/
+Create a client library for the API: 
 
-
+* https://realpython.com/blog/python/api-integration-in-python/
 
 # Getting Started with the Serverless Framework
 
