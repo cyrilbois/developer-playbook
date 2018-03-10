@@ -150,6 +150,14 @@ Run Storybook: `npm run storybook`
   * [https://github.com/react-ga/react-ga](https://github.com/react-ga/react-ga)
   * [https://web-design-weekly.com/2016/07/08/adding-google-analytics-react-application/](https://web-design-weekly.com/2016/07/08/adding-google-analytics-react-application/)
 
+
+
+# Make AJAX / REST Calls from the Frontend with axios
+
+https://medium.com/codingthesmartway-com-blog/getting-started-with-axios-166cb0035237
+
+
+
 ---
 
 ## Dockerize a React App {#dockerize-a-react-app}
