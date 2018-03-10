@@ -220,17 +220,15 @@ gitbook build . docs
 
 # Git Knowledge
 
-Use branches and if needed: [https://github.com/todotxt/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit](https://github.com/todotxt/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit)
+* [Git Styleguide](https://udacity.github.io/frontend-nanodegree-styleguide/ / https://udacity.github.io/git-styleguide/)
+* [Create new branches](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
+* Use branches and if needed [squash all commits related to a single issue into one commit](https://github.com/todotxt/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit)
+* Merge multiple commits:
+  * [https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
+  * [https://robots.thoughtbot.com/autosquashing-git-commits](https://robots.thoughtbot.com/autosquashing-git-commits)
+  * [https://www.ralfebert.de/git/rebase/](https://www.ralfebert.de/git/rebase/)
 
-Merge multiple commits:
-
-[https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
-
-[https://robots.thoughtbot.com/autosquashing-git-commits](https://robots.thoughtbot.com/autosquashing-git-commits)
-
-[https://www.ralfebert.de/git/rebase/](https://www.ralfebert.de/git/rebase/)
-
-Modify the last two commits:
+* Modify the last two commits:
 
 ```
 git rebase -i HEAD~2
@@ -246,12 +244,6 @@ git commit --amend
 git push -f
 ```
 
-Create new branches:
-
-[https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
-
-Git Styleguide: [https://udacity.github.io/frontend-nanodegree-styleguide/](https://udacity.github.io/frontend-nanodegree-styleguide/) / [https://udacity.github.io/git-styleguide/](https://udacity.github.io/git-styleguide/)
-
 # Development Pipeline:
 
 * gocd: 
@@ -261,7 +253,7 @@ Git Styleguide: [https://udacity.github.io/frontend-nanodegree-styleguide/](http
   * [https://github.com/kubernetes/charts/tree/master/incubator/gocd](https://github.com/kubernetes/charts/tree/master/incubator/gocd)
   * [https://www.gocd.org/2017/06/26/serverless-architecture-continuous-delivery/](https://www.gocd.org/2017/06/26/serverless-architecture-continuous-delivery/)
 * CircleCI Pipeline with ECS: 
-  * https://medium.com/boltops/setting-up-continuous-deployment-to-ecs-on-circleci-e0250bf6c3ad
+  * [https://medium.com/boltops/setting-up-continuous-deployment-to-ecs-on-circleci-e0250bf6c3ad](https://medium.com/boltops/setting-up-continuous-deployment-to-ecs-on-circleci-e0250bf6c3ad)
   * [https://www.reddit.com/r/aws/comments/6vcg18/deploying\_a\_docker\_container\_to\_aws\_ecs\_using\_ecr/](https://www.reddit.com/r/aws/comments/6vcg18/deploying_a_docker_container_to_aws_ecs_using_ecr/)
   * [https://docs.aws.amazon.com/AWSGettingStartedContinuousDeliveryPipeline/latest/GettingStarted/CICD\_Jenkins\_Pipeline.html](https://docs.aws.amazon.com/AWSGettingStartedContinuousDeliveryPipeline/latest/GettingStarted/CICD_Jenkins_Pipeline.html)
   * 
