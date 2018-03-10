@@ -22,15 +22,14 @@ The platform provides the tools to increase productivity it should abstract away
    1. Setup Docker Environment
    2. Setup Kubernetes 
    3. Setup Service Mesh
+   4. Service discovery
 3. Serverless   
 
 TODO: Service Discovery [https://fabric8.io/guide/develop/serviceDiscovery.html](https://fabric8.io/guide/develop/serviceDiscovery.html)
 
 [https://de.slideshare.net/SreenivasMakam/service-discovery-using-etcd-consul-and-kubernetes](https://de.slideshare.net/SreenivasMakam/service-discovery-using-etcd-consul-and-kubernetes)
 
-https://www.innoq.com/de/articles/2016/12/devops-service-discovery-with-consul/
-
-
+[https://www.innoq.com/de/articles/2016/12/devops-service-discovery-with-consul/](https://www.innoq.com/de/articles/2016/12/devops-service-discovery-with-consul/)
 
 ---
 
@@ -308,6 +307,14 @@ create the secret with
 ```
 kubectl create secret generic gcloud-cred --from-file=/Users/den/.config/keys/marketplaceapp.json
 ```
+
+## 
+
+## Service Discovery
+
+Use Envoy on ECS: https://blog.turbinelabs.io/replacing-aws-application-load-balancers-with-envoy-2a25c74bde9a
+
+## 
 
 ## Register your DOMAIN
 
