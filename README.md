@@ -6,6 +6,7 @@ The flow is as follow:
 
 * The architecture principles are the guiding factors for decisions about the \(architecture\) decision infrastructure & tools
 * This leads to best practices in this area
+* **If you search a specific topic don't forget the search function \(!\)**
 
 ### Requirements
 
