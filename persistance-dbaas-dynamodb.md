@@ -29,22 +29,17 @@ Important: Partition Key Fieldname can not be changed and it must always be incl
 
 Further you validate in your that a valid value was send to your service.
 
+# Containerized NoSQL - Mongodb
 
+###### Docker Setup 
 
+* Intro: 
+* ReplicaSets: 
 
+###### Working with Mongodb in Python 
 
-
-
-Mongodb 
-
-
-
-* Docker Setup 
-  * Intro
-  * ReplicaSets
-* Mongodb in python 
-  * https://realpython.com/blog/python/introduction-to-mongodb-and-python/
-  * pymongo authentication: http://api.mongodb.com/python/current/examples/authentication.html
+* [https://realpython.com/blog/python/introduction-to-mongodb-and-python/](https://realpython.com/blog/python/introduction-to-mongodb-and-python/)
+* pymongo authentication: [http://api.mongodb.com/python/current/examples/authentication.html](http://api.mongodb.com/python/current/examples/authentication.html)
 
 
 
