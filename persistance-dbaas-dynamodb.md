@@ -31,12 +31,12 @@ Further you validate in your that a valid value was send to your service.
 
 # Containerized NoSQL - Mongodb
 
-###### Docker Setup 
+###### Docker Setup
 
 * Intro: 
 * ReplicaSets: 
 
-###### Working with Mongodb in Python 
+###### Working with Mongodb in Python
 
 * [https://realpython.com/blog/python/introduction-to-mongodb-and-python/](https://realpython.com/blog/python/introduction-to-mongodb-and-python/)
 * pymongo authentication: [http://api.mongodb.com/python/current/examples/authentication.html](http://api.mongodb.com/python/current/examples/authentication.html)
