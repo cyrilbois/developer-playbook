@@ -265,7 +265,8 @@ git stash pop
   * [https://github.com/kubernetes/charts/tree/master/incubator/gocd](https://github.com/kubernetes/charts/tree/master/incubator/gocd)
   * [https://www.gocd.org/2017/06/26/serverless-architecture-continuous-delivery/](https://www.gocd.org/2017/06/26/serverless-architecture-continuous-delivery/)
 * CircleCI Pipeline with ECS: 
-  * http://mherman.org/blog/2017/09/18/on-demand-test-environments-with-docker-and-aws-ecs/
+  * [http://mherman.org/blog/2017/09/18/on-demand-test-environments-with-docker-and-aws-ecs/](http://mherman.org/blog/2017/09/18/on-demand-test-environments-with-docker-and-aws-ecs/)
+  * http://mherman.org/blog/2017/11/16/docker-on-aws-from-containerization-to-orchestration/
   * [https://medium.com/boltops/setting-up-continuous-deployment-to-ecs-on-circleci-e0250bf6c3ad](https://medium.com/boltops/setting-up-continuous-deployment-to-ecs-on-circleci-e0250bf6c3ad)
   * [https://www.reddit.com/r/aws/comments/6vcg18/deploying\_a\_docker\_container\_to\_aws\_ecs\_using\_ecr/](https://www.reddit.com/r/aws/comments/6vcg18/deploying_a_docker_container_to_aws_ecs_using_ecr/)
   * [https://docs.aws.amazon.com/AWSGettingStartedContinuousDeliveryPipeline/latest/GettingStarted/CICD\_Jenkins\_Pipeline.html](https://docs.aws.amazon.com/AWSGettingStartedContinuousDeliveryPipeline/latest/GettingStarted/CICD_Jenkins_Pipeline.html)
