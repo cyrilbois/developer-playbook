@@ -245,7 +245,7 @@ git commit --amend
 git push -f
 ```
 
-Use git stash to switch change between branches - https://www.youtube.com/watch?v=KLEDKgMmbBI
+Use git stash to switch change between branches - [https://www.youtube.com/watch?v=KLEDKgMmbBI](https://www.youtube.com/watch?v=KLEDKgMmbBI)
 
 ```
 # stash current state
@@ -254,12 +254,7 @@ git stash save "Worked on get identities/{identityId}"
 git stash add
 # apply current state and delete stash
 git stash pop
-
 ```
-
- 
-
-
 
 # Development Pipeline:
 
@@ -270,15 +265,14 @@ git stash pop
   * [https://github.com/kubernetes/charts/tree/master/incubator/gocd](https://github.com/kubernetes/charts/tree/master/incubator/gocd)
   * [https://www.gocd.org/2017/06/26/serverless-architecture-continuous-delivery/](https://www.gocd.org/2017/06/26/serverless-architecture-continuous-delivery/)
 * CircleCI Pipeline with ECS: 
+  * http://mherman.org/blog/2017/09/18/on-demand-test-environments-with-docker-and-aws-ecs/
   * [https://medium.com/boltops/setting-up-continuous-deployment-to-ecs-on-circleci-e0250bf6c3ad](https://medium.com/boltops/setting-up-continuous-deployment-to-ecs-on-circleci-e0250bf6c3ad)
   * [https://www.reddit.com/r/aws/comments/6vcg18/deploying\_a\_docker\_container\_to\_aws\_ecs\_using\_ecr/](https://www.reddit.com/r/aws/comments/6vcg18/deploying_a_docker_container_to_aws_ecs_using_ecr/)
   * [https://docs.aws.amazon.com/AWSGettingStartedContinuousDeliveryPipeline/latest/GettingStarted/CICD\_Jenkins\_Pipeline.html](https://docs.aws.amazon.com/AWSGettingStartedContinuousDeliveryPipeline/latest/GettingStarted/CICD_Jenkins_Pipeline.html)
 
+Setup CircleCI with Docker, ECS:
 
-
-Setup CircleCI with Docker, ECS: 
-
-1. Go to https://circleci.com/dashboard
+1. Go to [https://circleci.com/dashboard](https://circleci.com/dashboard)
 2. Add the git repo to it:![](/assets/add-git-repo-to-circleci.png)![](/assets/add-git-repo-to-circleci-2.png)
 3. Setup a project as described \(e.g. add the folder `.circleci`with the `config.yml` file\)  
    ![](/assets/setup-circleci-project.png)
