@@ -75,10 +75,27 @@ Create a client library for the API:
 
 * [https://realpython.com/blog/python/api-integration-in-python/](https://realpython.com/blog/python/api-integration-in-python/)
 
-Use Feature flags: 
+Use Feature flags:
 
-* https://featureflags.io/python-feature-flags/
+* [https://featureflags.io/python-feature-flags/](https://featureflags.io/python-feature-flags/)
 
+Python Testing:
+
+* Unit Testing
+* Mocks
+* Code Coverage
+
+Python Functional Programming:
+
+* https://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming
+
+Python Clean Code:
+
+* http://pythonforengineers.com/writing-great-code/
+* https://github.com/zedr/clean-code-python
+* https://github.com/rmariano/Clean-code-in-Python/blob/master/build/Clean%20code%20in%20Python.pdf
+* http://docs.python-guide.org/en/latest/writing/reading/
+* 
 # Getting Started with the Serverless Framework
 
 * Create function
