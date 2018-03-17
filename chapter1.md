@@ -266,7 +266,7 @@ git stash pop
   * [https://www.gocd.org/2017/06/26/serverless-architecture-continuous-delivery/](https://www.gocd.org/2017/06/26/serverless-architecture-continuous-delivery/)
 * CircleCI Pipeline with ECS: 
   * [http://mherman.org/blog/2017/09/18/on-demand-test-environments-with-docker-and-aws-ecs/](http://mherman.org/blog/2017/09/18/on-demand-test-environments-with-docker-and-aws-ecs/)
-  * http://mherman.org/blog/2017/11/16/docker-on-aws-from-containerization-to-orchestration/
+  * [http://mherman.org/blog/2017/11/16/docker-on-aws-from-containerization-to-orchestration/](http://mherman.org/blog/2017/11/16/docker-on-aws-from-containerization-to-orchestration/)
   * [https://medium.com/boltops/setting-up-continuous-deployment-to-ecs-on-circleci-e0250bf6c3ad](https://medium.com/boltops/setting-up-continuous-deployment-to-ecs-on-circleci-e0250bf6c3ad)
   * [https://www.reddit.com/r/aws/comments/6vcg18/deploying\_a\_docker\_container\_to\_aws\_ecs\_using\_ecr/](https://www.reddit.com/r/aws/comments/6vcg18/deploying_a_docker_container_to_aws_ecs_using_ecr/)
   * [https://docs.aws.amazon.com/AWSGettingStartedContinuousDeliveryPipeline/latest/GettingStarted/CICD\_Jenkins\_Pipeline.html](https://docs.aws.amazon.com/AWSGettingStartedContinuousDeliveryPipeline/latest/GettingStarted/CICD_Jenkins_Pipeline.html)
@@ -278,6 +278,30 @@ Setup CircleCI with Docker, ECS:
 3. Setup a project as described \(e.g. add the folder `.circleci`with the `config.yml` file\)  
    ![](/assets/setup-circleci-project.png)
 
-4. 
+## Manual AWS Setup {#manual-aws-setup}
+
+1. EC2 Key Pair: Within the [EC2 Dashboard](https://console.aws.amazon.com/ec2/), click “Key Pairs” on the navigation pane, and then click the “Create Key Pair” button. Name the key`microservicemovies-review`. Save the file in a safe place - i.e., “~/.ssh”.  
+   ![](/assets/add-ec2-key-pair.png)
+
+2.  ECS Cluster: An [ECS Cluster](http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_clusters.html) is just a group of EC2 container instances managed by ECS. To set up, navigate to the [ECS Console](https://console.aws.amazon.com/ecs), and then [select](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html#select-region) the region for the Cluster on the right-side of the nav bar.  
+   ![](/assets/create-ecs-cluster-1.png)![](/assets/setup-ecs-cluster-2.png)![](/assets/create-ecs-cluster-3.png)![](/assets/create-ecs-cluster-4.png)Navigate to the Cluster once it’s created, and then click the “ECS Instances” tab. From there, click the “Actions” dropdown and select “View Cluster Resources”. **Take note of the VPC and Security Group**:  
+   ![](/assets/create-ecs-cluster-5.png)
+
+   ### Setup ECR \(Docker Registry\): 
+
+   Within the [ECS Console](https://console.aws.amazon.com/ecs), click “Repositories” on the navigation pane, and then click the “Create repository” button. Add the repositories for all images e.g.:
+
+* `apimanagement/identities-adapter`
+* `apimanagement/developer-portal`
+
+### Setup Application Loadbalancers
+
+* Dynamically maps container services to ports
+* Distributes traffic evenly across the entire ECS Service
+* Runs status health checks against each service
+* Allows for zero-downtime deploys
+
+
+
 
 
