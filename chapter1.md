@@ -312,7 +312,7 @@ To set up, navigate to the [EC2 Dashboard](https://console.aws.amazon.com/ec2/),
 
 ![](/assets/configure-loadbalancer-3.png)
 
-_Configure Security Settings: _Skip this for now
+\_Configure Security Settings: \_Skip this for now
 
 ![](/assets/configure-loadbalancer-4.png)
 
@@ -330,9 +330,7 @@ _Configure Routing_:
 
 _Register Targets_: Do not assign any instances manually since this will be managed by ECS
 
-
-
-### Setup Security Group: 
+### Setup Security Group:
 
 Finally, let’s add some ports to work with to the Security Group. Within the [EC2 Dashboard](https://console.aws.amazon.com/ec2/), click “Security Groups” in the navigation pane, and then** select the Security Group that was just created**. On the **“Inbound Rules”** pane, click the **“Edit”** button and the **“Add another rule button”**:
 
@@ -341,10 +339,28 @@ Finally, let’s add some ports to work with to the Security Group. Within the [
 * Port Range:`30000-50000`
 * Source:`0.0.0.0/0`
 
-![](/assets/add-security-group.png)  
+![](/assets/add-security-group.png)
+
+Configure Circleci define config.yml
+
+* Chose a build image: https://circleci.com/docs/2.0/circleci-images/
+* Setup a remove docker environment to build a docker container: https://circleci.com/docs/2.0/building-docker-images/
 
 
 
+Create deployment script: 
+
+./ecs/scripts/setup.py
+
+* check that the cluster exists
+* Tag and push images to ECR
+  * ./ecs/scripts/ecr.sh
+* Get open port for the Listener
+* Register Task Definitions
+* Create Target Groups
+* Add the Listener and Rules
+* Create new Services
+* run the script in the pipeline
 
 
 
