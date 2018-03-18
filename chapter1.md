@@ -283,16 +283,17 @@ Setup CircleCI with Docker, ECS:
 1. EC2 Key Pair: Within the [EC2 Dashboard](https://console.aws.amazon.com/ec2/), click “Key Pairs” on the navigation pane, and then click the “Create Key Pair” button. Name the key`microservicemovies-review`. Save the file in a safe place - i.e., “~/.ssh”.  
    ![](/assets/add-ec2-key-pair.png)
 
-2.  ECS Cluster: An [ECS Cluster](http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_clusters.html) is just a group of EC2 container instances managed by ECS. To set up, navigate to the [ECS Console](https://console.aws.amazon.com/ecs), and then [select](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html#select-region) the region for the Cluster on the right-side of the nav bar.  
+2. ECS Cluster: An [ECS Cluster](http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_clusters.html) is just a group of EC2 container instances managed by ECS. To set up, navigate to the [ECS Console](https://console.aws.amazon.com/ecs), and then [select](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html#select-region) the region for the Cluster on the right-side of the nav bar.  
    ![](/assets/create-ecs-cluster-1.png)![](/assets/setup-ecs-cluster-2.png)![](/assets/create-ecs-cluster-3.png)![](/assets/create-ecs-cluster-4.png)Navigate to the Cluster once it’s created, and then click the “ECS Instances” tab. From there, click the “Actions” dropdown and select “View Cluster Resources”. **Take note of the VPC and Security Group**:  
    ![](/assets/create-ecs-cluster-5.png)
 
-   ### Setup ECR \(Docker Registry\): 
+   ### Setup ECR \(Docker Registry\):
 
    Within the [ECS Console](https://console.aws.amazon.com/ecs), click “Repositories” on the navigation pane, and then click the “Create repository” button. Add the repositories for all images e.g.:
 
-* `apimanagement/identities-adapter`
-* `apimanagement/developer-portal`
+3. `apimanagement/identities-adapter`
+
+4. `apimanagement/developer-portal`
 
 ### Setup Application Loadbalancers
 
@@ -300,6 +301,48 @@ Setup CircleCI with Docker, ECS:
 * Distributes traffic evenly across the entire ECS Service
 * Runs status health checks against each service
 * Allows for zero-downtime deploys
+
+To set up, navigate to the [EC2 Dashboard](https://console.aws.amazon.com/ec2/), update the region \(if necessary\), and then **click “Load Balancers”** in the navigation pane. Click the “Create Load Balancer” button. Select “Application Load Balancer”, and then go through each of the steps to configure the load balancer:
+
+![](/assets/setup-loadbalancer-1.png)![](/assets/setup-loadbalancer-2.png)_Configure Load Balancer_
+
+1. “Name”: `microservicemovies-review`
+2. “VPC”: Select the VPC that was just created
+3. “Availability Zones”: Select at least two available subnets
+
+![](/assets/configure-loadbalancer-3.png)
+
+_Configure Security Settings: _Skip this for now
+
+![](/assets/configure-loadbalancer-4.png)
+
+_Configure Security Groups_: Select the Security Group that was just created
+
+![](/assets/config-loadbalancer-5.png)
+
+_Configure Routing_:
+
+* “Name”:`review-default`
+* “Port”:`80`
+* “Path”:`/`
+
+![](/assets/conf-loadbalancer-6.png)
+
+_Register Targets_: Do not assign any instances manually since this will be managed by ECS
+
+
+
+### Setup Security Group: 
+
+Finally, let’s add some ports to work with to the Security Group. Within the [EC2 Dashboard](https://console.aws.amazon.com/ec2/), click “Security Groups” in the navigation pane, and then** select the Security Group that was just created**. On the **“Inbound Rules”** pane, click the **“Edit”** button and the **“Add another rule button”**:
+
+* Type: `Custom TCP Rule`
+* Protocol: `TCP`
+* Port Range:`30000-50000`
+* Source:`0.0.0.0/0`
+
+![](/assets/add-security-group.png)  
+
 
 
 
