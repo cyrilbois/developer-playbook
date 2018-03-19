@@ -314,8 +314,6 @@ kubectl create secret generic gcloud-cred --from-file=/Users/den/.config/keys/ma
 
 Use Envoy on ECS: [https://blog.turbinelabs.io/replacing-aws-application-load-balancers-with-envoy-2a25c74bde9a](https://blog.turbinelabs.io/replacing-aws-application-load-balancers-with-envoy-2a25c74bde9a)
 
-
-
 ## Register your DOMAIN
 
 [https://console.aws.amazon.com/route53](https://console.aws.amazon.com/route53)
