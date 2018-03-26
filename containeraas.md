@@ -221,6 +221,10 @@ kubectl create -n <namspace> -f <your-app-spec>.yaml
 Access the non exposed components:
 
 ```
+#login first
+gcloud container clusters get-credentials marketplace-istio \
+      --zone us-east1-b --project trusty-acre-156607
+
 kubectl -n istio-system port-forward \
   $(kubectl -n istio-system get pod -l app=zipkin -o jsonpath='{.items[0].metadata.name}') \
   9411:9411 &

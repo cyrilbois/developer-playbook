@@ -343,12 +343,10 @@ Finally, let’s add some ports to work with to the Security Group. Within the [
 
 Configure Circleci define config.yml
 
-* Chose a build image: https://circleci.com/docs/2.0/circleci-images/
-* Setup a remove docker environment to build a docker container: https://circleci.com/docs/2.0/building-docker-images/
+* Chose a build image: [https://circleci.com/docs/2.0/circleci-images/](https://circleci.com/docs/2.0/circleci-images/)
+* Setup a remove docker environment to build a docker container: [https://circleci.com/docs/2.0/building-docker-images/](https://circleci.com/docs/2.0/building-docker-images/)
 
-
-
-Create deployment script: 
+Create deployment script:
 
 ./ecs/scripts/setup.py
 

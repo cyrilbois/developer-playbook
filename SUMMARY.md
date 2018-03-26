@@ -12,4 +12,5 @@
 * [Event Driven / Streaming aaS](event-driven-programming-event-store.md)
 * [AI - AIaaS](ai-aiaas.md)
 * [Production / Reliability Engineering](serverless-in-production.md)
+* [create-k8s-secrets](create-k8s-secrets.md)
 
