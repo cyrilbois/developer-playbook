@@ -26,10 +26,8 @@ encrypt the folder with gpg
 create to following aliases in `.zshrc`:
 
 ```
-alias unlock-secret="cd ~/Desktop/ && gpg-zip -e -o secret-files -r den.seidel@gmail.com secret && mv -f ~/Desktop/secret-files ~/Google\ Drive/backupx/ && rm -rf ~/Desktop/secret"
+alias unlock-secret-files="cd ~/Desktop/ && gpg-zip -e -o secret-files -r den.seidel@gmail.com secret && mv -f ~/Desktop/secret-files ~/Google\ Drive/backupx/ && rm -rf ~/Desktop/secret"
 ```
-
-
 
 create secret in kubernetes
 
