@@ -23,17 +23,23 @@ data:
 
 encrypt the folder with gpg
 
+install gpg tools: [https://gpgtools.org/](https://gpgtools.org/)
+
+[https://www.gnupg.org/documentation/manuals/gnupg/gpg\_002dzip.html](https://www.gnupg.org/documentation/manuals/gnupg/gpg_002dzip.html)
+
 create to following aliases in `.zshrc`:
 
 ```
-alias unlock-secret-files="cd ~/Desktop/ && gpg-zip -e -o secret-files -r den.seidel@gmail.com secret && mv -f ~/Desktop/secret-files ~/Google\ Drive/backupx/ && rm -rf ~/Desktop/secret"
+alias lock-secret-files="cd ~/Desktop/ && gpg-zip -e -o secret-files -r den.seidel@gmail.com secret && mv -f ~/Desktop/secret-files ~/Google\ Drive/backupx/ && rm -rf ~/Desktop/secret"
+
+alias unlock-secret-files="cd ~/Desktop && gpg-zip -d ~/Google\ Drive/backupx/secret-files -r den.seidel@gmail.com"
 ```
 
-create secret in kubernetes
+create secret in kubernetes \(secrets muss be in the same namespace as the pod!\)
 
 ```
-kubectl create -f ./secret.yaml
+kubectl create --namespace=default -f ./secret.yaml
 ```
 
-in kubernete
+in kubernetes
 
