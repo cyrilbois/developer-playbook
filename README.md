@@ -1,6 +1,6 @@
 # Introduction
 
-This notebook includes all notes on all skills you need to build modern applications. Currently the stack looks like this:
+This notebook includes notes on skills you need to build modern applications. The currently the stack looks like this:
 
 ![https://embed.coggle.it/diagram/Wog4AgWJuAAB-ba-/d6269da9c39644334c504c9bffac35b287e64983792a5ec69204183aa3ad8b1f](.gitbook/assets/overview.png)
 
