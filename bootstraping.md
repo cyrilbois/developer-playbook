@@ -1,11 +1,8 @@
 # Bootstraping
 
-To get started fast and produce results in accordance with my architectural principles I have assets for most areas:
+To get started fast ask yourself the following questions **how strategic is what i build?** and **how much need for change exists?**: 
 
-Todo:
-
-* Add sample app e.g. including out to all Backend starters
-* Check if the docker starter and the service mesh starter can be integrated \(can we just deploy the local docker compose \(or do I always require minqube?\)  to aws?\)
+![](.gitbook/assets/serverless-vs-containers.png)
 
 ## Backend / APIs:
 
