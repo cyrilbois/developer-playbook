@@ -1,10 +1,8 @@
 # Introduction
 
-This notebook includes all notes on all skills you need to build modern applications. Currently the stack looks like this:![](.gitbook/assets/overview.png)Source: [https://coggle.it/diagram/Wog4AgWJuAAB-ba-/t/-](https://coggle.it/diagram/Wog4AgWJuAAB-ba-/t/-)
+This notebook includes all notes on all skills you need to build modern applications. Currently the stack looks like this:![](.gitbook/assets/overview.png) 
 
-
-
-&lt;iframe width='853' height='480' src='https://embed.coggle.it/diagram/Wog4AgWJuAAB-ba-/d6269da9c39644334c504c9bffac35b287e64983792a5ec69204183aa3ad8b1f' frameborder='0' allowfullscreen&gt;&lt;/iframe&gt;
+Source https://embed.coggle.it/diagram/Wog4AgWJuAAB-ba-/d6269da9c39644334c504c9bffac35b287e64983792a5ec69204183aa3ad8b1f 
 
 The flow is as follow:
 
