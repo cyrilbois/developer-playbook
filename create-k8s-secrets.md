@@ -1,8 +1,10 @@
+# create-k8s-secrets
+
 [https://kubernetes.io/docs/concepts/configuration/secret/](https://kubernetes.io/docs/concepts/configuration/secret/) -&gt; use `Creating a Secret Manually`
 
 Encode the values base64 / better use visual studio code plugin Encode Decode \(`Convert Section)`
 
-```
+```text
 echo -n "admin" | base64
 ```
 
@@ -10,7 +12,7 @@ echo -n "admin" | base64
 
 create secret file in a folder without version control
 
-```
+```text
 apiVersion: v1
 kind: Secret
 metadata:
@@ -29,7 +31,7 @@ install gpg tools: [https://gpgtools.org/](https://gpgtools.org/)
 
 create to following aliases in `.zshrc`:
 
-```
+```text
 alias lock-secret-files="cd ~/Desktop/ && gpg-zip -e -o secret-files -r den.seidel@gmail.com secret && mv -f ~/Desktop/secret-files ~/Google\ Drive/backupx/ && rm -rf ~/Desktop/secret"
 
 alias unlock-secret-files="cd ~/Desktop && gpg-zip -d ~/Google\ Drive/backupx/secret-files -r den.seidel@gmail.com"
@@ -37,7 +39,7 @@ alias unlock-secret-files="cd ~/Desktop && gpg-zip -d ~/Google\ Drive/backupx/se
 
 create secret in kubernetes \(secrets muss be in the same namespace as the pod!\)
 
-```
+```text
 kubectl create --namespace=default -f ./secret.yaml
 ```
 

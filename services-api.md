@@ -1,27 +1,27 @@
-# Service/API
+# Services/API
 
-The core business functions are develop in services either using microservices or event driven actors.These can be implemented on the [platform ](/containeraas.md)either as _serverless_ or _containers_.
+## Service/API
 
-###### Architectural Decisions
+The core business functions are develop in services either using microservices or event driven actors.These can be implemented on the [platform ](plattform.md)either as _serverless_ or _containers_.
+
+**Architectural Decisions**
 
 1. Languages: Python/NodeJS
 
-## Stack
+### Stack
 
-1. Understand the domain - [create a lean diagram](/architecture.md) with a domain diagram \(events, commands, actors, aggregates\), interaction diagram and a first deployment diagram, \(squnce diagram? not at this stage right?\).
+1. Understand the domain - [create a lean diagram](architecture.md) with a domain diagram \(events, commands, actors, aggregates\), interaction diagram and a first deployment diagram, \(squnce diagram? not at this stage right?\).
 2. Design the API / Event in Swagger.
 3. Setup the project
-4. Decide if it is [serverless or container use case.](/containeraas.md)
+4. Decide if it is [serverless or container use case.](plattform.md)
 5. Implement the first mock. 
 6. Implement the API or Event Actor. 
 
----
-
-# Design the API
+## Design the API
 
 First we start designing the API with Swagger. The best tool to do this is the [swagger editor](https://github.com/swagger-api/swagger-editor). I suggest adding the swagger editor to the docker-compose file in your project:
 
-```
+```text
 services:
   swaggereditor:
     image: swaggerapi/swagger-editor
@@ -31,14 +31,12 @@ services:
 
 Create your swagger file: [basic swagger file structure](https://swagger.io/docs/specification/2-0/basic-structure/)
 
-# Setup the project
+## Setup the project
 
-* Create [new github repo](https://github.com/new):  
-  ![](/assets/create-github-repo-for-project.png)
-
+* Create [new github repo](https://github.com/new): ![](.gitbook/assets/create-github-repo-for-project.png)
 * Clone repo:
 
-  ```
+  ```text
   git clone https://github.com/denseidel/consumer-marketplace-service.git
   cd consumer-marketplace-service
   git secrets --install
@@ -47,7 +45,7 @@ Create your swagger file: [basic swagger file structure](https://swagger.io/docs
 
 * Start a virtual environment
 
-  ```
+  ```text
   virtualenv venv --python=python3
   source venv/bin/activate
   # install pylint 
@@ -56,9 +54,9 @@ Create your swagger file: [basic swagger file structure](https://swagger.io/docs
 
   If you use visual studio code do this first in your terminal window and then open the folder again with `code .`.
 
-# Developer a docker microservice in Python
+## Developer a docker microservice in Python
 
-1. Check that you have have a local docker environment in [Plattform](/containeraas.md) -&gt; Setup Docker Environment.
+1. Check that you have have a local docker environment in [Plattform](plattform.md) -&gt; Setup Docker Environment.
 2. Create Dockerfile and docker-compose that starts the Mock Server\([Code](https://github.com/denseidel/products-marketplace-service/commit/6303f0ba152be610dc4fabcf85d624a4e32faa31)\) - make sure the Swagger  file does not include custom functions like `x-tokenInfoFunc`. **TODO create it for the mock** 
    * [Environment Variables to connect to AWS](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
 3. Implement Frontend against mocks
@@ -87,20 +85,18 @@ Python Testing:
 
 Python Functional Programming:
 
-* https://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming
+* [https://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming](https://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming)
 
 Python Clean Code:
 
-* http://pythonforengineers.com/writing-great-code/
-* https://github.com/zedr/clean-code-python
-* https://github.com/rmariano/Clean-code-in-Python/blob/master/build/Clean%20code%20in%20Python.pdf
-* http://docs.python-guide.org/en/latest/writing/reading/
-* 
-# Getting Started with the Serverless Framework
-
+* [http://pythonforengineers.com/writing-great-code/](http://pythonforengineers.com/writing-great-code/)
+* [https://github.com/zedr/clean-code-python](https://github.com/zedr/clean-code-python)
+* [https://github.com/rmariano/Clean-code-in-Python/blob/master/build/Clean code in Python.pdf](https://github.com/rmariano/Clean-code-in-Python/blob/master/build/Clean%20code%20in%20Python.pdf)
+* [http://docs.python-guide.org/en/latest/writing/reading/](http://docs.python-guide.org/en/latest/writing/reading/)
+* **Getting Started with the Serverless Framework**
 * Create function
 
-  ```
+  ```text
   sls create --template aws-python3
   ```
 
@@ -112,72 +108,70 @@ Python Clean Code:
 
   Code: [https://github.com/denseidel/apis-api/commit/dad4026fe14c3c42fd99e3576cabaccb039db2aa](https://github.com/denseidel/apis-api/commit/dad4026fe14c3c42fd99e3576cabaccb039db2aa)
 
-## Create a REST API function
+### Create a REST API function
 
 * configure the function in `serverless.yml`
 * create the function in `handler.py`
   * also install boto3 to access dynamodb
 * test the function locally
 
-### Install a python dependency
+#### Install a python dependency
 
 ```python
 pip install boto3
 ```
 
-### Store a reference to my dependencies
+#### Store a reference to my dependencies
 
 ```python
 pip freeze > requirements.txt
 ```
 
-### Optional: Re-install the dependencies from requirements.txt
+#### Optional: Re-install the dependencies from requirements.txt
 
 ```python
 pip install -r requirements.txt
 ```
 
-### Implement the function
+#### Implement the function
 
 Code: [https://github.com/denseidel/apis-api/commit/92b72ee086c64f2aee768fa4fa1e32134c6bf2eb](https://github.com/denseidel/apis-api/commit/92b72ee086c64f2aee768fa4fa1e32134c6bf2eb)
 
-### Test the function locally
+#### Test the function locally
 
-```
+```text
 sls invoke local --function create_api --path tests/create-api.json
 ```
 
 todo unit tests: when to use what \(for small functions\) the function test should be ok \(how to run them best in the pipeline? bash script? python framework? node framework \(check how the serverless stack test node functions\)?
 
-### Deploy the function
+#### Deploy the function
 
-```
+```text
 sls deploy
 ```
 
-![](/assets/deployment.png)
+![](.gitbook/assets/deployment.png)
 
 The deployment takes very long. I have to see how to optimize this.
 
-### Test the deployed function
+#### Test the deployed function
 
-You can use the endpoint endpoint and use Postman to make a "real world" request: ![](/assets/test-with-postman.png)
+You can use the endpoint endpoint and use Postman to make a "real world" request: ![](.gitbook/assets/test-with-postman.png)
 
 Or you can use the CLI and use:
 
-```
+```text
 sls invoke -f create_api --path tests/create-api.json
 ```
 
-![](/assets/test-with-cli-at-runtime.png)
+![](.gitbook/assets/test-with-cli-at-runtime.png)
 
-## More
+### More
 
 * [https://github.com/serverless/examples](https://github.com/serverless/examples)
 
-# 
-
-# develop a api \(api first\) with swagger, python and the serverless framework
+## develop a api \(api first\) with swagger, python and the serverless framework
 
 Principle of Good API Development vs Bad API Development
 
@@ -189,7 +183,7 @@ Principle of Good API Development vs Bad API Development
 
 Benefits API First:
 
-![](/assets/advantages-of-api-first.png)
+![](.gitbook/assets/advantages-of-api-first.png)
 
 [https://github.com/swagger-api/swagger-codegen/wiki/server-stub-generator-howto\#python-flask-connexion](https://github.com/swagger-api/swagger-codegen/wiki/server-stub-generator-howto#python-flask-connexion)
 
@@ -207,9 +201,9 @@ Benefits API First:
 
 Beispiel: [https://github.com/hjacobs/connexion-example](https://github.com/hjacobs/connexion-example)
 
-## Develop API First in Python
+### Develop API First in Python
 
-Check how to get started with Python: [Serverless Framework \(Python\)](/serverless-framework.md)
+Check how to get started with Python: [Serverless Framework \(Python\)](https://github.com/denseidel/developer-playbook/tree/0de27ab0d5cf97c58fdeec5a26159b0fa55f0ef2/serverless-framework.md)
 
 Get started with Connextion: [http://connexion.readthedocs.io/en/latest/quickstart.html](http://connexion.readthedocs.io/en/latest/quickstart.html)
 
@@ -240,11 +234,11 @@ API Sources / public api collection: [https://any-api.com](https://any-api.com)
 
 [https://apis.guru/browse-apis/](https://apis.guru/browse-apis/)
 
-# Testing - Serverless Stack Example
+## Testing - Serverless Stack Example
 
 I implemented the [serverless-stack.com](https://serverless-stack.com) app for training purposes.
 
-## Prerequesits
+### Prerequesits
 
 * Signup for an AWS account
 * Create an IAM role with \(Programmatic access and admin rights\): this is used for the AWS CLI and the serverless framework. 
@@ -256,12 +250,12 @@ sudo pip install awscli
 aws configure
 ```
 
-## Admin Tasks
+### Admin Tasks
 
 1. Create DynamoDB _table name_ `notes` and _Primary key_ with Partition key `userId` and sort key `noteId` and the default created new _IAM Role_ `DynamoDBAutoscaleRole`.
 2. Create S3 Bucket with _bucket name_ `your-globally-unique-bucketname` \(e.g. `notes-app-uploads-ds1`\) and _region_ `eu-central-1` and enable CORS by updating the policy under permissions to 
 
-```
+```text
 <CORSConfiguration>
     <CORSRule>
         <AllowedOrigin>*</AllowedOrigin>
@@ -278,108 +272,108 @@ aws configure
 1. Create User Pool in Cognito with _Pool name_ ```notes-user-pool``  and choose username attributes and select email adress or phone numbers and allow email addresses. Finish and _note the Pool ID and Pool ARN_. 
 2. Create App clients in the Cognito User Pool with _App client name_ `notes-app` and _refresh token expiration_ `30` and _Generate client secret_ `deselected` and _ Enable sign-in API server-based authentication_ `selected`. Finish and _note the App client id_.
 
-## Config - Dummy Data
+### Config - Dummy Data
 
-```
+```text
 # create user
 aws cognito-idp sign-up --region eu-central-1 --client-id YOUR_CLIENTID --username admin@yourmail.com --password passw0rD
 # verfiy user
 aws cognito-idp admin-confirm-sign-up --region eu-central-1 --user-pool-id YOUR_USERPOOL_ID --username admin@yourmail.com
 ```
 
-## Install Serverless
+### Install Serverless
 
-```
+```text
 npm install serverless -g
 ```
 
-## Setup API Backend
+### Setup API Backend
 
 Source: [https://serverlesscode.com/post/python-3-on-serverless-framework/](https://serverlesscode.com/post/python-3-on-serverless-framework/)
 
-```
+```text
 mkdir notes-app-api
 cd notes-app-api
 sls create --template aws-python3
 ```
 
-# Usage
+## Usage
 
-## Create virtual env local, activate and deactivate
+### Create virtual env local, activate and deactivate
 
-```
+```text
 #http://sourabhbajaj.com/mac-setup/Python/virtualenv.html
 virtualenv venv
 source venv/bin/activate
 deactivate
 ```
 
-## Install a python dependency
+### Install a python dependency
 
 ```python
 pip install boto3 requests
 ```
 
-## Store a reference to my dependencies
+### Store a reference to my dependencies
 
 ```python
 pip freeze > requirements.txt
 ```
 
-## Re-install the dependencies from requirements.txt
+### Re-install the dependencies from requirements.txt
 
 pip install -r requirements.txt
 
-## Test locally
+### Test locally
 
-```
+```text
 sls invoke local --function create --path mocks/create-event.json
 
 sls invoke local -f hello
 ```
 
-## Run tests
+### Run tests
 
-```py
+```python
 python -m unittest discover -s tests
 ```
 
-# Deployment
+## Deployment
 
-## Deploy  project
+### Deploy  project
 
 ```bash
 sls deploy
 ```
 
-## Deploy single function
+### Deploy single function
 
-```
+```text
 sls deploy function --function hello
 ```
 
-## Compile non-pure Python modules \(e.g. C?\)
+### Compile non-pure Python modules \(e.g. C?\)
 
 To compile non-pure Python modules, install [Docker](https://docs.docker.com/engine/installation/) and the [Lambda Docker Image](https://github.com/lambci/docker-lambda). Enable **dockerizePip** in **serverless.yml** and `serverless deploy` again.
 
-```yml
+```text
 # enable dockerize Pip
 custom:
   pythonRequirements:
     dockerizePip: true
 ```
 
-# Sources:
+## Sources:
 
 * [https://github.com/serverless/examples/tree/master/aws-python-pynamodb-s3-sigurl](https://github.com/serverless/examples/tree/master/aws-python-pynamodb-s3-sigurl) 
 * [https://github.com/AnomalyInnovations/serverless-python-starter](https://github.com/AnomalyInnovations/serverless-python-starter)
 * [https://serverlesscode.com/post/python-3-on-serverless-framework/](https://serverlesscode.com/post/python-3-on-serverless-framework/)
 
-# Language Python Questions:
+## Language Python Questions:
 
 debug with python:
 
-```
+```text
 print(variable)
 ```
 

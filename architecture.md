@@ -1,4 +1,4 @@
-# Evolutionary Architecture
+# Architecture
 
 Architecture should be designed for change, and you must never make comproises that impact architecture goals negatively as architecture is by definition hard to change - agree to disagree.
 
@@ -6,7 +6,7 @@ Architecture should be designed for change, and you must never make comproises t
 
 ## Architectural practices for evolution
 
-![](/assets/principles-of-evolutionary-architecture.png)  
+![](.gitbook/assets/principles-of-evolutionary-architecture.png)  
 Source: [Patrick Kua - Goto Conference](https://www.youtube.com/watch?v=8bEsNT7jdC4&t=112s&index=57&list=WL)
 
 ### Technical Practices:
@@ -60,6 +60,4 @@ Architectural decision should be documented in a [light weight architecture deci
 ## Community
 
 * [https://jobs.zalando.com/tech/](https://jobs.zalando.com/tech/)
-
-
 

@@ -1,4 +1,4 @@
-# Identity as a Service
+# IAM - IAMaaS
 
 To secure your app and mange user identities you can either build your own secuirty \(which is bad practice unless you are a security startup that sees it advantage in build novel and better security\), use a existing solution like keycloak and integrate it into your application or use a SaaS solution that provides you Identitymanagement.
 
@@ -16,15 +16,10 @@ Tasks to build a MVP that shows you the different Aspects of building an Identit
 
 * Register with IAMaaS
 * Build Sample App that authenticated via SSO with your IaaS
-
 * Configure the provider so it integrates with your domain - so that it looks like your own webpage
-
 * Create Backend API and protect it with IAM
-
 * Integrate API Gateway with IAM
-
 * Expose API on API Gateway
-
 * Build Developer Portal and Integrate it with IAM for Signup, Management of Clients and Signup of APIs
 
 Eigene APIs ? In CISL?
@@ -36,7 +31,8 @@ As Auth0 is currently most established in the community and AWS Cognito is AWS s
 ### Register with IAMaaS
 
 1. Signup with [Auth0](https://auth0.com/signup)
-   ![](/assets/signup-auth0-1.png)![](/assets/signup-auth0-2.png)
+
+   ![](.gitbook/assets/signup-auth0-1.png)![](.gitbook/assets/signup-auth0-2.png)
 
 ### Build Sample App that authenticated via SSO with your IaaS
 
@@ -83,7 +79,7 @@ Delegated Access Control and Multiple APIs "Audiances":
 
 [https://www.googleapis.com/oauth2/v1/tokeninfo?access\_token=ya29.GltQBaDL5XGrEinAjYr\_E7WPPvzrHqahgyr5SaglbA6opHQ\_dgy-2WYKcr3sGFePre0zsBN91FjCdQqiko4dl6yvlIep2IVnhyIANT6NA7d7hGp8ETjhax-FEr-w](https://www.googleapis.com/oauth2/v1/tokeninfo?access_token=ya29.GltQBaDL5XGrEinAjYr_E7WPPvzrHqahgyr5SaglbA6opHQ_dgy-2WYKcr3sGFePre0zsBN91FjCdQqiko4dl6yvlIep2IVnhyIANT6NA7d7hGp8ETjhax-FEr-w)
 
-```
+```text
 {
  "issued_to": "407408718192.apps.googleusercontent.com",
  "audience": "407408718192.apps.googleusercontent.com",
@@ -97,36 +93,27 @@ access control sollte fühest möglich in der kette statt finden daher neuer tok
 
 React Tutorial: [https://auth0.com/docs/quickstart/spa/react/01-login](https://auth0.com/docs/quickstart/spa/react/01-login)
 
-```
+```text
 npm install --save auth0-js
 ```
 
 Configure a hosted page with auth0: [https://auth0.com/docs/quickstart/spa/react/01-login\#add-authentication-with-auth0](https://auth0.com/docs/quickstart/spa/react/01-login#add-authentication-with-auth0)
 
-
-
 ### JWT vs opaque tokens
 
-
-* JWT: https://jobs.zalando.com/tech/blog/the-purpose-of-jwt-stateless-authentication/
+* JWT: [https://jobs.zalando.com/tech/blog/the-purpose-of-jwt-stateless-authentication/](https://jobs.zalando.com/tech/blog/the-purpose-of-jwt-stateless-authentication/)
 * Google uses a central system 
 
-
-
-
-
-Design the system: 
+Design the system:
 
 * What type of access:
   * functional \(bring your own data\) - is normally only restricted by utilization \(in some case also by a role\) 
   * self access - is normally done with a 3 legged oauth at login time and later in the background with the refresh token?
-  * delegated access (there might be a solution with [user managed access](https://www.forgerock.com/privacy/user-managed-access).  
+  * delegated access \(there might be a solution with [user managed access](https://www.forgerock.com/privacy/user-managed-access).  
 * what information does a service need to make a decision in what kind of cenario it is?
   * functional access can be decide at build time: 
   * identity: this needs to be compared if it is the same - then self access 
     * in the token 
     * in the payload 
   * role, group, permission, delegation: 
-
-
 

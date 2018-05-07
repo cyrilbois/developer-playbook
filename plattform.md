@@ -1,21 +1,23 @@
-# Platform & Infrastructure
+# Plattform
+
+## Platform & Infrastructure
 
 The platform provides the tools to increase productivity it should abstract away the operations tasks to get fast feedback loops but it also should design for change as we should be prepared that we have to change in the future:
 
 * Serverless \(great speed and plattform\) vs Istio \(great portability\) or Flask on Serverless for speed and platform but migratable? 
 * SaaS Components for 
-  * [Persistance - DBaaS \(DynamoDB\)](/persistance-dbaas-dynamodb.md) 
-  * [IAM - IAMaaS ](/identityaas-cognito.md)
-  * [Event Driven / Streaming aaS](/event-driven-programming-event-store.md)
-  * [AI - AIaaS](/ai-aiaas.md)
+  * [Persistance - DBaaS \(DynamoDB\)](persistance-dbaas.md) 
+  * [IAM - IAMaaS ](iam-iamaas.md)
+  * [Event Driven / Streaming aaS](event-driven-streaming-aas.md)
+  * [AI - AIaaS](ai-aiaas.md)
   * Reliability aaS - Logging
   * ... but don't forget ports and adapters
 
-###### Architecture Decisions
+**Architecture Decisions**
 
-1. [Select Application Runtime: Serverless over Istio for now](https://github.com/denseidel/developer-playbook/blob/master/adr/2018-02-18 Select a application runtime for plattform.md)
+1. [Select Application Runtime: Serverless over Istio for now](https://github.com/denseidel/developer-playbook/blob/master/adr/2018-02-18%20Select%20a%20application%20runtime%20for%20plattform.md)
 
-## Stack:
+### Stack:
 
 1. Decide between _Container_ vs _Serverless_
 2. Containers
@@ -31,22 +33,20 @@ TODO: Service Discovery [https://fabric8.io/guide/develop/serviceDiscovery.html]
 
 [https://www.innoq.com/de/articles/2016/12/devops-service-discovery-with-consul/](https://www.innoq.com/de/articles/2016/12/devops-service-discovery-with-consul/)
 
----
-
-# Decide between _containers_ vs _serverless_?
+## Decide between _containers_ vs _serverless_?
 
 Serverless increases the efficiency of your implementation. But at the same time you bind yourself very tightly to a special vendor like Amazon with AWS Lambda. Another Option is to use a multi cloud apporach and use Containers as your abstraction layer - Lambdas also use containers themselves. Downside you don't have the you pay only what you use and you miss the non functional features the platform provides like monitoring, routing ... This is where service meshs like Istio come into play.
 
 * [https://serverless.com/blog/serverless-faas-vs-containers/](https://serverless.com/blog/serverless-faas-vs-containers/)
 * [http://rancher.com/containers-vs-serverless-computing/](http://rancher.com/containers-vs-serverless-computing/)
 
-#### Can you integrate serverless with a service mesh and when to do it?
+**Can you integrate serverless with a service mesh and when to do it?**
 
 * [https://medium.com/@jeffzzq/how-to-integrate-an-aws-lambda-function-into-your-kubernetes-service-mesh-5d665f351675](https://medium.com/@jeffzzq/how-to-integrate-an-aws-lambda-function-into-your-kubernetes-service-mesh-5d665f351675)
 
-# Containers
+## Containers
 
-## Setup Docker Environment
+### Setup Docker Environment
 
 [Python Connexion Docker Tutorial](https://medium.com/@ssola/building-microservices-with-python-part-2-9f951199094a)
 
@@ -56,27 +56,27 @@ Create Dockerfile
 
 Build the dockerfile \([tagging](http://container-solutions.com/tagging-docker-images-the-right-way/)\).
 
-```
+```text
 docker build -t products:1.0.0 .
 ```
 
-## Setup Kubernetes
+### Setup Kubernetes
 
 When you want to bring your docker containers into production - you need to orchestrate those containers. This is where [Kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/) helps getting a reliable and reporducable, production read \( scalable ...\), "simple" \(routes, services, ...\), vendor independent \(compared to serverless\) and multi cloud ready solution.
 
 [https://de.slideshare.net/InfoQ/building-a-microservices-platform-with-kubernetes](https://de.slideshare.net/InfoQ/building-a-microservices-platform-with-kubernetes)
 
-### Local Development Environment
+#### Local Development Environment
 
 Start minikube \[[Source](https://kubernetes.io/docs/getting-started-guides/minikube/)\]
 
-```
+```text
 minikube start --memory 4096
 ```
 
 Setup [Helm](https://docs.helm.sh/) and tiller \[[Source](https://docs.helm.sh/using_helm/#quickstart)\] and Istio \[[Source](https://istio.io/docs/setup/kubernetes/quick-start.html)\] /** helm install currently not working check back in a few weeks.**
 
-```
+```text
 #find the locally configure cluster where tiller will be installed by helm
 kubectl config current-context
 
@@ -102,7 +102,7 @@ helm install install/kubernetes/helm/istio --name istio
 
 To build images directly in minishift use minikube's built-in docker daemon:
 
-```
+```text
 eval $(minikube docker-env)
 docker ps
 ```
@@ -111,39 +111,35 @@ Create Env variables: [https://kubernetes.io/docs/tasks/inject-data-application/
 
 Create secrets: [https://kubernetes.io/docs/concepts/configuration/secret/](https://kubernetes.io/docs/concepts/configuration/secret/)
 
-```
+```text
 kubectl create secret generic gcloud-cred --from-file=/Users/den/.config/keys/marketplaceapp.json
 ```
 
-### Production Environment
+#### Production Environment
 
 In my experience maintaining and setting up a kuebrnetes cluster is hard - there are now many great fully manged offerings: Openshift, AWS EKS, IBM,  
 Microsoft, Google GKE, Joyent Kubernetes
 
 **TODO**
 
-## Setup Service Mesh
+### Setup Service Mesh
 
-### What is Istio?
+#### What is Istio?
 
 * Source:
-
   * [https://programmaticponderings.com/2017/12/22/deploying-and-configuring-istio-on-google-kubernetes-engine-gke/](https://programmaticponderings.com/2017/12/22/deploying-and-configuring-istio-on-google-kubernetes-engine-gke/) \(Udemy Course Istio\)
   * Istio Introduction: 
     * [https://www.youtube.com/watch?v=muoCgHkkPx](https://www.youtube.com/watch?v=muoCgHkkPxo)
     * [https://istio.io/docs/concepts/what-is-istio/overview.html](https://istio.io/docs/concepts/what-is-istio/overview.html)
-
 * Improve development time \(library vs sidecar\)
-
 * improve plattform \(tracing, a/b testing, dashboarding, service graph\)
-
 * ... without changing the code!
 
-## Tutorial
+### Tutorial
 
 Setup a kubernetes cluster \(see chapter above\) then install Istio:
 
-```
+```text
 curl -L https://git.io/getLatestIstio | sh -
 export PATH="$PATH:/Users/den/repo/istio-0.5.0/bin"
 cd istio-0.5.0
@@ -169,11 +165,11 @@ kubectl get services
 
 Deploy
 
-```
+```text
 kubectl apply -f <(istioctl kube-inject -f ./deployment.yaml)
 ```
 
-Set it up \(you should do this with [DevSecOps ](/devsecops.md)in Mind \(Automation is everything!\):
+Set it up \(you should do this with [DevSecOps ](https://github.com/denseidel/developer-playbook/tree/0de27ab0d5cf97c58fdeec5a26159b0fa55f0ef2/devsecops.md)in Mind \(Automation is everything!\):
 
 [https://www.joyent.com/blog/kubernetes-the-easy-way](https://www.joyent.com/blog/kubernetes-the-easy-way)
 
@@ -187,13 +183,13 @@ Install Google Cloud SDK \(MacOS\)
 
 [https://cloud.google.com/sdk/docs/quickstart-macos](https://cloud.google.com/sdk/docs/quickstart-macos)
 
-```
+```text
 brew cask install google-cloud-sdk
 ```
 
 Install Istio: [https://istio.io/docs/setup/kubernetes/quick-start.html](https://istio.io/docs/setup/kubernetes/quick-start.html)
 
-```
+```text
 #Retrieve your credentials for kubectl (replace <cluster-name> with the name of the cluster you want to use, and <zone> with the zone where that cluster is located):
 gcloud container clusters get-credentials <cluster-name> --zone <zone> --project <project-name>
 Grant cluster admin permissions to the current user (admin permissions are required to create the necessary RBAC rules for Istio):
@@ -220,7 +216,7 @@ kubectl create -n <namspace> -f <your-app-spec>.yaml
 
 Access the non exposed components:
 
-```
+```text
 #login first
 gcloud container clusters get-credentials marketplace-istio \
       --zone us-east1-b --project trusty-acre-156607
@@ -246,7 +242,7 @@ kubectl proxy (8080/ui -> management ui)
 
 To enable TLS create certficate and deploy it as a secret and add the following to the ingress config \([https://istio.io/docs/tasks/traffic-management/ingress.html\](https://istio.io/docs/tasks/traffic-management/ingress.html%29\)
 
-```
+```text
 ---
 ###########################################################################
 # Ingress resource (gateway)
@@ -268,7 +264,7 @@ Add your own domain to the static ip address of the cluster: [https://cloud.goog
 
 Find your static IP address:
 
-```
+```text
 kubectl get ingress -o wide
 ```
 
@@ -276,7 +272,7 @@ Setup your DNS \(with Route53\) [https://serverless-stack.com/chapters/setup-you
 
 Remove untagged images and stopped containers [http://jimhoskins.com/2013/07/27/remove-untagged-docker-images.html](http://jimhoskins.com/2013/07/27/remove-untagged-docker-images.html)
 
-```
+```text
 docker rmi $(docker images | grep "^<none>" | awk "{print $3}")
 ```
 
@@ -286,7 +282,7 @@ testing with postman and different environments: [https://www.getpostman.com/doc
 
 Egress Rules currently don't work well with HTTPS [https://istio.io/blog/2018/egress-https.html](https://istio.io/blog/2018/egress-https.html) so better enable direct connection: [https://istio.io/docs/tasks/traffic-management/egress.html](https://istio.io/docs/tasks/traffic-management/egress.html)
 
-```
+```text
 # minikube
 kubectl apply -f <(istioctl kube-inject -f ./deployment.yaml --includeIPRanges=10.0.0.1/24)
 #for gke check https://istio.io/docs/tasks/traffic-management/egress.html
@@ -298,7 +294,7 @@ Mount Containers locally: [https://docs.docker.com/storage/bind-mounts/\#start-a
 
 Save docker image in docker hub to use it in kubernetes cluster
 
-```
+```text
 docker login
 docker tag products:1.2.0 dennisseidel/products:1.2.0
 docker push dennisseidel/products:1.2.0
@@ -308,21 +304,19 @@ and add it to the deloyment config
 
 create the secret with
 
-```
+```text
 kubectl create secret generic gcloud-cred --from-file=/Users/den/.config/keys/marketplaceapp.json
 ```
 
-## 
-
-## Service Discovery
+### Service Discovery
 
 Use Envoy on ECS: [https://blog.turbinelabs.io/replacing-aws-application-load-balancers-with-envoy-2a25c74bde9a](https://blog.turbinelabs.io/replacing-aws-application-load-balancers-with-envoy-2a25c74bde9a)
 
-## Register your DOMAIN
+### Register your DOMAIN
 
 [https://console.aws.amazon.com/route53](https://console.aws.amazon.com/route53)
 
-# Encryption - how to use the public cloud securly? N26?
+## Encryption - how to use the public cloud securly? N26?
 
 Other Serverless Assets:
 
@@ -333,6 +327,4 @@ Containers on AWS:
 * [https://docs.aws.amazon.com/de\_de/AmazonECS/latest/developerguide/ECS\_CLI\_tutorial.html](https://docs.aws.amazon.com/de_de/AmazonECS/latest/developerguide/ECS_CLI_tutorial.html)
 * [https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cmd-ecs-cli-compose.html](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cmd-ecs-cli-compose.html)
 * [https://blog.valiantys.com/en/expert-tips/deploying-docker-containers-aws](https://blog.valiantys.com/en/expert-tips/deploying-docker-containers-aws)
-
-
 

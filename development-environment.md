@@ -1,21 +1,23 @@
-# Serverless Development Environment for Python, Javascript/React and Node Developers \(on OSX\):
+# Development Environment
+
+## Serverless Development Environment for Python, Javascript/React and Node Developers \(on OSX\):
 
 Install Prerequesits Package Manger Homebrew and CLI Tools:
 
-```
+```text
 xcode-select --install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 Install Runtime for Javascript and Python:
 
-```
+```text
 brew install node python3
 ```
 
 Install Python and Javascript packages / Dependencies:
 
-```
+```text
 pip install virtualenv
 npm install -g serverless create-react-app
 ```
@@ -24,7 +26,7 @@ Source: [http://sourabhbajaj.com/mac-setup/Python/virtualenv.html](http://sourab
 
 Additional tools to improve the developer experience:
 
-```
+```text
 brew cask install google-chrome
 brew cask install visual-studio-code
 brew cask install iterm2
@@ -34,39 +36,43 @@ git config --global credential.helper osxkeychain
 brew install git-secrets
 ```
 
-## Setup a template for git to prevent checking in credentials
+### Setup a template for git to prevent checking in credentials
 
 [Source](https://seesparkbox.com/foundry/git_secrets)
 
 1. Make a directory for the template: 
-   ```
+
+   ```text
    mkdir ~/.git-template
    ```
+
 2. Install the hooks in the template directory: 
-   ```
+
+   ```text
    git secrets --install ~/.git-template
    ```
+
 3. Tell git to use it:
 
-   ```
+   ```text
    git config --global init.templateDir '~/.git-template'
    ```
 
 4. Install AWS patterns globally to be prevented to be checked in to git:
 
-   ```
+   ```text
    git secrets --register-aws --global
    ```
 
 5. Check the list of secrets `git secrets` will scan for:
 
-   ```
+   ```text
    git secrets --list
    ```
 
 It should return something like:
 
-```
+```text
 ecrets.providers git secrets --aws-provider
 secrets.patterns [A-Z0-9]{20}
 secrets.patterns ("|')?(AWS|aws|Aws)?_?(SECRET|secret|Secret)?_?(ACCESS|access|Access)?_?(KEY|key|Key)("|')?\s*(:|=>|=)\s*("|')?[A-Za-z0-9/\+=]{40}("|')?
@@ -82,15 +88,15 @@ That covers new repo creation, and cloning, but we haven’t addressed the probl
 1. `git init` is a non-destructive operation, so feel free to run it in existing repos. It’s safe, and will retroactively apply the template you specify. OR
 2. If you want to go “all in” and ensure that every repo has the proper hooks, here’s a [script](https://gist.github.com/iAmNathanJ/0ae03dcb08ba222d36346b138e83bfdf) that will recursively walk a directory, such as `~/Projects` and run `git secrets --install` in all repos.
 
-## Setup visual studio code
+### Setup visual studio code
 
 List all my installed extensions:
 
-```
+```text
 code --list-extensions
 ```
 
-```
+```text
 HookyQR.beautify
 PeterJausovec.vscode-docker
 dbaeumer.vscode-eslint
@@ -107,40 +113,33 @@ vscodevim.vim
 yzhang.markdown-all-in-one
 ```
 
-# Getting Started with AWS
+## Getting Started with AWS
 
-## Signup for an [AWS](https://aws.amazon.com) account
+### Signup for an [AWS](https://aws.amazon.com) account
 
-## Create an IAM role for a serverless-admin
+### Create an IAM role for a serverless-admin
 
 You don't want to give the serverless-admin access to all feature of aws. Therefore you create a new IAM user that only has the rights a serverless developer needs e.g. access to AWS Lambda, Dynamodb, S3, API Gateway, CloudDeployment and Logs. You use this user for the AWS CLI and the Serverless framework.
 
-1. Go to IAM:![](/assets/Screen Shot 2018-01-20 at 22.43.56.png)
-
-2. Create new user:  
-    ![](/assets/create-new-iam-user.png)
-
-3. Give it a name and select progammatic access and then next  
-   ![](/assets/create-new-iam-user-1.png)
-
+1. Go to IAM:![](.gitbook/assets/screen-shot-2018-01-20-at-22.43.56.png)
+2. Create new user: ![](.gitbook/assets/create-new-iam-user.png)
+3. Give it a name and select progammatic access and then next ![](.gitbook/assets/create-new-iam-user-1.png)
 4. Create a group with the permissions for api gateway, aws lambda and deploy  
-   ![](/assets/creare-iam-role.png)  
-   ![](/assets/create-iam-role-2.png)  
-   ![](/assets/create-group.png)  
-   ![](/assets/create-iam-role-3.png)
+   ![](.gitbook/assets/creare-iam-role.png)  
+   ![](.gitbook/assets/create-iam-role-2.png)  
+   ![](.gitbook/assets/create-group.png)  
+   ![](.gitbook/assets/create-iam-role-3.png)
 
    Overview of the permissions of the user:  
-   ![](/assets/serverless-admin-iam-rights.png)
+   ![](.gitbook/assets/serverless-admin-iam-rights.png)
 
-5. Create user \(with group serverless-admin\)![](/assets/create-iam-role-4.png)
-
-6. Save Access key id and secret access key:  
-   ![](/assets/iam-role-credentials.png)
+5. Create user \(with group serverless-admin\)![](.gitbook/assets/create-iam-role-4.png)
+6. Save Access key id and secret access key: ![](.gitbook/assets/iam-role-credentials.png)
 
 Never show this key in public or check it into version control. That's why I now go to user section and delete it and create a new one:  
-![](/assets/change-iam-user-credentials.png)
+![](.gitbook/assets/change-iam-user-credentials.png)
 
-## Install AWS CLI
+### Install AWS CLI
 
 ```bash
 sudo pip install awscli
@@ -157,13 +156,13 @@ aws configure help
 
 Source: [https://docs.aws.amazon.com/de\_de/cli/latest/userguide/cli-chap-getting-started.html](https://docs.aws.amazon.com/de_de/cli/latest/userguide/cli-chap-getting-started.html)
 
-### Configure multiple Profiles:
+#### Configure multiple Profiles:
 
-```
+```text
 vi ~/.aws/credentials
 ```
 
-```
+```text
 [default]
 aws_access_key_id=XXX
 aws_secret_access_key=XXX
@@ -175,15 +174,15 @@ aws_secret_access_key=je7MtGbClwBF/2Zp9Utk/h3yCo8nvbEXAMPLEKEY
 
 Set the profile:
 
-```
+```text
 export AWS_PROFILE=serverless-admin
 ```
 
 Source: [https://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html](https://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html)
 
-## Create project
+### Create project
 
-```
+```text
 mkdir apis-api
 cd apis-api
 git init
@@ -196,42 +195,40 @@ git push --set-upstream origin master
 
 Code: [https://github.com/denseidel/apis-api/commit/ecc27aaf1f7a714938d99f1b5d656a67376c934b](https://github.com/denseidel/apis-api/commit/85014bb55af8921c3c770fbfe9b56d5722b6c005)
 
-# Documentation
+## Documentation
 
 Use Gitbooks:
 
 Install gitbook CLI:
 
-```
+```text
 npm install -g gitbook-cli
 ```
 
 Initialize:
 
-```
+```text
 gitbook init
 ```
 
 Generate output to custom folder
 
-```
+```text
 gitbook build . docs
 ```
 
-# Git Knowledge
+## Git Knowledge
 
-* [Git Styleguide](https://udacity.github.io/frontend-nanodegree-styleguide/ / https://udacity.github.io/git-styleguide/)
+* [Git Styleguide](https://udacity.github.io/frontend-nanodegree-styleguide/%20/%20https://udacity.github.io/git-styleguide/)
 * [Create new branches](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
 * Use branches and if needed [squash all commits related to a single issue into one commit](https://github.com/todotxt/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit)
 * Merge multiple commits:
-
   * [https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
   * [https://robots.thoughtbot.com/autosquashing-git-commits](https://robots.thoughtbot.com/autosquashing-git-commits)
   * [https://www.ralfebert.de/git/rebase/](https://www.ralfebert.de/git/rebase/)
-
 * Modify the last two commits:
 
-```
+```text
 git rebase -i HEAD~2
 ```
 
@@ -239,7 +236,7 @@ Or if they are the last two:
 
 [https://stackoverflow.com/a/24690646/1929968](https://stackoverflow.com/a/24690646/1929968)
 
-```
+```text
 git reset --soft "HEAD^"
 git commit --amend
 git push -f
@@ -247,7 +244,7 @@ git push -f
 
 Use git stash to switch change between branches - [https://www.youtube.com/watch?v=KLEDKgMmbBI](https://www.youtube.com/watch?v=KLEDKgMmbBI)
 
-```
+```text
 # stash current state
 git stash save "Worked on get identities/{identityId}"
 # apply current stage (e.g. in other branch) but keep stash
@@ -256,7 +253,7 @@ git stash add
 git stash pop
 ```
 
-# Development Pipeline:
+## Development Pipeline:
 
 * gocd: 
   * [https://www.gocd.org/why-gocd/](https://www.gocd.org/why-gocd/)
@@ -274,28 +271,26 @@ git stash pop
 Setup CircleCI with Docker, ECS:
 
 1. Go to [https://circleci.com/dashboard](https://circleci.com/dashboard)
-2. Add the git repo to it:![](/assets/add-git-repo-to-circleci.png)![](/assets/add-git-repo-to-circleci-2.png)
+2. Add the git repo to it:![](.gitbook/assets/add-git-repo-to-circleci.png)![](.gitbook/assets/add-git-repo-to-circleci-2.png)
 3. Setup a project as described \(e.g. add the folder `.circleci`with the `config.yml` file\)  
-   ![](/assets/setup-circleci-project.png)
 
-## Manual AWS Setup {#manual-aws-setup}
+   ![](.gitbook/assets/setup-circleci-project.png)
 
-1. EC2 Key Pair: Within the [EC2 Dashboard](https://console.aws.amazon.com/ec2/), click “Key Pairs” on the navigation pane, and then click the “Create Key Pair” button. Name the key`microservicemovies-review`. Save the file in a safe place - i.e., “~/.ssh”.  
-   ![](/assets/add-ec2-key-pair.png)
+### Manual AWS Setup {#manual-aws-setup}
 
+1. EC2 Key Pair: Within the [EC2 Dashboard](https://console.aws.amazon.com/ec2/), click “Key Pairs” on the navigation pane, and then click the “Create Key Pair” button. Name the key`microservicemovies-review`. Save the file in a safe place - i.e., “~/.ssh”. ![](.gitbook/assets/add-ec2-key-pair.png)
 2. ECS Cluster: An [ECS Cluster](http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_clusters.html) is just a group of EC2 container instances managed by ECS. To set up, navigate to the [ECS Console](https://console.aws.amazon.com/ecs), and then [select](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html#select-region) the region for the Cluster on the right-side of the nav bar.  
-   ![](/assets/create-ecs-cluster-1.png)![](/assets/setup-ecs-cluster-2.png)![](/assets/create-ecs-cluster-3.png)![](/assets/create-ecs-cluster-4.png)Navigate to the Cluster once it’s created, and then click the “ECS Instances” tab. From there, click the “Actions” dropdown and select “View Cluster Resources”. **Take note of the VPC and Security Group**:  
-   ![](/assets/create-ecs-cluster-5.png)
+   ![](.gitbook/assets/create-ecs-cluster-1.png)![](.gitbook/assets/setup-ecs-cluster-2.png)![](.gitbook/assets/create-ecs-cluster-3.png)![](.gitbook/assets/create-ecs-cluster-4.png)Navigate to the Cluster once it’s created, and then click the “ECS Instances” tab. From there, click the “Actions” dropdown and select “View Cluster Resources”. **Take note of the VPC and Security Group**:  
+   ![](.gitbook/assets/create-ecs-cluster-5.png)
 
-   ### Setup ECR \(Docker Registry\):
+   **Setup ECR \(Docker Registry\):**
 
    Within the [ECS Console](https://console.aws.amazon.com/ecs), click “Repositories” on the navigation pane, and then click the “Create repository” button. Add the repositories for all images e.g.:
 
 3. `apimanagement/identities-adapter`
-
 4. `apimanagement/developer-portal`
 
-### Setup Application Loadbalancers
+#### Setup Application Loadbalancers
 
 * Dynamically maps container services to ports
 * Distributes traffic evenly across the entire ECS Service
@@ -304,21 +299,21 @@ Setup CircleCI with Docker, ECS:
 
 To set up, navigate to the [EC2 Dashboard](https://console.aws.amazon.com/ec2/), update the region \(if necessary\), and then **click “Load Balancers”** in the navigation pane. Click the “Create Load Balancer” button. Select “Application Load Balancer”, and then go through each of the steps to configure the load balancer:
 
-![](/assets/setup-loadbalancer-1.png)![](/assets/setup-loadbalancer-2.png)_Configure Load Balancer_
+![](.gitbook/assets/setup-loadbalancer-1.png)![](.gitbook/assets/setup-loadbalancer-2.png)_Configure Load Balancer_
 
 1. “Name”: `microservicemovies-review`
 2. “VPC”: Select the VPC that was just created
 3. “Availability Zones”: Select at least two available subnets
 
-![](/assets/configure-loadbalancer-3.png)
+![](.gitbook/assets/configure-loadbalancer-3.png)
 
 \_Configure Security Settings: \_Skip this for now
 
-![](/assets/configure-loadbalancer-4.png)
+![](.gitbook/assets/configure-loadbalancer-4.png)
 
 _Configure Security Groups_: Select the Security Group that was just created
 
-![](/assets/config-loadbalancer-5.png)
+![](.gitbook/assets/config-loadbalancer-5.png)
 
 _Configure Routing_:
 
@@ -326,11 +321,11 @@ _Configure Routing_:
 * “Port”:`80`
 * “Path”:`/`
 
-![](/assets/conf-loadbalancer-6.png)
+![](.gitbook/assets/conf-loadbalancer-6.png)
 
 _Register Targets_: Do not assign any instances manually since this will be managed by ECS
 
-### Setup Security Group:
+#### Setup Security Group:
 
 Finally, let’s add some ports to work with to the Security Group. Within the [EC2 Dashboard](https://console.aws.amazon.com/ec2/), click “Security Groups” in the navigation pane, and then** select the Security Group that was just created**. On the **“Inbound Rules”** pane, click the **“Edit”** button and the **“Add another rule button”**:
 
@@ -339,7 +334,7 @@ Finally, let’s add some ports to work with to the Security Group. Within the [
 * Port Range:`30000-50000`
 * Source:`0.0.0.0/0`
 
-![](/assets/add-security-group.png)
+![](.gitbook/assets/add-security-group.png)
 
 Configure Circleci define config.yml
 
@@ -359,6 +354,4 @@ Create deployment script:
 * Add the Listener and Rules
 * Create new Services
 * run the script in the pipeline
-
-
 
