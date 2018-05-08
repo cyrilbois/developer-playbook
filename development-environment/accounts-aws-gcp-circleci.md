@@ -8,10 +8,19 @@
 
 You don't want to give the serverless-admin access to all feature of aws. Therefore you create a new IAM user that only has the rights a serverless developer needs e.g. access to AWS Lambda, Dynamodb, S3, API Gateway, CloudDeployment and Logs. You use this user for the AWS CLI and the Serverless framework.
 
-1. Go to IAM:![](../.gitbook/assets/screen-shot-2018-01-20-at-22.43.56.png)
-2. Create new user: ![](../.gitbook/assets/create-new-iam-user.png)
-3. Give it a name and select progammatic access and then next ![](../.gitbook/assets/create-new-iam-user-1.png)
-4. Create a group with the permissions for api gateway, aws lambda and deploy  
+Go to IAM:
+
+![](../.gitbook/assets/screen-shot-2018-01-20-at-22.43.56%20%281%29.png)
+
+Create new user:  
+
+
+![](../.gitbook/assets/create-new-iam-user%20%281%29.png)
+
+Give it a name and select progammatic access and then next  
+![](../.gitbook/assets/create-new-iam-user-1.png)
+
+1. Create a group with the permissions for api gateway, aws lambda and deploy  
    ![](../.gitbook/assets/creare-iam-role.png)  
    ![](../.gitbook/assets/create-iam-role-2.png)  
    ![](../.gitbook/assets/create-group.png)  
@@ -20,8 +29,8 @@ You don't want to give the serverless-admin access to all feature of aws. Theref
    Overview of the permissions of the user:  
    ![](../.gitbook/assets/serverless-admin-iam-rights.png)
 
-5. Create user \(with group serverless-admin\)![](../.gitbook/assets/create-iam-role-4.png)
-6. Save Access key id and secret access key: ![](../.gitbook/assets/iam-role-credentials.png)
+2. Create user \(with group serverless-admin\)![](../.gitbook/assets/create-iam-role-4.png)
+3. Save Access key id and secret access key: ![](../.gitbook/assets/iam-role-credentials.png)
 
 Never show this key in public or check it into version control. That's why I now go to user section and delete it and create a new one:  
 ![](../.gitbook/assets/change-iam-user-credentials.png)
