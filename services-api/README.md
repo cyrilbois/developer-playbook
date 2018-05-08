@@ -2,7 +2,7 @@
 
 ## Service/API
 
-The core business functions are develop in services either using microservices or event driven actors.These can be implemented on the [platform ](plattform.md)either as _serverless_ or _containers_.
+The core business functions are develop in services either using microservices or event driven actors.These can be implemented on the [platform ](../plattform.md)either as _serverless_ or _containers_.
 
 **Architectural Decisions**
 
@@ -10,10 +10,10 @@ The core business functions are develop in services either using microservices o
 
 ### Stack
 
-1. Understand the domain - [create a lean diagram](architecture.md) with a domain diagram \(events, commands, actors, aggregates\), interaction diagram and a first deployment diagram, \(squnce diagram? not at this stage right?\).
+1. Understand the domain - [create a lean diagram](../architecture.md) with a domain diagram \(events, commands, actors, aggregates\), interaction diagram and a first deployment diagram, \(squnce diagram? not at this stage right?\).
 2. Design the API / Event in Swagger.
 3. Setup the project
-4. Decide if it is [serverless or container use case.](plattform.md)
+4. Decide if it is [serverless or container use case.](../plattform.md)
 5. Implement the first mock. 
 6. Implement the API or Event Actor. 
 
@@ -33,7 +33,7 @@ Create your swagger file: [basic swagger file structure](https://swagger.io/docs
 
 ## Setup the project
 
-* Create [new github repo](https://github.com/new): ![](.gitbook/assets/create-github-repo-for-project.png)
+* Create [new github repo](https://github.com/new): ![](../.gitbook/assets/create-github-repo-for-project.png)
 * Clone repo:
 
   ```text
@@ -56,7 +56,7 @@ Create your swagger file: [basic swagger file structure](https://swagger.io/docs
 
 ## Developer a docker microservice in Python
 
-1. Check that you have have a local docker environment in [Plattform](plattform.md) -&gt; Setup Docker Environment.
+1. Check that you have have a local docker environment in [Plattform](../plattform.md) -&gt; Setup Docker Environment.
 2. Create Dockerfile and docker-compose that starts the Mock Server\([Code](https://github.com/denseidel/products-marketplace-service/commit/6303f0ba152be610dc4fabcf85d624a4e32faa31)\) - make sure the Swagger  file does not include custom functions like `x-tokenInfoFunc`. **TODO create it for the mock** 
    * [Environment Variables to connect to AWS](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
 3. Implement Frontend against mocks
@@ -151,13 +151,13 @@ todo unit tests: when to use what \(for small functions\) the function test shou
 sls deploy
 ```
 
-![](.gitbook/assets/deployment.png)
+![](../.gitbook/assets/deployment.png)
 
 The deployment takes very long. I have to see how to optimize this.
 
 #### Test the deployed function
 
-You can use the endpoint endpoint and use Postman to make a "real world" request: ![](.gitbook/assets/test-with-postman.png)
+You can use the endpoint endpoint and use Postman to make a "real world" request: ![](../.gitbook/assets/test-with-postman.png)
 
 Or you can use the CLI and use:
 
@@ -165,7 +165,7 @@ Or you can use the CLI and use:
 sls invoke -f create_api --path tests/create-api.json
 ```
 
-![](.gitbook/assets/test-with-cli-at-runtime.png)
+![](../.gitbook/assets/test-with-cli-at-runtime.png)
 
 ### More
 
@@ -183,7 +183,7 @@ Principle of Good API Development vs Bad API Development
 
 Benefits API First:
 
-![](.gitbook/assets/advantages-of-api-first.png)
+![](../.gitbook/assets/advantages-of-api-first.png)
 
 [https://github.com/swagger-api/swagger-codegen/wiki/server-stub-generator-howto\#python-flask-connexion](https://github.com/swagger-api/swagger-codegen/wiki/server-stub-generator-howto#python-flask-connexion)
 

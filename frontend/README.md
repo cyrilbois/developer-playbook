@@ -11,12 +11,12 @@ After you defined the business functionality - expressed most clearly by the API
 
 ### Development Process
 
-1. [Design and Develop API Mock](services-api.md)
-2. [Understand the tech stack](frontend.md#technology-stack)
-3. [Rapid Prototyping](frontend.md#rapid-prototyping)
-4. [Build an app with component based development](frontend.md#build-an-app)
+1. [Design and Develop API Mock](../services-api/)
+2. [Understand the tech stack](./#technology-stack)
+3. [Rapid Prototyping](./#rapid-prototyping)
+4. [Build an app with component based development](./#build-an-app)
 5. Decide if you deploy the application serverless or use docker containers \(vendor independent\)
-   1. [Dockerize a react application](frontend.md#dockerize-a-react-app)
+   1. [Dockerize a react application](./#dockerize-a-react-app)
 
 ### Technology Stack {#technology-stack}
 
@@ -37,9 +37,9 @@ To get feedback fast create a first prototype:
 
 **Define Application Structure \(Paper? + Photo or Balsamiq + screenshot from rolemodels\):**
 
-1. LandingPage \(login or not\)![](.gitbook/assets/landing-page-analysis.png)2. Personal Service Page \(only logged in\)
+1. LandingPage \(login or not\)![](../.gitbook/assets/landing-page-analysis.png)2. Personal Service Page \(only logged in\)
 
-   ![](.gitbook/assets/personal-service-page-1.png)
+   ![](../.gitbook/assets/personal-service-page-1.png)
 
 ### Build an app with component based development {#build-an-app}
 
@@ -173,20 +173,20 @@ AWS provides quite a few services that can help us do the above. We are going to
 
 #### Create the Bucket {#create-the-bucket}
 
-First, log in to your[AWS Console](https://console.aws.amazon.com/)and select S3 from the list of services.![](.gitbook/assets/open-s3.png)
+First, log in to your[AWS Console](https://console.aws.amazon.com/)and select S3 from the list of services.![](../.gitbook/assets/open-s3.png)
 
 Select **Create Bucket**and pick a name for your application and select the **US East \(N. Virginia\) Region **Region. Since our application is being served out using a CDN, the region should not matter to us.
 
-![](.gitbook/assets/create-new-s3-bucket.png)  
-![](.gitbook/assets/create-s3-bucket-1.png)![](.gitbook/assets/create-s3-bucket-3.png)
+![](../.gitbook/assets/create-new-s3-bucket.png)  
+![](../.gitbook/assets/create-s3-bucket-1.png)![](../.gitbook/assets/create-s3-bucket-3.png)
 
-![](.gitbook/assets/create-s3-bucket-4.png)
+![](../.gitbook/assets/create-s3-bucket-4.png)
 
-![](.gitbook/assets/create-s3-bucket.png)
+![](../.gitbook/assets/create-s3-bucket.png)
 
 Now click on your newly created bucket from the list and navigate to its permissions panel by clicking **Permissions**.
 
-![](.gitbook/assets/s3-bucket-permissions.png)
+![](../.gitbook/assets/s3-bucket-permissions.png)
 
 ```text
 {
@@ -202,11 +202,11 @@ Now click on your newly created bucket from the list and navigate to its permiss
 }
 ```
 
-![](.gitbook/assets/configure-static-content-for-s3.png)![](.gitbook/assets/configure-static-webhosting-s3-1.png)
+![](../.gitbook/assets/configure-static-content-for-s3.png)![](../.gitbook/assets/configure-static-webhosting-s3-1.png)
 
 Now select **Use this bucket to host a website **and add our`index.html`as the **Index Document **and the **Error Document**. Since we are letting React handle 404s, we can simply redirect our errors to our`index.html`as well. Hit **Save **once you are done.
 
-![](.gitbook/assets/configure-static-content-s3.png)
+![](../.gitbook/assets/configure-static-content-s3.png)
 
 This panel also shows us where our app will be accessible. AWS assigns us a URL for our static website. In this case the URL assigned to me is `http://developerportal-client.s3-website.eu-central-1.amazonaws.com`.
 

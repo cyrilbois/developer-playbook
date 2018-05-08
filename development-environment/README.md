@@ -1,3 +1,9 @@
+---
+description: >-
+  Instruction to setup your developer environment for this playbook (working
+  with serverless or containers)
+---
+
 # Development Environment
 
 ## Serverless Development Environment for Python, Javascript/React and Node Developers \(on OSX\):
@@ -121,23 +127,23 @@ yzhang.markdown-all-in-one
 
 You don't want to give the serverless-admin access to all feature of aws. Therefore you create a new IAM user that only has the rights a serverless developer needs e.g. access to AWS Lambda, Dynamodb, S3, API Gateway, CloudDeployment and Logs. You use this user for the AWS CLI and the Serverless framework.
 
-1. Go to IAM:![](.gitbook/assets/screen-shot-2018-01-20-at-22.43.56.png)
-2. Create new user: ![](.gitbook/assets/create-new-iam-user.png)
-3. Give it a name and select progammatic access and then next ![](.gitbook/assets/create-new-iam-user-1.png)
+1. Go to IAM:![](../.gitbook/assets/screen-shot-2018-01-20-at-22.43.56.png)
+2. Create new user: ![](../.gitbook/assets/create-new-iam-user.png)
+3. Give it a name and select progammatic access and then next ![](../.gitbook/assets/create-new-iam-user-1.png)
 4. Create a group with the permissions for api gateway, aws lambda and deploy  
-   ![](.gitbook/assets/creare-iam-role.png)  
-   ![](.gitbook/assets/create-iam-role-2.png)  
-   ![](.gitbook/assets/create-group.png)  
-   ![](.gitbook/assets/create-iam-role-3.png)
+   ![](../.gitbook/assets/creare-iam-role.png)  
+   ![](../.gitbook/assets/create-iam-role-2.png)  
+   ![](../.gitbook/assets/create-group.png)  
+   ![](../.gitbook/assets/create-iam-role-3.png)
 
    Overview of the permissions of the user:  
-   ![](.gitbook/assets/serverless-admin-iam-rights.png)
+   ![](../.gitbook/assets/serverless-admin-iam-rights.png)
 
-5. Create user \(with group serverless-admin\)![](.gitbook/assets/create-iam-role-4.png)
-6. Save Access key id and secret access key: ![](.gitbook/assets/iam-role-credentials.png)
+5. Create user \(with group serverless-admin\)![](../.gitbook/assets/create-iam-role-4.png)
+6. Save Access key id and secret access key: ![](../.gitbook/assets/iam-role-credentials.png)
 
 Never show this key in public or check it into version control. That's why I now go to user section and delete it and create a new one:  
-![](.gitbook/assets/change-iam-user-credentials.png)
+![](../.gitbook/assets/change-iam-user-credentials.png)
 
 ### Install AWS CLI
 
@@ -271,17 +277,17 @@ git stash pop
 Setup CircleCI with Docker, ECS:
 
 1. Go to [https://circleci.com/dashboard](https://circleci.com/dashboard)
-2. Add the git repo to it:![](.gitbook/assets/add-git-repo-to-circleci.png)![](.gitbook/assets/add-git-repo-to-circleci-2.png)
+2. Add the git repo to it:![](../.gitbook/assets/add-git-repo-to-circleci.png)![](../.gitbook/assets/add-git-repo-to-circleci-2.png)
 3. Setup a project as described \(e.g. add the folder `.circleci`with the `config.yml` file\)  
 
-   ![](.gitbook/assets/setup-circleci-project.png)
+   ![](../.gitbook/assets/setup-circleci-project.png)
 
 ### Manual AWS Setup {#manual-aws-setup}
 
-1. EC2 Key Pair: Within the [EC2 Dashboard](https://console.aws.amazon.com/ec2/), click “Key Pairs” on the navigation pane, and then click the “Create Key Pair” button. Name the key`microservicemovies-review`. Save the file in a safe place - i.e., “~/.ssh”. ![](.gitbook/assets/add-ec2-key-pair.png)
+1. EC2 Key Pair: Within the [EC2 Dashboard](https://console.aws.amazon.com/ec2/), click “Key Pairs” on the navigation pane, and then click the “Create Key Pair” button. Name the key`microservicemovies-review`. Save the file in a safe place - i.e., “~/.ssh”. ![](../.gitbook/assets/add-ec2-key-pair.png)
 2. ECS Cluster: An [ECS Cluster](http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_clusters.html) is just a group of EC2 container instances managed by ECS. To set up, navigate to the [ECS Console](https://console.aws.amazon.com/ecs), and then [select](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html#select-region) the region for the Cluster on the right-side of the nav bar.  
-   ![](.gitbook/assets/create-ecs-cluster-1.png)![](.gitbook/assets/setup-ecs-cluster-2.png)![](.gitbook/assets/create-ecs-cluster-3.png)![](.gitbook/assets/create-ecs-cluster-4.png)Navigate to the Cluster once it’s created, and then click the “ECS Instances” tab. From there, click the “Actions” dropdown and select “View Cluster Resources”. **Take note of the VPC and Security Group**:  
-   ![](.gitbook/assets/create-ecs-cluster-5.png)
+   ![](../.gitbook/assets/create-ecs-cluster-1.png)![](../.gitbook/assets/setup-ecs-cluster-2.png)![](../.gitbook/assets/create-ecs-cluster-3.png)![](../.gitbook/assets/create-ecs-cluster-4.png)Navigate to the Cluster once it’s created, and then click the “ECS Instances” tab. From there, click the “Actions” dropdown and select “View Cluster Resources”. **Take note of the VPC and Security Group**:  
+   ![](../.gitbook/assets/create-ecs-cluster-5.png)
 
    **Setup ECR \(Docker Registry\):**
 
@@ -299,21 +305,21 @@ Setup CircleCI with Docker, ECS:
 
 To set up, navigate to the [EC2 Dashboard](https://console.aws.amazon.com/ec2/), update the region \(if necessary\), and then **click “Load Balancers”** in the navigation pane. Click the “Create Load Balancer” button. Select “Application Load Balancer”, and then go through each of the steps to configure the load balancer:
 
-![](.gitbook/assets/setup-loadbalancer-1.png)![](.gitbook/assets/setup-loadbalancer-2.png)_Configure Load Balancer_
+![](../.gitbook/assets/setup-loadbalancer-1.png)![](../.gitbook/assets/setup-loadbalancer-2.png)_Configure Load Balancer_
 
 1. “Name”: `microservicemovies-review`
 2. “VPC”: Select the VPC that was just created
 3. “Availability Zones”: Select at least two available subnets
 
-![](.gitbook/assets/configure-loadbalancer-3.png)
+![](../.gitbook/assets/configure-loadbalancer-3.png)
 
 \_Configure Security Settings: \_Skip this for now
 
-![](.gitbook/assets/configure-loadbalancer-4.png)
+![](../.gitbook/assets/configure-loadbalancer-4.png)
 
 _Configure Security Groups_: Select the Security Group that was just created
 
-![](.gitbook/assets/config-loadbalancer-5.png)
+![](../.gitbook/assets/config-loadbalancer-5.png)
 
 _Configure Routing_:
 
@@ -321,7 +327,7 @@ _Configure Routing_:
 * “Port”:`80`
 * “Path”:`/`
 
-![](.gitbook/assets/conf-loadbalancer-6.png)
+![](../.gitbook/assets/conf-loadbalancer-6.png)
 
 _Register Targets_: Do not assign any instances manually since this will be managed by ECS
 
@@ -334,7 +340,7 @@ Finally, let’s add some ports to work with to the Security Group. Within the [
 * Port Range:`30000-50000`
 * Source:`0.0.0.0/0`
 
-![](.gitbook/assets/add-security-group.png)
+![](../.gitbook/assets/add-security-group.png)
 
 Configure Circleci define config.yml
 

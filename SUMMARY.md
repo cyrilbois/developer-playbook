@@ -3,9 +3,14 @@
 * [Introduction](README.md)
 * [Architecture](architecture.md)
 * [Bootstraping](bootstraping.md)
-* [Development Environment](development-environment.md)
-* [Frontend](frontend.md)
-* [Services/API](services-api.md)
+* [Development Environment](development-environment/README.md)
+  * Accounts \(AWS, GCP, CircleCI\)
+* [Frontend](frontend/README.md)
+  * Serverless
+  * Containers
+* [Services/API](services-api/README.md)
+  * Serverless
+  * Containers
 * [Plattform](plattform.md)
 * [IAM - IAMaaS](iam-iamaas.md)
 * [Persistance - DBaaS](persistance-dbaas.md)
