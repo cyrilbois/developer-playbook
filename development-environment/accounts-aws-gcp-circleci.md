@@ -8,17 +8,15 @@
 
 You don't want to give the serverless-admin access to all feature of aws. Therefore you create a new IAM user that only has the rights a serverless developer needs e.g. access to AWS Lambda, Dynamodb, S3, API Gateway, CloudDeployment and Logs. You use this user for the AWS CLI and the Serverless framework.
 
-Go to IAM:
+#### Go to IAM:
 
 ![](../.gitbook/assets/screen-shot-2018-01-20-at-22.43.56%20%281%29.png)
 
-Create new user:  
-
+#### Create new user: 
 
 ![](../.gitbook/assets/create-new-iam-user%20%281%29.png)
 
-Give it a name and select progammatic access and then next  
-![](../.gitbook/assets/create-new-iam-user-1.png)
+#### Give it a name and select progammatic access and then next ![](../.gitbook/assets/create-new-iam-user-1.png)
 
 1. Create a group with the permissions for api gateway, aws lambda and deploy  
    ![](../.gitbook/assets/creare-iam-role.png)  
