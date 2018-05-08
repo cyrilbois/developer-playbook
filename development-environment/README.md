@@ -119,9 +119,7 @@ vscodevim.vim
 yzhang.markdown-all-in-one
 ```
 
-## 
-
-### Create project
+## Create project and initialise repositories
 
 ```text
 mkdir apis-api
@@ -196,20 +194,7 @@ git stash pop
 
 ## Development Pipeline:
 
-* gocd: 
-  * [https://www.gocd.org/why-gocd/](https://www.gocd.org/why-gocd/)
-  * [https://hub.docker.com/r/gocd/gocd-server/](https://hub.docker.com/r/gocd/gocd-server/)
-  * [https://hub.docker.com/r/gocd/gocd-agent-alpine-3.5/](https://hub.docker.com/r/gocd/gocd-agent-alpine-3.5/)
-  * [https://github.com/kubernetes/charts/tree/master/incubator/gocd](https://github.com/kubernetes/charts/tree/master/incubator/gocd)
-  * [https://www.gocd.org/2017/06/26/serverless-architecture-continuous-delivery/](https://www.gocd.org/2017/06/26/serverless-architecture-continuous-delivery/)
-* CircleCI Pipeline with ECS: 
-  * [http://mherman.org/blog/2017/09/18/on-demand-test-environments-with-docker-and-aws-ecs/](http://mherman.org/blog/2017/09/18/on-demand-test-environments-with-docker-and-aws-ecs/)
-  * [http://mherman.org/blog/2017/11/16/docker-on-aws-from-containerization-to-orchestration/](http://mherman.org/blog/2017/11/16/docker-on-aws-from-containerization-to-orchestration/)
-  * [https://medium.com/boltops/setting-up-continuous-deployment-to-ecs-on-circleci-e0250bf6c3ad](https://medium.com/boltops/setting-up-continuous-deployment-to-ecs-on-circleci-e0250bf6c3ad)
-  * [https://www.reddit.com/r/aws/comments/6vcg18/deploying\_a\_docker\_container\_to\_aws\_ecs\_using\_ecr/](https://www.reddit.com/r/aws/comments/6vcg18/deploying_a_docker_container_to_aws_ecs_using_ecr/)
-  * [https://docs.aws.amazon.com/AWSGettingStartedContinuousDeliveryPipeline/latest/GettingStarted/CICD\_Jenkins\_Pipeline.html](https://docs.aws.amazon.com/AWSGettingStartedContinuousDeliveryPipeline/latest/GettingStarted/CICD_Jenkins_Pipeline.html)
-
-Setup CircleCI with Docker, ECS:
+* Use CircleCI as a SaaS as Pipeline:
 
 1. Go to [https://circleci.com/dashboard](https://circleci.com/dashboard)
 2. Add the git repo to it:![](../.gitbook/assets/add-git-repo-to-circleci.png)![](../.gitbook/assets/add-git-repo-to-circleci-2.png)
@@ -217,82 +202,5 @@ Setup CircleCI with Docker, ECS:
 
    ![](../.gitbook/assets/setup-circleci-project.png)
 
-### Manual AWS Setup {#manual-aws-setup}
 
-1. EC2 Key Pair: Within the [EC2 Dashboard](https://console.aws.amazon.com/ec2/), click “Key Pairs” on the navigation pane, and then click the “Create Key Pair” button. Name the key`microservicemovies-review`. Save the file in a safe place - i.e., “~/.ssh”. ![](../.gitbook/assets/add-ec2-key-pair.png)
-2. ECS Cluster: An [ECS Cluster](http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_clusters.html) is just a group of EC2 container instances managed by ECS. To set up, navigate to the [ECS Console](https://console.aws.amazon.com/ecs), and then [select](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html#select-region) the region for the Cluster on the right-side of the nav bar.  
-   ![](../.gitbook/assets/create-ecs-cluster-1.png)![](../.gitbook/assets/setup-ecs-cluster-2.png)![](../.gitbook/assets/create-ecs-cluster-3.png)![](../.gitbook/assets/create-ecs-cluster-4.png)Navigate to the Cluster once it’s created, and then click the “ECS Instances” tab. From there, click the “Actions” dropdown and select “View Cluster Resources”. **Take note of the VPC and Security Group**:  
-   ![](../.gitbook/assets/create-ecs-cluster-5.png)
-
-   **Setup ECR \(Docker Registry\):**
-
-   Within the [ECS Console](https://console.aws.amazon.com/ecs), click “Repositories” on the navigation pane, and then click the “Create repository” button. Add the repositories for all images e.g.:
-
-3. `apimanagement/identities-adapter`
-4. `apimanagement/developer-portal`
-
-#### Setup Application Loadbalancers
-
-* Dynamically maps container services to ports
-* Distributes traffic evenly across the entire ECS Service
-* Runs status health checks against each service
-* Allows for zero-downtime deploys
-
-To set up, navigate to the [EC2 Dashboard](https://console.aws.amazon.com/ec2/), update the region \(if necessary\), and then **click “Load Balancers”** in the navigation pane. Click the “Create Load Balancer” button. Select “Application Load Balancer”, and then go through each of the steps to configure the load balancer:
-
-![](../.gitbook/assets/setup-loadbalancer-1.png)![](../.gitbook/assets/setup-loadbalancer-2.png)_Configure Load Balancer_
-
-1. “Name”: `microservicemovies-review`
-2. “VPC”: Select the VPC that was just created
-3. “Availability Zones”: Select at least two available subnets
-
-![](../.gitbook/assets/configure-loadbalancer-3.png)
-
-\_Configure Security Settings: \_Skip this for now
-
-![](../.gitbook/assets/configure-loadbalancer-4.png)
-
-_Configure Security Groups_: Select the Security Group that was just created
-
-![](../.gitbook/assets/config-loadbalancer-5.png)
-
-_Configure Routing_:
-
-* “Name”:`review-default`
-* “Port”:`80`
-* “Path”:`/`
-
-![](../.gitbook/assets/conf-loadbalancer-6.png)
-
-_Register Targets_: Do not assign any instances manually since this will be managed by ECS
-
-#### Setup Security Group:
-
-Finally, let’s add some ports to work with to the Security Group. Within the [EC2 Dashboard](https://console.aws.amazon.com/ec2/), click “Security Groups” in the navigation pane, and then** select the Security Group that was just created**. On the **“Inbound Rules”** pane, click the **“Edit”** button and the **“Add another rule button”**:
-
-* Type: `Custom TCP Rule`
-* Protocol: `TCP`
-* Port Range:`30000-50000`
-* Source:`0.0.0.0/0`
-
-![](../.gitbook/assets/add-security-group.png)
-
-Configure Circleci define config.yml
-
-* Chose a build image: [https://circleci.com/docs/2.0/circleci-images/](https://circleci.com/docs/2.0/circleci-images/)
-* Setup a remove docker environment to build a docker container: [https://circleci.com/docs/2.0/building-docker-images/](https://circleci.com/docs/2.0/building-docker-images/)
-
-Create deployment script:
-
-./ecs/scripts/setup.py
-
-* check that the cluster exists
-* Tag and push images to ECR
-  * ./ecs/scripts/ecr.sh
-* Get open port for the Listener
-* Register Task Definitions
-* Create Target Groups
-* Add the Listener and Rules
-* Create new Services
-* run the script in the pipeline
 
