@@ -4,7 +4,7 @@
 * [Architecture](architecture.md)
 * [Bootstraping](bootstraping.md)
 * [Development Environment](development-environment/README.md)
-  * Accounts \(AWS, GCP, CircleCI\)
+  * [Accounts \(AWS, GCP, CircleCI\)](development-environment/accounts-aws-gcp-circleci.md)
 * [Frontend](frontend/README.md)
   * Serverless
   * Containers
