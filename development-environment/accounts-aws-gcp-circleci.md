@@ -22,17 +22,29 @@ You don't want to give the serverless-admin access to all feature of aws. Theref
 
 #### Create a group with the permissions for api gateway, aws lambda and deploy
 
+![](../.gitbook/assets/creare-iam-role%20%283%29.png)
 
+![](../.gitbook/assets/create-iam-role-2.png)
 
-1.  ![](../.gitbook/assets/creare-iam-role.png) ![](../.gitbook/assets/create-iam-role-2.png) ![](../.gitbook/assets/create-group.png) ![](../.gitbook/assets/create-iam-role-3.png)
-2.   Overview of the permissions of the user:  
-   ![](../.gitbook/assets/serverless-admin-iam-rights.png)
+![](../.gitbook/assets/create-group.png)
 
-3. Create user \(with group serverless-admin\)![](../.gitbook/assets/create-iam-role-4.png)
-4. Save Access key id and secret access key: ![](../.gitbook/assets/iam-role-credentials.png)
+![](../.gitbook/assets/create-iam-role-3.png)
 
-Never show this key in public or check it into version control. That's why I now go to user section and delete it and create a new one:  
-![](../.gitbook/assets/change-iam-user-credentials.png)
+#### Overview of the permissions of the user:
+
+![](../.gitbook/assets/serverless-admin-iam-rights.png)
+
+#### Create user \(with group serverless-admin\)
+
+![](../.gitbook/assets/create-iam-role-4%20%281%29.png)
+
+#### Save Access key id and secret access key: 
+
+![](../.gitbook/assets/iam-role-credentials%20%281%29.png)
+
+#### Never show this key in public or check it into version control. That's why I now go to user section and delete it and create a new one:
+
+![](../.gitbook/assets/change-iam-user-credentials%20%282%29.png)
 
 ### Install AWS CLI
 
