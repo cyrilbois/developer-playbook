@@ -205,5 +205,8 @@ git stash pop
 
    ![](../.gitbook/assets/setup-circleci-project.png)
 
+Link to config.yml file 
 
+* for containers
+* for serverless
 
