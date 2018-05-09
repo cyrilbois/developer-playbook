@@ -4,7 +4,7 @@
 
 ### Signup for an [AWS](https://aws.amazon.com) account
 
-### Create an IAM role for a serverless-admin
+### Create an IAM role for your use cases e.g. serverless-admin
 
 You don't want to give the serverless-admin access to all feature of aws. Therefore you create a new IAM user that only has the rights a serverless developer needs e.g. access to AWS Lambda, Dynamodb, S3, API Gateway, CloudDeployment and Logs. You use this user for the AWS CLI and the Serverless framework.
 
