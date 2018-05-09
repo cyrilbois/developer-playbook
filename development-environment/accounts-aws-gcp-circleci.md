@@ -22,7 +22,7 @@ You don't want to give the serverless-admin access to all feature of aws. Theref
 
 #### Create a group with the permissions for api gateway, aws lambda and deploy
 
-![](../.gitbook/assets/creare-iam-role%20%281%29.png)
+
 
 1.  ![](../.gitbook/assets/creare-iam-role.png) ![](../.gitbook/assets/create-iam-role-2.png) ![](../.gitbook/assets/create-group.png) ![](../.gitbook/assets/create-iam-role-3.png)
 2.   Overview of the permissions of the user:  
