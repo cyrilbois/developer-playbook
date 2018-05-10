@@ -2,7 +2,7 @@
 
 
 
-## 
+Check how to get started with Python: [Serverless Framework \(Python\)](https://github.com/denseidel/developer-playbook/tree/0de27ab0d5cf97c58fdeec5a26159b0fa55f0ef2/serverless-framework.md)
 
 * **Getting Started with the Serverless Framework**
 * Create function
@@ -80,5 +80,144 @@ sls invoke -f create_api --path tests/create-api.json
 
 ### More
 
-* [https://github.com/serverless/examples](https://github.com/serverless/examples)
+* {% embed data="{\"url\":\"https://github.com/serverless/examples\",\"type\":\"link\",\"title\":\"serverless/examples\",\"description\":\"Serverless Examples – A collection of boilerplates and examples of serverless architectures built with the Serverless Framework and AWS Lambda\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars3.githubusercontent.com/u/13742415?v=4&s=400\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
+
+
+
+## Testing - Serverless Stack Example
+
+I implemented the [serverless-stack.com](https://serverless-stack.com) app for training purposes.
+
+### Prerequesits
+
+* Signup for an AWS account
+* Create an IAM role with \(Programmatic access and admin rights\): this is used for the AWS CLI and the serverless framework. 
+* Install AWS CLI 
+
+```bash
+sudo pip install awscli
+#use the access key id and secret access ky as describe above
+aws configure
+```
+
+### Admin Tasks
+
+1. Create DynamoDB _table name_ `notes` and _Primary key_ with Partition key `userId` and sort key `noteId` and the default created new _IAM Role_ `DynamoDBAutoscaleRole`.
+2. Create S3 Bucket with _bucket name_ `your-globally-unique-bucketname` \(e.g. `notes-app-uploads-ds1`\) and _region_ `eu-central-1` and enable CORS by updating the policy under permissions to 
+
+```text
+<CORSConfiguration>
+    <CORSRule>
+        <AllowedOrigin>*</AllowedOrigin>
+        <AllowedMethod>GET</AllowedMethod>
+        <AllowedMethod>PUT</AllowedMethod>
+        <AllowedMethod>POST</AllowedMethod>
+        <AllowedMethod>HEAD</AllowedMethod>
+        <MaxAgeSeconds>3000</MaxAgeSeconds>
+        <AllowedHeader>*</AllowedHeader>
+    </CORSRule>
+</CORSConfiguration>
+```
+
+1. Create User Pool in Cognito with _Pool name_ ```notes-user-pool``  and choose username attributes and select email adress or phone numbers and allow email addresses. Finish and _note the Pool ID and Pool ARN_. 
+2. Create App clients in the Cognito User Pool with _App client name_ `notes-app` and _refresh token expiration_ `30` and _Generate client secret_ `deselected` and _ Enable sign-in API server-based authentication_ `selected`. Finish and _note the App client id_.
+
+### Config - Dummy Data
+
+```text
+# create user
+aws cognito-idp sign-up --region eu-central-1 --client-id YOUR_CLIENTID --username admin@yourmail.com --password passw0rD
+# verfiy user
+aws cognito-idp admin-confirm-sign-up --region eu-central-1 --user-pool-id YOUR_USERPOOL_ID --username admin@yourmail.com
+```
+
+### Install Serverless
+
+```text
+npm install serverless -g
+```
+
+### Setup API Backend
+
+Source: [https://serverlesscode.com/post/python-3-on-serverless-framework/](https://serverlesscode.com/post/python-3-on-serverless-framework/)
+
+```text
+mkdir notes-app-api
+cd notes-app-api
+sls create --template aws-python3
+```
+
+## Usage
+
+### Create virtual env local, activate and deactivate
+
+```text
+#http://sourabhbajaj.com/mac-setup/Python/virtualenv.html
+virtualenv venv
+source venv/bin/activate
+deactivate
+```
+
+### Install a python dependency
+
+```python
+pip install boto3 requests
+```
+
+### Store a reference to my dependencies
+
+```python
+pip freeze > requirements.txt
+```
+
+### Re-install the dependencies from requirements.txt
+
+pip install -r requirements.txt
+
+### Test locally
+
+```text
+sls invoke local --function create --path mocks/create-event.json
+
+sls invoke local -f hello
+```
+
+### Run tests
+
+```python
+python -m unittest discover -s tests
+```
+
+## Deployment
+
+### Deploy  project
+
+```bash
+sls deploy
+```
+
+### Deploy single function
+
+```text
+sls deploy function --function hello
+```
+
+### Compile non-pure Python modules \(e.g. C?\)
+
+To compile non-pure Python modules, install [Docker](https://docs.docker.com/engine/installation/) and the [Lambda Docker Image](https://github.com/lambci/docker-lambda). Enable **dockerizePip** in **serverless.yml** and `serverless deploy` again.
+
+```text
+# enable dockerize Pip
+custom:
+  pythonRequirements:
+    dockerizePip: true
+```
+
+## Sources:
+
+* [https://github.com/serverless/examples/tree/master/aws-python-pynamodb-s3-sigurl](https://github.com/serverless/examples/tree/master/aws-python-pynamodb-s3-sigurl) 
+* [https://github.com/AnomalyInnovations/serverless-python-starter](https://github.com/AnomalyInnovations/serverless-python-starter)
+* [https://serverlesscode.com/post/python-3-on-serverless-framework/](https://serverlesscode.com/post/python-3-on-serverless-framework/)
+
+## 
 
