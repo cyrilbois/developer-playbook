@@ -7,7 +7,7 @@
 * [Development Environment](development-environment/README.md)
   * [Accounts \(AWS, GCP, CircleCI\)](development-environment/accounts-aws-gcp-circleci.md)
 * [Services/API](services-api/README.md)
-  * Serverless
+  * [Serverless](services-api/serverless.md)
   * [Containers](services-api/containers.md)
 * [Frontend](frontend/README.md)
   * Serverless
