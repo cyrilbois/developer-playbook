@@ -1,10 +1,9 @@
 # Serverless
 
+To be as portable as possible, event with severless, we use [serverless framework](https://serverless.com/framework/docs/). It allows us to deploy our functions across multiple clouds like AWS, GCP, Azure and IBM OpenWisk. 
 
+**Getting Started with the Serverless Framework**
 
-Check how to get started with Python: [Serverless Framework \(Python\)](https://github.com/denseidel/developer-playbook/tree/0de27ab0d5cf97c58fdeec5a26159b0fa55f0ef2/serverless-framework.md)
-
-* **Getting Started with the Serverless Framework**
 * Create function
 
   ```text
