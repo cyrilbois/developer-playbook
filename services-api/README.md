@@ -4,7 +4,9 @@ The core business functions are develop in services either using microservices o
 
 ### **Architectural Decisions**
 
-1. Languages: Python/NodeJS
+1. Languages: 
+   1. Python as we want to build data driven application and in this domain python is the standard
+   2. Exception: BFF that only orchestrate calls from data apis / function \(lambdas\). There the improved performance of Node as well as the familiarity of the frontend team with Javascript matters more.
 
 ## Understand the domain 
 
