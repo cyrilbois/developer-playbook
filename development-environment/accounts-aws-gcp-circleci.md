@@ -73,3 +73,33 @@ export AWS_PROFILE=serverless-admin
 
 Source: [https://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html](https://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html)
 
+
+
+## Securely store your keys and secrets in your rsh file
+
+You don't want to store your secrets in plain text in a file like `.rshrc`  therefore you can use lpass cli \[[github](https://github.com/lastpass/lastpass-cli) / [documentation](https://helpdesk.lastpass.com/lastpass-command-line-application/)\] and store your secrets in your osx keychain and access them only by reference.
+
+#### Installation
+
+```text
+brew install lastpass-cli --with-pinentry
+```
+
+#### Set variables in lastpass
+
+Just create a secret note within lastpass:
+
+![](../.gitbook/assets/add-secret-to-lastpass.png)
+
+#### Login to lpass in the command line
+
+```bash
+# login to lastpass
+# check first if I am allready loggedin and finded the "access-token" folder 
+if [[ $(lpass ls) != *"access-token"* ]]; then
+lpass login your@email.com
+fi
+```
+
+
+
