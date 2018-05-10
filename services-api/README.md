@@ -2,18 +2,18 @@
 
 The core business functions are develop in services either using microservices or event driven actors.These can be implemented on the [platform ](../plattform.md)either as _serverless_ or _containers_.
 
-**Architectural Decisions**
+## **Architectural Decisions**
 
 1. Languages: Python/NodeJS
 
-### Stack
+## Steps
 
-1. Understand the domain - [create a lean diagram](../architecture.md) with a domain diagram \(events, commands, actors, aggregates\), interaction diagram and a first deployment diagram, \(squnce diagram? not at this stage right?\).
-2. Design the API / Event in Swagger.
-3. Setup the project
-4. Decide if it is [serverless or container use case.](../plattform.md)
-5. Implement the first mock. 
-6. Implement the API or Event Actor. 
+* [ ] Understand the domain - [create a lean diagram](../architecture.md) with a domain diagram \(events, commands, actors, aggregates\), interaction diagram and a first deployment diagram, \(squnce diagram? not at this stage right?\).
+* [ ] Design the API / Event in Swagger.
+* [ ] Setup the project
+* [ ] Decide if it is [serverless or container use case.](../plattform.md)
+* [ ] Implement the first mock. 
+* [ ] Implement the API or Event Actor. 
 
 ## Design the API
 
