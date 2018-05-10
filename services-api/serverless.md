@@ -2,9 +2,10 @@
 
 To be as portable as possible, even with severless, we use [serverless framework](https://serverless.com/framework/docs/). It allows us to deploy our functions across multiple clouds like AWS, GCP, Azure and IBM OpenWisk. 
 
-**Getting Started with the Serverless Framework**
+## Setup  & Installation
 
-* Create function
+* Make sure you have your [Developer Environment Setup](../development-environment/) 
+* In your repo create your serverless template
 
   ```text
   sls create --template aws-python3
