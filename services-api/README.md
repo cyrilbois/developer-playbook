@@ -2,21 +2,19 @@
 
 The core business functions are develop in services either using microservices or event driven actors.These can be implemented on the [platform ](../plattform.md)either as _serverless_ or _containers_.
 
-## **Architectural Decisions**
+### **Architectural Decisions**
 
 1. Languages: Python/NodeJS
 
-## Instruction List
+## Understand the domain 
 
-* [ ] Understand the domain - [create a lean diagram](../architecture.md) with a domain diagram \(events, commands, actors, aggregates\), interaction diagram and a first deployment diagram, \(squnce diagram? not at this stage right?\).
-* [ ] Decide if it is a [strategic component](../bootstraping.md) - and therefore if you go with a serverless or container approach.
-* [ ] Design the API / Event in Swagger.
-* [ ] Setup the project
-* [ ] Decide if it is [serverless or container use case.](../plattform.md)
-* [ ] Implement the first mock. 
-* [ ] Implement the API or Event Actor. 
+[Create a lean diagram](../architecture.md) with a domain diagram \(events, commands, actors, aggregates\), interaction diagram and a first deployment diagram, \(squnce diagram? not at this stage right?\).
 
-## Design the API
+## Decide if you go serverless or container and setup the project 
+
+If it is a [strategic component](https://den.gitbook.io/developerplaybook/~/edit/primary/bootstraping) use _containers_ else use _serverless. Depending on your evaluation use the correct Bootstrap template to setup you project._
+
+## Design the API / Events in Swagger
 
 First we start designing the API with Swagger. The best tool to do this is the [swagger editor](https://github.com/swagger-api/swagger-editor). I suggest adding the swagger editor to the docker-compose file in your project:
 
@@ -29,29 +27,6 @@ services:
 ```
 
 Create your swagger file: [basic swagger file structure](https://swagger.io/docs/specification/2-0/basic-structure/)
-
-## Setup the project
-
-* Create [new github repo](https://github.com/new): ![](../.gitbook/assets/create-github-repo-for-project.png)
-* Clone repo:
-
-  ```text
-  git clone https://github.com/denseidel/consumer-marketplace-service.git
-  cd consumer-marketplace-service
-  git secrets --install
-  git secrets --register-aws
-  ```
-
-* Start a virtual environment
-
-  ```text
-  virtualenv venv --python=python3
-  source venv/bin/activate
-  # install pylint 
-  pip install pylint
-  ```
-
-  If you use visual studio code do this first in your terminal window and then open the folder again with `code .`.
 
 ## Developer a docker microservice in Python
 
