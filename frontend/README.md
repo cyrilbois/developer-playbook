@@ -2,7 +2,7 @@
 
 ## Frontend
 
-After you defined the business functionality - expressed most clearly by the APIs of a domain - as a mock, you start building your UI.
+After you defined the business functionality - expressed most clearly by the APIs of a domain - by creating your API mocks, you start building your UI.
 
 **Architectural Decisions**
 

@@ -5,10 +5,10 @@
 * [Bootstraping](bootstraping.md)
 * [Development Environment](development-environment/README.md)
   * [Accounts \(AWS, GCP, CircleCI\)](development-environment/accounts-aws-gcp-circleci.md)
-* [Frontend](frontend/README.md)
+* [Services/API](services-api/README.md)
   * Serverless
   * Containers
-* [Services/API](services-api/README.md)
+* [Frontend](frontend/README.md)
   * Serverless
   * Containers
 * [Plattform](plattform.md)
