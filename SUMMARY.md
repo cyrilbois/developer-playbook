@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Architecture](architecture.md)
+* [Design](design.md)
 * [Bootstraping](bootstraping.md)
 * [Development Environment](development-environment/README.md)
   * [Accounts \(AWS, GCP, CircleCI\)](development-environment/accounts-aws-gcp-circleci.md)
