@@ -81,7 +81,7 @@ You don't want to store your secrets in plain text in a file like `.rshrc`  ther
 
 #### Installation
 
-```text
+```bash
 brew install lastpass-cli --with-pinentry
 ```
 
@@ -101,5 +101,10 @@ lpass login your@email.com
 fi
 ```
 
+#### Set environment variable \(e.g. key\_id \(username\) and secret\(password\)
 
+```bash
+export AWS_ACCESS_KEY_ID=$(lpass show aws-serverless-devops --username)
+export AWS_SECRET_ACCESS_KEY=$(lpass show aws-serverless-devops --password)
+```
 
