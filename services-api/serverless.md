@@ -33,37 +33,27 @@ custom:
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
+## Create a function
 
-
-  
-
-
-### Create a REST API function
-
-* configure the function in `serverless.yml`
-* create the function in `handler.py`
-  * also install boto3 to access dynamodb
-* test the function locally
-
-#### Install a python dependency
+Install python dependency for this function:
 
 ```python
-pip install boto3
+pip install boto3 google-api-python-client
 ```
 
-#### Store a reference to my dependencies
+Store a reference to my dependencies:
 
 ```python
 pip freeze > requirements.txt
 ```
 
-#### Optional: Re-install the dependencies from requirements.txt
+Optional: Re-install the dependencies from the `requirements.txt`:
 
 ```python
 pip install -r requirements.txt
 ```
 
-#### Implement the function
+Implement the function:
 
 Code: [https://github.com/denseidel/apis-api/commit/92b72ee086c64f2aee768fa4fa1e32134c6bf2eb](https://github.com/denseidel/apis-api/commit/92b72ee086c64f2aee768fa4fa1e32134c6bf2eb)
 
@@ -75,7 +65,9 @@ sls invoke local --function create_api --path tests/create-api.json
 
 todo unit tests: when to use what \(for small functions\) the function test should be ok \(how to run them best in the pipeline? bash script? python framework? node framework \(check how the serverless stack test node functions\)?
 
-#### Deploy the function
+
+
+## Deploy a function
 
 ```text
 sls deploy
