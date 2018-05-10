@@ -21,14 +21,18 @@ npm install --save serverless-python-requirements
 
 To configure our `serverless.yml` file to use the plugin, we'll add the following lines in our `serverless.yml`:
 
+{% code-tabs %}
+{% code-tabs-item title="serverless.yml" %}
 ```yaml
-# serverless.yml 
+# serverless.yml
 plugins: 
     - serverless-python-requirements 
 custom: 
     pythonRequirements: 
         dockerizePip: non-linux
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 
 
