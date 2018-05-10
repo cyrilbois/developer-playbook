@@ -1,7 +1,5 @@
 # Services/API
 
-## Service/API
-
 The core business functions are develop in services either using microservices or event driven actors.These can be implemented on the [platform ](../plattform.md)either as _serverless_ or _containers_.
 
 **Architectural Decisions**
