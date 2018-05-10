@@ -24,8 +24,7 @@ To configure our `serverless.yml` file to use the plugin, we'll add the followin
 {% code-tabs %}
 {% code-tabs-item title="serverless.yml" %}
 ```yaml
-# serverless.yml
-plugins: 
+plugins:
     - serverless-python-requirements 
 custom: 
     pythonRequirements: 
