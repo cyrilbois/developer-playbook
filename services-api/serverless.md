@@ -4,20 +4,16 @@ To be as portable as possible, even with severless, we use [serverless framework
 
 ## Setup  & Installation
 
-* Make sure you have your [Developer Environment Setup](../development-environment/) 
-* In your repo create your serverless template
+Make sure you have your [Developer Environment Setup](../development-environment/) 
 
-  ```text
-  sls create --template aws-python3
-  ```
+In your repo create your **serverless template for Python**
 
-  Code: [https://github.com/denseidel/apis-api/commit/915a7cabfddb79d02f398f53f6e56a1c4d2e3f8a](https://github.com/denseidel/apis-api/commit/915a7cabfddb79d02f398f53f6e56a1c4d2e3f8a)
+```text
+sls create --template aws-python3
+```
 
-* update the `serverless.yml` and install [serverless-python-requirements](https://serverless.com/blog/serverless-python-packaging/)  
-  [https://www.npmjs.com/package/serverless-python-requirements](https://www.npmjs.com/package/serverless-python-requirements)  
-  [https://serverless.com/blog/flask-python-rest-api-serverless-lambda-dynamodb/](https://serverless.com/blog/flask-python-rest-api-serverless-lambda-dynamodb/)
+Update the `serverless.yml` and install [serverless-python-requirements](https://serverless.com/blog/serverless-python-packaging/)  
 
-  Code: [https://github.com/denseidel/apis-api/commit/dad4026fe14c3c42fd99e3576cabaccb039db2aa](https://github.com/denseidel/apis-api/commit/dad4026fe14c3c42fd99e3576cabaccb039db2aa)
 
 ### Create a REST API function
 
