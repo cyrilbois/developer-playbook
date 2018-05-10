@@ -12,7 +12,27 @@ In your repo create your **serverless template for Python**
 sls create --template aws-python3
 ```
 
-Update the `serverless.yml` and install [serverless-python-requirements](https://serverless.com/blog/serverless-python-packaging/)  
+Update the `serverless.yml` and install [serverless-python-requirements](https://serverless.com/blog/serverless-python-packaging/) by first setting up your npm dependencies:
+
+```bash
+npm init
+npm install --save serverless-python-requirements
+```
+
+To configure our `serverless.yml` file to use the plugin, we'll add the following lines in our `serverless.yml`:
+
+```yaml
+# serverless.yml 
+plugins: 
+    - serverless-python-requirements 
+custom: 
+    pythonRequirements: 
+        dockerizePip: non-linux
+```
+
+
+
+  
 
 
 ### Create a REST API function
