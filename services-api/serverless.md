@@ -43,7 +43,7 @@ custom:
 
 ## Implementation
 
-Create virtual env local, activate and deactivate
+### Create virtual env local, activate and deactivate
 
 ```text
 #http://sourabhbajaj.com/mac-setup/Python/virtualenv.html
@@ -52,13 +52,13 @@ source venv/bin/activate
 deactivate
 ```
 
-Install python dependency for this function:
+### Install python dependency for this function:
 
 ```python
 pip install boto3 google-api-python-client requests
 ```
 
-Store a reference to my dependencies:
+### Store a reference to my dependencies:
 
 ```python
 pip freeze > requirements.txt
@@ -70,11 +70,7 @@ Optional: Re-install the dependencies from the `requirements.txt`:
 pip install -r requirements.txt
 ```
 
-Implement the function:
-
-Code: 
-
-[https://github.com/denseidel/apis-api/commit/92b72ee086c64f2aee768fa4fa1e32134c6bf2eb](https://github.com/denseidel/apis-api/commit/92b72ee086c64f2aee768fa4fa1e32134c6bf2eb)
+### Implement the function
 
 
 
