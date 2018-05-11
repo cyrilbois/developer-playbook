@@ -34,7 +34,7 @@ You don't want to give the serverless-admin access to all feature of aws. Theref
 
 More infos on the required permissions:
 
-[https://www.bountysource.com/issues/35584735-narrowing-the-serverless-iam-deployment-policy](https://www.bountysource.com/issues/35584735-narrowing-the-serverless-iam-deployment-policy)
+{% embed data="{\"url\":\"https://www.bountysource.com/issues/35584735-narrowing-the-serverless-iam-deployment-policy\",\"type\":\"link\",\"title\":\"Post a bounty on serverless/serverless!\",\"description\":\"serverless/serverless\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.bountysource.com/issues/favicon.ico?v=3\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cloudinary-a.akamaihd.net/bountysource/image/upload/d\_noaoqqwxegvmulwus0un.png,c\_pad,w\_400,h\_400,b\_white/Bountysource\_Animals67\_rzqguf.png\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
 
 
 
