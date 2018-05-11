@@ -89,6 +89,10 @@ todo unit tests: when to use what \(for small functions\) the function test shou
 python -m unittest discover -s tests
 ```
 
+### Examples
+
+{% embed data="{\"url\":\"https://github.com/serverless/examples\",\"type\":\"link\",\"title\":\"serverless/examples\",\"description\":\"Serverless Examples – A collection of boilerplates and examples of serverless architectures built with the Serverless Framework and AWS Lambda\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars3.githubusercontent.com/u/13742415?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
+
 ## Deployment
 
 ### Deploy a project
@@ -112,10 +116,6 @@ sls invoke -f create_api --path tests/create-api.json
 ```
 
 ![](../.gitbook/assets/test-with-cli-at-runtime.png)
-
-### Examples
-
-* {% embed data="{\"url\":\"https://github.com/serverless/examples\",\"type\":\"link\",\"title\":\"serverless/examples\",\"description\":\"Serverless Examples – A collection of boilerplates and examples of serverless architectures built with the Serverless Framework and AWS Lambda\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars3.githubusercontent.com/u/13742415?v=4&s=400\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
 
 ### Deploy single function
 
