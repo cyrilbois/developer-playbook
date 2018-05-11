@@ -6,7 +6,7 @@ The platform provides the tools to increase productivity it should abstract away
 
 * Serverless \(great speed and plattform\) vs Istio \(great portability\) or Flask on Serverless for speed and platform but migratable? 
 * SaaS Components for 
-  * [Persistance - DBaaS \(DynamoDB\)](persistance-dbaas.md) 
+  * [Persistance - DBaaS \(DynamoDB\)](persistance-dbaas/) 
   * [IAM - IAMaaS ](iam-iamaas.md)
   * [Event Driven / Streaming aaS](event-driven-streaming-aas.md)
   * [AI - AIaaS](ai-aiaas.md)

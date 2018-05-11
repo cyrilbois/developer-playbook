@@ -15,7 +15,9 @@
   * Containers
 * [Plattform](plattform.md)
 * [IAM - IAMaaS](iam-iamaas.md)
-* [Persistance - DBaaS](persistance-dbaas.md)
+* [Persistance - DBaaS](persistance-dbaas/README.md)
+  * Serverless
+  * [Container](persistance-dbaas/container.md)
 * [Event Driven / Streaming aaS](event-driven-streaming-aas.md)
 * [AI - AIaaS](ai-aiaas.md)
 * [Production / Reliability Engineering](production-reliability-engineering.md)
