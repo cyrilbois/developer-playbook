@@ -123,13 +123,6 @@ sls invoke -f create_api --path tests/create-api.json
 sls deploy function --function hello
 ```
 
-## Testing - Serverless Stack Example
-
-### Admin Tasks
-
-1. 2. Create User Pool in Cognito with _Pool name_ ```notes-user-pool``  and choose username attributes and select email adress or phone numbers and allow email addresses. Finish and _note the Pool ID and Pool ARN_. 
-3. Create App clients in the Cognito User Pool with _App client name_ `notes-app` and _refresh token expiration_ `30` and _Generate client secret_ `deselected` and _ Enable sign-in API server-based authentication_ `selected`. Finish and _note the App client id_.
-
 ### Config - Dummy Data
 
 ```text
