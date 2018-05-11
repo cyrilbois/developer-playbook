@@ -6,13 +6,21 @@ To be as portable as possible, even with severless, we use [serverless framework
 
 Make sure you have your [Developer Environment Setup](../development-environment/) 
 
+```bash
+npm install serverless -g
+```
+
 In your repo create your **serverless template for Python**
 
 ```text
+mkdir notes-app-api
+cd notes-app-api
 sls create --template aws-python3
 ```
 
-Update the `serverless.yml` and install [serverless-python-requirements](https://serverless.com/blog/serverless-python-packaging/) by first setting up your npm dependencies:
+### Compile non-pure Python modules \(e.g. C?\)
+
+To compile non-pure Python modules, install [Docker](https://docs.docker.com/engine/installation/), the [Lambda Docker Image](https://github.com/lambci/docker-lambda) and [serverless-python-requirements](https://serverless.com/blog/serverless-python-packaging/) . Enable **dockerizePip** in **serverless.yml** and `serverless deploy` again.
 
 ```bash
 npm init
@@ -35,10 +43,19 @@ custom:
 
 ## Create a function
 
+Create virtual env local, activate and deactivate
+
+```text
+#http://sourabhbajaj.com/mac-setup/Python/virtualenv.html
+virtualenv venv
+source venv/bin/activate
+deactivate
+```
+
 Install python dependency for this function:
 
 ```python
-pip install boto3 google-api-python-client
+pip install boto3 google-api-python-client requests
 ```
 
 Store a reference to my dependencies:
@@ -60,14 +77,21 @@ Code: [https://github.com/denseidel/apis-api/commit/92b72ee086c64f2aee768fa4fa1e
 #### Test the function locally
 
 ```text
-sls invoke local --function create_api --path tests/create-api.json
+sls invoke local --function create_api --path tests/create-api-event.json
+sls invoke local -f hello
 ```
 
 todo unit tests: when to use what \(for small functions\) the function test should be ok \(how to run them best in the pipeline? bash script? python framework? node framework \(check how the serverless stack test node functions\)?
 
+### Run tests
 
+```python
+python -m unittest discover -s tests
+```
 
-## Deploy a function
+## Deployment
+
+### Deploy a project
 
 ```text
 sls deploy
@@ -89,27 +113,17 @@ sls invoke -f create_api --path tests/create-api.json
 
 ![](../.gitbook/assets/test-with-cli-at-runtime.png)
 
-### More
+### Examples
 
 * {% embed data="{\"url\":\"https://github.com/serverless/examples\",\"type\":\"link\",\"title\":\"serverless/examples\",\"description\":\"Serverless Examples – A collection of boilerplates and examples of serverless architectures built with the Serverless Framework and AWS Lambda\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars3.githubusercontent.com/u/13742415?v=4&s=400\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
 
+### Deploy single function
 
+```text
+sls deploy function --function hello
+```
 
 ## Testing - Serverless Stack Example
-
-I implemented the [serverless-stack.com](https://serverless-stack.com) app for training purposes.
-
-### Prerequesits
-
-* Signup for an AWS account
-* Create an IAM role with \(Programmatic access and admin rights\): this is used for the AWS CLI and the serverless framework. 
-* Install AWS CLI 
-
-```bash
-sudo pip install awscli
-#use the access key id and secret access ky as describe above
-aws configure
-```
 
 ### Admin Tasks
 
@@ -140,88 +154,6 @@ aws configure
 aws cognito-idp sign-up --region eu-central-1 --client-id YOUR_CLIENTID --username admin@yourmail.com --password passw0rD
 # verfiy user
 aws cognito-idp admin-confirm-sign-up --region eu-central-1 --user-pool-id YOUR_USERPOOL_ID --username admin@yourmail.com
-```
-
-### Install Serverless
-
-```text
-npm install serverless -g
-```
-
-### Setup API Backend
-
-Source: [https://serverlesscode.com/post/python-3-on-serverless-framework/](https://serverlesscode.com/post/python-3-on-serverless-framework/)
-
-```text
-mkdir notes-app-api
-cd notes-app-api
-sls create --template aws-python3
-```
-
-## Usage
-
-### Create virtual env local, activate and deactivate
-
-```text
-#http://sourabhbajaj.com/mac-setup/Python/virtualenv.html
-virtualenv venv
-source venv/bin/activate
-deactivate
-```
-
-### Install a python dependency
-
-```python
-pip install boto3 requests
-```
-
-### Store a reference to my dependencies
-
-```python
-pip freeze > requirements.txt
-```
-
-### Re-install the dependencies from requirements.txt
-
-pip install -r requirements.txt
-
-### Test locally
-
-```text
-sls invoke local --function create --path mocks/create-event.json
-
-sls invoke local -f hello
-```
-
-### Run tests
-
-```python
-python -m unittest discover -s tests
-```
-
-## Deployment
-
-### Deploy  project
-
-```bash
-sls deploy
-```
-
-### Deploy single function
-
-```text
-sls deploy function --function hello
-```
-
-### Compile non-pure Python modules \(e.g. C?\)
-
-To compile non-pure Python modules, install [Docker](https://docs.docker.com/engine/installation/) and the [Lambda Docker Image](https://github.com/lambci/docker-lambda). Enable **dockerizePip** in **serverless.yml** and `serverless deploy` again.
-
-```text
-# enable dockerize Pip
-custom:
-  pythonRequirements:
-    dockerizePip: true
 ```
 
 ## Sources:
