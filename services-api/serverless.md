@@ -123,15 +123,6 @@ sls invoke -f create_api --path tests/create-api.json
 sls deploy function --function hello
 ```
 
-### Config - Dummy Data
-
-```text
-# create user
-aws cognito-idp sign-up --region eu-central-1 --client-id YOUR_CLIENTID --username admin@yourmail.com --password passw0rD
-# verfiy user
-aws cognito-idp admin-confirm-sign-up --region eu-central-1 --user-pool-id YOUR_USERPOOL_ID --username admin@yourmail.com
-```
-
 ## Sources:
 
 * [https://github.com/serverless/examples/tree/master/aws-python-pynamodb-s3-sigurl](https://github.com/serverless/examples/tree/master/aws-python-pynamodb-s3-sigurl) 
