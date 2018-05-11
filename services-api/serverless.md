@@ -72,18 +72,17 @@ pip install -r requirements.txt
 
 ### Implement the function
 
-1. Define the function in the `serverless.yml` 
-
-#### Test the function locally
+1. Define the function in the `serverless.yml` including the events \(e.g. http\) that trigger the function and the handler
+2. Implement the unit test: what is the best serverless unit test framework for python?
+3. Implement the handler function in `handler.py`
+4. Test the function locally
 
 ```text
 sls invoke local --function create_api --path tests/create-api-event.json
 sls invoke local -f hello
 ```
 
-todo unit tests: when to use what \(for small functions\) the function test should be ok \(how to run them best in the pipeline? bash script? python framework? node framework \(check how the serverless stack test node functions\)?
-
-#### Run tests
+Run the unit tests
 
 ```python
 python -m unittest discover -s tests
