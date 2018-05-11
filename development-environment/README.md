@@ -6,7 +6,7 @@ description: >-
 
 # Development Environment
 
-## Serverless Development Environment for Python, Javascript/React and Node Developers \(on OSX\):
+## Development Environment for Java\(SpringBoot\) and Javascript\(React\) \(on OSX\):
 
 Install Prerequesits Package Manger Homebrew and CLI Tools:
 
@@ -15,10 +15,11 @@ xcode-select --install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-Install Runtime for Javascript and Python:
+Install Runtime for Javascript and Java:
 
-```text
-brew install node python3
+```bash
+brew install node gradle mvn
+brew cask install java
 ```
 
 Install Python and Javascript packages / Dependencies:
