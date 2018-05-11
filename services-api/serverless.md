@@ -72,7 +72,7 @@ pip install -r requirements.txt
 
 ### Implement the function
 
-
+1. Define the function in the `serverless.yml` 
 
 #### Test the function locally
 

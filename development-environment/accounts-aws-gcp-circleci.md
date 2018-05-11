@@ -36,7 +36,96 @@ More infos on the required permissions:
 
 {% embed data="{\"url\":\"https://www.bountysource.com/issues/35584735-narrowing-the-serverless-iam-deployment-policy\",\"type\":\"link\",\"title\":\"Post a bounty on serverless/serverless!\",\"description\":\"serverless/serverless\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.bountysource.com/issues/favicon.ico?v=3\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cloudinary-a.akamaihd.net/bountysource/image/upload/d\_noaoqqwxegvmulwus0un.png,c\_pad,w\_400,h\_400,b\_white/Bountysource\_Animals67\_rzqguf.png\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
 
-
+```javascript
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "cloudformation:CreateStack",
+                "cloudformation:CreateUploadBucket",
+                "cloudformation:DeleteStack",
+                "cloudformation:DescribeStackEvents",
+                "cloudformation:DescribeStackResource",
+                "cloudformation:DescribeStackResources",
+                "cloudformation:UpdateStack",
+                "cloudformation:DescribeStacks",
+                "cloudformation:ValidateTemplate"
+            ],
+            "Resource": [
+                "*"
+            ]
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetObject",
+                "s3:GetObjectVersion",
+                "s3:PutObject",
+                "s3:DeleteObject",
+                "s3:CreateBucket",
+                "s3:DeleteBucket",
+                "s3:ListBucket",
+                "s3:ListBucketVersions",
+                "s3:GetBucketVersioning",
+                "s3:PutBucketVersioning",
+                "s3:GetBucketLocation"
+            ],
+            "Resource": [
+                "arn:aws:s3:::*"
+            ]
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "lambda:CreateFunction",
+                "lambda:PublishVersion",
+                "lambda:GetFunction",
+                "lambda:GetFunctionConfiguration",
+                "lambda:DeleteFunction",
+                "lambda:ListVersionsByFunction"
+            ],
+            "Resource": [
+                "arn:aws:lambda:eu-central-1:*:function:*"
+            ]
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "iam:CreateRole",
+                "iam:DeleteRole",
+                "iam:GetRole",
+                "iam:PassRole",
+                "iam:DeleteRolePolicy",
+                "iam:PutRolePolicy"
+            ],
+            "Resource": [
+                "arn:aws:iam::*:role/*"
+            ]
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "logs:DescribeLogStreams",
+                "logs:FilterLogEvents"
+            ],
+            "Resource": [
+                "*"
+            ]
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "cloudwatch:GetMetricStatistics"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}
+```
 
 ### Install AWS CLI
 
