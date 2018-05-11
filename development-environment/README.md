@@ -18,23 +18,21 @@ xcode-select --install
 Install Runtime for Javascript and Java:
 
 ```bash
-brew install node gradle mvn
+brew install node gradle maven
 brew cask install java
 ```
 
-Install Python and Javascript packages / Dependencies:
+Install Javascript packages / Dependencies:
 
 ```text
-pip install virtualenv
 npm install -g serverless create-react-app
 ```
-
-Source: [http://sourabhbajaj.com/mac-setup/Python/virtualenv.html](http://sourabhbajaj.com/mac-setup/Python/virtualenv.html)
 
 Additional tools to improve the developer experience:
 
 ```text
 brew cask install google-chrome
+brew cask install intellij-idea
 brew cask install visual-studio-code
 brew cask install iterm2
 brew cask install postman
@@ -113,12 +111,8 @@ dbaeumer.vscode-eslint
 dzannotti.vscode-babel-coloring
 formulahendry.auto-close-tag
 jebbs.plantuml
-magicstack.MagicPython
-ms-python.python
 msjsdiag.debugger-for-chrome
 taichi.react-beautify
-tht13.python
-tushortz.python-extended-snippets
 vscodevim.vim
 yzhang.markdown-all-in-one
 ```
