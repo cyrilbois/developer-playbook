@@ -41,7 +41,7 @@ custom:
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-## Create a function
+## Implementation
 
 Create virtual env local, activate and deactivate
 
@@ -83,11 +83,17 @@ sls invoke local -f hello
 
 todo unit tests: when to use what \(for small functions\) the function test should be ok \(how to run them best in the pipeline? bash script? python framework? node framework \(check how the serverless stack test node functions\)?
 
-### Run tests
+#### Run tests
 
 ```python
 python -m unittest discover -s tests
 ```
+
+
+
+### Examples
+
+{% embed data="{\"url\":\"https://github.com/serverless/examples\",\"type\":\"link\",\"title\":\"serverless/examples\",\"description\":\"Serverless Examples – A collection of boilerplates and examples of serverless architectures built with the Serverless Framework and AWS Lambda\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars3.githubusercontent.com/u/13742415?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
 
 ## Deployment
 
