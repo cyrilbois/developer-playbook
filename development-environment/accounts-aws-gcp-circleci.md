@@ -32,6 +32,12 @@ You don't want to give the serverless-admin access to all feature of aws. Theref
 
 ![Never show this key in public or check it into version control. That&apos;s why I now go to user section and delete it and create a new one:](../.gitbook/assets/change-iam-user-credentials%20%282%29.png)
 
+More infos on the required permissions:
+
+[https://www.bountysource.com/issues/35584735-narrowing-the-serverless-iam-deployment-policy](https://www.bountysource.com/issues/35584735-narrowing-the-serverless-iam-deployment-policy)
+
+
+
 ### Install AWS CLI
 
 ```bash
