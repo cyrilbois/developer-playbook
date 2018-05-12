@@ -9,7 +9,6 @@
 * [Services/API](services-api/README.md)
   * [Serverless](services-api/serverless.md)
   * [Containers](services-api/containers.md)
-  * [Python](services-api/python.md)
 * [Frontend](frontend/README.md)
   * Serverless
   * Containers
