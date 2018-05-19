@@ -205,5 +205,10 @@ export AWS_SECRET_ACCESS_KEY=$(lpass show aws-serverless-devops --password)
 
 ## Getting started with GCP
 
-* [Setup Google Cloud Functions for Serverless](https://serverless.com/framework/docs/providers/google/guide/credentials/) 
+* [Setup Google Cloud Functions for Serverless](https://serverless.com/framework/docs/providers/google/guide/credentials/):
+  * Create a Google Cloud Billing Account
+  * Create a new Google Cloud Project
+  * Enable the necessary APIs
+  * Get credentials
+  * For serverless: Update the `provider` config in `serverless.yml`
 
