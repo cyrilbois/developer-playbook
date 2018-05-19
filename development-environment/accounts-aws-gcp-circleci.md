@@ -220,3 +220,11 @@ export AWS_SECRET_ACCESS_KEY=$(lpass show aws-serverless-devops --password)
 lpass show xxx-dev-gcp --attach att-7942806310206912061-56085
 ```
 
+### Setup an ecrypted folder and sync with google drive
+
+```text
+/Users/den/Desktop/secret/xxx/key.json
+lock-secret-files
+unlock-secret-files
+```
+
