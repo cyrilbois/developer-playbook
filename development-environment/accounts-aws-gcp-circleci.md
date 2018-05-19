@@ -212,3 +212,11 @@ export AWS_SECRET_ACCESS_KEY=$(lpass show aws-serverless-devops --password)
   * Get credentials
   * For serverless: Update the `provider` config in `serverless.yml`
 
+
+
+### Accessing files in lpass
+
+```text
+lpass show xxx-dev-gcp --attach att-7942806310206912061-56085
+```
+
