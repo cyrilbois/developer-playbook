@@ -74,7 +74,7 @@ Start minikube \[[Source](https://kubernetes.io/docs/getting-started-guides/mini
 minikube start --memory 4096
 ```
 
-Setup [Helm](https://docs.helm.sh/) and tiller \[[Source](https://docs.helm.sh/using_helm/#quickstart)\] and Istio \[[Source](https://istio.io/docs/setup/kubernetes/quick-start.html)\] /** helm install currently not working check back in a few weeks.**
+Setup [Helm](https://docs.helm.sh/) and tiller \[[Source](https://docs.helm.sh/using_helm/#quickstart)\] and Istio \[[Source](https://istio.io/docs/setup/kubernetes/quick-start.html)\] / **helm install currently not working check back in a few weeks.**
 
 ```text
 #find the locally configure cluster where tiller will be installed by helm

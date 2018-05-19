@@ -2,7 +2,7 @@
 
 Architecture should be designed for change, and you must never make comproises that impact architecture goals negatively as architecture is by definition hard to change .
 
-> An evolutionary architecture supports **incremental**, **guided change** as a first principle along **multiple dimensions **
+> An evolutionary architecture supports **incremental**, **guided change** as a first principle along **multiple dimensions**
 
 ## Architectural practices for evolution
 
