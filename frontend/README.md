@@ -21,11 +21,11 @@ After you defined the business functionality - expressed most clearly by the API
 ### Technology Stack {#technology-stack}
 
 * Build Setup: _ES6, webpack, babel, npm_
-* Frontend Framework: _React \(_[_ecosystem overview_](https://github.com/enaqx/awesome-react)_ / _[_course_](https://www.udemy.com/react-the-complete-guide-incl-redux/)_\) - JSX, State, Life Cycle Methods_
+* Frontend Framework: _React \(_[_ecosystem overview_](https://github.com/enaqx/awesome-react) _/_ [_course_](https://www.udemy.com/react-the-complete-guide-incl-redux/)_\) - JSX, State, Life Cycle Methods_
 * State Management: _Redux + Redux Saga_
 * Web/Desktop:
   * _React  with Create-React-App_
-  * _CSS Framework - Bulma / _[_blueprintjs_](http://blueprintjs.com/)
+  * _CSS Framework - Bulma /_ [_blueprintjs_](http://blueprintjs.com/)
 * Web/Mobile:
   * _CSS Framework - Bulma_
 * Native:
@@ -175,7 +175,7 @@ AWS provides quite a few services that can help us do the above. We are going to
 
 First, log in to your[AWS Console](https://console.aws.amazon.com/)and select S3 from the list of services.![](../.gitbook/assets/open-s3.png)
 
-Select **Create Bucket**and pick a name for your application and select the **US East \(N. Virginia\) Region **Region. Since our application is being served out using a CDN, the region should not matter to us.
+Select **Create Bucket**and pick a name for your application and select the **US East \(N. Virginia\) Region** Region. Since our application is being served out using a CDN, the region should not matter to us.
 
 ![](../.gitbook/assets/create-new-s3-bucket.png)  
 ![](../.gitbook/assets/create-s3-bucket-1.png)![](../.gitbook/assets/create-s3-bucket-3.png)
@@ -204,7 +204,7 @@ Now click on your newly created bucket from the list and navigate to its permiss
 
 ![](../.gitbook/assets/configure-static-content-for-s3.png)![](../.gitbook/assets/configure-static-webhosting-s3-1.png)
 
-Now select **Use this bucket to host a website **and add our`index.html`as the **Index Document **and the **Error Document**. Since we are letting React handle 404s, we can simply redirect our errors to our`index.html`as well. Hit **Save **once you are done.
+Now select **Use this bucket to host a website** and add our`index.html`as the **Index Document** and the **Error Document**. Since we are letting React handle 404s, we can simply redirect our errors to our`index.html`as well. Hit **Save** once you are done.
 
 ![](../.gitbook/assets/configure-static-content-s3.png)
 
