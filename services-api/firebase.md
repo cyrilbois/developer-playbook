@@ -9,3 +9,5 @@ firebase login
 firebase init
 ```
 
+Typescript: [https://stackify.com/typescript-vs-javascript-migrate/](https://stackify.com/typescript-vs-javascript-migrate/)
+
