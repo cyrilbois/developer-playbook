@@ -2,10 +2,16 @@
 
 ## Chatbot Options
 
-* Dialogflow \(GCP\)
-* Lex \(AWS\)
-* BotFramework \(Azure\)
-* Watson Conversation \(Bluemix\)
+| Options | Pro | Con |
+| --- | --- | --- | --- | --- |
+| [Dialogflow](https://dialogflow.com/docs/getting-started/basics) \(GCP\) |  |  |
+| [Lex](https://docs.aws.amazon.com/lex/latest/dg/what-is.html) \(AWS\) |  |  |
+| [Bot Framework](https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0) \(Azure\) |  |  |
+| [Watson Conversation](https://www.ibm.com/watson/services/conversation/devresources/index.html#devresources) \(Bluemix\) |  |  |
+
+
+
+## Dialogflow
 
 ## Build a chatbot interface with Dataflow \(including Messanger, Skype\) 
 
