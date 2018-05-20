@@ -13,6 +13,7 @@
 * [Frontend](frontend/README.md)
   * Serverless
   * Containers
+  * [Chatbot](frontend/chatbot.md)
 * [Plattform](plattform.md)
 * [IAM - IAMaaS](iam-iamaas.md)
 * [Persistance - DBaaS](persistance-dbaas/README.md)
