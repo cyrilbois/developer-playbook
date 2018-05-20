@@ -16,6 +16,9 @@ Implement the functions ...
 Save configuration: [https://firebase.google.com/docs/functions/config-env](https://firebase.google.com/docs/functions/config-env) 
 
 ```text
-firebase functions:config:set someservice.key="THE API KEY" someservice.id="THE CLIENT ID"
+# config secrets
+firebase functions:config:set facebook.healthengineer.verifytoken=$(lpass show facebook-healthengineer --password)
+#check
+firebase functions:config:get
 ```
 
