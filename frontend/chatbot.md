@@ -13,6 +13,16 @@
 
 ## Dialogflow
 
+### What is Dialogflow [here](https://dialogflow.com/docs/getting-started/basics)
+
+* Invocation
+* [Intent](https://dialogflow.com/docs/intents)
+* [Training Phrases](https://dialogflow.com/docs/intents#elements_of_an_intent)
+* [Entities](https://dialogflow.com/docs/entities)
+* [Fulfillment Request](https://dialogflow.com/docs/fulfillment)
+* [Response](https://dialogflow.com/docs/rich-messages)
+* [Contexts](https://dialogflow.com/docs/contexts)
+
 ### Get started with Dialogflow [here](https://dialogflow.com/docs/getting-started/building-your-first-agent) including:
 
 * Signup/Login
@@ -25,6 +35,8 @@
 * Create a Facebook App
 * Setting Up Dialogflow
 * Webhook Configuration
+
+
 
 
 
