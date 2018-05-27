@@ -19,6 +19,4 @@ description: >-
   * [Exercise 1: Create an Amazon Lex Bot Using a Blueprint \(Console\)](https://docs.aws.amazon.com/lex/latest/dg/gs-bp.html)
   * [Exercise 3: Publish a Version and Create an Alias](https://docs.aws.amazon.com/lex/latest/dg/gettingstarted-ex3.html)
   * [Step 2: Create a Facebook Application](https://developers.facebook.com/docs/messenger-platform/getting-started/quick-start)
-    * [App Secret](https://developers.facebook.com/apps/215077339008589/settings/basic/)
-    * [Page Access Token](https://developers.facebook.com/apps/215077339008589/messenger/settings/)
 
