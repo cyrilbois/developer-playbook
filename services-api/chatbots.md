@@ -24,6 +24,5 @@ description: >-
   * [Step 3: Integrate Facebook Messenger with the Amazon Lex Bot](https://docs.aws.amazon.com/lex/latest/dg/fb-bot-association.html)
 * Use a lambda function for response
   * [message format](https://docs.aws.amazon.com/lex/latest/dg/lambda-input-response-format.html)
-
-
+* [Multiple Intents Chains / State Initialization](https://docs.aws.amazon.com/lex/latest/dg/book-trip-detail-flow.html)
 
