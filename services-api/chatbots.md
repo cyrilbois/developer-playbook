@@ -48,5 +48,11 @@ description: >-
 
 {% embed data="{\"url\":\"https://docs.aws.amazon.com/lex/latest/dg/lambda-input-response-format.html\",\"type\":\"link\",\"title\":\"Lambda Function Input Event and Response\\n         Format - Amazon Lex\\n      \",\"description\":\"This section describes the structure of the event data that Amazon Lex provides to a Lambda function. Use this information to parse the input in your Lambda code. It also explains the format of the response that Amazon Lex expects your Lambda function to return.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://docs.aws.amazon.com/images/favicon.ico\",\"aspectRatio\":0}}" %}
 
+## Dialogflow
+
+{% embed data="{\"url\":\"https://dialogflow.com/docs/sdks\",\"type\":\"link\",\"title\":\"Dialogflow SDKs  \|  Dialogflow\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.gstatic.com/devrel-devsite/v99a053275cce2e04107c83d5d9342b3cff2b95984673fb335233949c680be78f/dialogflow/images/touchicon-180.png\",\"aspectRatio\":0}}" %}
+
+{% embed data="{\"url\":\"http://dialogflow-python-client-v2.readthedocs.io/en/latest/?\#using-dialogflow\",\"type\":\"link\",\"title\":\"Dialogflow: Python Client — dialogflow 0.1.0 documentation\",\"icon\":{\"type\":\"icon\",\"url\":\"http://dialogflow-python-client-v2.readthedocs.io/favicon.ico\",\"aspectRatio\":0}}" %}
+
 
 
