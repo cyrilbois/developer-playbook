@@ -54,6 +54,11 @@ Architectural decision should be documented in a [light weight architecture deci
 
 Use the [adr tool](https://github.com/npryce/adr-tools) and [MADR](https://github.com/adr/madr)
 
+```text
+brew install adr-tools
+npm install madr && mkdir -p docs/adr && cp node_modules/madr/template/* docs/adr/
+```
+
 ## Keep a technology overview with the Tech Radars:
 
 * [https://zalando.github.io/tech-radar/](https://zalando.github.io/tech-radar/)
