@@ -1,0 +1,25 @@
+{
+  "name": "developer-playbook",
+  "version": "1.0.0",
+  "description": "This notebook includes notes on skills you need to build modern applications. The currently the stack looks like this:",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denseidel/developer-playbook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denseidel/developer-playbook/issues"
+  },
+  "homepage": "https://github.com/denseidel/developer-playbook#readme",
+  "dependencies": {
+    "madr": "^2.0.3"
+  }
+}
