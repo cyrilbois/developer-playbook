@@ -1,7 +1,8 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Architecture](architecture.md)
+* [Architecture](architecture/README.md)
+  * Technology Stack
 * [Design](design.md)
 * [Bootstraping](bootstraping.md)
 * [Development Environment](development-environment/README.md)

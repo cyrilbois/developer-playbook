@@ -10,7 +10,7 @@ The core business functions are develop in services either using microservices o
 
 ## Understand the domain 
 
-[Create a lean diagram](../architecture.md) with a domain diagram \(events, commands, actors, aggregates\), interaction diagram and a first deployment diagram, \(squnce diagram? not at this stage right?\).
+[Create a lean diagram](../architecture/) with a domain diagram \(events, commands, actors, aggregates\), interaction diagram and a first deployment diagram, \(squnce diagram? not at this stage right?\).
 
 ## Decide if you go serverless or container and setup the project 
 

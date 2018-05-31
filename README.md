@@ -6,7 +6,7 @@ This notebook includes notes on skills you need to build modern applications. Th
 
 ### Method
 
-The [architecture principles](architecture.md) are the guiding factors for the \(architecture\) decision made in this playbook.
+The [architecture principles](architecture/) are the guiding factors for the \(architecture\) decision made in this playbook.
 
 {% hint style="info" %}
 If you search a specific topic don't forget the search function \(!\)

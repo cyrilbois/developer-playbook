@@ -6,7 +6,7 @@ Architecture should be designed for change, and you must never make comproises t
 
 ## Architectural practices for evolution
 
-![](.gitbook/assets/principles-of-evolutionary-architecture.png)  
+![](../.gitbook/assets/principles-of-evolutionary-architecture.png)  
 Source: [Patrick Kua - Goto Conference](https://www.youtube.com/watch?v=8bEsNT7jdC4&t=112s&index=57&list=WL)
 
 ### Technical Practices:
@@ -51,6 +51,8 @@ Tool: [plantuml](http://plantuml.com)
 ## Documentation of Architecutral Decisions
 
 Architectural decision should be documented in a [light weight architecture decision record](https://github.com/CloudNativeTraining/architecture_decision_record). My private decision are located here in [github](https://github.com/denseidel/developer-playbook/tree/master/adr) based on this [template](https://github.com/CloudNativeTraining/architecture_decision_record/edit/master/adr_template_madr.md).
+
+Use the [adr tool](https://github.com/npryce/adr-tools).
 
 ## Keep a technology overview with the Tech Radars:
 
