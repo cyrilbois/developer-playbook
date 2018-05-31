@@ -52,7 +52,7 @@ Tool: [plantuml](http://plantuml.com)
 
 Architectural decision should be documented in a [light weight architecture decision record](https://github.com/CloudNativeTraining/architecture_decision_record). My private decision are located here in [github](https://github.com/denseidel/developer-playbook/tree/master/adr) based on this [template](https://github.com/CloudNativeTraining/architecture_decision_record/edit/master/adr_template_madr.md).
 
-Use the [adr tool](https://github.com/npryce/adr-tools).
+Use the [adr tool](https://github.com/npryce/adr-tools) and [MADR](https://github.com/adr/madr)
 
 ## Keep a technology overview with the Tech Radars:
 
