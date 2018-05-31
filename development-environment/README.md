@@ -1,9 +1,3 @@
----
-description: >-
-  Instruction to setup your developer environment for this playbook (working
-  with serverless or containers)
----
-
 # Development Environment
 
 ## Serverless Development Environment for Python, Javascript/React and Node Developers \(on OSX\):

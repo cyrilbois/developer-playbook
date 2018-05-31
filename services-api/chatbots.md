@@ -1,9 +1,3 @@
----
-description: >-
-  Chat becomes a more and more important interface to our system. This section
-  describes how to implement a serverless Chatbot.
----
-
 # Chatbots
 
 ## Options

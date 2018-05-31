@@ -1,9 +1,3 @@
----
-description: >-
-  Bot get more important as more and more traffic & business moves over to
-  messengers like wechat. This shows you how to build one.
----
-
 # Chatbot
 
 ## Chatbot Options

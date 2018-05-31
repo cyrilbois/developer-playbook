@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [Architecture](architecture/README.md)
   * Technology Stack
+  * [ADR Records](https://github.com/denseidel/developer-playbook/blob/master/docs/adr/index.md)
 * [Design](design.md)
 * [Bootstraping](bootstraping.md)
 * [Development Environment](development-environment/README.md)
