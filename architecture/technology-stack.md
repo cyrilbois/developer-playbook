@@ -76,30 +76,21 @@ We integrate genomics and clinical data on a single platform and allow doctors t
   * M**emory cache solutions:** Memcache, Redis 
   * **Message Queueing:** Kafka, Kinesis, RabbitMQ, Amazon SQS
   * **Proxies:**  NGINX and related technologies is a plus
-* Frontend:
+* **Frontend:**
   * **JavaScript, HTML5, and CSS3**
     * Optimizing the performance of complex Javascript applications
     * Experience of building advanced dashboards is a plus.
   * **Modern thick-client architecture \(e.g. lightweight MVC\)**
   * **Frameworks**: React.js and Redux
-
-
-
-* Programming
-  * Python
-  * Platform is fully built on Python, Django, celery and Rabbitmq along with lot more opensource frameworks.
-  * shell scripts
-  * web application performance tuning \(all layers\) and high availability architectures
-  * Understanding of micro services architecture/Containers using Docker, Kubernetes is a plus.
-  * Expert in Java, Python, or C/C++, Able to write, manage, debug multi-threaded asynchronous code with call-backs.
-  * Ability to Architect web solutions addressing SLA monitoring, security, performance, caching, debugging
-  * Knowledge of distributed systems, specifically: scaling, optimization, sharding, fault tolerance, and operation.
-  * Java
-  * Expert level skills with building products using distributed technologies
-
-
-
-* Data Analytics:
+* **Programming:**
+  * **Languages:** Python, Java, Shell scripts
+    * web application performance tuning \(all layers\) and high availability architectures
+    * Able to write, manage, debug multi-threaded asynchronous code with call-backs.
+    * architect web solutions addressing SLA monitoring, security, performance, caching, debugging
+    * building products using distributed technologies
+  * **Architecture**: Understanding of micro services architecture/Containers using Docker, Kubernetes
+    * Knowledge of distributed systems scaling, optimization, sharding, fault tolerance, and operation.
+* **Data Analytics:**
   * use most of AWS Compute and storage services along with PostgreSQL RDS, Aurora, DynamoDB, Redis, Elastic Search, Kinesis, Redshift
   * database administration tasks such as database installation, replication, database backup, restore and database maintenance
   * Write automation scripts for customer dataload jobs and scheduling of jobs.
@@ -112,7 +103,6 @@ We integrate genomics and clinical data on a single platform and allow doctors t
   * Expertise in data science or machine learning, especially supervised ML algorithms, clustering, or natural language processing
   * Knowledge of hierarchical, relational and unnormalized data formats
   * Strong and demonstrable experience with more than one of the following:
-
     * Relational Stores \(E.g Postgres, MySQL, Oracle\)
     * Columnar or NoSQL Stores \(Redshift, Cassandra, DynamoDB\)
     * Graph Stores \(Neo4J, Titan, Triple/RDF Stores\)
