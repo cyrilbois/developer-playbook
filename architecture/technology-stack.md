@@ -66,26 +66,22 @@ description: 'Goal: I want the option to go to an innovative bio tech company'
 
 We integrate genomics and clinical data on a single platform and allow doctors to share important treatment and outcomes information across a national network. Our customers manage more than 1 million active cancer cases at hundreds of hospitals across the US and Asia. Now, we’re racing to meet growing demand and bring precision cancer care to every patient, regardless of location or income. **Because most cloud technologies aren’t HIPAA-compliant, we often build from the ground up**. Our autonomous, feature-focused scrum teams work in two-week sprints and own projects end to end, while our domain-based guilds encourage collaboration across teams.
 
-* Infrastructure: 
+* **Infrastructure:** 
   * **Runtime**: Docker on Kubernetes
   * **Cloud platforms:** AWS \(preferred\), Google Compute, Azure
   * **Cloud orchestration tooling:** Terraform, CloudFormation, SaltStack, Ansible
   * **CI/CD:** Jenkins, CircleCI 
-  * **Monitoring:** New Relic and Sumo Logic
-  * tools and techniques of security assurance
-  * Strong experience in Infrastructure Monitoring, Application Performance Monitoring using tools\(Appdynamics or Newrelic\)
-  * Experience with in memory cache solutions like Memcache, Redis is good to have.
-  * Message Queueing experience with RabbitMQ, Amazon SQS is good to have.
-  * Experience with NGINX and related technologies is a plus
-
-
-
+  * **Infrastructure Monitoring, Application Performance Monitoring:** Appdynamics, New Relic, Sumo Logic
+  * **Security assurance\[**[**Explenation**](https://en.wikipedia.org/wiki/Software_security_assurance)**\]:**  
+  * M**emory cache solutions:** Memcache, Redis 
+  * **Message Queueing:** Kafka, Kinesis, RabbitMQ, Amazon SQS
+  * **Proxies:**  NGINX and related technologies is a plus
 * Frontend:
-  * Expert-level knowledge of advanced JavaScript, HTML5, and CSS3.
-  * Familiarity with modern thick-client architecture \(e.g. lightweight MVC\) required
-  * Experience with React.js and Redux is a major plus.
-  * Experience of optimizing the performance of complex Javascript applications is a must.
-  * Experience of building advanced dashboards is a plus.
+  * **JavaScript, HTML5, and CSS3**
+    * Optimizing the performance of complex Javascript applications
+    * Experience of building advanced dashboards is a plus.
+  * **Modern thick-client architecture \(e.g. lightweight MVC\)**
+  * **Frameworks**: React.js and Redux
 
 
 
