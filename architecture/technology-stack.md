@@ -237,3 +237,23 @@ My Roadmap based on this:
     * [https://www.crisprflydesign.org/](https://www.crisprflydesign.org/) \(from germany?\)
   * OpenLab MUC
 
+
+
+
+
+Vivy:
+
+
+
+
+
+* Strong skills in Python/Java/R
+* Deep theoretical understanding of Machine Learning and Statistics \(Supervised/Unsupervised/DeepLearning/NN/Weak Prediction Model Ensembles/Genetic Algorithms\)
+* Experience in TensorFlow, Keras, NumPy, etc
+* Experienced in BigData and its tools \(e.g. Hadoop MR/EMR/Spark\) is
+
+
+
+* BSc/BA in Health Informatics, Information Management, Statistics or relevant field.
+* Proficiency in SQL, Kafka, Map-Reduce, and other data warehouse solutions
+
