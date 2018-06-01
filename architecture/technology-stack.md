@@ -67,12 +67,11 @@ description: 'Goal: I want the option to go to an innovative bio tech company'
 We integrate genomics and clinical data on a single platform and allow doctors to share important treatment and outcomes information across a national network. Our customers manage more than 1 million active cancer cases at hundreds of hospitals across the US and Asia. Now, we’re racing to meet growing demand and bring precision cancer care to every patient, regardless of location or income. **Because most cloud technologies aren’t HIPAA-compliant, we often build from the ground up**. Our autonomous, feature-focused scrum teams work in two-week sprints and own projects end to end, while our domain-based guilds encourage collaboration across teams.
 
 * Infrastructure: 
-  * Docker containers on Kubernetes
-  * hands-on expertise with cloud platform such as Google Compute, Azure or AWS \(preferred\)
-  * cloud orchestration tooling such as CloudFormation and Terraform 
-  * SaltStack, Ansible
-  * Jenkins, CircleCI 
-  * New Relic and Sumo Logic
+  * **Runtime**: Docker on Kubernetes
+  * **Cloud platforms:** AWS \(preferred\), Google Compute, Azure
+  * **Cloud orchestration tooling:** Terraform, CloudFormation, SaltStack, Ansible
+  * **CI/CD:** Jenkins, CircleCI 
+  * **Monitoring:** New Relic and Sumo Logic
   * tools and techniques of security assurance
   * Strong experience in Infrastructure Monitoring, Application Performance Monitoring using tools\(Appdynamics or Newrelic\)
   * Experience with in memory cache solutions like Memcache, Redis is good to have.
