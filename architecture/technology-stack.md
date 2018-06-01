@@ -1,6 +1,8 @@
-# Technology Stack
+---
+description: 'Goal: I want the option to go to an innovative bio tech company'
+---
 
-Goal: I want the option to go to an innovative bio tech company
+# Technology Stack
 
 ## Innovative Biotech Companies: 
 
