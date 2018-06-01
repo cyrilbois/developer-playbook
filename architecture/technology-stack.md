@@ -28,83 +28,78 @@ description: 'Goal: I want the option to go to an innovative bio tech company'
 We integrate genomics and clinical data on a single platform and allow doctors to share important treatment and outcomes information across a national network. Our customers manage more than 1 million active cancer cases at hundreds of hospitals across the US and Asia. Now, we’re racing to meet growing demand and bring precision cancer care to every patient, regardless of location or income.
 
 * **Build their own cloud**: Because most cloud technologies aren’t HIPAA-compliant, we often build from the ground up. Our autonomous, feature-focused scrum teams work in two-week sprints and own projects end to end, while our domain-based guilds encourage collaboration across teams.
-* Tools:
-
-  * Docker containers on Kubernetes, micro-services, CI/CD tools, automation frameworks, Cloud capabilities on data visualization and data metrics tools
-  * primarily work in AWS and leverage Kubernetes, Terraform and SaltStack.
-  * Jenkins, CircleCI, New Relic and Sumo Logic
-  *  experience with a public cloud such as AWS leveraging Terraform
-  * working with Docker containers running on Kubernetes
-  * Python
-  * Knowledge of healthcare datasets
-    * Sensitivity to healthcare data
-    * Having worked in regulated industry
-  * use most of AWS Compute and storage services along with PostgreSQL RDS, Aurora, DynamoDB, Redis, Elastic Search, Kinesis
-  * Terraform and Application provisioning with Salt Stack. Jenkins and Circle CI for CI/CD workflows. Platform is fully built on Python, Django, celery and Rabbitmq along with lot more opensource frameworks.
-  * hell script and configuration management tools chef.
-  * database administration tasks such as database installation, replication, database backup, restore and database maintenance.
-  * Write automation scripts for customer dataload jobs and scheduling of jobs.
-  * scripting skills in Python \(preferred\), or other scripting languages \(Bash, Perl, etc.\).Rock solid Linux skills.
+* Infrastructure: 
+  * Docker containers on Kubernetes
   * hands-on expertise with cloud platform such as Google Compute, Azure or AWS \(preferred\)
-  * Puppet, Chef, Ansible or Salt
-  * cloud orchestration tooling such as CloudFormation and Terraform
+  * cloud orchestration tooling such as CloudFormation and Terraform 
+  * SaltStack, Ansible
+  * Jenkins, CircleCI 
+  * New Relic and Sumo Logic
   * tools and techniques of security assurance
-  * web application performance tuning \(all layers\) and high availability architectures
-  * Basic DBA skills \(e.g. MySQL, PostgreSQL\).  Exposure to administering NoSQL systems is a plus.Build automation experience is a plus.
-  * Strong experience in Infrastructure Monitoring, Application Performance Monitoring using tools\(Appdynamics or Newrelic\).
-  * Log aggregation experience using Splunk/Sumologic/Logstash/Elasticsearch
-  * Understanding of micro services architecture/Containers using Docker, Kubernetes is a plus.
+  * Strong experience in Infrastructure Monitoring, Application Performance Monitoring using tools\(Appdynamics or Newrelic\)
   * Experience with in memory cache solutions like Memcache, Redis is good to have.
   * Message Queueing experience with RabbitMQ, Amazon SQS is good to have.
-  * Team player  and Own it mindset.
-  * Automation using shell scripting and configuration management tools like chef, ansible.
-  * Application performance monitoring tools like New relic, Appdynamics
-  * Log management and metrics monitoring tools like Sumologic, logstash,Splunk
-
-  Bonus points if you
-
-  * Have Amazon Aurora, Redshift experience
+* Programming
+  * Python
+  * Platform is fully built on Python, Django, celery and Rabbitmq along with lot more opensource frameworks.
+  * shell scripts
+  * web application performance tuning \(all layers\) and high availability architectures
+  * Understanding of micro services architecture/Containers using Docker, Kubernetes is a plus.
+* Data Analytics:
+  * use most of AWS Compute and storage services along with PostgreSQL RDS, Aurora, DynamoDB, Redis, Elastic Search, Kinesis, Redshift
+  * database administration tasks such as database installation, replication, database backup, restore and database maintenance
+  * Write automation scripts for customer dataload jobs and scheduling of jobs.
+  * scripting skills in Python \(preferred\), or other scripting languages \(Bash, Perl, etc.\).Rock solid Linux skills.
+  * Basic DBA skills \(e.g. MySQL, PostgreSQL\).  Exposure to administering NoSQL systems is a plus.Build automation experience is a plus
+  * Log aggregation experience using Splunk/Sumologic/Logstash/Elasticsearch
   * Familiarity with Tableau
-  * Docker, Kubernetes and Micro services experience
-  * Expert-level knowledge of advanced JavaScript, HTML5, and CSS3.
-  * Familiarity with modern thick-client architecture \(e.g. lightweight MVC\) required
-  * Experience with React.js and Redux is a major plus.
-  * Experience of optimizing the performance of complex Javascript applications is a must.
-  * Experience of building advanced dashboards is a plus.
-  * You don't have to know anything about medicine or genetics, but you should be excited to learn about these fields.
-  * Computer Science degree or 7 years of related experience
-  * Expert in Java, Python, or C/C++, Able to write, manage, debug multi-threaded asynchronous code with call-backs.
-  * Ability to Architect web solutions addressing SLA monitoring, security, performance, caching, debugging
-  * Knowledge of distributed systems, specifically: scaling, optimization, sharding, fault tolerance, and operation.
-  * Experience with AWS Cloud and related big data technologies is a plus
-  * Experience with NGINX and related technologies is a plus
-  * Expert understanding of relational, NoSQL, and graph databases is a plus.
-  * Experience with Kafka, Spark, database internals, transactions, query processing and optimization, as well as federated data systems is a huge plus.
-  * Expert in Python or Java
-  * Expert level skills with building products using distributed technologies
-    * Strong and demonstrable experience with more than one of the following:
-      * Relational Stores \(E.g Postgres, MySQL, Oracle\)
-      * Columnar or NoSQL Stores \(Redshift, Cassandra, DynamoDB\)
-      * Graph Stores \(Neo4J, Titan, Triple/RDF Stores\)
-      * Document Stores \(Postgres JSONB, MongoDB\)
-      * In memory stores \(Redis, memsql\)
-      * Distributed Processing Engines \(Apache Spark, Apache Storm, Celery\)
-    * Distributed Queues \(Kinesis, Apache Kafka, RabbitMQ\)
-    * Worked with multiple types of databases, including both relational and non-relational
-  * Expert in SQL for extraction, querying and handling large amounts of data
-  * Experience in building data analytics platforms
-    * Working with partner data scientist, data analysts and other domain experts to understand their needs and be able to develop solutions
-  * Experience working with AWS or similar cloud platform technologies
-
-  Nice To Have
-
-  * Experience with MVC or MVCS frameworks such as Django
-  * Expertise in data science or machine learning, especially supervised ML algorithms, clustering, or natural language processing
+* Domain
   * Knowledge of healthcare datasets
-    * Sensitivity to healthcare data
+  * * Sensitivity to healthcare data
     * Having worked in regulated industry
-  * Knowledge of hierarchical, relational and unnormalized data formats
-  * Experience with visualization software \(e.g Tableau, SpotFire etc\)
+
+    Bonus points if you
+
+    * Docker, Kubernetes and Micro services experience
+    * Expert-level knowledge of advanced JavaScript, HTML5, and CSS3.
+    * Familiarity with modern thick-client architecture \(e.g. lightweight MVC\) required
+    * Experience with React.js and Redux is a major plus.
+    * Experience of optimizing the performance of complex Javascript applications is a must.
+    * Experience of building advanced dashboards is a plus.
+    * You don't have to know anything about medicine or genetics, but you should be excited to learn about these fields.
+    * Computer Science degree or 7 years of related experience
+    * Expert in Java, Python, or C/C++, Able to write, manage, debug multi-threaded asynchronous code with call-backs.
+    * Ability to Architect web solutions addressing SLA monitoring, security, performance, caching, debugging
+    * Knowledge of distributed systems, specifically: scaling, optimization, sharding, fault tolerance, and operation.
+    * Experience with AWS Cloud and related big data technologies is a plus
+    * Experience with NGINX and related technologies is a plus
+    * Expert understanding of relational, NoSQL, and graph databases is a plus.
+    * Experience with Kafka, Spark, database internals, transactions, query processing and optimization, as well as federated data systems is a huge plus.
+    * Expert in Python or Java
+    * Expert level skills with building products using distributed technologies
+      * Strong and demonstrable experience with more than one of the following:
+        * Relational Stores \(E.g Postgres, MySQL, Oracle\)
+        * Columnar or NoSQL Stores \(Redshift, Cassandra, DynamoDB\)
+        * Graph Stores \(Neo4J, Titan, Triple/RDF Stores\)
+        * Document Stores \(Postgres JSONB, MongoDB\)
+        * In memory stores \(Redis, memsql\)
+        * Distributed Processing Engines \(Apache Spark, Apache Storm, Celery\)
+      * Distributed Queues \(Kinesis, Apache Kafka, RabbitMQ\)
+      * Worked with multiple types of databases, including both relational and non-relational
+    * Expert in SQL for extraction, querying and handling large amounts of data
+    * Experience in building data analytics platforms
+      * Working with partner data scientist, data analysts and other domain experts to understand their needs and be able to develop solutions
+    * Experience working with AWS or similar cloud platform technologies
+
+    Nice To Have
+
+    * Experience with MVC or MVCS frameworks such as Django
+    * Expertise in data science or machine learning, especially supervised ML algorithms, clustering, or natural language processing
+    * Knowledge of healthcare datasets
+      * Sensitivity to healthcare data
+      * Having worked in regulated industry
+    * Knowledge of hierarchical, relational and unnormalized data formats
+    * Experience with visualization software \(e.g Tableau, SpotFire etc\)
 
 ## Synthego
 
