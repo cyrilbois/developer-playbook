@@ -4,6 +4,45 @@ description: 'Goal: I want the option to go to an innovative bio tech company'
 
 # Technology Stack
 
+## Roadmap
+
+* Build my tech skills based on those requirements \(see below\)
+  * Python Basics
+    * Do a Python Basic Course
+      * [https://courses.edx.org/course\_modes/choose/course-v1:MITx+6.00.1x+2T2017\_2/](https://courses.edx.org/course_modes/choose/course-v1:MITx+6.00.1x+2T2017_2/)
+      * [https://www.udemy.com/the-modern-python3-bootcamp/](https://www.udemy.com/the-modern-python3-bootcamp/)
+      * [https://www.udemy.com/python-the-complete-python-developer-course/](https://www.udemy.com/python-the-complete-python-developer-course/)
+  * Python Analytics \(Pandas, Numpy, Scipy\) + Visualization
+
+    * [https://www.udemy.com/learning-python-for-data-analysis-and-visualization/](https://www.udemy.com/learning-python-for-data-analysis-and-visualization/) . 
+    * [https://www.edx.org/course/using-python-research-harvardx-ph526x-0](https://www.edx.org/course/using-python-research-harvardx-ph526x-0)
+    * [https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-6](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-6)
+
+
+
+    * Python + Biotech:
+    * [https://www.edx.org/course/quantitative-biology-workshop-mitx-7-qbwx-3](https://www.edx.org/course/quantitative-biology-workshop-mitx-7-qbwx-3)
+
+  * Do Python ML
+    * ML Basics in Python with AWS
+      * [https://www.udemy.com/aws-machine-learning-a-complete-guide-with-python/](https://www.udemy.com/aws-machine-learning-a-complete-guide-with-python/)
+      * [https://de.udacity.com/courses/all](https://de.udacity.com/courses/all)
+  * Databases / SQL
+  * Messaging Kinesis / Kafka 
+  * AWS + ML:
+    * [https://www.youtube.com/watch?v=lO224Iec-uI](https://www.youtube.com/watch?v=lO224Iec-uI)
+  * AWS:
+    * [https://www.twitch.tv/aws](https://www.twitch.tv/aws)
+* Build my domain knowledge 
+  * BioTech Degree based on MOOCs
+* Build my network
+  * Check for Open Lab Equipment for myself \(e.g [OpenPCR](http://openpcr.org/)\)
+  * Participate in Open Science
+    * [http://www.openscience.or.at/projekte/projekte-a-z/crispr-cas9](http://www.openscience.or.at/projekte/projekte-a-z/crispr-cas9)
+    * [https://www.addgene.org/crispr/guide/](https://www.addgene.org/crispr/guide/)
+    * [https://www.crisprflydesign.org/](https://www.crisprflydesign.org/) \(from germany?\)
+  * OpenLab MUC
+
 ## Innovative Biotech Companies: 
 
 \[[Source](https://www.fastcompany.com/most-innovative-companies/2018/sectors/biotech)\]
@@ -133,47 +172,6 @@ Tech:
 
 
 
-
-
-
-## Roadmap
-
-* Build my tech skills based on those requirements
-  * Python Basics
-    * Do a Python Basic Course
-      * [https://courses.edx.org/course\_modes/choose/course-v1:MITx+6.00.1x+2T2017\_2/](https://courses.edx.org/course_modes/choose/course-v1:MITx+6.00.1x+2T2017_2/)
-      * [https://www.udemy.com/the-modern-python3-bootcamp/](https://www.udemy.com/the-modern-python3-bootcamp/)
-      * [https://www.udemy.com/python-the-complete-python-developer-course/](https://www.udemy.com/python-the-complete-python-developer-course/)
-  * Python Analytics \(Pandas, Numpy, Scipy\) + Visualization
-
-    * [https://www.udemy.com/learning-python-for-data-analysis-and-visualization/](https://www.udemy.com/learning-python-for-data-analysis-and-visualization/) . 
-    * [https://www.edx.org/course/using-python-research-harvardx-ph526x-0](https://www.edx.org/course/using-python-research-harvardx-ph526x-0)
-    * [https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-6](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-6)
-
-
-
-    * Python + Biotech:
-    * [https://www.edx.org/course/quantitative-biology-workshop-mitx-7-qbwx-3](https://www.edx.org/course/quantitative-biology-workshop-mitx-7-qbwx-3)
-
-  * Do Python ML
-    * ML Basics in Python with AWS
-      * [https://www.udemy.com/aws-machine-learning-a-complete-guide-with-python/](https://www.udemy.com/aws-machine-learning-a-complete-guide-with-python/)
-      * [https://de.udacity.com/courses/all](https://de.udacity.com/courses/all)
-  * Databases / SQL
-  * Messaging Kinesis / Kafka 
-  * AWS + ML:
-    * [https://www.youtube.com/watch?v=lO224Iec-uI](https://www.youtube.com/watch?v=lO224Iec-uI)
-  * AWS:
-    * [https://www.twitch.tv/aws](https://www.twitch.tv/aws)
-* Build my domain knowledge 
-  * BioTech Degree based on MOOCs
-* Build my network
-  * Check for Open Lab Equipment for myself \(e.g [OpenPCR](http://openpcr.org/)\)
-  * Participate in Open Science
-    * [http://www.openscience.or.at/projekte/projekte-a-z/crispr-cas9](http://www.openscience.or.at/projekte/projekte-a-z/crispr-cas9)
-    * [https://www.addgene.org/crispr/guide/](https://www.addgene.org/crispr/guide/)
-    * [https://www.crisprflydesign.org/](https://www.crisprflydesign.org/) \(from germany?\)
-  * OpenLab MUC
 
 
 
