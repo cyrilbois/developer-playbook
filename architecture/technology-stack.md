@@ -39,12 +39,18 @@ We integrate genomics and clinical data on a single platform and allow doctors t
   * Experience with in memory cache solutions like Memcache, Redis is good to have.
   * Message Queueing experience with RabbitMQ, Amazon SQS is good to have.
   * Experience with NGINX and related technologies is a plus
+
+
+
 * Frontend:
   * Expert-level knowledge of advanced JavaScript, HTML5, and CSS3.
   * Familiarity with modern thick-client architecture \(e.g. lightweight MVC\) required
   * Experience with React.js and Redux is a major plus.
   * Experience of optimizing the performance of complex Javascript applications is a must.
   * Experience of building advanced dashboards is a plus.
+
+
+
 * Programming
   * Python
   * Platform is fully built on Python, Django, celery and Rabbitmq along with lot more opensource frameworks.
@@ -55,6 +61,10 @@ We integrate genomics and clinical data on a single platform and allow doctors t
   * Ability to Architect web solutions addressing SLA monitoring, security, performance, caching, debugging
   * Knowledge of distributed systems, specifically: scaling, optimization, sharding, fault tolerance, and operation.
   * Java
+  * Expert level skills with building products using distributed technologies
+
+
+
 * Data Analytics:
   * use most of AWS Compute and storage services along with PostgreSQL RDS, Aurora, DynamoDB, Redis, Elastic Search, Kinesis, Redshift
   * database administration tasks such as database installation, replication, database backup, restore and database maintenance
@@ -67,25 +77,23 @@ We integrate genomics and clinical data on a single platform and allow doctors t
   * Experience with Kafka, Spark, database internals, transactions, query processing and optimization, as well as federated data systems is a huge plus.
   * Expertise in data science or machine learning, especially supervised ML algorithms, clustering, or natural language processing
   * Knowledge of hierarchical, relational and unnormalized data formats
+  * Strong and demonstrable experience with more than one of the following:
+
+    * Relational Stores \(E.g Postgres, MySQL, Oracle\)
+    * Columnar or NoSQL Stores \(Redshift, Cassandra, DynamoDB\)
+    * Graph Stores \(Neo4J, Titan, Triple/RDF Stores\)
+    * Document Stores \(Postgres JSONB, MongoDB\)
+    * In memory stores \(Redis, memsql\)
+    * Distributed Processing Engines \(Apache Spark, Apache Storm, Celery\)
+    * Distributed Queues \(Kinesis, Apache Kafka, RabbitMQ\)
+    * Worked with multiple types of databases, including both relational and non-relational
+    * Expert in SQL for extraction, querying and handling large amounts of data
 * Domain
   * Knowledge of healthcare datasets
   * * Sensitivity to healthcare data
     * Having worked in regulated industry
 
-
-    * Expert level skills with building products using distributed technologies
-    * * Strong and demonstrable experience with more than one of the following:
-        * Relational Stores \(E.g Postgres, MySQL, Oracle\)
-        * Columnar or NoSQL Stores \(Redshift, Cassandra, DynamoDB\)
-        * Graph Stores \(Neo4J, Titan, Triple/RDF Stores\)
-        * Document Stores \(Postgres JSONB, MongoDB\)
-        * In memory stores \(Redis, memsql\)
-        * Distributed Processing Engines \(Apache Spark, Apache Storm, Celery\)
-      * Distributed Queues \(Kinesis, Apache Kafka, RabbitMQ\)
-      * Worked with multiple types of databases, including both relational and non-relational
-    * Expert in SQL for extraction, querying and handling large amounts of data
-
-## Synthego
+### Synthego
 
 [http://www.synthego.com/careers/](http://www.synthego.com/careers/)
 
@@ -95,103 +103,72 @@ We integrate genomics and clinical data on a single platform and allow doctors t
 
 Tech:
 
-* BS + 3 years in computer science
 * Fluent in Python and SQL
-* 3yrs+ of creating tools for others
-* Experience with Pandas, Numpy, and Scipy
-* Strong desire to work in a fast-paced, collaborative start-up environment
-* Experience with AWS Redshift
-* Experience data visualization tools \(Looker, Domo, QuickSight, or similar\)
-
-Nice to have
-
+* creating tools for others
+* Pandas, Numpy, and Scipy
+* AWS Redshift
+* data visualization tools \(Looker, Domo, QuickSight, or similar\)
 * Experience with Data Science
 * Understanding of Biology and/or Chemistry
 * Experience with data from instrumentation design / development 
 * Previous experience in the Biotech domain
 * Experience with manufacturing data
-
-
-
-* BS in CS/EE and 2+ years professional industry experience
 * Fluent in Python / Javascript
 * Experience with backend technologies such Django / Flask
 * Experience with one or more current JavaScript frameworks \(e.g. Angular, React, Meteor\)
-* Strong desire to work in a fast-paced, collaborative start-up environment 
-
-Nice to Have
-
 * Expertise with ES6
 * Fluent with Bash
 * Fluency with Linux
 * Familiarity with Nginx or Apache configuration
-* Previous experience in the Biotech domain
+
+### Vivy
+
+* Strong skills in Python/Java/R
+* Deep theoretical understanding of Machine Learning and Statistics \(Supervised/Unsupervised/DeepLearning/NN/Weak Prediction Model Ensembles/Genetic Algorithms\)
+* Experience in TensorFlow, Keras, NumPy, etc
+* Experienced in BigData and its tools \(e.g. Hadoop MR/EMR/Spark\) is
+* BSc/BA in Health Informatics, Information Management, Statistics or relevant field.
+* Proficiency in SQL, Kafka, Map-Reduce, and other data warehouse solutions
 
 
 
 
 
-About You
-
-* BS in CS/EE and 5+ years industry experience or equivalent
-* Fluent in Python
-* Experience with backend technologies such Django / Flask
-* Strong desire to work in a fast-paced, collaborative start-up environment
-
-Nice to Have
-
-* Fluent with Bash
-* Fluency with Linux
-* Familiarity with Nginx or Apache configuration
-* Previous experience in the Biotech domain
-* Previous factory systems experience
 
 
+## Roadmap
 
 * Python Basics
   * Do a Python Basic Course
+    * [https://courses.edx.org/course\_modes/choose/course-v1:MITx+6.00.1x+2T2017\_2/](https://courses.edx.org/course_modes/choose/course-v1:MITx+6.00.1x+2T2017_2/)
     * [https://www.udemy.com/the-modern-python3-bootcamp/](https://www.udemy.com/the-modern-python3-bootcamp/)
     * [https://www.udemy.com/python-the-complete-python-developer-course/](https://www.udemy.com/python-the-complete-python-developer-course/)
 * Python Analytics \(Pandas, Numpy, Scipy\) + Visualization
-  * Do a Python basic Analytics Course
-    * [https://www.udemy.com/learning-python-for-data-analysis-and-visualization/](https://www.udemy.com/learning-python-for-data-analysis-and-visualization/)
+
+  * [https://www.udemy.com/learning-python-for-data-analysis-and-visualization/](https://www.udemy.com/learning-python-for-data-analysis-and-visualization/) . 
+  * [https://www.edx.org/course/using-python-research-harvardx-ph526x-0](https://www.edx.org/course/using-python-research-harvardx-ph526x-0)
+  * [https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-6](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-6)
+
+
+
+  * Python + Biotech:
+  * [https://www.edx.org/course/quantitative-biology-workshop-mitx-7-qbwx-3](https://www.edx.org/course/quantitative-biology-workshop-mitx-7-qbwx-3)
+
 * Do Python ML
   * ML Basics in Python with AWS
     * [https://www.udemy.com/aws-machine-learning-a-complete-guide-with-python/](https://www.udemy.com/aws-machine-learning-a-complete-guide-with-python/)
+    * [https://de.udacity.com/courses/all](https://de.udacity.com/courses/all)
+* Databases / SQL
+* AWS
+* Messaging Kinesis
+*   AWS + ML:
 
-[https://de.udacity.com/courses/all](https://de.udacity.com/courses/all)
+  * [https://www.youtube.com/watch?v=lO224Iec-uI](https://www.youtube.com/watch?v=lO224Iec-uI)
 
-Udemy.com
+  AWS:
 
-Databases / SQL
-
-AWS
-
-Messaging Kinesis
-
-Python / Programing Basics:
-
-* [https://courses.edx.org/course\_modes/choose/course-v1:MITx+6.00.1x+2T2017\_2/](https://courses.edx.org/course_modes/choose/course-v1:MITx+6.00.1x+2T2017_2/)
-
-Python / Statistics:
-
-* [https://www.edx.org/course/using-python-research-harvardx-ph526x-0](https://www.edx.org/course/using-python-research-harvardx-ph526x-0)
-* [https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-6](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-6)
-
-Python + Biotech:
-
-* [https://www.edx.org/course/quantitative-biology-workshop-mitx-7-qbwx-3](https://www.edx.org/course/quantitative-biology-workshop-mitx-7-qbwx-3)
-
-AWS + ML:
-
-* [https://www.youtube.com/watch?v=lO224Iec-uI](https://www.youtube.com/watch?v=lO224Iec-uI)
-
-AWS:
-
-* [https://www.twitch.tv/aws](https://www.twitch.tv/aws)
-* [https://aws.amazon.com/twitch/?sc\_channel=EL&sc\_campaign=Explainer\_2018\_vid&sc\_medium=YouTube&sc\_content=video2060&sc\_detail=TWITCH&sc\_country=US](https://aws.amazon.com/twitch/?sc_channel=EL&sc_campaign=Explainer_2018_vid&sc_medium=YouTube&sc_content=video2060&sc_detail=TWITCH&sc_country=US) .   f
-
-
+  * [https://www.twitch.tv/aws](https://www.twitch.tv/aws)
+  * [https://aws.amazon.com/twitch/?sc\_channel=EL&sc\_campaign=Explainer\_2018\_vid&sc\_medium=YouTube&sc\_content=video2060&sc\_detail=TWITCH&sc\_country=US](https://aws.amazon.com/twitch/?sc_channel=EL&sc_campaign=Explainer_2018_vid&sc_medium=YouTube&sc_content=video2060&sc_detail=TWITCH&sc_country=US) .   f
 
 
 
@@ -214,19 +191,5 @@ My Roadmap based on this:
 
 
 
-Vivy:
 
-
-
-
-
-* Strong skills in Python/Java/R
-* Deep theoretical understanding of Machine Learning and Statistics \(Supervised/Unsupervised/DeepLearning/NN/Weak Prediction Model Ensembles/Genetic Algorithms\)
-* Experience in TensorFlow, Keras, NumPy, etc
-* Experienced in BigData and its tools \(e.g. Hadoop MR/EMR/Spark\) is
-
-
-
-* BSc/BA in Health Informatics, Information Management, Statistics or relevant field.
-* Proficiency in SQL, Kafka, Map-Reduce, and other data warehouse solutions
 
