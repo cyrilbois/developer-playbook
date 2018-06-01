@@ -159,16 +159,13 @@ Tech:
     * [https://www.udemy.com/aws-machine-learning-a-complete-guide-with-python/](https://www.udemy.com/aws-machine-learning-a-complete-guide-with-python/)
     * [https://de.udacity.com/courses/all](https://de.udacity.com/courses/all)
 * Databases / SQL
-* AWS
-* Messaging Kinesis
-*   AWS + ML:
-
+* Messaging Kinesis / Kafka 
+* AWS + ML:
   * [https://www.youtube.com/watch?v=lO224Iec-uI](https://www.youtube.com/watch?v=lO224Iec-uI)
-
-  AWS:
-
+* AWS:
   * [https://www.twitch.tv/aws](https://www.twitch.tv/aws)
-  * [https://aws.amazon.com/twitch/?sc\_channel=EL&sc\_campaign=Explainer\_2018\_vid&sc\_medium=YouTube&sc\_content=video2060&sc\_detail=TWITCH&sc\_country=US](https://aws.amazon.com/twitch/?sc_channel=EL&sc_campaign=Explainer_2018_vid&sc_medium=YouTube&sc_content=video2060&sc_detail=TWITCH&sc_country=US) .   f
+
+
 
 
 
