@@ -39,12 +39,23 @@ We integrate genomics and clinical data on a single platform and allow doctors t
   * Strong experience in Infrastructure Monitoring, Application Performance Monitoring using tools\(Appdynamics or Newrelic\)
   * Experience with in memory cache solutions like Memcache, Redis is good to have.
   * Message Queueing experience with RabbitMQ, Amazon SQS is good to have.
+  * Experience with NGINX and related technologies is a plus
+* Frontend:
+  * Expert-level knowledge of advanced JavaScript, HTML5, and CSS3.
+  * Familiarity with modern thick-client architecture \(e.g. lightweight MVC\) required
+  * Experience with React.js and Redux is a major plus.
+  * Experience of optimizing the performance of complex Javascript applications is a must.
+  * Experience of building advanced dashboards is a plus.
 * Programming
   * Python
   * Platform is fully built on Python, Django, celery and Rabbitmq along with lot more opensource frameworks.
   * shell scripts
   * web application performance tuning \(all layers\) and high availability architectures
   * Understanding of micro services architecture/Containers using Docker, Kubernetes is a plus.
+  * Expert in Java, Python, or C/C++, Able to write, manage, debug multi-threaded asynchronous code with call-backs.
+  * Ability to Architect web solutions addressing SLA monitoring, security, performance, caching, debugging
+  * Knowledge of distributed systems, specifically: scaling, optimization, sharding, fault tolerance, and operation.
+  * Java
 * Data Analytics:
   * use most of AWS Compute and storage services along with PostgreSQL RDS, Aurora, DynamoDB, Redis, Elastic Search, Kinesis, Redshift
   * database administration tasks such as database installation, replication, database backup, restore and database maintenance
@@ -52,32 +63,19 @@ We integrate genomics and clinical data on a single platform and allow doctors t
   * scripting skills in Python \(preferred\), or other scripting languages \(Bash, Perl, etc.\).Rock solid Linux skills.
   * Basic DBA skills \(e.g. MySQL, PostgreSQL\).  Exposure to administering NoSQL systems is a plus.Build automation experience is a plus
   * Log aggregation experience using Splunk/Sumologic/Logstash/Elasticsearch
-  * Familiarity with Tableau
+  * Experience with visualization software \(e.g Tableau, SpotFire etc\)
+  * Expert understanding of relational, NoSQL, and graph databases is a plus.
+  * Experience with Kafka, Spark, database internals, transactions, query processing and optimization, as well as federated data systems is a huge plus.
+  * Expertise in data science or machine learning, especially supervised ML algorithms, clustering, or natural language processing
+  * Knowledge of hierarchical, relational and unnormalized data formats
 * Domain
   * Knowledge of healthcare datasets
   * * Sensitivity to healthcare data
     * Having worked in regulated industry
 
-    Bonus points if you
 
-    * Docker, Kubernetes and Micro services experience
-    * Expert-level knowledge of advanced JavaScript, HTML5, and CSS3.
-    * Familiarity with modern thick-client architecture \(e.g. lightweight MVC\) required
-    * Experience with React.js and Redux is a major plus.
-    * Experience of optimizing the performance of complex Javascript applications is a must.
-    * Experience of building advanced dashboards is a plus.
-    * You don't have to know anything about medicine or genetics, but you should be excited to learn about these fields.
-    * Computer Science degree or 7 years of related experience
-    * Expert in Java, Python, or C/C++, Able to write, manage, debug multi-threaded asynchronous code with call-backs.
-    * Ability to Architect web solutions addressing SLA monitoring, security, performance, caching, debugging
-    * Knowledge of distributed systems, specifically: scaling, optimization, sharding, fault tolerance, and operation.
-    * Experience with AWS Cloud and related big data technologies is a plus
-    * Experience with NGINX and related technologies is a plus
-    * Expert understanding of relational, NoSQL, and graph databases is a plus.
-    * Experience with Kafka, Spark, database internals, transactions, query processing and optimization, as well as federated data systems is a huge plus.
-    * Expert in Python or Java
     * Expert level skills with building products using distributed technologies
-      * Strong and demonstrable experience with more than one of the following:
+    * * Strong and demonstrable experience with more than one of the following:
         * Relational Stores \(E.g Postgres, MySQL, Oracle\)
         * Columnar or NoSQL Stores \(Redshift, Cassandra, DynamoDB\)
         * Graph Stores \(Neo4J, Titan, Triple/RDF Stores\)
@@ -87,19 +85,6 @@ We integrate genomics and clinical data on a single platform and allow doctors t
       * Distributed Queues \(Kinesis, Apache Kafka, RabbitMQ\)
       * Worked with multiple types of databases, including both relational and non-relational
     * Expert in SQL for extraction, querying and handling large amounts of data
-    * Experience in building data analytics platforms
-      * Working with partner data scientist, data analysts and other domain experts to understand their needs and be able to develop solutions
-    * Experience working with AWS or similar cloud platform technologies
-
-    Nice To Have
-
-    * Experience with MVC or MVCS frameworks such as Django
-    * Expertise in data science or machine learning, especially supervised ML algorithms, clustering, or natural language processing
-    * Knowledge of healthcare datasets
-      * Sensitivity to healthcare data
-      * Having worked in regulated industry
-    * Knowledge of hierarchical, relational and unnormalized data formats
-    * Experience with visualization software \(e.g Tableau, SpotFire etc\)
 
 ## Synthego
 
