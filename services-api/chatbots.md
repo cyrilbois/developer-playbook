@@ -7,7 +7,10 @@
 ## Dialogflow
 
 * [Getting Started](https://dialogflow.com/docs/getting-started/basics)
-* Implement the
+* Implement the intent \(e.g. "manage bmi"\)
+* Implement the fullfilment - basic \(eveything in on file\) with firebase
+* Test
+* Integrate fullfimenet with AWS Lambda
 
 
 
