@@ -8,7 +8,7 @@
 
 ### [Getting Started](https://dialogflow.com/docs/getting-started/basics)
 
-### Implement the intent \(e.g. "manage bmi"\)
+### Implement the intent
 
 Guide: [Google Documenation](https://dialogflow.com/docs/getting-started/building-your-first-agent)
 
