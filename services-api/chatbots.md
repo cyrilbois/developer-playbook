@@ -34,6 +34,10 @@ Do the same for the update\_bmi intent \(training phrase: My hight is 177 cm, I 
 
 To start it makes sense to implement all fulfillments in one webhook on firebases. Later for more complex logic it is adviced to move this logic to it's own webhooks that are then called from the fulfillment webhook. For more details see the later section. 
 
+```bash
+mkdir fulfillment-router
+```
+
 ### Test a chatbot - manually & unit test
 
 
