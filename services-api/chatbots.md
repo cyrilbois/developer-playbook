@@ -12,7 +12,7 @@
 
 Guide: [Google Documenation](https://dialogflow.com/docs/getting-started/building-your-first-agent)
 
-#### First Model your Dialog
+#### Model your Dialog
 
 ![&quot;Manage BMI&quot; Dialog](../.gitbook/assets/manage-bmi-dialog.svg)
 
@@ -26,7 +26,7 @@ After creating the intent add training phrases and activate webhook fulfilment \
 
 ![](../.gitbook/assets/manage_bmi_activate_webhook_fulfillment.png)
 
-Do the same for the update\_bmi intent \(training phrase: My hight is 177 cm, I weigh 80 kg and my birthday is 19.12.1987\).
+Do the same for the update\_bmi intent \(training phrase: My hight is 177 cm, I weigh 80 kg and my birthday is 19.12.1987\). How to handle partial dates \([https://miningbusinessdata.com/dialogflow-tutorial-setting-context-from-your-inline-webhook-using-contextout/](https://miningbusinessdata.com/dialogflow-tutorial-setting-context-from-your-inline-webhook-using-contextout/)\)
 
 
 
@@ -43,12 +43,6 @@ Do the same for the update\_bmi intent \(training phrase: My hight is 177 cm, I 
 
 
 ### Integrate fulfilment with REST Python AWS Lambda \(e.g. "analyse my bmi trend"\) 
-
-
-
-
-
-[https://miningbusinessdata.com/dialogflow-tutorial-setting-context-from-your-inline-webhook-using-contextout/](https://miningbusinessdata.com/dialogflow-tutorial-setting-context-from-your-inline-webhook-using-contextout/)
 
 
 
