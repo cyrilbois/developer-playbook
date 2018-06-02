@@ -8,6 +8,7 @@ This log lists the architectural decisions for [project name].
 - [ADR-0002](0002-focus-on-theory-or-application-for-machine-learning.md) - Focus on theory or application for machine learning
 - [ADR-0003](0003-for-machine-learning-select-a-vendor-specific-stack-of-a-general-stack.md) - For Machine learning select a vendor specific stack of a general stack
 - [ADR-0004](0004-us-bulma-as-fontend-ui-framework.md) - _Frontend Framework vs Ui Framework_
+- [ADR-0005](0005-use-dialogflow-for-chatbots.md) - Use Dialogflow for chatbots
 
 <!-- adrlogstop -->
 
