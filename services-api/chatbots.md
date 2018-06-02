@@ -34,9 +34,19 @@ Do the same for the update\_bmi intent \(training phrase: My hight is 177 cm, I 
 
 To start it makes sense to implement all fulfillments in one webhook on firebases. Later for more complex logic it is adviced to move this logic to it's own webhooks that are then called from the fulfillment webhook. For more details see the later section. 
 
+Setup Firebase \([https://den.gitbook.io/developerplaybook/services-api/firebase](https://den.gitbook.io/developerplaybook/services-api/firebase)\)
+
 ```bash
 mkdir fulfillment-router
+firebase login
+firebase init
 ```
+
+Guide: [Google Documentation](https://developers.google.com/actions/dialogflow/fulfillment)
+
+* _"we highly recommend that you use the Node.js client library to process requests and return responses"_
+* 
+[https://medium.com/@pallavtrivedi03/how-to-make-a-webhook-for-dialogflow-fulfillment-d02835cc50bf](https://medium.com/@pallavtrivedi03/how-to-make-a-webhook-for-dialogflow-fulfillment-d02835cc50bf)
 
 ### Test a chatbot - manually & unit test
 
