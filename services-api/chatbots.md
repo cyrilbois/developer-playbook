@@ -8,7 +8,7 @@
 
 * [Getting Started](https://dialogflow.com/docs/getting-started/basics)
 * Implement the intent \(e.g. "manage bmi"\) see the [Google Documenation](https://dialogflow.com/docs/getting-started/building-your-first-agent)
-* Implement the fullfilment - basic \(eveything in on file\) with firebase
+* Implement the fulfilment - basic \(everything in on file\) with firebase
 * Test a chatbot - manually & unit test
 * Connect the Chatbot to Facebook Messanger
 * Integrate fulfilment with AWS Lambda
