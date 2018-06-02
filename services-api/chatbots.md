@@ -6,16 +6,25 @@
 
 ## Dialogflow
 
-* [Getting Started](https://dialogflow.com/docs/getting-started/basics)
-* Implement the intent \(e.g. "manage bmi"\) see the [Google Documenation](https://dialogflow.com/docs/getting-started/building-your-first-agent)
-  * First Model your Dialog
+### [Getting Started](https://dialogflow.com/docs/getting-started/basics)
+
+### Implement the intent \(e.g. "manage bmi"\) see the [Google Documenation](https://dialogflow.com/docs/getting-started/building-your-first-agent)
+
+#### First Model your Dialog
 
 ![&quot;Manage BMI&quot; Dialog](../.gitbook/assets/manage-bmi-dialog.svg)
 
-* [Create a "Default Welcome Intent"](https://dialogflow.com/docs/getting-started/basic-fulfillment-conversation#editing_the_welcome_intent) with answers: "_Hi I am your personal trainer, let me advice you on your health. I can currently calculate your BMI, store the BMI and advices you on your BMI."_
-* Implement a "mange\_bmi" intent after creating the intent add training phrases and activate webhook fulfilment \(this is required to check if allready a user exists for this profile\)
+[Create a "Default Welcome Intent"](https://dialogflow.com/docs/getting-started/basic-fulfillment-conversation#editing_the_welcome_intent) with answers: "_Hi I am your personal trainer, let me advice you on your health. I can currently calculate your BMI, store the BMI and advices you on your BMI."_
 
+#### Implement a "mange\_bmi" intent 
 
+After creating the intent add training phrases and activate webhook fulfilment \(this is required to check if allready a user exists for this profile\):
+
+![](../.gitbook/assets/manage_bmi_training_phrases.png)
+
+![](../.gitbook/assets/manage_bmi_activate_webhook_fulfillment.png)
+
+Do the same for the update\_bmi intent \(training phrase: My hight is 177 cm, I weigh 80 kg and my birthday is 19.12.1987\).
 
 * Implement the fulfilment - basic \(everything in on file\) with firebase
 * Test a chatbot - manually & unit test
