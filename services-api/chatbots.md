@@ -8,6 +8,10 @@
 
 * [Getting Started](https://dialogflow.com/docs/getting-started/basics)
 * Implement the intent \(e.g. "manage bmi"\) see the [Google Documenation](https://dialogflow.com/docs/getting-started/building-your-first-agent)
+  * First Model your Dialog
+
+![&quot;Manage BMI&quot; Dialog](../.gitbook/assets/manage-bmi-dialog.svg)
+
 * Implement the fulfilment - basic \(everything in on file\) with firebase
 * Test a chatbot - manually & unit test
 * Connect the Chatbot to Facebook Messanger
