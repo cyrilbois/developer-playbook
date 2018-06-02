@@ -13,6 +13,7 @@
 ![&quot;Manage BMI&quot; Dialog](../.gitbook/assets/manage-bmi-dialog.svg)
 
 * [Create a "Default Welcome Intent"](https://dialogflow.com/docs/getting-started/basic-fulfillment-conversation#editing_the_welcome_intent) with answers: "_Hi I am your personal trainer, let me advice you on your health. I can currently calculate your BMI, store the BMI and advices you on your BMI."_
+* Implement a "mange\_bmi" intent after creating the intent add training phrases and activate webhook fulfilment \(this is required to check if allready a user exists for this profile\)
 
 
 
