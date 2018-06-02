@@ -1,9 +1,8 @@
 # Chatbots
 
-## Options
+## Architecture Decisions
 
-* AWS Lex
-* GCP Dialogflow
+* [ADR-0005](https://github.com/denseidel/developer-playbook/blob/master/docs/adr/0005-use-dialogflow-for-chatbots.md) - Use Dialogflow for chatbots
 
 ## AWS Lex 
 
