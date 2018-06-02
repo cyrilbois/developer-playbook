@@ -11,7 +11,7 @@
 * Implement the fullfilment - basic \(eveything in on file\) with firebase
 * Test a chatbot - manually & unit test
 * Connect the Chatbot to Facebook Messanger
-* Integrate fullfimenet with AWS Lambda
+* Integrate fulfilment with AWS Lambda
 
 
 
