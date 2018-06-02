@@ -11,7 +11,7 @@
 * Implement the fulfilment - basic \(everything in on file\) with firebase
 * Test a chatbot - manually & unit test
 * Connect the Chatbot to Facebook Messanger
-* Integrate fulfilment with AWS Lambda
+* Integrate fulfilment with Python AWS Lambda \(e.g. "analyse my bmi trend"\) 
 
 
 
