@@ -8,7 +8,9 @@
 
 ### [Getting Started](https://dialogflow.com/docs/getting-started/basics)
 
-### Implement the intent \(e.g. "manage bmi"\) see the [Google Documenation](https://dialogflow.com/docs/getting-started/building-your-first-agent)
+### Implement the intent \(e.g. "manage bmi"\)
+
+Guide: [Google Documenation](https://dialogflow.com/docs/getting-started/building-your-first-agent)
 
 #### First Model your Dialog
 
@@ -26,10 +28,21 @@ After creating the intent add training phrases and activate webhook fulfilment \
 
 Do the same for the update\_bmi intent \(training phrase: My hight is 177 cm, I weigh 80 kg and my birthday is 19.12.1987\).
 
-* Implement the fulfilment - basic \(everything in on file\) with firebase
-* Test a chatbot - manually & unit test
-* Connect the Chatbot to Facebook Messanger
-* Integrate fulfilment with REST Python AWS Lambda \(e.g. "analyse my bmi trend"\) 
+
+
+### Implement the fulfilment - basic \(everything in on file\) with firebase
+
+
+
+### Test a chatbot - manually & unit test
+
+
+
+### Connect the Chatbot to Facebook Messanger
+
+
+
+### Integrate fulfilment with REST Python AWS Lambda \(e.g. "analyse my bmi trend"\) 
 
 
 
