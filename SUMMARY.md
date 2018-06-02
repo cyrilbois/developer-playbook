@@ -27,4 +27,5 @@
 * [AI - AIaaS](ai-aiaas.md)
 * [Production / Reliability Engineering](production-reliability-engineering.md)
 * [create-k8s-secrets](create-k8s-secrets.md)
+* [VI](vi.md)
 
