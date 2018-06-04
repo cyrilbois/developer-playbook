@@ -20,22 +20,6 @@ cd notes-app-api
 sls create --template aws-python3
 ```
 
-#### for nodejs \(GCP\)
-
-```bash
-serverless create --template google-nodejs --path my-service
-```
-
-Add the google key to the service `serverless.yml`:
-
-```yaml
-provider:
-  name: google
-  runtime: nodejs
-  project: my-serverless-project-1234
-  credentials: ~/Desktop/secret/healthbot/key.json
-```
-
 ### Compile non-pure Python modules \(e.g. C?\)
 
 To compile non-pure Python modules, install [Docker](https://docs.docker.com/engine/installation/), the [Lambda Docker Image](https://github.com/lambci/docker-lambda) and [serverless-python-requirements](https://serverless.com/blog/serverless-python-packaging/) . Enable **dockerizePip** in **serverless.yml** and `serverless deploy` again.
