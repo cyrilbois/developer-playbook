@@ -9,6 +9,7 @@ This log lists the architectural decisions for [project name].
 - [ADR-0003](0003-for-machine-learning-select-a-vendor-specific-stack-of-a-general-stack.md) - For Machine learning select a vendor specific stack of a general stack
 - [ADR-0004](0004-us-bulma-as-fontend-ui-framework.md) - _Frontend Framework vs Ui Framework_
 - [ADR-0005](0005-use-dialogflow-for-chatbots.md) - Use Dialogflow for chatbots
+- [ADR-0006](0006-i-use-aws-for-ml-and-event-driven-architecture.md) - I use AWS for ML and Event Driven Architecture
 
 <!-- adrlogstop -->
 
