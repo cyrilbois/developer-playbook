@@ -1,5 +1,9 @@
 # Event Driven / Streaming aaS
 
+## Architectural Decisions
+
+* [ADR-0006](https://github.com/denseidel/developer-playbook/blob/master/docs/adr/0006-i-use-aws-for-ml-and-event-driven-architecture.md) - I use AWS for ML and Event Driven Architecture to get started
+
 ## Event Types: Business Events\(BE\) vs Data Change Events \(DE\)
 
 * [https://zalando.github.io/nakadi/manual.html\#using\_event-types](https://zalando.github.io/nakadi/manual.html#using_event-types)
