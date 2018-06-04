@@ -1,6 +1,11 @@
-# AI - AIaaS
+---
+description: >-
+  AI is at the center of modern application development as it allows for easy
+  ways to automated traditional human tasks like classifications (question ->
+  answer).
+---
 
-AI is at the center of modern application development as it allows for easy ways to automated traditional human tasks like classifications \(question -&gt; answer\).
+# AI - AIaaS
 
 ## Architectural Decisions
 
