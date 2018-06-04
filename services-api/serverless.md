@@ -8,8 +8,6 @@ Make sure you have your [Developer Environment Setup](../development-environment
 
 ```bash
 npm install serverless -g
-# if using gcp
-npm install --save serverless-google-cloudfunctions
 ```
 
 In your repo create your **serverless template for Python**
