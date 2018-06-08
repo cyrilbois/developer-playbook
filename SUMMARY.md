@@ -15,8 +15,8 @@
   * [Firebase](services-api/firebase.md)
   * [Chatbots](services-api/chatbots.md)
 * [Frontend](frontend/README.md)
-  * Serverless
-  * Containers
+  * [Serverless](frontend/serverless.md)
+  * [Containers](frontend/containers.md)
   * [Chatbot](frontend/chatbot.md)
 * [Plattform](plattform.md)
 * [IAM - IAMaaS](iam-iamaas.md)
