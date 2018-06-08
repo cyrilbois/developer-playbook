@@ -14,6 +14,7 @@
   * [Python](services-api/python.md)
   * [Firebase](services-api/firebase.md)
   * [Chatbots](services-api/chatbots.md)
+  * [Testing](services-api/testing.md)
 * [Frontend](frontend/README.md)
   * [Serverless](frontend/serverless.md)
   * [Containers](frontend/containers.md)
