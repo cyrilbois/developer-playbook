@@ -54,8 +54,10 @@ serverless
 
 * Multi Cloud Architectures: [https://cloud.google.com/solutions/architecture/global-data-distribution](https://cloud.google.com/solutions/architecture/global-data-distribution)
 
+Data architecture on GCP:
 
-
+* {% embed data="{\"url\":\"https://cloud.google.com/solutions/data-lifecycle-cloud-platform\",\"type\":\"link\",\"title\":\"Data Lifecycle on Google Cloud Platform  \|  Solutions        \|  Google Cloud\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cloud.google.com/\_static/18d5b9201b/images/cloud/icons/favicons/onecloud/apple-icon.png\",\"aspectRatio\":0}}" %}
+* 
 
 
 
