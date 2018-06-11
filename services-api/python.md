@@ -50,5 +50,15 @@ Modules: [https://www.tutorialspoint.com/python/python\_modules.htm](https://www
 
 ### Dependency Injection
 
-[https://stackoverflow.com/questions/31678827/what-is-a-pythonic-way-for-dependency-injection](https://stackoverflow.com/questions/31678827/what-is-a-pythonic-way-for-dependency-injection)
+{% embed data="{\"url\":\"https://stackoverflow.com/questions/31678827/what-is-a-pythonic-way-for-dependency-injection\",\"type\":\"link\",\"title\":\"What is a Pythonic way for Dependency Injection?\",\"description\":\"Introduction  For Java, Dependency Injection works as pure OOP, i.e. you provide an interface to be implemented and in your framework code accept an instance of a class that implements the defined\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded\",\"width\":316,\"height\":316,\"aspectRatio\":1}}" %}
+
+
+
+### String replacement / patterns \(f-strings\)
+
+{% embed data="{\"url\":\"https://stackoverflow.com/a/42834054/1929968\",\"type\":\"link\",\"title\":\"Convert floating point number to a certain precision, and then copy to string\",\"description\":\"I have a floating point number, say 135.12345678910. I want to concatenate that value to a string, but only want 135.123456789. With print, I can easily do this by doing something like:  print \\\"%.9...\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded\",\"width\":316,\"height\":316,\"aspectRatio\":1}}" %}
+
+{% embed data="{\"url\":\"https://cito.github.io/blog/f-strings/\",\"type\":\"link\",\"title\":\"The new f-strings in Python 3.6 \| Seasoned & Agile\",\"description\":\"Python 3.6 is out and provides formatted string literals.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cito.github.io/img/favicon96.png\",\"width\":96,\"height\":96,\"aspectRatio\":1}}" %}
+
+
 
