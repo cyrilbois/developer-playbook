@@ -18,7 +18,7 @@ brew install node python3
 Install Python and Javascript packages / Dependencies:
 
 ```text
-pip install virtualenv
+pip3 install virtualenv
 npm install -g serverless create-react-app
 ```
 
