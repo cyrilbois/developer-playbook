@@ -38,5 +38,15 @@ Modules: [https://www.tutorialspoint.com/python/python\_modules.htm](https://www
 
 {% embed data="{\"url\":\"https://stackoverflow.com/a/14271106/1929968\",\"type\":\"link\",\"title\":\"How do I write a function that returns another function?\",\"description\":\"In Python, I\'d like to write a function make\_cylinder\_volume\(r\) which returns another function. That returned function should be callable with a parameter h, and return the volume of a cylinder with\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded\",\"width\":316,\"height\":316,\"aspectRatio\":1}}" %}
 
+### Lambda Functions
+
+{% embed data="{\"url\":\"https://www.python-kurs.eu/lambda.php\",\"type\":\"link\",\"title\":\"Python-Tutorial: Lambda, filter, reduce und map\",\"description\":\"Einführung in den Lambda-Operator und die Funktionen  map, filter und reduce\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.python-kurs.eu/favicon.ico\",\"aspectRatio\":0}}" %}
+
+
+
+Check if key exists in \(nested\) dict
+
+{% embed data="{\"url\":\"https://stackoverflow.com/a/43491315/1929968\",\"type\":\"link\",\"title\":\"Elegant way to check if a nested key exists in a python dict\",\"description\":\"Is there are more readable way to check if a key buried in a dict exists without checking each level independently?  Lets say I need to get this value in a object buried \(example taken from Wikidat...\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded\",\"width\":316,\"height\":316,\"aspectRatio\":1}}" %}
+
 
 
