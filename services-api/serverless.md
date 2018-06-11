@@ -88,6 +88,12 @@ Run the unit tests
 python -m unittest discover -s tests
 ```
 
+### Protect Endpoint with API Key
+
+{% embed data="{\"url\":\"https://serverless.com/framework/docs/providers/aws/events/apigateway/\#setting-api-keys-for-your-rest-api\",\"type\":\"link\",\"title\":\"Serverless Framework - AWS Lambda Events - API Gateway\",\"description\":\"Setting up AWS API Gateway Events with AWS Lambda via the Serverless Framework\",\"icon\":{\"type\":\"icon\",\"url\":\"https://serverless.com/\_/src/assets/images/favicon.5f5203c17067db61d37d21dd073835f4.ico\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/logos/Serverless\_mark\_black\_400x400\_v3%402x.jpg\",\"width\":800,\"height\":800,\"aspectRatio\":1}}" %}
+
+
+
 ### Examples
 
 {% embed data="{\"url\":\"https://github.com/serverless/examples\",\"type\":\"link\",\"title\":\"serverless/examples\",\"description\":\"Serverless Examples – A collection of boilerplates and examples of serverless architectures built with the Serverless Framework and AWS Lambda\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars3.githubusercontent.com/u/13742415?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
