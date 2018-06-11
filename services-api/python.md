@@ -16,7 +16,27 @@ Overview:
 
 Modules: [https://www.tutorialspoint.com/python/python\_modules.htm](https://www.tutorialspoint.com/python/python_modules.htm)
 
-Google Datastore: [https://cloud.google.com/datastore/docs/reference/libraries?hl=de](https://cloud.google.com/datastore/docs/reference/libraries?hl=de)
 
-[https://googlecloudplatform.github.io/google-cloud-python/latest/datastore/client.html](https://googlecloudplatform.github.io/google-cloud-python/latest/datastore/client.html)
+
+
+
+### Switch in Python: 
+
+{% embed data="{\"url\":\"https://www.pydanny.com/why-doesnt-python-have-switch-case.html\",\"type\":\"link\",\"title\":\"pydanny.com\",\"icon\":{\"type\":\"icon\",\"url\":\"http://www.yoursite.com/favicon.ico?v=2\",\"aspectRatio\":0}}" %}
+
+
+
+### Testing
+
+{% embed data="{\"url\":\"https://davidallenfox.wordpress.com/2017/06/15/getting-started-with-serverless-framework-and-python-part-2/\",\"type\":\"link\",\"title\":\"Getting started with Serverless Framework and Python \(Part 2\)\",\"description\":\"Radio tower at Stax Museum of American Soul Music This is a continuation of my previous post, which offered some tips for setting up Serverless Framework and concluded with generating a template se…\",\"icon\":{\"type\":\"icon\",\"url\":\"https://s1.wp.com/i/favicon.ico\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://davidallenfox.files.wordpress.com/2017/06/img\_20170322\_141738-e1497459511874.jpg?w=225\",\"width\":225,\"height\":300,\"aspectRatio\":1.3333333333333333}}" %}
+
+### [Accessing value inside nested dictionaries](https://stackoverflow.com/questions/10399614/accessing-value-inside-nested-dictionaries)
+
+{% embed data="{\"url\":\"https://stackoverflow.com/a/10399796/1929968\",\"type\":\"link\",\"title\":\"Accessing value inside nested dictionaries\",\"description\":\"I am new to python and need help in solving an issue:  I have a dictionary like   tmpDict = {\'ONE\':{\'TWO\':{\'THREE\':10}}} Do we have any other way to access THREE\'s value other than doing   tmpDict...\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded\",\"width\":316,\"height\":316,\"aspectRatio\":1}}" %}
+
+### [How do I write a function that returns another function?](https://stackoverflow.com/questions/14261474/how-do-i-write-a-function-that-returns-another-function)
+
+{% embed data="{\"url\":\"https://stackoverflow.com/a/14271106/1929968\",\"type\":\"link\",\"title\":\"How do I write a function that returns another function?\",\"description\":\"In Python, I\'d like to write a function make\_cylinder\_volume\(r\) which returns another function. That returned function should be callable with a parameter h, and return the volume of a cylinder with\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded\",\"width\":316,\"height\":316,\"aspectRatio\":1}}" %}
+
+
 
