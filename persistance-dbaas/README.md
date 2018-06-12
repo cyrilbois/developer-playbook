@@ -17,6 +17,12 @@ Every microservice should use it's own persitance layer. Optimally this will be 
   * reads vs writes
   * normalized vs denormalized vs mixed 
 
+{% embed data="{\"url\":\"https://de.slideshare.net/AmazonWebServices/advanced-design-patterns-for-amazon-dynamodb-dat403-reinvent-2017\",\"type\":\"video\",\"title\":\"Advanced Design Patterns for Amazon DynamoDB - DAT403 - re:Invent 2017\",\"description\":\"This session, we go deep into advanced design patterns for DynamoDB. This session is intended for those who already have some familiarity with DynamoDB and are…\",\"icon\":{\"type\":\"icon\",\"url\":\"https://public.slidesharecdn.com/favicon.ico?d8e2a4ed15\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"http://image.slidesharecdn.com/dat403-advanced-design-pattern-20bf280b-7aff-4e1d-8865-82785c9899f7-1982393993-171212185929/95/slide-1-1024.jpg\",\"width\":1024,\"height\":576,\"aspectRatio\":0.5625},\"embed\":{\"type\":\"player\",\"url\":\"https://www.slideshare.net/slideshow/embed\_code/key/1nAt031PqO6eJR\",\"html\":\"<div style=\\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2493%; padding-top: 38px;\\\"><iframe src=\\\"https://www.slideshare.net/slideshow/embed\_code/key/1nAt031PqO6eJR\\\" style=\\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\\" allowfullscreen scrolling=\\\"no\\\"></iframe></div>\",\"aspectRatio\":1.7778}}" %}
+
+{% embed data="{\"url\":\"https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/best-practices.html\",\"type\":\"link\",\"title\":\"Best Practices for DynamoDB - Amazon DynamoDB\",\"description\":\"Best practices for maximizing performance and minimizing throughput costs for working with Amazon DynamoDB.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://docs.aws.amazon.com/images/favicon.ico\",\"aspectRatio\":0}}" %}
+
+
+
 
 
 Why DynamoDB?

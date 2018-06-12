@@ -8,7 +8,7 @@ The platform provides the tools to increase productivity it should abstract away
 * SaaS Components for 
   * [Persistance - DBaaS \(DynamoDB\)](persistance-dbaas/) 
   * [IAM - IAMaaS ](iam-iamaas.md)
-  * [Event Driven / Streaming aaS](event-driven-streaming-aas.md)
+  * [Event Driven / Streaming aaS](event-driven-streaming-aas/)
   * [AI - AIaaS](ai-aiaas.md)
   * Reliability aaS - Logging
   * ... but don't forget ports and adapters
