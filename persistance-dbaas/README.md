@@ -21,6 +21,8 @@ Every microservice should use it's own persitance layer. Optimally this will be 
 
 {% embed data="{\"url\":\"https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/best-practices.html\",\"type\":\"link\",\"title\":\"Best Practices for DynamoDB - Amazon DynamoDB\",\"description\":\"Best practices for maximizing performance and minimizing throughput costs for working with Amazon DynamoDB.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://docs.aws.amazon.com/images/favicon.ico\",\"aspectRatio\":0}}" %}
 
+{% embed data="{\"url\":\"https://brewing.codes/2017/11/13/dynamo-data-modeling/\",\"type\":\"link\",\"title\":\"Data modeling with DynamoDB \| Brewing Codes\",\"description\":\"DynamoDB is a truly unique and powerful database. It provides a predictable low latency, a vast array of features, tight integration with other AWS services and almost no operational load. The only problem is that its data model can seem …\",\"icon\":{\"type\":\"icon\",\"url\":\"https://brewing.codes/favicon.ico\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://brewing.codes/wp-content/uploads/2017/11/library.jpeg\",\"width\":1920,\"height\":1279,\"aspectRatio\":0.6661458333333333}}" %}
+
 
 
 
