@@ -68,5 +68,15 @@ Modules: [https://www.tutorialspoint.com/python/python\_modules.htm](https://www
 
 {% embed data="{\"url\":\"https://cito.github.io/blog/f-strings/\",\"type\":\"link\",\"title\":\"The new f-strings in Python 3.6 \| Seasoned & Agile\",\"description\":\"Python 3.6 is out and provides formatted string literals.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cito.github.io/img/favicon96.png\",\"width\":96,\"height\":96,\"aspectRatio\":1}}" %}
 
+Check if key is in \(nested\) dictonary: 
+
+* you always can create a function for it 
+
+else: 
+
+{% embed data="{\"url\":\"http://thispointer.com/python-how-to-check-if-a-key-exists-in-dictionary/\",\"type\":\"link\",\"title\":\"Python : How to check if a key exists in dictionary ? – thispointer.com\",\"icon\":{\"type\":\"icon\",\"url\":\"http://thispointer.com/favicon.ico\",\"aspectRatio\":0}}" %}
+
+{% embed data="{\"url\":\"https://stackoverflow.com/a/25833661/1929968\",\"type\":\"link\",\"title\":\"Python safe method to get value of nested dictionary\",\"description\":\"I have a nested dictionary. Is there only one way to get values out safely?  try:     example\_dict\[\'key1\'\]\[\'key2\'\] except KeyError:     pass Or maybe python has a method like get\(\) for nested dict...\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded\",\"width\":316,\"height\":316,\"aspectRatio\":1}}" %}
+
 
 
