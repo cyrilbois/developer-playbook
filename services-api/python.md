@@ -1,5 +1,13 @@
 # Python
 
+### Object Oriented Programming:
+
+{% embed data="{\"url\":\"https://realpython.com/python3-object-oriented-programming/\",\"type\":\"link\",\"title\":\"Object-Oriented Programming \(OOP\) in Python 3 – Real Python\",\"description\":\"In this article you’ll learn the fundamentals of object-oriented programming \(OOP\) in Python and how to work with classes, objects, and constructors. The tutorial also comes with several OOP exercises to review your learning progress.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://realpython.com/static/favicon.68cbf4197b0c.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://files.realpython.com/media/Object-Oriented-Programming-OOP-in-Python-3\_Watermarked.0d29780806d5.jpg\",\"width\":1920,\"height\":1080,\"aspectRatio\":0.5625}}" %}
+
+{% embed data="{\"url\":\"https://www.datacamp.com/community/tutorials/python-oop-tutorial\",\"type\":\"link\",\"title\":\"Object-Oriented Programming in Python\",\"description\":\"Tackle the basics of Object-Oriented Programming \(OOP\) in Python: explore classes, objects, instance methods, attributes and much more with this tutorial!\",\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://s3.amazonaws.com/datacamp-community/social-share-tutorials.jpg\",\"width\":1200,\"height\":628,\"aspectRatio\":0.5233333333333333}}" %}
+
+
+
 ### Debug with python:
 
 ```text
