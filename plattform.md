@@ -17,23 +17,7 @@ The platform provides the tools to increase productivity it should abstract away
 
 1. [Select Application Runtime: Serverless over Istio for now](https://github.com/denseidel/developer-playbook/blob/master/adr/2018-02-18%20Select%20a%20application%20runtime%20for%20plattform.md)
 
-### Stack:
-
-1. Decide between _Container_ vs _Serverless_
-2. Containers
-   1. Setup Docker Environment
-   2. Setup Kubernetes 
-   3. Setup Service Mesh
-   4. Service discovery
-3. Serverless   
-
-TODO: Service Discovery [https://fabric8.io/guide/develop/serviceDiscovery.html](https://fabric8.io/guide/develop/serviceDiscovery.html)
-
-[https://de.slideshare.net/SreenivasMakam/service-discovery-using-etcd-consul-and-kubernetes](https://de.slideshare.net/SreenivasMakam/service-discovery-using-etcd-consul-and-kubernetes)
-
-[https://www.innoq.com/de/articles/2016/12/devops-service-discovery-with-consul/](https://www.innoq.com/de/articles/2016/12/devops-service-discovery-with-consul/)
-
-## Decide between _containers_ vs _serverless_?
+## C_ontainers_ or _serverless_
 
 Serverless increases the efficiency of your implementation. But at the same time you bind yourself very tightly to a special vendor like Amazon with AWS Lambda. Another Option is to use a multi cloud apporach and use Containers as your abstraction layer - Lambdas also use containers themselves. Downside you don't have the you pay only what you use and you miss the non functional features the platform provides like monitoring, routing ... This is where service meshs like Istio come into play.
 
