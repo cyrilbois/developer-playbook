@@ -30,6 +30,16 @@ Serverless increases the efficiency of your implementation. But at the same time
 
 ## Containers
 
+### Infrastructure Automation with - Terraform
+
+* [https://www.udemy.com/learn-devops-infrastructure-automation-with-terraform/](https://www.udemy.com/learn-devops-infrastructure-automation-with-terraform/)
+* [https://github.com/wardviaene/terraform-course](https://github.com/wardviaene/terraform-course)
+* [https://aws.amazon.com/blogs/apn/terraform-beyond-the-basics-with-aws/](https://aws.amazon.com/blogs/apn/terraform-beyond-the-basics-with-aws/)
+* [https://github.com/shuaibiyy/awesome-terraform](https://github.com/shuaibiyy/awesome-terraform)
+* [https://github.com/mcuadros/terraform-provider-helm](https://github.com/mcuadros/terraform-provider-helm)
+* [https://www.terraform.io/docs/providers/aws/guides/eks-getting-started.html](https://www.terraform.io/docs/providers/aws/guides/eks-getting-started.html)
+* [https://www.terraform.io/intro/getting-started/install.html](https://www.terraform.io/intro/getting-started/install.html)
+
 ### Setup Docker Environment
 
 [Python Connexion Docker Tutorial](https://medium.com/@ssola/building-microservices-with-python-part-2-9f951199094a)
